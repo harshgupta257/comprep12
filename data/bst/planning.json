@@ -1,0 +1,170 @@
+{
+  "id": "planning",
+  "title": "Planning",
+  "summary": "Planning is deciding in advance what to do, how to do it, when to do it and who is to do it. This chapter covers the features, importance and limitations of planning, the steps in the planning process, and the types of plans: single-use and standing plans, objectives, strategy, policy, procedure, method, rule, programme and budget.",
+  "notes": [
+    {
+      "heading": "Meaning of Planning",
+      "html": "<p><b>Planning</b> means setting objectives for a given period, formulating various courses of action to achieve them and selecting the best possible alternative. It bridges the gap between <b>where we are</b> and <b>where we want to be</b>.</p><p>Planning is the <b>primary function</b> of management; all other functions are performed within the framework of plans.</p>"
+    },
+    {
+      "heading": "Features of Planning",
+      "html": "<ol><li><b>Focuses on achieving objectives</b> – plans are made to achieve specific goals; planning is purposeful.</li><li><b>Primary function of management</b> – it lays the base for organising, staffing, directing and controlling.</li><li><b>Pervasive</b> – required at all levels and in all departments, though its scope differs by level.</li><li><b>Continuous</b> – plans are made for a specific period; a new plan is made after that, so planning never ends.</li><li><b>Futuristic</b> – it looks ahead and is based on forecasting.</li><li><b>Involves decision-making</b> – it involves choosing the best alternative among many.</li><li><b>Mental exercise</b> – it requires foresight, intelligent imagination and sound judgement.</li></ol><p><b>Memory aid:</b> <i>Focus Primarily, Pervasively, Continuously on the Future, Deciding Mentally</i>.</p>"
+    },
+    {
+      "heading": "Importance of Planning",
+      "html": "<ol><li><b>Provides direction</b> – states in advance how work is to be done, so efforts are focused.</li><li><b>Reduces the risks of uncertainty</b> – anticipates future events and prepares managers to face them.</li><li><b>Reduces overlapping and wasteful activities</b> – coordinates activities of departments and avoids duplication.</li><li><b>Promotes innovative ideas</b> – planning is the most challenging function and encourages creative thinking.</li><li><b>Facilitates decision-making</b> – helps choose among alternatives using set targets.</li><li><b>Establishes standards for controlling</b> – plans provide the standards against which actual performance is measured.</li></ol><p><b>Memory aid:</b> <i>DROIDS</i> – Direction, Risk reduction, Overlapping avoided, Innovation, Decision-making, Standards.</p>"
+    },
+    {
+      "heading": "Limitations of Planning",
+      "html": "<ol><li><b>Leads to rigidity</b> – managers may not be able to change plans once made, even when circumstances change.</li><li><b>May not work in a dynamic environment</b> – the environment changes constantly, so plans may fail to anticipate all changes.</li><li><b>Reduces creativity</b> – middle and lower managers simply implement plans made by top management.</li><li><b>Involves huge costs</b> – expenses on experts, research and meetings may not always be justified.</li><li><b>Time-consuming</b> – little time may be left for implementation.</li><li><b>Does not guarantee success</b> – success depends on proper implementation; managers may develop a false sense of security.</li></ol>"
+    },
+    {
+      "heading": "Planning Process",
+      "html": "<ol><li><b>Setting objectives</b> – clearly state what the organisation wants to achieve, preferably in measurable terms.</li><li><b>Developing premises</b> – make assumptions (forecasts) about the future, e.g. demand, interest rates, policies. Premises must be the same for all managers.</li><li><b>Identifying alternative courses of action</b> – find all possible ways of achieving objectives.</li><li><b>Evaluating alternative courses</b> – weigh the pros and cons of each alternative in the light of objectives.</li><li><b>Selecting an alternative</b> – choose the best (most feasible, profitable, least risky) plan.</li><li><b>Implementing the plan</b> – put the plan into action by organising resources and people.</li><li><b>Follow-up action</b> – monitor whether the plan is being implemented properly and modify it if needed.</li></ol><p><b>Memory aid:</b> <i>SDIESIF</i> – Some Days I Eat Spicy Indian Food.</p>"
+    },
+    {
+      "heading": "Types of Plans: Single-use and Standing",
+      "html": "<table><thead><tr><th>Basis</th><th>Single-use Plans</th><th>Standing Plans</th></tr></thead><tbody><tr><td>Meaning</td><td>Developed for a one-time event or project</td><td>Used repeatedly for recurring situations</td></tr><tr><td>Duration</td><td>Short; ends when the purpose is met</td><td>Long; used over a long period</td></tr><tr><td>Examples</td><td>Programmes, budgets</td><td>Policies, procedures, methods, rules</td></tr><tr><td>Purpose</td><td>Deal with non-recurring problems</td><td>Ensure uniformity in routine situations</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Types of Plans: Objectives to Budget",
+      "html": "<ul><li><b>Objectives</b> – the end results that the organisation wants to achieve; expressed in specific, measurable terms (e.g. increase sales by 10% this year).</li><li><b>Strategy</b> – a comprehensive plan for accomplishing objectives, covering long-term direction, resource allocation and the response to the environment (e.g. entering rural markets with low-priced packs).</li><li><b>Policy</b> – a general statement that guides thinking and decision-making (e.g. 'we sell only on cash basis', 'promotion from within').</li><li><b>Procedure</b> – routine steps in chronological order for carrying out activities (e.g. steps to be followed for admitting a patient).</li><li><b>Method</b> – the prescribed way in which a task has to be performed; the best way to do a specific step (e.g. method of training: lecture or case study).</li><li><b>Rule</b> – specific statement of what is to be done or not done; no scope for discretion, violation invites penalty (e.g. 'no smoking in the factory').</li><li><b>Programme</b> – a detailed statement of a project outlining objectives, policies, procedures, rules, tasks, resources and budget (e.g. a programme to launch a new product).</li><li><b>Budget</b> – a statement of expected results in <b>numerical terms</b> (e.g. sales budget, cash budget); it is both a plan and a control device.</li></ul>"
+    },
+    {
+      "heading": "Key Differences Among Types of Plans",
+      "html": "<table><thead><tr><th>Basis</th><th>Policy</th><th>Rule</th></tr></thead><tbody><tr><td>Meaning</td><td>General guide to decision-making</td><td>Specific statement of what to do or not do</td></tr><tr><td>Flexibility</td><td>Flexible; allows discretion</td><td>Rigid; no discretion</td></tr><tr><td>Violation</td><td>No penalty</td><td>Penalty for violation</td></tr></tbody></table><table><thead><tr><th>Basis</th><th>Procedure</th><th>Method</th></tr></thead><tbody><tr><td>Meaning</td><td>Sequence of steps to complete a routine activity</td><td>Prescribed way of performing one step or task</td></tr><tr><td>Scope</td><td>Wider; covers several steps</td><td>Narrower; covers one step</td></tr><tr><td>Example</td><td>Steps for purchasing raw material</td><td>Use of e-tender to invite quotations</td></tr></tbody></table>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Planning", "definition": "Deciding in advance what to do, how to do it, when to do it and who is to do it." },
+    { "term": "Planning premises", "definition": "Assumptions about the future (forecasts) on which plans are based." },
+    { "term": "Objective", "definition": "The end result that the organisation wants to achieve, expressed in measurable terms." },
+    { "term": "Strategy", "definition": "A comprehensive plan for achieving objectives, considering long-term direction, resources and the business environment." },
+    { "term": "Policy", "definition": "A general statement that guides managerial thinking and decision-making within limits." },
+    { "term": "Procedure", "definition": "A chronological sequence of routine steps for carrying out an activity." },
+    { "term": "Method", "definition": "The prescribed way of performing a specific task or step." },
+    { "term": "Rule", "definition": "A specific statement of what must or must not be done; it allows no discretion and carries a penalty for violation." },
+    { "term": "Programme", "definition": "A detailed single-use plan for a project combining objectives, policies, procedures, rules, resources and budget." },
+    { "term": "Budget", "definition": "A plan expressing expected results in numerical terms for a future period; also used for control." },
+    { "term": "Single-use plan", "definition": "A plan made for a one-time event or non-recurring situation, e.g. a programme or budget." },
+    { "term": "Standing plan", "definition": "A plan used repeatedly for recurring situations, e.g. policies, procedures, methods and rules." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "Before launching a new juice, the marketing team of Fresh Ltd. assumed that monsoons would be normal and fruit prices would remain stable. Which step of planning is this?",
+      "options": ["Setting objectives", "Developing premises", "Evaluating alternatives", "Follow-up action"],
+      "answer": 1,
+      "explanation": "Making assumptions about future conditions is <b>developing planning premises</b>."
+    },
+    {
+      "q": "'Smoking is strictly prohibited inside the warehouse. Violators will be fined ₹1,000.' This is a:",
+      "options": ["Policy", "Procedure", "Method", "Rule"],
+      "answer": 3,
+      "explanation": "A specific statement with no discretion and a penalty for violation is a <b>rule</b>."
+    },
+    {
+      "q": "A company decides that all vacancies will first be offered to existing employees. This is a:",
+      "options": ["Policy", "Rule", "Budget", "Method"],
+      "answer": 0,
+      "explanation": "'Promotion from within' is a general guideline for decision-making, i.e. a <b>policy</b>."
+    },
+    {
+      "q": "Which type of plan is expressed in numerical terms and also serves as a control device?",
+      "options": ["Programme", "Strategy", "Budget", "Procedure"],
+      "answer": 2,
+      "explanation": "A <b>budget</b> states expected results in numbers and is used to compare actual performance."
+    },
+    {
+      "q": "Despite a sudden change in customer demand, the managers of a firm refused to change their annual plan. Which limitation of planning is evident?",
+      "options": ["Huge cost", "Rigidity", "Time-consuming", "Reduces creativity"],
+      "answer": 1,
+      "explanation": "Inability to modify plans when circumstances change shows that planning leads to <b>rigidity</b>."
+    },
+    {
+      "q": "Planning provides the basis against which actual performance is measured. Which importance of planning is this?",
+      "options": ["Provides direction", "Reduces overlapping", "Promotes innovative ideas", "Establishes standards for controlling"],
+      "answer": 3,
+      "explanation": "Plans set the targets that controlling compares with actual results, so planning <b>establishes standards for controlling</b>."
+    },
+    {
+      "q": "A hospital lists the steps for admitting a patient: registration, deposit, allotment of bed, and doctor's visit. This is a:",
+      "options": ["Method", "Procedure", "Rule", "Objective"],
+      "answer": 1,
+      "explanation": "A chronological sequence of routine steps is a <b>procedure</b>."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Planning is a continuous process.<br><b>Reason (R):</b> Plans are prepared for a specific period, and a new plan is needed when that period ends.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Because every plan has a time period after which a new plan is needed, planning is <b>continuous</b>."
+    },
+    {
+      "q": "A mobile company decided to enter rural markets with low-priced models, tie up with local dealers and advertise in regional languages. Which type of plan is this?",
+      "options": ["Strategy", "Rule", "Method", "Procedure"],
+      "answer": 0,
+      "explanation": "A comprehensive plan deciding long-term direction and resources in response to the environment is a <b>strategy</b>."
+    },
+    {
+      "q": "Which of the following is a single-use plan?",
+      "options": ["Policy", "Rule", "Procedure", "Programme"],
+      "answer": 3,
+      "explanation": "A <b>programme</b> is prepared for a specific one-time project."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Planning guarantees success.<br><b>Reason (R):</b> Planning involves huge costs.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is false but R is true", "Both A and R are false"],
+      "answer": 2,
+      "explanation": "A is false: success depends on implementation, and planning may create a false sense of security. R is true: planning does involve huge costs."
+    },
+    {
+      "q": "After implementing a plan, the manager of Sunshine Ltd. checked weekly whether targets were being met. Which step of planning is this?",
+      "options": ["Selecting an alternative", "Implementing the plan", "Follow-up action", "Evaluating alternatives"],
+      "answer": 2,
+      "explanation": "Monitoring the plan after it is put into action is <b>follow-up action</b>."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Why is planning called the primary function of management?",
+      "marks": 1,
+      "answerHtml": "<p>Because it lays down the base for all other functions; organising, staffing, directing and controlling are all performed within the framework of plans.</p>"
+    },
+    {
+      "q": "What is a method?",
+      "marks": 1,
+      "answerHtml": "<p>A method is the prescribed or best way in which a particular task or step of a procedure has to be performed.</p>"
+    },
+    {
+      "q": "Explain any three limitations of planning.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Leads to rigidity</b> – managers may be unable to change a plan even when circumstances change.</li><li><b>May not work in a dynamic environment</b> – planning cannot foresee all changes in the environment.</li><li><b>Does not guarantee success</b> – success depends on proper implementation; managers may rely on old successful plans and develop a false sense of security.</li></ol>"
+    },
+    {
+      "q": "Distinguish between a policy and a rule on three bases.",
+      "marks": 3,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Policy</th><th>Rule</th></tr></thead><tbody><tr><td>Meaning</td><td>General guide to thinking and decision-making</td><td>Specific statement of what to do and what not to do</td></tr><tr><td>Flexibility</td><td>Flexible; discretion allowed</td><td>Rigid; no discretion</td></tr><tr><td>Penalty</td><td>Violation does not invite penalty</td><td>Violation invites penalty</td></tr></tbody></table>"
+    },
+    {
+      "q": "Explain any four points of importance of planning.",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>Provides direction</b> – by stating in advance how work is to be done, planning keeps everyone focused on goals.</li><li><b>Reduces the risks of uncertainty</b> – it anticipates changes and prepares managers to deal with them.</li><li><b>Reduces overlapping and wasteful activities</b> – it coordinates the activities of different departments and individuals.</li><li><b>Establishes standards for controlling</b> – plans provide targets against which actual performance is compared.</li></ol>"
+    },
+    {
+      "q": "Identify the type of plan in each case: (a) 'Credit will be given only to dealers who have traded with us for at least two years.' (b) Increase market share from 12% to 15% in two years. (c) Estimated cash receipts and payments for next quarter. (d) Detailed plan for opening 50 new outlets including tasks, staff and money required.",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>(a) Policy</b> – a general statement guiding the decisions of sales managers on granting credit; it leaves room for judgement within the limit set.</li><li><b>(b) Objective</b> – a measurable end result to be achieved.</li><li><b>(c) Budget</b> – expected results expressed in numerical terms (cash budget).</li><li><b>(d) Programme</b> – a detailed statement of a one-time project with tasks, resources and budget.</li></ol>"
+    },
+    {
+      "q": "Explain the steps in the planning process.",
+      "marks": 6,
+      "answerHtml": "<ol><li><b>Setting objectives</b> – objectives are stated clearly for the whole organisation and each department.</li><li><b>Developing premises</b> – assumptions about the future are made through forecasting; they should be the same for all planners.</li><li><b>Identifying alternative courses of action</b> – all possible ways of achieving objectives are listed.</li><li><b>Evaluating alternative courses</b> – the positive and negative aspects of each alternative are examined.</li><li><b>Selecting an alternative</b> – the most suitable, feasible and profitable alternative is chosen; sometimes a combination is selected.</li><li><b>Implementing the plan</b> – the plan is put into action with the help of other managerial functions.</li><li><b>Follow-up action</b> – the plan is monitored to ensure objectives are being achieved and is modified if needed.</li></ol>"
+    },
+    {
+      "q": "GreenLeaf Ltd., a tea company, wants to increase its sales by 20% in the next year. The CEO forecast that demand for herbal tea will rise. The team considered three options: launching herbal tea, reducing prices of existing tea, and entering export markets. After comparing costs and returns, it chose to launch herbal tea. (a) Identify the function of management. (b) Quote the lines showing three steps of this function and name the steps that followed.",
+      "marks": 6,
+      "answerHtml": "<p><b>(a) Function: Planning</b> – deciding in advance what is to be done and how.</p><p><b>(b) Steps quoted:</b></p><ol><li><b>Setting objectives</b> – 'wants to increase its sales by 20% in the next year'.</li><li><b>Developing premises</b> – 'forecast that demand for herbal tea will rise'.</li><li><b>Identifying alternative courses of action</b> – 'considered three options: launching herbal tea, reducing prices … entering export markets'.</li><li><b>Evaluating alternatives</b> – 'after comparing costs and returns'.</li><li><b>Selecting an alternative</b> – 'chose to launch herbal tea'.</li></ol><p><b>Steps that will follow:</b></p><ul><li><b>Implementing the plan</b> – putting the plan into action by arranging resources and people.</li><li><b>Follow-up action</b> – monitoring progress and modifying the plan if needed.</li></ul>"
+    }
+  ]
+}

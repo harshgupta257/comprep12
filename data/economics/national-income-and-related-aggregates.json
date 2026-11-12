@@ -1,0 +1,190 @@
+{
+  "id": "national-income-and-related-aggregates",
+  "title": "National Income and Related Aggregates",
+  "summary": "This chapter introduces the basic concepts of macroeconomics, the circular flow of income and the main national income aggregates such as GDP, GNP, NDP and NNP at market price and factor cost. It explains the value added, income and expenditure methods of measuring national income, the precautions in each, and the difference between real and nominal GDP and why GDP is an imperfect measure of welfare.",
+  "notes": [
+    {
+      "heading": "Basic concepts of macroeconomics",
+      "html": "<p>Macroeconomics studies the economy as a whole: aggregate output, employment, the general price level, aggregate consumption and investment.</p><ul><li><b>Final goods</b> are goods bought for final use, either for consumption or for investment (capital formation). They have crossed the production boundary and need no further transformation by the buyer for sale.</li><li><b>Intermediate goods</b> are goods bought by one producer from another to be used up as raw material or resold in the same year. Their value is already included in the value of final goods, so they are excluded from national income to avoid double counting.</li><li><b>Consumption goods</b> satisfy wants directly (bread, clothes, a haircut). They may be durable (TV, car), semi-durable (clothes, furniture), non-durable (milk, vegetables) or services.</li><li><b>Capital goods</b> are durable fixed assets used in production for several years (machinery, buildings, tools). They suffer wear and tear (depreciation).</li></ul><p>Whether a good is final or intermediate depends on its <b>end use</b>, not on its nature. Milk bought by a household is final; milk bought by a sweet shop is intermediate.</p><table><thead><tr><th>Basis</th><th>Final goods</th><th>Intermediate goods</th></tr></thead><tbody><tr><td>Use</td><td>Final consumption or investment</td><td>Used up in production or resold</td></tr><tr><td>Value added</td><td>No further value is to be added by the buyer</td><td>Value is still to be added</td></tr><tr><td>National income</td><td>Included</td><td>Excluded (to avoid double counting)</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Stocks, flows, investment and depreciation",
+      "html": "<ul><li><b>Stock</b>: a variable measured at a point of time, e.g. capital, wealth, money supply on 31 March, population.</li><li><b>Flow</b>: a variable measured over a period of time, e.g. national income, investment, consumption, depreciation, exports in a year.</li><li><b>Gross investment</b> (gross capital formation) is the total addition to the capital stock during a year, including replacement of worn-out capital.</li><li><b>Depreciation</b> (consumption of fixed capital) is the fall in value of fixed capital due to normal wear and tear, expected obsolescence and accidental damage that is insured.</li><li><b>Net investment</b> = Gross investment − Depreciation. It is the net addition to the stock of capital.</li><li><b>Capital formation</b> includes fixed capital formation (machines, buildings) and change in stock (inventory) = closing stock − opening stock.</li></ul><p>Investment (a flow) changes capital (a stock): Capital at end of year = Capital at beginning + Net investment during the year.</p>"
+    },
+    {
+      "heading": "Circular flow of income (two-sector model)",
+      "html": "<p>In a simple economy with only <b>households</b> and <b>firms</b> (no government, no foreign trade, no saving):</p><ul><li><b>Real flow</b>: households supply factor services (land, labour, capital, entrepreneurship) to firms; firms supply goods and services to households.</li><li><b>Money flow</b>: firms pay factor payments (rent, wages, interest, profit) to households; households spend this income on goods and services, which returns to firms as consumption expenditure.</li></ul><p><b>Diagram in words:</b> draw two boxes, Households on one side and Firms on the other. An outer loop shows factor services moving from households to firms and goods moving from firms to households (real flow). An inner loop in the opposite direction shows factor payments moving from firms to households and consumption expenditure moving from households to firms (money flow).</p><p>The flow is circular because production generates income, income generates expenditure and expenditure leads to further production. Hence <b>Production = Income = Expenditure</b>, which is the basis of the three methods of measuring national income.</p><p><b>Leakages</b> (saving, taxes, imports) reduce the flow; <b>injections</b> (investment, government expenditure, exports) add to it. The flow stays at the same level when leakages equal injections.</p>"
+    },
+    {
+      "heading": "Domestic territory, normal residents and NFIA",
+      "html": "<p><b>Domestic (economic) territory</b> is the territory administered by a government within which persons, goods and capital circulate freely. It includes:</p><ul><li>Political frontiers including territorial waters and airspace.</li><li>Ships and aircraft operated by residents between two or more countries.</li><li>Fishing vessels, oil rigs and floating platforms operated by residents in international waters.</li><li>Embassies, consulates and military establishments of the country located abroad.</li></ul><p>Foreign embassies and international organisations (e.g. WHO, UN offices) located in India are <b>not</b> part of India's domestic territory.</p><p><b>Normal resident</b>: a person or institution who ordinarily resides in a country and whose centre of economic interest lies there. A person staying abroad for less than one year generally remains a normal resident of his own country. Exceptions: diplomats, military personnel and staff of embassies, and patients or students abroad, remain residents of their home country whatever the length of stay; employees of international organisations are residents of the country they come from, not of the host country.</p><p><b>Net Factor Income from Abroad (NFIA)</b> = Factor income earned by normal residents from abroad − Factor income paid to non-residents in the domestic territory. It has three components: net compensation of employees, net income from property and entrepreneurship (rent, interest, profit) and net retained earnings of resident companies abroad.</p><p>National income = Domestic income + NFIA. Domestic is a territorial concept; national is a residents' concept.</p>"
+    },
+    {
+      "heading": "National income aggregates and their conversion",
+      "html": "<p>Three adjustments link all aggregates:</p><ul><li><b>Gross → Net</b>: subtract depreciation (consumption of fixed capital).</li><li><b>Domestic → National</b>: add NFIA.</li><li><b>Market price → Factor cost</b>: subtract Net Indirect Taxes (NIT = Indirect taxes − Subsidies).</li></ul><table><thead><tr><th>Aggregate</th><th>Relation</th></tr></thead><tbody><tr><td>GDP<sub>MP</sub></td><td>Market value of all final goods and services produced within the domestic territory in a year</td></tr><tr><td>GNP<sub>MP</sub></td><td>GDP<sub>MP</sub> + NFIA</td></tr><tr><td>NDP<sub>MP</sub></td><td>GDP<sub>MP</sub> − Depreciation</td></tr><tr><td>NNP<sub>MP</sub></td><td>GNP<sub>MP</sub> − Depreciation</td></tr><tr><td>GDP<sub>FC</sub></td><td>GDP<sub>MP</sub> − NIT</td></tr><tr><td>NDP<sub>FC</sub> (Domestic income)</td><td>GDP<sub>MP</sub> − Depreciation − NIT</td></tr><tr><td>NNP<sub>FC</sub> (National income)</td><td>NDP<sub>FC</sub> + NFIA</td></tr></tbody></table><p>If NFIA is positive, GNP &gt; GDP; if negative, GNP &lt; GDP. In a closed economy NFIA = 0, so GDP = GNP. If subsidies exceed indirect taxes, NIT is negative and factor cost exceeds market price.</p><p><b>Note on terminology:</b> the official Indian series now reports Gross Value Added (GVA) at basic prices, where basic price = factor cost + production taxes − production subsidies. For CBSE numericals, use the market price and factor cost relations above.</p>"
+    },
+    {
+      "heading": "Value added (product) method",
+      "html": "<p><b>Value added</b> = Value of output − Intermediate consumption. Value of output = Sales + Change in stock (or Price × Quantity).</p><p><b>Steps:</b> (1) classify producing units into primary, secondary and tertiary sectors; (2) find gross value added at market price of each sector; (3) add them to get GDP<sub>MP</sub>; (4) subtract depreciation and NIT and add NFIA to get NNP<sub>FC</sub>.</p><p><b>Double counting</b> means counting the value of a commodity more than once. It arises if we add the total value of output of all firms. It is avoided by the value added method or by counting only final goods.</p><h4>Worked example 1: avoiding double counting (₹)</h4><table><thead><tr><th>Producer</th><th>Value of output</th><th>Intermediate consumption</th><th>Value added</th></tr></thead><tbody><tr><td>Farmer (wheat, no inputs bought)</td><td>500</td><td>0</td><td>500</td></tr><tr><td>Miller (flour)</td><td>800</td><td>500</td><td>300</td></tr><tr><td>Baker (bread sold to households)</td><td>1,100</td><td>800</td><td>300</td></tr><tr><td><b>Total</b></td><td>2,400</td><td>1,300</td><td><b>1,100</b></td></tr></tbody></table><p>Adding all outputs gives ₹2,400, which counts wheat three times and flour twice. The correct contribution is total value added ₹1,100, equal to the value of the final good (bread).</p><h4>Worked example 2: national income by value added method (₹ crore)</h4><table><thead><tr><th>Sector</th><th>Value of output</th><th>Intermediate consumption</th><th>GVA<sub>MP</sub></th></tr></thead><tbody><tr><td>Primary</td><td>600</td><td>200</td><td>400</td></tr><tr><td>Secondary</td><td>1,200</td><td>500</td><td>700</td></tr><tr><td>Tertiary</td><td>1,100</td><td>280</td><td>820</td></tr><tr><td><b>GDP<sub>MP</sub></b></td><td></td><td></td><td><b>1,920</b></td></tr></tbody></table><p>Depreciation = 100, NIT = 20, NFIA = −20.</p><p>NDP<sub>FC</sub> = 1,920 − 100 − 20 = 1,800. NNP<sub>FC</sub> = 1,800 + (−20) = <b>₹1,780 crore</b>.</p><p><b>Precautions:</b> exclude sale of second-hand goods (but include the commission/brokerage on it), exclude intermediate goods, include production for self-consumption (own-account production), include imputed rent of owner-occupied houses, exclude services of housewives (no reliable market value).</p>"
+    },
+    {
+      "heading": "Income method",
+      "html": "<p>Domestic income (NDP<sub>FC</sub>) = Compensation of employees + Operating surplus + Mixed income of self-employed.</p><ul><li><b>Compensation of employees</b>: wages and salaries in cash, payments in kind (free housing, uniforms) and employers' contribution to social security schemes (e.g. provident fund). Employees' own contribution is not added again as it is part of wages.</li><li><b>Operating surplus</b> = Rent and royalty + Interest + Profit. Profit = Corporate (profit) tax + Dividends + Undistributed profits (retained earnings).</li><li><b>Mixed income</b>: income of self-employed persons where labour and capital incomes cannot be separated (farmers, shopkeepers, doctors in private practice).</li></ul><p><b>Precautions:</b> exclude transfer incomes (old age pension, scholarships, unemployment allowance, gifts); exclude windfall gains (lottery) and capital gains on sale of shares or property; include imputed rent of owner-occupied houses and imputed value of own-account production; exclude interest on loans taken by households for consumption and interest on national debt (treated as transfer payments).</p><h4>Worked example 3 (₹ crore)</h4><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody><tr><td>Compensation of employees</td><td>800</td></tr><tr><td>Rent</td><td>200</td></tr><tr><td>Interest</td><td>150</td></tr><tr><td>Dividends</td><td>150</td></tr><tr><td>Corporate tax</td><td>100</td></tr><tr><td>Undistributed profits</td><td>100</td></tr><tr><td>Mixed income of self-employed</td><td>300</td></tr><tr><td>Net factor income from abroad</td><td>−20</td></tr></tbody></table><p>Profit = 150 + 100 + 100 = 350. Operating surplus = 200 + 150 + 350 = 700.</p><p>NDP<sub>FC</sub> = 800 + 700 + 300 = 1,800. NNP<sub>FC</sub> = 1,800 + (−20) = <b>₹1,780 crore</b>.</p>"
+    },
+    {
+      "heading": "Expenditure method",
+      "html": "<p>GDP<sub>MP</sub> = Private final consumption expenditure (PFCE) + Government final consumption expenditure (GFCE) + Gross domestic capital formation (GDCF) + Net exports (X − M).</p><ul><li>GDCF = Gross domestic fixed capital formation + Change in stock. Equivalently, Net domestic capital formation + Depreciation.</li><li>Net exports = Exports − Imports (can be negative).</li></ul><p><b>Precautions:</b> exclude expenditure on intermediate goods; exclude transfer expenditure by government (pensions, scholarships, subsidies); exclude purchase of second-hand goods and of financial assets such as shares and bonds (they are transfers of ownership, not production); include imputed expenditure on own-account production.</p><h4>Worked example 4 (₹ crore)</h4><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody><tr><td>Private final consumption expenditure</td><td>1,300</td></tr><tr><td>Government final consumption expenditure</td><td>300</td></tr><tr><td>Net domestic fixed capital formation</td><td>200</td></tr><tr><td>Change in stock</td><td>50</td></tr><tr><td>Consumption of fixed capital</td><td>100</td></tr><tr><td>Exports</td><td>120</td></tr><tr><td>Imports</td><td>150</td></tr><tr><td>Indirect taxes</td><td>30</td></tr><tr><td>Subsidies</td><td>10</td></tr><tr><td>NFIA</td><td>−20</td></tr></tbody></table><p>GDCF = 200 + 50 + 100 = 350. Net exports = 120 − 150 = −30.</p><p>GDP<sub>MP</sub> = 1,300 + 300 + 350 + (−30) = 1,920.</p><p>NDP<sub>FC</sub> = 1,920 − 100 − (30 − 10) = 1,800. NNP<sub>FC</sub> = 1,800 − 20 = <b>₹1,780 crore</b>.</p><p>All three methods give the same answer, confirming Production = Income = Expenditure.</p>"
+    },
+    {
+      "heading": "Real vs nominal GDP, GDP deflator and GDP as an index of welfare",
+      "html": "<table><thead><tr><th>Nominal GDP</th><th>Real GDP</th></tr></thead><tbody><tr><td>Output valued at current year prices</td><td>Output valued at base year (constant) prices</td></tr><tr><td>Rises if prices or output rise</td><td>Rises only if output rises</td></tr><tr><td>Not a reliable indicator of growth</td><td>True indicator of growth and welfare</td></tr></tbody></table><p><b>GDP deflator</b> = (Nominal GDP ÷ Real GDP) × 100. It measures the change in the general price level of all goods and services in GDP. Real GDP = Nominal GDP × 100 ÷ Price index.</p><h4>Worked example 5</h4><p>Base year: 100 units at ₹10. Current year: 120 units at ₹15. Nominal GDP (current year) = 120 × 15 = ₹1,800. Real GDP = 120 × 10 = ₹1,200. GDP deflator = 1,800 ÷ 1,200 × 100 = <b>150</b>, i.e. prices rose 50% over the base year.</p><p><b>GDP and welfare.</b> A higher real GDP does not always mean higher welfare because:</p><ul><li><b>Distribution of GDP</b>: if the rise goes mainly to the rich, the welfare of most people may not improve.</li><li><b>Composition of GDP</b>: a rise due to production of war goods or harmful products adds little to welfare.</li><li><b>Non-monetary exchanges</b>: housewives' services, barter and own-use activities are not counted, so GDP understates welfare.</li><li><b>Externalities</b>: negative externalities (pollution from a factory) reduce welfare but are not deducted from GDP; positive externalities (a well-kept public park) raise welfare but are not added.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Final goods", "definition": "Goods purchased for <b>final consumption or investment</b>, which have crossed the production boundary and are included in national income." },
+    { "term": "Intermediate goods", "definition": "Goods used up as raw material or for <b>resale</b> within the same year; excluded from national income to avoid double counting." },
+    { "term": "Depreciation", "definition": "Loss in value of fixed capital due to normal wear and tear, expected obsolescence and insured accidental damage; also called consumption of fixed capital." },
+    { "term": "Domestic territory", "definition": "The political frontiers of a country plus its ships, aircraft, fishing vessels and oil rigs operated by residents, and its embassies and military establishments abroad." },
+    { "term": "Normal resident", "definition": "A person or institution who ordinarily resides in a country and whose <b>centre of economic interest</b> lies in that country." },
+    { "term": "NFIA", "definition": "Net factor income from abroad: factor income received from the rest of the world by residents minus factor income paid to non-residents." },
+    { "term": "Net indirect taxes", "definition": "Indirect taxes minus subsidies; the gap between market price and factor cost." },
+    { "term": "Double counting", "definition": "Counting the value of a commodity more than once while estimating national income, usually by including intermediate goods." },
+    { "term": "Value added", "definition": "Value of output minus intermediate consumption; the contribution of a producing unit to production." },
+    { "term": "Mixed income", "definition": "Income of self-employed persons in which the returns to their own labour, land and capital cannot be separated." },
+    { "term": "Transfer payment", "definition": "A payment received without any productive service in return, such as pensions, scholarships, gifts and unemployment allowance; excluded from national income." },
+    { "term": "GDP deflator", "definition": "Ratio of nominal to real GDP multiplied by 100; an index of the general price level of all goods in GDP." }
+  ],
+  "formulas": [
+    { "name": "Net investment", "html": "Net investment = Gross investment − Depreciation" },
+    { "name": "Change in stock", "html": "Change in stock = Closing stock − Opening stock" },
+    { "name": "Value of output", "html": "Value of output = Sales + Change in stock = Price × Quantity" },
+    { "name": "Value added", "html": "GVA<sub>MP</sub> = Value of output − Intermediate consumption" },
+    { "name": "Net indirect taxes", "html": "NIT = Indirect taxes − Subsidies" },
+    { "name": "Market price to factor cost", "html": "Aggregate<sub>FC</sub> = Aggregate<sub>MP</sub> − NIT" },
+    { "name": "Gross to net", "html": "Net aggregate = Gross aggregate − Depreciation" },
+    { "name": "Domestic to national", "html": "National aggregate = Domestic aggregate + NFIA" },
+    { "name": "National income", "html": "NNP<sub>FC</sub> = GDP<sub>MP</sub> − Depreciation − NIT + NFIA" },
+    { "name": "Income method", "html": "NDP<sub>FC</sub> = Compensation of employees + Operating surplus (Rent + Interest + Profit) + Mixed income" },
+    { "name": "Profit", "html": "Profit = Corporate tax + Dividends + Undistributed profits" },
+    { "name": "Expenditure method", "html": "GDP<sub>MP</sub> = PFCE + GFCE + GDCF + (X − M)" },
+    { "name": "Gross domestic capital formation", "html": "GDCF = Gross fixed capital formation + Change in stock = NDCF + Depreciation" },
+    { "name": "GDP deflator", "html": "GDP deflator = (Nominal GDP ÷ Real GDP) × 100" },
+    { "name": "Real GDP", "html": "Real GDP = Σ (Current year quantity × Base year price) = Nominal GDP × 100 ÷ Price index" }
+  ],
+  "mcqs": [
+    {
+      "q": "Which of the following is a <b>flow</b> variable?",
+      "options": ["Wealth of a country", "Money supply on 31 March", "Depreciation during a year", "Stock of capital"],
+      "answer": 2,
+      "explanation": "Depreciation is measured over a period of time (a year), so it is a flow. Wealth, money supply at a date and capital stock are measured at a point of time, so they are stocks."
+    },
+    {
+      "q": "GDP<sub>MP</sub> = ₹5,000 crore, depreciation = ₹400 crore, NFIA = −₹100 crore, NIT = ₹300 crore. National income (NNP<sub>FC</sub>) is:",
+      "options": ["₹4,200 crore", "₹4,400 crore", "₹4,300 crore", "₹4,600 crore"],
+      "answer": 0,
+      "explanation": "NNP<sub>FC</sub> = 5,000 − 400 − 300 + (−100) = ₹4,200 crore. The distractors forget one of the adjustments or add NFIA with the wrong sign."
+    },
+    {
+      "q": "When will GNP be less than GDP?",
+      "options": ["When NFIA is positive", "When NFIA is negative", "When net indirect taxes are negative", "When depreciation is zero"],
+      "answer": 1,
+      "explanation": "GNP = GDP + NFIA. If factor income paid to non-residents exceeds factor income received from abroad, NFIA is negative and GNP falls below GDP."
+    },
+    {
+      "q": "Which of the following is included in India's domestic territory?",
+      "options": ["The office of the World Health Organisation in New Delhi", "The American embassy in New Delhi", "The Indian embassy in Washington", "A Japanese ship operating between Mumbai and Tokyo"],
+      "answer": 2,
+      "explanation": "A country's embassies abroad are part of its domestic territory. International organisations and foreign embassies in India are not, and a ship counts for the country whose residents operate it."
+    },
+    {
+      "q": "Firm A sells wheat worth ₹400 to Firm B (no inputs bought). Firm B makes flour and sells it for ₹700 to Firm C, which sells bread to households for ₹1,000. The contribution of these firms to GDP is:",
+      "options": ["₹2,100", "₹1,700", "₹700", "₹1,000"],
+      "answer": 3,
+      "explanation": "Value added = 400 + (700 − 400) + (1,000 − 700) = ₹1,000, the value of the final good. ₹2,100 involves double counting."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Compensation paid to employees includes employers' contribution to social security schemes.<br><b>Reason (R):</b> Employers' contribution to social security is a benefit received by employees for services rendered.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Employers' contribution to provident fund and similar schemes is paid because the employee works for the employer, so it is part of compensation of employees. R correctly explains A."
+    },
+    {
+      "q": "Which of the following is <b>not</b> included in the estimation of national income?",
+      "options": ["Imputed rent of owner-occupied houses", "Old age pension paid by the government", "Free meals provided to employees", "Change in stock of a firm"],
+      "answer": 1,
+      "explanation": "Old age pension is a transfer payment, not a payment for any current productive service. The other three correspond to current production or factor payments and are included."
+    },
+    {
+      "q": "Nominal GDP is ₹1,500 crore and the GDP deflator is 125. Real GDP is:",
+      "options": ["₹1,875 crore", "₹1,250 crore", "₹1,200 crore", "₹1,125 crore"],
+      "answer": 2,
+      "explanation": "Real GDP = Nominal GDP × 100 ÷ Deflator = 1,500 × 100 ÷ 125 = ₹1,200 crore."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: Profit is the sum of corporate tax, dividends and undistributed profits.<br>Statement 2: Operating surplus includes compensation of employees.",
+      "options": ["Both statements are true", "Both statements are false", "Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true"],
+      "answer": 2,
+      "explanation": "Profit is distributed as corporate tax, dividends and retained earnings. Operating surplus = rent + interest + profit; compensation of employees is a separate component of domestic income."
+    },
+    {
+      "q": "Purchase of a new machine by a firm for its factory is treated as:",
+      "options": ["Intermediate expenditure", "Final (investment) expenditure", "Transfer expenditure", "Consumption expenditure"],
+      "answer": 1,
+      "explanation": "A machine is a capital good bought for use over several years, not used up in one production cycle, so it is final expenditure in the form of gross fixed capital formation."
+    },
+    {
+      "q": "If indirect taxes are ₹200 crore and subsidies are ₹250 crore, then:",
+      "options": ["GDP at factor cost is less than GDP at market price", "GDP at factor cost equals GDP at market price", "Depreciation is negative", "GDP at factor cost exceeds GDP at market price"],
+      "answer": 3,
+      "explanation": "NIT = 200 − 250 = −50. GDP<sub>FC</sub> = GDP<sub>MP</sub> − NIT = GDP<sub>MP</sub> + 50, so factor cost exceeds market price."
+    },
+    {
+      "q": "Which of these is an example of a negative externality that makes GDP an overestimate of welfare?",
+      "options": ["Smoke from a factory harming nearby residents", "Services of a housewife", "A rise in the price level", "Free education provided by the government"],
+      "answer": 0,
+      "explanation": "The factory's output is counted in GDP but the harm caused to residents is not deducted, so welfare is lower than GDP suggests. Housewives' services are a non-monetary exchange, not an externality."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Define net factor income from abroad.",
+      "marks": 1,
+      "answerHtml": "<p>Net factor income from abroad is the difference between factor income earned by normal residents of a country from the rest of the world and factor income paid to non-residents within the domestic territory during a year.</p>"
+    },
+    {
+      "q": "Why are intermediate goods excluded from national income?",
+      "marks": 1,
+      "answerHtml": "<p>Because their value is already included in the value of the final goods produced from them; including them again would cause double counting and overstate national income.</p>"
+    },
+    {
+      "q": "Giving reasons, state how the following are treated in estimating national income: (a) Brokerage paid on purchase of second-hand goods (b) Interest received on a loan taken by a household to buy a car (c) Free uniforms given to soldiers.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Brokerage on second-hand goods: included.</b> The second-hand good itself was counted when first produced, but the broker renders a current productive service and the commission is a payment for it.</li><li><b>Interest on a household loan for buying a car: excluded.</b> The loan is used for consumption, not production, so the interest is treated as a transfer payment, not as factor income.</li><li><b>Free uniforms to soldiers: included.</b> They are compensation of employees in kind and also form part of government final consumption expenditure.</li></ol>"
+    },
+    {
+      "q": "Distinguish between real GDP and nominal GDP. Which is a better indicator of economic welfare and why?",
+      "marks": 3,
+      "answerHtml": "<p><b>Nominal GDP</b> is the money value of final goods and services produced in the domestic territory in a year, valued at <b>current year prices</b>. <b>Real GDP</b> is the same output valued at <b>base year (constant) prices</b>.</p><p>Nominal GDP can rise merely because prices rise, even if output is unchanged. Real GDP changes only when the physical output of goods and services changes.</p><p>Hence <b>real GDP is the better indicator</b> of welfare: it reflects the actual availability of goods and services to people, free of the effect of inflation.</p>"
+    },
+    {
+      "q": "'GDP is not a satisfactory index of the welfare of people.' Defend or refute the statement with valid reasons.",
+      "marks": 4,
+      "answerHtml": "<p>The statement is <b>defended</b>. A rise in real GDP does not necessarily raise welfare because of:</p><ol><li><b>Distribution of GDP:</b> if additional income goes mostly to the rich, inequality widens and the welfare of the majority may not rise.</li><li><b>Composition of GDP:</b> if the increase consists of military goods or harmful goods, people's well-being does not improve correspondingly.</li><li><b>Non-monetary exchanges:</b> services of housewives, barter and own-use activities in villages are not recorded, so GDP understates actual welfare.</li><li><b>Externalities:</b> harmful effects such as pollution from a refinery lower welfare but are not subtracted from GDP, while beneficial effects such as a public garden are not added. GDP therefore misrepresents welfare.</li></ol>"
+    },
+    {
+      "q": "Calculate (a) Gross domestic product at market price and (b) Net national product at factor cost from the following (₹ crore): Private final consumption expenditure 2,000; Government final consumption expenditure 500; Net domestic fixed capital formation 400; Change in stock 50; Consumption of fixed capital 150; Net exports −100; Net indirect taxes 120; Net factor income from abroad 30.",
+      "marks": 4,
+      "answerHtml": "<p><b>(a)</b> GDCF = Net domestic fixed capital formation + Change in stock + Consumption of fixed capital = 400 + 50 + 150 = 600.</p><p>GDP<sub>MP</sub> = PFCE + GFCE + GDCF + Net exports = 2,000 + 500 + 600 + (−100) = <b>₹3,000 crore</b>.</p><p><b>(b)</b> NNP<sub>FC</sub> = GDP<sub>MP</sub> − Consumption of fixed capital − NIT + NFIA = 3,000 − 150 − 120 + 30 = <b>₹2,760 crore</b>.</p>"
+    },
+    {
+      "q": "Calculate national income by (a) the income method and (b) the expenditure method (₹ crore): Compensation of employees 1,200; Rent and royalty 250; Interest 150; Profit 400; Mixed income of self-employed 500; Private final consumption expenditure 2,100; Government final consumption expenditure 400; Gross domestic capital formation 300; Net exports −30; Consumption of fixed capital 150; Net indirect taxes 120; Net factor income from abroad −40.",
+      "marks": 6,
+      "answerHtml": "<h4>(a) Income method</h4><p>Operating surplus = Rent and royalty + Interest + Profit = 250 + 150 + 400 = 800.</p><p>NDP<sub>FC</sub> = Compensation of employees + Operating surplus + Mixed income = 1,200 + 800 + 500 = 2,500.</p><p>NNP<sub>FC</sub> = NDP<sub>FC</sub> + NFIA = 2,500 + (−40) = <b>₹2,460 crore</b>.</p><h4>(b) Expenditure method</h4><p>GDP<sub>MP</sub> = PFCE + GFCE + GDCF + Net exports = 2,100 + 400 + 300 + (−30) = 2,770.</p><p>NDP<sub>FC</sub> = GDP<sub>MP</sub> − Consumption of fixed capital − NIT = 2,770 − 150 − 120 = 2,500.</p><p>NNP<sub>FC</sub> = 2,500 + (−40) = <b>₹2,460 crore</b>.</p><p>Both methods give the same national income, ₹2,460 crore, as they must.</p>"
+    },
+    {
+      "q": "Explain the circular flow of income in a two-sector economy. Why are the three methods of measuring national income expected to give the same result?",
+      "marks": 6,
+      "answerHtml": "<p>A two-sector economy has only households and firms; there is no government, no foreign trade, and households spend all their income.</p><ul><li><b>Real flow:</b> households supply factor services (land, labour, capital, entrepreneurship) to firms, and firms supply goods and services to households.</li><li><b>Money flow:</b> firms pay rent, wages, interest and profit to households for factor services. Households spend this income on goods and services, so the money returns to firms as consumption expenditure.</li></ul><p><b>Diagram in words:</b> two boxes, Households and Firms, connected by an outer loop (factor services to firms, goods to households) and an inner loop running the other way (factor payments to households, consumption expenditure to firms).</p><p><b>Why the three methods agree:</b> the value of goods produced by firms (product method) is fully distributed as factor incomes to households (income method), and households spend the whole income on buying that output (expenditure method). At each stage the same amount is measured, so <b>Production = Income = Expenditure</b>. Measured correctly with the same adjustments, the value added, income and expenditure methods must give the same national income; any difference in practice is a statistical discrepancy.</p>"
+    }
+  ]
+}

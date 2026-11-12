@@ -1,0 +1,122 @@
+{
+  "id": "letter-writing",
+  "title": "Letters: Job Application and Letter to the Editor",
+  "summary": "Formal letters in the board exam are of two kinds: a letter applying for a job, with a bio-data or résumé attached, and a letter to the editor of a newspaper raising a public issue. Each is about 120–150 words, carries 5 marks, and follows the block format with a clear subject line and formal tone.",
+  "notes": [
+    {
+      "heading": "Format of a formal letter (block format)",
+      "html": "<blockquote><p>Sender’s address<br>Date<br><br>Receiver’s designation<br>Organisation / newspaper<br>Address<br><br>Subject: …<br><br>Sir / Madam,<br><br>Para 1: introduction and purpose<br>Para 2: details / qualifications / problem<br>Para 3: suggestions / request / closing<br><br>Yours faithfully,<br>Signature<br>Name<br>Enclosure (for job applications)</p></blockquote><p>Every line starts at the left margin; no indentation. Use ‘Yours faithfully’ when the receiver is addressed as Sir/Madam; ‘Yours sincerely’ is also accepted by CBSE.</p>"
+    },
+    {
+      "heading": "Marking scheme (5 marks)",
+      "html": "<table><thead><tr><th>Component</th><th>Marks</th></tr></thead><tbody><tr><td>Format (addresses, date, subject, salutation, complimentary close)</td><td>1</td></tr><tr><td>Organisation of ideas</td><td>1</td></tr><tr><td>Content (relevance, completeness)</td><td>1.5–2</td></tr><tr><td>Accuracy and fluency of expression</td><td>1–1.5</td></tr></tbody></table><p>Word limit: 120–150 words. The bio-data accompanying a job letter is not counted in the word limit.</p>"
+    },
+    {
+      "heading": "Letter of application for a job",
+      "html": "<ul><li><b>Opening:</b> refer to the advertisement (newspaper, date) and state the post you are applying for.</li><li><b>Middle:</b> briefly highlight your qualifications, experience and suitability; refer to the enclosed bio-data.</li><li><b>Closing:</b> request an interview and offer to provide documents.</li></ul><p><b>Bio-data / résumé headings:</b> Name, Father’s name, Date of birth, Address, Contact, Educational qualifications (table), Professional qualifications, Experience, Skills / languages known, Hobbies, Salary expected, References.</p>"
+    },
+    {
+      "heading": "Letter to the editor",
+      "html": "<ul><li><b>Purpose:</b> to draw public and official attention to a civic or social issue (pollution, stray animals, road safety, misuse of plastic, noise).</li><li><b>Opening:</b> request the editor to publish your views through the esteemed daily.</li><li><b>Middle:</b> describe the problem, its causes and effects, with specific examples.</li><li><b>Closing:</b> offer suggestions and appeal to authorities and citizens.</li></ul>"
+    },
+    {
+      "heading": "Do’s and don’ts",
+      "html": "<h4>Do</h4><ul><li>Write a precise subject line (‘Application for the post of Accounts Assistant’).</li><li>Use paragraphs: one idea per paragraph.</li><li>Be polite even when complaining.</li></ul><h4>Don’t</h4><ul><li>Don’t use contractions (don’t, can’t) or slang.</li><li>Don’t write your own real name if the question provides one.</li><li>Don’t repeat bio-data details at length inside the letter.</li><li>Don’t sign off with ‘Yours lovingly’ or ‘Thanking you’ alone without a close.</li></ul>"
+    },
+    {
+      "heading": "Useful phrases",
+      "html": "<ul><li>With reference to your advertisement in <i>The Times of India</i> dated…, I wish to apply for the post of…</li><li>I have enclosed my bio-data for your kind perusal.</li><li>If given an opportunity, I assure you of my sincere efforts.</li><li>Through the columns of your esteemed newspaper, I wish to draw the attention of the authorities to…</li><li>The situation calls for immediate action.</li><li>I hope the concerned authorities will take prompt steps to…</li></ul>"
+    },
+    {
+      "heading": "Complete sample: job application with bio-data",
+      "html": "<blockquote><p>12, Rose Apartments<br>Sector 9, Chandigarh<br>4 March 20XX</p><p>The HR Manager<br>Brightline Finance Ltd.<br>Industrial Area, Phase II<br>Chandigarh</p><p>Subject: Application for the post of Junior Accounts Assistant</p><p>Sir / Madam,</p><p>With reference to your advertisement in <i>The Tribune</i> dated 1 March 20XX, I wish to apply for the post of Junior Accounts Assistant in your firm.</p><p>I have completed my B.Com. with 78 per cent and hold a certificate in Tally Prime with GST. During a six-month internship at a chartered accountant’s office, I prepared ledgers, reconciled bank statements and filed GST returns. I am punctual, good with numbers and comfortable working in a team.</p><p>My bio-data is enclosed for your kind perusal. I would be grateful for an opportunity to appear for an interview at your convenience.</p><p>Yours faithfully,<br>Karan Malhotra<br>Enclosure: Bio-data</p></blockquote><h4>Bio-data</h4><blockquote><p>Name: Karan Malhotra<br>Father’s Name: Mr Suresh Malhotra<br>Date of Birth: 14 June 20XX<br>Address: 12, Rose Apartments, Sector 9, Chandigarh<br>Contact: 98XXXXXX21, karan.m@xyz.com</p></blockquote><table><thead><tr><th>Examination</th><th>Board / University</th><th>Year</th><th>Marks</th></tr></thead><tbody><tr><td>Class XII (Commerce)</td><td>CBSE</td><td>20XX</td><td>84%</td></tr><tr><td>B.Com.</td><td>Panjab University</td><td>20XX</td><td>78%</td></tr></tbody></table><blockquote><p>Other Qualifications: Tally Prime with GST; MS Excel (advanced)<br>Experience: 6-month internship, Arora and Co. Chartered Accountants<br>Languages: English, Hindi, Punjabi<br>Salary Expected: Negotiable<br>References: CA R. Arora, Arora and Co., Chandigarh</p></blockquote>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Block format", "definition": "Letter layout in which every part begins at the left margin with no indentation." },
+    { "term": "Subject line", "definition": "A one-line statement of the letter’s purpose placed after the receiver’s address." },
+    { "term": "Bio-data / résumé", "definition": "A structured summary of personal details, qualifications, skills and experience enclosed with a job application." },
+    { "term": "Enclosure", "definition": "Note at the end of a letter listing documents sent with it." },
+    { "term": "Complimentary close", "definition": "Formal sign-off such as <i>Yours faithfully</i> or <i>Yours sincerely</i>." },
+    { "term": "Esteemed daily", "definition": "Polite phrase for a respected daily newspaper, used in letters to the editor." },
+    { "term": "Reference", "definition": "A person who can vouch for an applicant’s character or work, listed in the bio-data." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "What is the word limit for a formal letter in the Class 12 exam?",
+      "options": ["50 words", "80–100 words", "120–150 words", "200–250 words"],
+      "answer": 2,
+      "explanation": "Letters, like articles and reports, are written in <b>120–150 words</b> for 5 marks."
+    },
+    {
+      "q": "In a letter to the editor, the letter is addressed to:",
+      "options": ["The Editor of the newspaper", "The Chief Minister", "The Municipal Commissioner", "The readers"],
+      "answer": 0,
+      "explanation": "It is addressed to <b>the Editor</b>, who decides whether to publish it; authorities are only mentioned in the body."
+    },
+    {
+      "q": "Which is the most suitable opening for a job application?",
+      "options": ["I need a job urgently.", "Hello, I am Karan and I like accounts.", "Please give me the job.", "With reference to your advertisement in The Hindu dated 2 May, I wish to apply for the post of…"],
+      "answer": 3,
+      "explanation": "A job letter should <b>refer to the advertisement and name the post</b>. The others are informal or pleading."
+    },
+    {
+      "q": "Which item is usually NOT included in a bio-data?",
+      "options": ["Educational qualifications", "Experience", "Religion of neighbours", "Languages known"],
+      "answer": 2,
+      "explanation": "A bio-data lists <b>relevant personal and professional details</b>. Information about neighbours is irrelevant."
+    },
+    {
+      "q": "The bio-data attached to a job application:",
+      "options": ["is not counted in the letter’s word limit", "must be within 50 words", "replaces the letter", "is written as a paragraph"],
+      "answer": 0,
+      "explanation": "The bio-data is a separate enclosure, <b>not counted in the 120–150 word limit</b>, and is usually laid out under headings."
+    },
+    {
+      "q": "Which phrase is best suited to a letter to the editor?",
+      "options": ["Dear buddy, listen to this", "Through the columns of your esteemed daily, I wish to highlight…", "I order you to print this", "As per my wish, publish it"],
+      "answer": 1,
+      "explanation": "This <b>polite request</b> is the standard convention. The others are informal or rude."
+    },
+    {
+      "q": "Which feature marks the block format?",
+      "options": ["Centred headings", "Indented paragraphs", "Signature on the right", "All lines begin at the left margin"],
+      "answer": 3,
+      "explanation": "In block format <b>everything is aligned to the left margin</b>, with a line gap between paragraphs."
+    },
+    {
+      "q": "The best place for suggestions in a letter to the editor is:",
+      "options": ["in the subject line", "in the final paragraph", "before the date", "after the signature"],
+      "answer": 1,
+      "explanation": "After describing the problem, the <b>closing paragraph</b> offers solutions and an appeal."
+    }
+  ],
+  "questions": [
+    {
+      "q": "You are Neha / Nikhil Sharma, 5 Park Street, Kolkata. Write a letter to the editor of The Telegraph about the growing problem of noise pollution caused by loudspeakers in residential areas. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p>5 Park Street<br>Kolkata<br>10 October 20XX</p><p>The Editor<br>The Telegraph<br>Prafulla Sarkar Street<br>Kolkata</p><p>Subject: Rising noise pollution from loudspeakers</p><p>Sir,</p><p>Through the columns of your esteemed daily, I wish to draw attention to the unbearable noise from loudspeakers in our residential areas.</p><p>Every week some function or other is celebrated with speakers blaring until well past midnight. Students preparing for board exams cannot concentrate, elderly and heart patients suffer sleepless nights, and infants are disturbed. The permitted decibel limits and the 10 p.m. deadline are openly ignored.</p><p>I request the police and the Pollution Control Board to enforce the rules strictly, levy fines on violators and set up a helpline for complaints. Residents too must remember that celebration need not become a nuisance to neighbours.</p><p>I hope the authorities will act promptly.</p><p>Yours faithfully,<br>Nikhil Sharma</p></blockquote>"
+    },
+    {
+      "q": "Joy Public School, Agra, needs a PGT Commerce teacher. You are Anjali / Aman Gupta. Write a letter of application with a short bio-data. (120–150 words for the letter)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p>34 Kamla Nagar<br>Agra<br>6 April 20XX</p><p>The Principal<br>Joy Public School<br>Agra</p><p>Subject: Application for the post of PGT Commerce</p><p>Madam,</p><p>In response to your advertisement in <i>Amar Ujala</i> dated 3 April 20XX, I wish to apply for the post of PGT Commerce in your school.</p><p>I hold an M.Com. and a B.Ed. and have taught Accountancy and Business Studies to Classes 11 and 12 for three years at a CBSE school in Mathura. My students have consistently scored above 85 per cent. I use case studies, quizzes and smart-class tools to make concepts clear and enjoy guiding the commerce club.</p><p>I enclose my bio-data for your perusal and would welcome an interview at your convenience.</p><p>Yours faithfully,<br>Aman Gupta<br>Enclosure: Bio-data</p></blockquote><h4>Bio-data</h4><blockquote><p>Name: Aman Gupta<br>Date of Birth: 2 August 19XX<br>Contact: 97XXXXXX88<br>Qualifications: M.Com. (Dr. B.R. Ambedkar University, 72%), B.Ed. (70%), CTET qualified<br>Experience: PGT Commerce, Sunbeam School, Mathura (3 years)<br>Skills: Smart-class tools, Tally, MS Office<br>Languages: Hindi, English<br>References: Principal, Sunbeam School, Mathura</p></blockquote>"
+    },
+    {
+      "q": "You are Priya / Pranav, 18 MG Road, Bengaluru. Write a letter to the editor of Deccan Herald on the dangers of students using mobile phones while riding two-wheelers.",
+      "marks": 5,
+      "answerHtml": "<blockquote><p>18 MG Road<br>Bengaluru<br>15 July 20XX</p><p>The Editor<br>Deccan Herald<br>Bengaluru</p><p>Subject: Mobile phone use by young riders</p><p>Sir,</p><p>I wish to express my concern, through your esteemed newspaper, over the dangerous habit among young riders of using mobile phones while on two-wheelers.</p><p>Daily I see students outside colleges texting at signals, wearing earphones in traffic and even filming themselves while riding. A moment’s distraction is enough to cause a fatal accident, and hospital records show a steady rise in such injuries among those aged 16 to 24.</p><p>The traffic police should run regular checks near campuses and impose heavy fines. Colleges must hold road-safety workshops, and parents should set an example. Riders should remember that no message is worth a life.</p><p>I hope this letter will create awareness.</p><p>Yours faithfully,<br>Pranav Hegde</p></blockquote>"
+    },
+    {
+      "q": "List the main headings you would include in a bio-data for a fresher applying for a bank cashier’s post. (3)",
+      "marks": 3,
+      "answerHtml": "<ul><li>Name, father’s / mother’s name, date of birth</li><li>Address and contact details (phone, email)</li><li>Educational qualifications in a table (examination, board, year, percentage)</li><li>Additional qualifications (computer course, Tally, banking certificate)</li><li>Experience / internships, if any</li><li>Skills and languages known</li><li>Hobbies, salary expected and references</li></ul>"
+    },
+    {
+      "q": "You are Simran / Sahil, 9 Model Town, Ludhiana. Write a letter to the editor of The Hindustan Times on the shortage of public libraries for young readers.",
+      "marks": 5,
+      "answerHtml": "<blockquote><p>9 Model Town<br>Ludhiana<br>21 August 20XX</p><p>The Editor<br>The Hindustan Times<br>Chandigarh</p><p>Subject: Need for public libraries for young readers</p><p>Sir,</p><p>Through your widely read daily, I wish to highlight the shortage of public libraries for young people in our city.</p><p>Ludhiana has a population of over sixteen lakh, yet only two municipal libraries, both with outdated books and limited hours. Students who cannot afford costly books or quiet study spaces have nowhere to go, and many turn to endless screen time instead.</p><p>The municipal corporation should open small reading rooms in every ward, stock them with competitive-exam and children’s books, and keep them open in the evenings. Local businesses could sponsor these as part of their social responsibility, and retired teachers might volunteer.</p><p>I sincerely hope the authorities will consider this suggestion.</p><p>Yours faithfully,<br>Sahil Bedi</p></blockquote>"
+    }
+  ]
+}

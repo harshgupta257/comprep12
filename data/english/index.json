@@ -1,0 +1,72 @@
+{
+  "id": "english",
+  "name": "English Core",
+  "shortName": "English",
+  "code": "301",
+  "color": "#BE185D",
+  "icon": "📖",
+  "theoryMarks": 80,
+  "description": "Complete CBSE Class 12 English Core (301) preparation: reading skills, creative writing formats and every prescribed Flamingo and Vistas text, with notes, MCQs and model answers.",
+  "units": [
+    {
+      "id": "u1",
+      "title": "Section A – Reading Skills",
+      "marks": 22,
+      "chapters": [
+        { "id": "unseen-passages", "title": "Unseen Passages (Discursive and Case-based Factual)", "file": "unseen-passages.json" }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Section B – Creative Writing Skills",
+      "marks": 18,
+      "chapters": [
+        { "id": "notice-writing", "title": "Notice Writing", "file": "notice-writing.json" },
+        { "id": "invitations-and-replies", "title": "Formal and Informal Invitations and Replies", "file": "invitations-and-replies.json" },
+        { "id": "letter-writing", "title": "Letters: Job Application and Letter to the Editor", "file": "letter-writing.json" },
+        { "id": "article-writing", "title": "Article Writing", "file": "article-writing.json" },
+        { "id": "report-writing", "title": "Report Writing", "file": "report-writing.json" }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Section C – Literature: Flamingo (Prose)",
+      "marks": null,
+      "chapters": [
+        { "id": "the-last-lesson", "title": "The Last Lesson", "file": "the-last-lesson.json" },
+        { "id": "lost-spring", "title": "Lost Spring", "file": "lost-spring.json" },
+        { "id": "deep-water", "title": "Deep Water", "file": "deep-water.json" },
+        { "id": "the-rattrap", "title": "The Rattrap", "file": "the-rattrap.json" },
+        { "id": "indigo", "title": "Indigo", "file": "indigo.json" },
+        { "id": "poets-and-pancakes", "title": "Poets and Pancakes", "file": "poets-and-pancakes.json" },
+        { "id": "the-interview", "title": "The Interview", "file": "the-interview.json" },
+        { "id": "going-places", "title": "Going Places", "file": "going-places.json" }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Section C – Literature: Flamingo (Poetry)",
+      "marks": null,
+      "chapters": [
+        { "id": "my-mother-at-sixty-six", "title": "My Mother at Sixty-Six", "file": "my-mother-at-sixty-six.json" },
+        { "id": "keeping-quiet", "title": "Keeping Quiet", "file": "keeping-quiet.json" },
+        { "id": "a-thing-of-beauty", "title": "A Thing of Beauty", "file": "a-thing-of-beauty.json" },
+        { "id": "a-roadside-stand", "title": "A Roadside Stand", "file": "a-roadside-stand.json" },
+        { "id": "aunt-jennifers-tigers", "title": "Aunt Jennifer's Tigers", "file": "aunt-jennifers-tigers.json" }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Section C – Literature: Vistas (Supplementary Reader)",
+      "marks": null,
+      "chapters": [
+        { "id": "the-third-level", "title": "The Third Level", "file": "the-third-level.json" },
+        { "id": "the-tiger-king", "title": "The Tiger King", "file": "the-tiger-king.json" },
+        { "id": "journey-to-the-end-of-the-earth", "title": "Journey to the End of the Earth", "file": "journey-to-the-end-of-the-earth.json" },
+        { "id": "the-enemy", "title": "The Enemy", "file": "the-enemy.json" },
+        { "id": "on-the-face-of-it", "title": "On the Face of It", "file": "on-the-face-of-it.json" },
+        { "id": "memories-of-childhood", "title": "Memories of Childhood", "file": "memories-of-childhood.json" }
+      ]
+    }
+  ]
+}

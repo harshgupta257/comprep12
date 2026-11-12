@@ -1,0 +1,177 @@
+{
+ "source": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+ "subjects": {
+  "accountancy": [
+   {
+    "year": 2026,
+    "set": "67/1/1",
+    "file": "papers/accountancy/2026-67-1-1.pdf",
+    "kb": 6325
+   },
+   {
+    "year": 2026,
+    "set": "67/2/1",
+    "file": "papers/accountancy/2026-67-2-1.pdf",
+    "kb": 6804
+   },
+   {
+    "year": 2025,
+    "set": "67/1/1",
+    "file": "papers/accountancy/2025-67-1-1.pdf",
+    "kb": 5578
+   },
+   {
+    "year": 2025,
+    "set": "67/2/1",
+    "file": "papers/accountancy/2025-67-2-1.pdf",
+    "kb": 5971
+   },
+   {
+    "year": 2024,
+    "set": "67/1/1",
+    "file": "papers/accountancy/2024-67-1-1.pdf",
+    "kb": 1524
+   },
+   {
+    "year": 2024,
+    "set": "67/2/1",
+    "file": "papers/accountancy/2024-67-2-1.pdf",
+    "kb": 1330
+   }
+  ],
+  "bst": [
+   {
+    "year": 2026,
+    "set": "66/1/1",
+    "file": "papers/bst/2026-66-1-1.pdf",
+    "kb": 1173
+   },
+   {
+    "year": 2026,
+    "set": "66/2/1",
+    "file": "papers/bst/2026-66-2-1.pdf",
+    "kb": 1498
+   },
+   {
+    "year": 2025,
+    "set": "66/1/1",
+    "file": "papers/bst/2025-66-1-1.pdf",
+    "kb": 3942
+   },
+   {
+    "year": 2025,
+    "set": "66/2/1",
+    "file": "papers/bst/2025-66-2-1.pdf",
+    "kb": 5160
+   },
+   {
+    "year": 2024,
+    "set": "66/1/1",
+    "file": "papers/bst/2024-66-1-1.pdf",
+    "kb": 561
+   },
+   {
+    "year": 2024,
+    "set": "66/2/1",
+    "file": "papers/bst/2024-66-2-1.pdf",
+    "kb": 1157
+   }
+  ],
+  "economics": [
+   {
+    "year": 2026,
+    "set": "58/1/1",
+    "file": "papers/economics/2026-58-1-1.pdf",
+    "kb": 1558
+   },
+   {
+    "year": 2026,
+    "set": "58/2/1",
+    "file": "papers/economics/2026-58-2-1.pdf",
+    "kb": 1615
+   },
+   {
+    "year": 2025,
+    "set": "58/1/1",
+    "file": "papers/economics/2025-58-1-1.pdf",
+    "kb": 5438
+   },
+   {
+    "year": 2025,
+    "set": "58/2/1",
+    "file": "papers/economics/2025-58-2-1.pdf",
+    "kb": 5888
+   },
+   {
+    "year": 2024,
+    "set": "58/1/1",
+    "file": "papers/economics/2024-58-1-1.pdf",
+    "kb": 1216
+   },
+   {
+    "year": 2024,
+    "set": "58/2/1",
+    "file": "papers/economics/2024-58-2-1.pdf",
+    "kb": 1659
+   }
+  ],
+  "english": [
+   {
+    "year": 2026,
+    "set": "1/1/1",
+    "file": "papers/english/2026-1-1-1.pdf",
+    "kb": 901
+   },
+   {
+    "year": 2026,
+    "set": "1/3/1",
+    "file": "papers/english/2026-1-3-1.pdf",
+    "kb": 392
+   },
+   {
+    "year": 2025,
+    "set": "1/1/1",
+    "file": "papers/english/2025-1-1-1.pdf",
+    "kb": 3171
+   },
+   {
+    "year": 2025,
+    "set": "1/2/1",
+    "file": "papers/english/2025-1-2-1.pdf",
+    "kb": 3408
+   },
+   {
+    "year": 2024,
+    "set": "1/1/1",
+    "file": "papers/english/2024-1-1-1.pdf",
+    "kb": 747
+   },
+   {
+    "year": 2024,
+    "set": "1/2/1",
+    "file": "papers/english/2024-1-2-1.pdf",
+    "kb": 688
+   }
+  ],
+  "maths": [
+   {
+    "year": 2026,
+    "set": "465",
+    "file": "papers/maths/2026-465.pdf",
+    "kb": 705
+   },
+   {
+    "year": 2025,
+    "set": "465",
+    "file": "papers/maths/2025-465.pdf",
+    "kb": 4188
+   },
+   {
+    "year": 2024,
+    "set": "465",
+    "file": "papers/maths/2024-465.pdf",
+    "kb": 565
+   }
+  ]
+ }
+}

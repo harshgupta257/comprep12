@@ -1,0 +1,41 @@
+{
+  "id": "maths",
+  "name": "Applied Mathematics",
+  "shortName": "Maths",
+  "code": "241",
+  "color": "#7C3AED",
+  "icon": "📐",
+  "theoryMarks": 80,
+  "description": "Practical mathematics for commerce: numbers, algebra, calculus, probability, statistics, finance and linear programming.",
+  "units": [
+    { "id": "u1", "title": "Numbers, Quantification and Numerical Applications", "marks": 11, "chapters": [
+      { "id": "modular-arithmetic", "title": "Modular Arithmetic and Congruence", "file": "modular-arithmetic.json" },
+      { "id": "numerical-applications", "title": "Numerical Applications: Mixtures, Boats, Pipes and Races", "file": "numerical-applications.json" },
+      { "id": "numerical-inequalities", "title": "Numerical Inequalities", "file": "numerical-inequalities.json" }
+    ] },
+    { "id": "u2", "title": "Algebra", "marks": 10, "chapters": [
+      { "id": "matrices", "title": "Matrices", "file": "matrices.json" },
+      { "id": "determinants-and-linear-equations", "title": "Determinants, Inverse and Linear Equations", "file": "determinants-and-linear-equations.json" }
+    ] },
+    { "id": "u3", "title": "Calculus", "marks": 15, "chapters": [
+      { "id": "derivatives-and-applications", "title": "Higher-order Derivatives and Applications of Derivatives", "file": "derivatives-and-applications.json" },
+      { "id": "integration-and-applications", "title": "Integration and its Applications", "file": "integration-and-applications.json" },
+      { "id": "differential-equations", "title": "Differential Equations and Modelling", "file": "differential-equations.json" }
+    ] },
+    { "id": "u4", "title": "Probability Distributions", "marks": 10, "chapters": [
+      { "id": "probability-distributions", "title": "Probability Distributions", "file": "probability-distributions.json" }
+    ] },
+    { "id": "u5", "title": "Inferential Statistics", "marks": 5, "chapters": [
+      { "id": "inferential-statistics", "title": "Inferential Statistics and the t-Test", "file": "inferential-statistics.json" }
+    ] },
+    { "id": "u6", "title": "Index Numbers and Time-based Data", "marks": 6, "chapters": [
+      { "id": "time-series", "title": "Time Series and Trend Analysis", "file": "time-series.json" }
+    ] },
+    { "id": "u7", "title": "Financial Mathematics", "marks": 15, "chapters": [
+      { "id": "financial-mathematics", "title": "Financial Mathematics", "file": "financial-mathematics.json" }
+    ] },
+    { "id": "u8", "title": "Linear Programming", "marks": 8, "chapters": [
+      { "id": "linear-programming", "title": "Linear Programming", "file": "linear-programming.json" }
+    ] }
+  ]
+}

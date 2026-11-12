@@ -1,0 +1,295 @@
+{
+  "id": "probability-distributions",
+  "title": "Probability Distributions",
+  "summary": "A random variable attaches numbers to the outcomes of a random experiment, and its probability distribution tells us how likely each value is. This chapter covers discrete random variables, expected value and variance, and the three key models used in business and science — the binomial, Poisson and normal distributions.",
+  "notes": [
+    {
+      "heading": "Random variables and probability distributions",
+      "html": "<p>A <b>random variable</b> X is a rule that assigns a real number to each outcome of a random experiment, e.g. the number of heads in three tosses, or the number of defective items in a sample. It is <b>discrete</b> if it takes countable values (0, 1, 2, …) and <b>continuous</b> if it can take any value in an interval (height, weight, time).</p><p>A <b>probability distribution</b> of a discrete X lists each value x<sub>i</sub> with its probability p<sub>i</sub> = P(X = x<sub>i</sub>), where <b>every p<sub>i</sub> ≥ 0 and Σ p<sub>i</sub> = 1</b>.</p><p><b>Expected value (mean):</b> μ = E(X) = Σ x<sub>i</sub>p<sub>i</sub>. <b>Variance:</b> σ<sup>2</sup> = Var(X) = E(X<sup>2</sup>) − [E(X)]<sup>2</sup> = Σ x<sub>i</sub><sup>2</sup>p<sub>i</sub> − μ<sup>2</sup>. <b>Standard deviation</b> σ = √Var(X).</p><p>Rules: E(aX + b) = aE(X) + b and Var(aX + b) = a<sup>2</sup>Var(X) (adding a constant does not change spread).</p>"
+    },
+    {
+      "heading": "Worked Example 1 — expectation and variance",
+      "html": "<p><b>(a) X takes values 0, 1, 2, 3 with probabilities k, 2k, 3k, 4k. Find k, E(X) and Var(X).</b></p><p>k + 2k + 3k + 4k = 1 ⇒ k = 0.1.</p><table><thead><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th><th>Total</th></tr></thead><tbody><tr><td>P(x)</td><td>0.1</td><td>0.2</td><td>0.3</td><td>0.4</td><td>1</td></tr><tr><td>x P(x)</td><td>0</td><td>0.2</td><td>0.6</td><td>1.2</td><td>2.0</td></tr><tr><td>x<sup>2</sup>P(x)</td><td>0</td><td>0.2</td><td>1.2</td><td>3.6</td><td>5.0</td></tr></tbody></table><p>E(X) = 2.0, Var(X) = 5.0 − 2.0<sup>2</sup> = <b>1.0</b>.</p><p><b>(b) A box has 10 items of which 3 are defective. Two items are drawn at random without replacement. Find the mean and variance of X = number of defective items drawn.</b></p><p>Total ways = <sup>10</sup>C<sub>2</sub> = 45. P(X = 0) = <sup>7</sup>C<sub>2</sub>/45 = 21/45; P(X = 1) = (3 × 7)/45 = 21/45; P(X = 2) = <sup>3</sup>C<sub>2</sub>/45 = 3/45. (Sum = 45/45 ✓.)</p><p>E(X) = 0 + 21/45 + 6/45 = 27/45 = <b>3/5 = 0.6</b>. E(X<sup>2</sup>) = 21/45 + 12/45 = 33/45 = 11/15.</p><p>Var(X) = 11/15 − 9/25 = (55 − 27)/75 = <b>28/75 ≈ 0.373</b>.</p>"
+    },
+    {
+      "heading": "Binomial distribution",
+      "html": "<p>A <b>Bernoulli trial</b> has two outcomes, success (probability p) and failure (q = 1 − p). X follows a <b>binomial distribution B(n, p)</b> when:</p><ol><li>the number of trials n is fixed;</li><li>each trial results in success or failure;</li><li>the trials are independent;</li><li>p is the same in every trial.</li></ol><p><b>P(X = r) = <sup>n</sup>C<sub>r</sub> p<sup>r</sup> q<sup>n − r</sup>, r = 0, 1, …, n.</b></p><p><b>Mean = np, Variance = npq, SD = √(npq).</b> Since q &lt; 1, the variance is always less than the mean.</p><p><b>Worked Example 2.</b> 10% of the bulbs made by a machine are defective. In a random sample of 5 bulbs: P(none defective) = (0.9)<sup>5</sup> = 0.59049; P(exactly one) = 5 × 0.1 × (0.9)<sup>4</sup> = 0.32805; P(at most one) = 0.91854; P(at least two) = 1 − 0.91854 = 0.08146. Mean = 5 × 0.1 = 0.5, variance = 5 × 0.1 × 0.9 = 0.45.</p>"
+    },
+    {
+      "heading": "Poisson distribution",
+      "html": "<p>The <b>Poisson distribution</b> models the number of occurrences of a rare event in a fixed interval of time or space (calls per minute, accidents per day, misprints per page), when events occur independently at a constant average rate λ.</p><p><b>P(X = r) = e<sup>−λ</sup>λ<sup>r</sup>/r!, r = 0, 1, 2, …</b></p><p><b>Mean = Variance = λ.</b></p><p><b>Poisson approximation to binomial:</b> when n is large (n ≥ 20 or so) and p is small (np ≤ 5 or so), B(n, p) ≈ Poisson with λ = np.</p><p>Useful values: e<sup>−1</sup> ≈ 0.3679, e<sup>−2</sup> ≈ 0.1353, e<sup>−3</sup> ≈ 0.0498, e<sup>−4</sup> ≈ 0.0183, e<sup>−5</sup> ≈ 0.0067.</p><p><b>Worked Example 3.</b> A helpline receives on average 2 calls per minute. P(no call in a minute) = e<sup>−2</sup> ≈ 0.1353. P(at most 2 calls) = e<sup>−2</sup>(1 + 2 + 2<sup>2</sup>/2!) = 5e<sup>−2</sup> ≈ 0.6767. P(at least one call) = 1 − e<sup>−2</sup> ≈ 0.8647.</p>"
+    },
+    {
+      "heading": "Normal distribution",
+      "html": "<p>A continuous random variable X with mean μ and standard deviation σ is <b>normally distributed</b>, X ~ N(μ, σ<sup>2</sup>), when its probability curve is the bell-shaped normal curve. Properties:</p><ul><li>The curve is symmetric about x = μ; mean = median = mode.</li><li>The total area under the curve is 1; the area to each side of μ is 0.5.</li><li>The curve approaches the x-axis but never touches it (asymptotic).</li><li>About 68.27% of values lie within μ ± σ, 95.45% within μ ± 2σ and 99.73% within μ ± 3σ.</li><li>Probabilities are areas: P(a &lt; X &lt; b) is the area under the curve between a and b.</li></ul><p><b>Standard normal variable:</b> Z = (X − μ)/σ has mean 0 and SD 1. Tables give the area from 0 to z. Values used in this chapter:</p><table><thead><tr><th>z</th><th>0.5</th><th>0.8</th><th>1.0</th><th>1.25</th><th>1.5</th><th>1.96</th><th>2.0</th><th>2.5</th></tr></thead><tbody><tr><td>Area 0 to z</td><td>0.1915</td><td>0.2881</td><td>0.3413</td><td>0.3944</td><td>0.4332</td><td>0.4750</td><td>0.4772</td><td>0.4938</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Worked Example 4 — normal probabilities",
+      "html": "<p><b>The marks of students are normally distributed with μ = 60 and σ = 8.</b></p><p><b>(a) P(X &gt; 72):</b> z = (72 − 60)/8 = 1.5. P(Z &gt; 1.5) = 0.5 − 0.4332 = <b>0.0668</b>.</p><p><b>(b) P(52 &lt; X &lt; 76):</b> z<sub>1</sub> = (52 − 60)/8 = −1, z<sub>2</sub> = (76 − 60)/8 = 2. By symmetry, area = 0.3413 + 0.4772 = <b>0.8185</b>.</p><p><b>(c) P(X &lt; 56):</b> z = −0.5. P(Z &lt; −0.5) = 0.5 − 0.1915 = <b>0.3085</b>.</p><p><b>(d) Marks above which the top 2.5% lie:</b> area 0 to z = 0.4750 ⇒ z = 1.96, so x = 60 + 1.96 × 8 = <b>75.68</b>.</p><p>Method: sketch the curve, shade the required region, convert to z, then add areas (opposite sides of 0) or subtract (same side).</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Writing Var(X) = E(X<sup>2</sup>) − E(X) instead of E(X<sup>2</sup>) − [E(X)]<sup>2</sup>.</li><li>Writing Var(aX + b) = aVar(X) + b; the correct result is a<sup>2</sup>Var(X).</li><li>Using binomial when draws are without replacement from a small lot (trials are then not independent).</li><li>Forgetting that \"at least one\" is easiest as 1 − P(none).</li><li>In the Poisson distribution, saying SD = λ; it is √λ.</li><li>In normal problems, adding the table areas when both z values are on the same side of 0 (you must subtract).</li><li>Using table area as P(Z &lt; z) directly — most tables give the area from 0 to z, so add 0.5 when needed.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Random variable",
+      "definition": "A function assigning a real number to each outcome of a random experiment."
+    },
+    {
+      "term": "Probability distribution",
+      "definition": "A list of the values of a random variable with their probabilities, which are non-negative and add to 1."
+    },
+    {
+      "term": "Expected value",
+      "definition": "E(X) = Σ x<sub>i</sub>p<sub>i</sub>, the long-run average value of X."
+    },
+    {
+      "term": "Variance",
+      "definition": "Var(X) = E(X<sup>2</sup>) − [E(X)]<sup>2</sup>, a measure of spread."
+    },
+    {
+      "term": "Bernoulli trial",
+      "definition": "A trial with exactly two outcomes, success and failure."
+    },
+    {
+      "term": "Binomial distribution",
+      "definition": "Number of successes in n independent trials with constant success probability p; mean np, variance npq."
+    },
+    {
+      "term": "Poisson distribution",
+      "definition": "Distribution of counts of rare events at average rate λ; P(X = r) = e<sup>−λ</sup>λ<sup>r</sup>/r!; mean = variance = λ."
+    },
+    {
+      "term": "Normal distribution",
+      "definition": "A continuous, symmetric, bell-shaped distribution determined by μ and σ."
+    },
+    {
+      "term": "Standard normal variate",
+      "definition": "Z = (X − μ)/σ, with mean 0 and standard deviation 1."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Conditions on a distribution",
+      "html": "p<sub>i</sub> ≥ 0, Σ p<sub>i</sub> = 1"
+    },
+    {
+      "name": "Mean (expectation)",
+      "html": "μ = E(X) = Σ x<sub>i</sub>p<sub>i</sub>"
+    },
+    {
+      "name": "Variance",
+      "html": "σ<sup>2</sup> = Σ x<sub>i</sub><sup>2</sup>p<sub>i</sub> − μ<sup>2</sup>"
+    },
+    {
+      "name": "Linear change",
+      "html": "E(aX + b) = aE(X) + b; Var(aX + b) = a<sup>2</sup>Var(X)"
+    },
+    {
+      "name": "Binomial probability",
+      "html": "P(X = r) = <sup>n</sup>C<sub>r</sub> p<sup>r</sup> q<sup>n − r</sup>, q = 1 − p"
+    },
+    {
+      "name": "Binomial mean and variance",
+      "html": "Mean = np, Variance = npq, SD = √(npq)"
+    },
+    {
+      "name": "Poisson probability",
+      "html": "P(X = r) = e<sup>−λ</sup>λ<sup>r</sup>/r!"
+    },
+    {
+      "name": "Poisson mean and variance",
+      "html": "Mean = Variance = λ; SD = √λ"
+    },
+    {
+      "name": "Poisson approximation",
+      "html": "B(n, p) ≈ Poisson(λ = np) for large n, small p"
+    },
+    {
+      "name": "Standardisation",
+      "html": "Z = (X − μ)/σ"
+    },
+    {
+      "name": "Empirical rule",
+      "html": "P(μ − σ &lt; X &lt; μ + σ) ≈ 0.6827; μ ± 2σ: 0.9545; μ ± 3σ: 0.9973"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "A random variable X takes values 0, 1, 2, 3 with probabilities k, 2k, 3k, 4k. The value of k is",
+      "options": [
+        "0.25",
+        "0.1",
+        "0.4",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "k + 2k + 3k + 4k = 10k = 1 ⇒ k = 0.1."
+    },
+    {
+      "q": "For the distribution in the previous question (P = 0.1, 0.2, 0.3, 0.4 for x = 0, 1, 2, 3), E(X) is",
+      "options": [
+        "1.5",
+        "2.5",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "E(X) = 0(0.1) + 1(0.2) + 2(0.3) + 3(0.4) = 0.2 + 0.6 + 1.2 = 2. (1.5 is the simple average of 0, 1, 2, 3.)"
+    },
+    {
+      "q": "If Var(X) = 1.5, then Var(2X + 3) equals",
+      "options": [
+        "6",
+        "3",
+        "9",
+        "4.5"
+      ],
+      "answer": 0,
+      "explanation": "Var(aX + b) = a<sup>2</sup>Var(X) = 4 × 1.5 = 6. The constant 3 does not affect variance (9 wrongly adds it; 3 forgets to square 2)."
+    },
+    {
+      "q": "The mean and variance of a binomial distribution are 6 and 2.4. The number of trials n is",
+      "options": [
+        "15",
+        "12",
+        "20",
+        "10"
+      ],
+      "answer": 3,
+      "explanation": "npq/np = q = 2.4/6 = 0.4, so p = 0.6 and n = 6/0.6 = 10."
+    },
+    {
+      "q": "A fair coin is tossed 4 times. The probability of getting exactly 2 heads is",
+      "options": [
+        "1/2",
+        "3/8",
+        "1/4",
+        "1/16"
+      ],
+      "answer": 1,
+      "explanation": "<sup>4</sup>C<sub>2</sub>(1/2)<sup>4</sup> = 6/16 = 3/8."
+    },
+    {
+      "q": "For B(20, 0.3), the mean and variance are",
+      "options": [
+        "6 and 4.2",
+        "6 and 1.8",
+        "14 and 4.2",
+        "6 and 2.05"
+      ],
+      "answer": 0,
+      "explanation": "Mean = np = 6; variance = npq = 20 × 0.3 × 0.7 = 4.2. (2.05 ≈ √4.2 is the SD.)"
+    },
+    {
+      "q": "For a Poisson variable with mean 3, P(X = 0) is approximately (e<sup>−3</sup> ≈ 0.0498)",
+      "options": [
+        "0.1494",
+        "0.0498",
+        "0.2240",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "P(X = 0) = e<sup>−3</sup>3<sup>0</sup>/0! = e<sup>−3</sup> ≈ 0.0498."
+    },
+    {
+      "q": "For a Poisson variable, P(X = 1) = P(X = 2). The mean of the distribution is",
+      "options": [
+        "1",
+        "1/2",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "e<sup>−λ</sup>λ = e<sup>−λ</sup>λ<sup>2</sup>/2 ⇒ λ = 2 (λ ≠ 0)."
+    },
+    {
+      "q": "1% of the items produced are defective. Using the Poisson approximation, the probability that a sample of 200 items has no defective item is about",
+      "options": [
+        "0.1353",
+        "0.3679",
+        "0.0183",
+        "0.2707"
+      ],
+      "answer": 0,
+      "explanation": "λ = np = 200 × 0.01 = 2. P(X = 0) = e<sup>−2</sup> ≈ 0.1353. (Exact binomial value 0.99<sup>200</sup> ≈ 0.1340.)"
+    },
+    {
+      "q": "X ~ N(60, 25). The standard normal value corresponding to X = 70 is",
+      "options": [
+        "0.4",
+        "10",
+        "2",
+        "0.5"
+      ],
+      "answer": 2,
+      "explanation": "σ = √25 = 5. z = (70 − 60)/5 = 2. (Dividing by the variance 25 gives the wrong value 0.4.)"
+    },
+    {
+      "q": "For the standard normal variable Z, P(Z &gt; 1) equals (area from 0 to 1 = 0.3413)",
+      "options": [
+        "0.3413",
+        "0.8413",
+        "0.6826",
+        "0.1587"
+      ],
+      "answer": 3,
+      "explanation": "P(Z &gt; 1) = 0.5 − 0.3413 = 0.1587."
+    },
+    {
+      "q": "<b>Assertion (A):</b> A Poisson distribution with mean 4 has standard deviation 4.<br><b>Reason (R):</b> In a Poisson distribution the mean equals the variance.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Variance = 4, so SD = √4 = 2; A is false. R is true."
+    }
+  ],
+  "questions": [
+    {
+      "q": "X takes values 1, 2, 3 with probabilities 0.2, 0.5, 0.3. Find E(X).",
+      "marks": 1,
+      "answerHtml": "<p>E(X) = 1(0.2) + 2(0.5) + 3(0.3) = 0.2 + 1.0 + 0.9 = <b>2.1</b>.</p>"
+    },
+    {
+      "q": "Find the variance of a binomial variable with n = 16 and p = 1/2.",
+      "marks": 1,
+      "answerHtml": "<p>Variance = npq = 16 × 1/2 × 1/2 = <b>4</b>.</p>"
+    },
+    {
+      "q": "A fair coin is tossed 5 times. Find the probability of getting exactly 3 heads.",
+      "marks": 2,
+      "answerHtml": "<p>n = 5, p = q = 1/2. P(X = 3) = <sup>5</sup>C<sub>3</sub>(1/2)<sup>5</sup> = 10/32 = <b>5/16</b>.</p>"
+    },
+    {
+      "q": "The weekly wages of workers are normally distributed with mean ₹6,000 and SD ₹800. Find the probability that a worker earns more than ₹7,200. (Area from 0 to 1.5 = 0.4332)",
+      "marks": 2,
+      "answerHtml": "<p>z = (7200 − 6000)/800 = 1.5.</p><p>P(X &gt; 7200) = P(Z &gt; 1.5) = 0.5 − 0.4332 = <b>0.0668</b>.</p>"
+    },
+    {
+      "q": "A box contains 10 pens of which 3 are defective. Two pens are drawn at random without replacement. Find the probability distribution of the number of defective pens drawn, and its mean and variance.",
+      "marks": 3,
+      "answerHtml": "<p>X = 0, 1, 2. Total ways = <sup>10</sup>C<sub>2</sub> = 45.</p><table><thead><tr><th>x</th><th>0</th><th>1</th><th>2</th></tr></thead><tbody><tr><td>P(x)</td><td>21/45</td><td>21/45</td><td>3/45</td></tr><tr><td>x P(x)</td><td>0</td><td>21/45</td><td>6/45</td></tr><tr><td>x<sup>2</sup>P(x)</td><td>0</td><td>21/45</td><td>12/45</td></tr></tbody></table><p>E(X) = 27/45 = <b>0.6</b>. E(X<sup>2</sup>) = 33/45 = 11/15.</p><p>Var(X) = 11/15 − (3/5)<sup>2</sup> = 11/15 − 9/25 = (55 − 27)/75 = <b>28/75 ≈ 0.373</b>.</p>"
+    },
+    {
+      "q": "10% of the bulbs produced by a machine are defective. Find the probability that in a sample of 5 bulbs (a) none is defective, (b) at most one is defective, (c) at least two are defective. Also find the mean and variance of the number of defective bulbs.",
+      "marks": 3,
+      "answerHtml": "<p>X ~ B(5, 0.1), q = 0.9.</p><p><b>(a)</b> P(X = 0) = 0.9<sup>5</sup> = <b>0.59049</b>.</p><p><b>(b)</b> P(X = 1) = 5(0.1)(0.9)<sup>4</sup> = 5 × 0.1 × 0.6561 = 0.32805. P(X ≤ 1) = <b>0.91854</b>.</p><p><b>(c)</b> P(X ≥ 2) = 1 − 0.91854 = <b>0.08146</b>.</p><p>Mean = np = <b>0.5</b>; variance = npq = <b>0.45</b>.</p>"
+    },
+    {
+      "q": "A factory finds that 2% of its bulbs are defective. Bulbs are packed in boxes of 100. Using the Poisson distribution, find the probability that a box contains (a) no defective bulb, (b) exactly 2 defective bulbs, (c) more than 2 defective bulbs. (d) In a consignment of 1000 boxes, how many boxes are expected to contain no defective bulb? (e<sup>−2</sup> = 0.1353)",
+      "marks": 5,
+      "answerHtml": "<p>λ = np = 100 × 0.02 = 2.</p><p><b>(a)</b> P(0) = e<sup>−2</sup> = <b>0.1353</b>.</p><p><b>(b)</b> P(2) = e<sup>−2</sup> × 2<sup>2</sup>/2! = 2e<sup>−2</sup> = <b>0.2706</b>.</p><p><b>(c)</b> P(1) = 2e<sup>−2</sup> = 0.2706. P(X ≤ 2) = e<sup>−2</sup>(1 + 2 + 2) = 5 × 0.1353 = 0.6765. P(X &gt; 2) = 1 − 0.6765 = <b>0.3235</b>.</p><p><b>(d)</b> Expected number = 1000 × 0.1353 ≈ <b>135 boxes</b>.</p>"
+    },
+    {
+      "q": "<b>Case study.</b> In a board examination the marks of 1000 students in Applied Mathematics are normally distributed with mean 60 and standard deviation 8. Use: area from 0 to z — z = 1: 0.3413, z = 1.5: 0.4332, z = 1.96: 0.4750, z = 2: 0.4772.<br>(i) How many students scored above 72?<br>(ii) How many students scored between 52 and 76?<br>(iii) The school gives a merit certificate to the top 2.5% of students. Find the minimum marks needed.",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b> z = (72 − 60)/8 = 1.5. P(X &gt; 72) = 0.5 − 0.4332 = 0.0668. Number = 1000 × 0.0668 ≈ <b>67 students</b>.</p><p><b>(ii)</b> z<sub>1</sub> = (52 − 60)/8 = −1, z<sub>2</sub> = (76 − 60)/8 = 2. P = 0.3413 + 0.4772 = 0.8185. Number ≈ <b>819 students</b>.</p><p><b>(iii)</b> Area beyond z is 0.025 ⇒ area from 0 to z = 0.4750 ⇒ z = 1.96. Marks = 60 + 1.96 × 8 = 75.68. Minimum marks ≈ <b>76</b>.</p>"
+    }
+  ]
+}

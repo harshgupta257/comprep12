@@ -1,0 +1,299 @@
+{
+  "id": "numerical-applications",
+  "title": "Numerical Applications: Mixtures, Boats, Pipes and Races",
+  "summary": "This chapter applies ratio, rate and speed ideas to four classic families of word problems: alligation and mixture, boats and streams, pipes and cisterns, and races and games. Each family has one central idea — a weighted average, relative speed, work per unit time, or the ratio of speeds — that turns the story into a short calculation.",
+  "notes": [
+    {
+      "heading": "Alligation and mixture — the rule",
+      "html": "<p><b>Alligation</b> is a quick way to find the ratio in which two ingredients of different prices (or concentrations) must be mixed to produce a mixture of a given mean price. It is simply the weighted-average formula rearranged.</p><p>If c = price of the cheaper item, d = price of the dearer item and m = mean price of the mixture (c &lt; m &lt; d), then</p><p><b>(Quantity of cheaper) : (Quantity of dearer) = (d − m) : (m − c)</b></p><p>Cross-diagram: write c and d on top, m in the middle, and subtract diagonally — the difference under c is (d − m), the difference under d is (m − c).</p><p>The mean price must lie strictly between c and d. The same rule works for percentages of concentration, speeds, marks or any weighted average.</p><p><b>Repeated replacement:</b> a vessel holds x litres of pure liquid; y litres are drawn out and replaced by water, and this is done n times. Then</p><p><b>Pure liquid left = x(1 − y/x)<sup>n</sup></b></p>"
+    },
+    {
+      "heading": "Worked Example 1 — alligation",
+      "html": "<p><b>(a) In what ratio should rice at ₹40/kg be mixed with rice at ₹55/kg to get a mixture worth ₹45/kg?</b></p><table><thead><tr><th></th><th>Cheaper</th><th>Dearer</th></tr></thead><tbody><tr><td>Price (₹/kg)</td><td>40</td><td>55</td></tr><tr><td>Difference from mean ₹45</td><td>55 − 45 = 10</td><td>45 − 40 = 5</td></tr></tbody></table><p>Ratio cheaper : dearer = 10 : 5 = <b>2 : 1</b>. Check: (2 × 40 + 1 × 55)/3 = 135/3 = ₹45 ✓.</p><p><b>(b) A trader mixes tea costing ₹180/kg with tea costing ₹240/kg and sells the mixture at ₹231/kg, gaining 10%. Find the ratio of mixing.</b></p><p>Cost price of mixture = 231/1.10 = ₹210/kg (the mean price must be a <i>cost</i> price).</p><p>Ratio = (240 − 210) : (210 − 180) = 30 : 30 = <b>1 : 1</b>.</p><p><b>(c) A container has 40 L of milk. 4 L are taken out and replaced by water; this is repeated twice more (3 operations in all). How much milk is left?</b></p><p>Milk left = 40(1 − 4/40)<sup>3</sup> = 40 × (0.9)<sup>3</sup> = 40 × 0.729 = <b>29.16 L</b>.</p>"
+    },
+    {
+      "heading": "Boats and streams — concept and formulas",
+      "html": "<p>Let u = speed of the boat (or swimmer) in still water and v = speed of the stream (current), with u &gt; v.</p><ul><li><b>Downstream</b> (with the current): speed D = u + v.</li><li><b>Upstream</b> (against the current): speed U = u − v.</li><li>Hence u = (D + U)/2 and v = (D − U)/2.</li><li>Time = distance ÷ speed in each direction; for a round trip of d km each way, total time = d/(u + v) + d/(u − v).</li><li>Average speed for a round trip = (u + v)(u − v)/u = (u<sup>2</sup> − v<sup>2</sup>)/u (harmonic mean of D and U).</li></ul><p>Always convert all speeds to the same unit (km/h ↔ m/s: multiply by 5/18 to go from km/h to m/s).</p>"
+    },
+    {
+      "heading": "Worked Example 2 — boats and streams",
+      "html": "<p><b>(a) A boat covers 24 km downstream in 2 hours and 12 km upstream in 2 hours. Find the speed of the boat in still water and of the stream.</b></p><p>D = 24/2 = 12 km/h, U = 12/2 = 6 km/h.</p><p>u = (12 + 6)/2 = <b>9 km/h</b>, v = (12 − 6)/2 = <b>3 km/h</b>.</p><p><b>(b) A man rows at 6 km/h in still water. The river flows at 2 km/h. He takes 3 hours to row to a place and come back. How far is the place?</b></p><p>Let the distance be d km. Downstream speed = 8 km/h, upstream speed = 4 km/h.</p><p>d/8 + d/4 = 3 ⇒ (d + 2d)/8 = 3 ⇒ 3d = 24 ⇒ <b>d = 8 km</b>.</p><p>Check: 8/8 + 8/4 = 1 + 2 = 3 hours ✓.</p>"
+    },
+    {
+      "heading": "Pipes and cisterns — concept and formulas",
+      "html": "<p>Treat filling a tank as \"work\". If a pipe fills a tank in a hours, it fills <b>1/a of the tank per hour</b>. An outlet (or leak) that empties the tank in b hours does −1/b of the work per hour.</p><ul><li>Net rate when several pipes are open = sum of rates (inlets +, outlets −).</li><li>Time to fill = 1 ÷ (net rate).</li><li>A and B together fill in ab/(a + b) hours.</li><li>Inlet fills in a hours, outlet empties in b hours (b &gt; a): together fill in ab/(b − a) hours.</li><li>If a pipe takes a hours normally but a + t hours because of a leak, the leak alone empties the full tank in a(a + t)/t hours.</li></ul>"
+    },
+    {
+      "heading": "Worked Example 3 — pipes and cisterns",
+      "html": "<p><b>(a) Pipes A and B fill a tank in 12 h and 15 h respectively; pipe C empties it in 20 h. If all three are opened together, when will the tank be full?</b></p><p>Net rate = 1/12 + 1/15 − 1/20 = (5 + 4 − 3)/60 = 6/60 = 1/10 of the tank per hour.</p><p>Time = <b>10 hours</b>.</p><p><b>(b) A and B together fill a tank in 6 h; A alone fills it in 10 h. How long would B alone take?</b></p><p>Rate of B = 1/6 − 1/10 = (5 − 3)/30 = 1/15 per hour, so B alone takes <b>15 hours</b>.</p><p><b>(c) Two pipes fill a tank in 24 min and 32 min. Both are opened; after how many minutes should the second be closed so that the tank fills in exactly 18 min?</b></p><p>First pipe works all 18 min: 18/24 = 3/4 of the tank. The second must fill the remaining 1/4: time = 32 × 1/4 = 8 min. <b>Close it after 8 minutes.</b></p>"
+    },
+    {
+      "heading": "Races and games — language and method",
+      "html": "<ul><li>\"<b>A beats B by x metres</b>\" in a race of L m: when A finishes L m, B has run L − x m. Hence speed ratio A : B = L : (L − x).</li><li>\"<b>A beats B by t seconds</b>\": B finishes t seconds after A. If both statements are given, B covers x m in t seconds, so B's speed = x/t.</li><li>\"<b>A gives B a start of x m</b>\": B starts x m ahead, so B runs only L − x m while A runs L m.</li><li><b>Dead heat</b>: both reach the finishing line at the same time. For a dead heat, start = L × (1 − speed of B/speed of A).</li><li>\"<b>In a game of 100 points A can give B 20 points</b>\": when A scores 100, B scores 80, so A : B = 100 : 80.</li><li>To combine A–B and B–C information, write all three as one continued ratio A : B : C.</li></ul><p><b>Worked Example 4.</b> In a 1 km race A beats B by 40 m and B beats C by 50 m. By how much does A beat C?</p><p>When A runs 1000 m, B runs 960 m. When B runs 1000 m, C runs 950 m, so when B runs 960 m, C runs 960 × 950/1000 = 912 m.</p><p>A beats C by 1000 − 912 = <b>88 m</b>.</p><p><b>Worked Example 5.</b> In a game of 100 points A can give B 20 points and C 28 points. How many points can B give C?</p><p>A : B : C = 100 : 80 : 72. When B scores 100, C scores 72 × 100/80 = 90. B can give C <b>10 points</b>.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Using the selling price as the mean price in alligation when a profit is mentioned — always convert to cost price first.</li><li>Writing the alligation ratio the wrong way round: the difference (d − m) belongs to the <i>cheaper</i> item.</li><li>Taking v = D − U instead of v = (D − U)/2 for the stream speed.</li><li>Adding the rate of a leak instead of subtracting it.</li><li>Adding the \"beat by\" margins directly (40 + 50 = 90 m in Example 4 is wrong; the correct answer 88 m comes from ratios).</li><li>Mixing units — minutes with hours or m/s with km/h.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Alligation",
+      "definition": "A rule giving the ratio in which two ingredients of prices c and d are mixed to get mean price m: (d − m) : (m − c)."
+    },
+    {
+      "term": "Mean price",
+      "definition": "The cost price per unit of a mixture; it always lies between the prices of the ingredients."
+    },
+    {
+      "term": "Downstream",
+      "definition": "Moving in the direction of the current; speed = u + v."
+    },
+    {
+      "term": "Upstream",
+      "definition": "Moving against the current; speed = u − v."
+    },
+    {
+      "term": "Inlet / outlet",
+      "definition": "A pipe that fills a tank (positive rate) / a pipe or leak that empties it (negative rate)."
+    },
+    {
+      "term": "Dead heat",
+      "definition": "A race in which the competitors reach the finishing point at the same moment."
+    },
+    {
+      "term": "Start (head start)",
+      "definition": "The distance (or time) by which a slower runner is allowed to begin ahead of a faster one."
+    },
+    {
+      "term": "Beat by x points",
+      "definition": "In a game of N points, when the winner scores N the other has scored N − x."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Rule of alligation",
+      "html": "Cheaper : Dearer = (d − m) : (m − c)"
+    },
+    {
+      "name": "Mean price (weighted average)",
+      "html": "m = (q<sub>1</sub>c + q<sub>2</sub>d)/(q<sub>1</sub> + q<sub>2</sub>)"
+    },
+    {
+      "name": "Repeated replacement",
+      "html": "Pure liquid left after n operations = x(1 − y/x)<sup>n</sup>"
+    },
+    {
+      "name": "Downstream / upstream speed",
+      "html": "D = u + v, U = u − v"
+    },
+    {
+      "name": "Speed in still water and of stream",
+      "html": "u = (D + U)/2, v = (D − U)/2"
+    },
+    {
+      "name": "Round-trip time",
+      "html": "T = d/(u + v) + d/(u − v) = 2du/(u<sup>2</sup> − v<sup>2</sup>)"
+    },
+    {
+      "name": "Rate of a pipe",
+      "html": "Fills in a hours ⇒ rate = 1/a per hour; empties in b hours ⇒ rate = −1/b"
+    },
+    {
+      "name": "Two inlets together",
+      "html": "T = ab/(a + b)"
+    },
+    {
+      "name": "Inlet with outlet",
+      "html": "T = ab/(b − a) (b &gt; a)"
+    },
+    {
+      "name": "Leak time",
+      "html": "Leak empties full tank in a(a + t)/t hours"
+    },
+    {
+      "name": "Race ratio",
+      "html": "A beats B by x m in L m ⇒ speed A : speed B = L : (L − x)"
+    },
+    {
+      "name": "Dead-heat start",
+      "html": "Start = L(1 − v<sub>B</sub>/v<sub>A</sub>)"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "In what ratio must sugar at ₹30/kg be mixed with sugar at ₹45/kg so that the mixture is worth ₹40/kg?",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "3 : 2",
+        "2 : 3"
+      ],
+      "answer": 1,
+      "explanation": "Cheaper : dearer = (45 − 40) : (40 − 30) = 5 : 10 = 1 : 2."
+    },
+    {
+      "q": "20 L of a mixture contains milk and water in the ratio 3 : 2. How much water must be added to make the ratio 1 : 1?",
+      "options": [
+        "2 L",
+        "8 L",
+        "4 L",
+        "6 L"
+      ],
+      "answer": 2,
+      "explanation": "Milk = 12 L, water = 8 L. For 1 : 1 water must be 12 L, so add 12 − 8 = 4 L."
+    },
+    {
+      "q": "A cask holds 50 L of pure juice. 5 L are drawn out and replaced by water; this is done twice. Juice left in the cask is",
+      "options": [
+        "40 L",
+        "40.5 L",
+        "45 L",
+        "41.5 L"
+      ],
+      "answer": 1,
+      "explanation": "Juice left = 50(1 − 5/50)<sup>2</sup> = 50 × 0.81 = 40.5 L. (40 L comes from wrongly subtracting 5 L twice.)"
+    },
+    {
+      "q": "A boat goes downstream at 15 km/h and upstream at 9 km/h. The speed of the stream is",
+      "options": [
+        "6 km/h",
+        "12 km/h",
+        "4 km/h",
+        "3 km/h"
+      ],
+      "answer": 3,
+      "explanation": "v = (D − U)/2 = (15 − 9)/2 = 3 km/h. (6 km/h is the common error of not halving.)"
+    },
+    {
+      "q": "A boat whose speed in still water is 10 km/h goes 48 km downstream in a stream flowing at 2 km/h. Time taken is",
+      "options": [
+        "4 h",
+        "6 h",
+        "4.8 h",
+        "5 h"
+      ],
+      "answer": 0,
+      "explanation": "Downstream speed = 10 + 2 = 12 km/h. Time = 48/12 = 4 h."
+    },
+    {
+      "q": "Pipe A fills a tank in 20 min and pipe B fills it in 30 min. Opened together, they fill it in",
+      "options": [
+        "25 min",
+        "50 min",
+        "12 min",
+        "10 min"
+      ],
+      "answer": 2,
+      "explanation": "Rate = 1/20 + 1/30 = (3 + 2)/60 = 1/12 per min, so 12 min. (25 min is the wrong \"average\" answer.)"
+    },
+    {
+      "q": "A pipe can fill a tank in 8 h, but because of a leak it takes 10 h. The leak alone can empty the full tank in",
+      "options": [
+        "18 h",
+        "40 h",
+        "2 h",
+        "80 h"
+      ],
+      "answer": 1,
+      "explanation": "Leak rate = 1/8 − 1/10 = (5 − 4)/40 = 1/40 per hour, so 40 h. Formula: a(a + t)/t = 8 × 10/2 = 40."
+    },
+    {
+      "q": "In a 100 m race A beats B by 10 m and B beats C by 10 m. By how many metres does A beat C?",
+      "options": [
+        "20 m",
+        "18 m",
+        "21 m",
+        "19 m"
+      ],
+      "answer": 3,
+      "explanation": "A : B = 100 : 90 and B : C = 100 : 90. When A runs 100, B runs 90 and C runs 90 × 0.9 = 81. A beats C by 19 m."
+    },
+    {
+      "q": "A runs 5/3 times as fast as B. In a 300 m race, how much start should A give B so that the race ends in a dead heat?",
+      "options": [
+        "120 m",
+        "180 m",
+        "100 m",
+        "200 m"
+      ],
+      "answer": 0,
+      "explanation": "While A runs 300 m, B runs 300 × 3/5 = 180 m. So B needs a start of 300 − 180 = 120 m."
+    },
+    {
+      "q": "In a game of 100 points, A can give B 25 points and C 40 points. How many points can B give C?",
+      "options": [
+        "15",
+        "25",
+        "20",
+        "10"
+      ],
+      "answer": 2,
+      "explanation": "A : B : C = 100 : 75 : 60. When B scores 100, C scores 60 × 100/75 = 80. So B gives C 20 points. (15 = 40 − 25 is the typical wrong subtraction.)"
+    },
+    {
+      "q": "<b>Assertion (A):</b> If a man rows downstream at 14 km/h and upstream at 8 km/h, the speed of the stream is 3 km/h.<br><b>Reason (R):</b> Speed of stream = (downstream speed − upstream speed)/2.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 0,
+      "explanation": "(14 − 8)/2 = 3 km/h, so A is true, and it is obtained directly from R."
+    },
+    {
+      "q": "In the rule of alligation, the mean price of the mixture",
+      "options": [
+        "can be any positive number",
+        "must be greater than the dearer price",
+        "must lie between the cheaper and the dearer prices",
+        "is always the average of the two prices"
+      ],
+      "answer": 2,
+      "explanation": "A weighted average of c and d always lies between c and d; it equals their simple average only when the quantities are equal."
+    }
+  ],
+  "questions": [
+    {
+      "q": "A boat goes downstream at 18 km/h and upstream at 12 km/h. Find the speed of the stream.",
+      "marks": 1,
+      "answerHtml": "<p>v = (D − U)/2 = (18 − 12)/2 = <b>3 km/h</b>.</p>"
+    },
+    {
+      "q": "A pipe can fill a tank in 5 hours. What part of the tank does it fill in one hour?",
+      "marks": 1,
+      "answerHtml": "<p>Rate = <b>1/5 of the tank per hour</b>.</p>"
+    },
+    {
+      "q": "Find the ratio in which pulses costing ₹96/kg and ₹120/kg must be mixed to obtain a mixture worth ₹105/kg.",
+      "marks": 2,
+      "answerHtml": "<p>By alligation, cheaper : dearer = (120 − 105) : (105 − 96) = 15 : 9 = <b>5 : 3</b>.</p><p>Check: (5 × 96 + 3 × 120)/8 = (480 + 360)/8 = 840/8 = ₹105 ✓.</p>"
+    },
+    {
+      "q": "In a 400 m race A beats B by 20 m or by 5 seconds. Find A's time for the race.",
+      "marks": 2,
+      "answerHtml": "<p>B covers the 20 m gap in 5 s, so B's speed = 20/5 = 4 m/s.</p><p>B's time for 400 m = 400/4 = 100 s. A finishes 5 s earlier, so <b>A's time = 95 s</b>.</p>"
+    },
+    {
+      "q": "Two pipes A and B can fill a tank in 24 minutes and 32 minutes respectively. Both are opened together. After how many minutes should B be closed so that the tank is full in 18 minutes?",
+      "marks": 3,
+      "answerHtml": "<p>A works for the full 18 minutes and fills 18/24 = 3/4 of the tank.</p><p>B must fill the remaining 1 − 3/4 = 1/4 of the tank.</p><p>B fills 1/32 per minute, so it needs (1/4) ÷ (1/32) = 8 minutes.</p><p><b>B should be closed after 8 minutes.</b></p>"
+    },
+    {
+      "q": "The speed of a motorboat in still water is 15 km/h. It goes 30 km downstream and comes back in a total of 4 hours 30 minutes. Find the speed of the stream.",
+      "marks": 3,
+      "answerHtml": "<p>Let the stream speed be v km/h. Then 30/(15 + v) + 30/(15 − v) = 4.5.</p><p>LHS = 30[(15 − v) + (15 + v)]/(225 − v<sup>2</sup>) = 900/(225 − v<sup>2</sup>).</p><p>900/(225 − v<sup>2</sup>) = 4.5 ⇒ 225 − v<sup>2</sup> = 200 ⇒ v<sup>2</sup> = 25 ⇒ v = 5 (speed is positive).</p><p><b>Speed of the stream = 5 km/h.</b> Check: 30/20 + 30/10 = 1.5 + 3 = 4.5 h ✓.</p>"
+    },
+    {
+      "q": "A vessel contains 60 L of a mixture of milk and water in the ratio 7 : 5.<br>(a) How much water must be added to make the ratio 7 : 8?<br>(b) In what ratio must this mixture be mixed with pure water to get a mixture that is 50% milk?<br>(c) If 12 L of the original mixture is removed and replaced by pure milk, find the new ratio of milk to water.",
+      "marks": 5,
+      "answerHtml": "<p>Milk = 60 × 7/12 = 35 L, water = 60 × 5/12 = 25 L.</p><p><b>(a)</b> For milk : water = 7 : 8 with 35 L milk, water must be 35 × 8/7 = 40 L. Water to add = 40 − 25 = <b>15 L</b>.</p><p><b>(b)</b> Milk concentration: mixture = 7/12, water = 0, required = 1/2. By alligation, mixture : water = (1/2 − 0) : (7/12 − 1/2) = 1/2 : 1/12 = <b>6 : 1</b>. (E.g. 60 L mixture + 10 L water gives 35 L milk in 70 L = 50% ✓.)</p><p><b>(c)</b> 12 L of mixture contains 7 L milk and 5 L water. After removal: milk 28 L, water 20 L. Adding 12 L milk: milk 40 L, water 20 L. <b>New ratio = 2 : 1.</b></p>"
+    },
+    {
+      "q": "<b>Case study.</b> On Sports Day, in a 200 m race Riya beats Sana by 20 m and Sana beats Tara by 10 m. Riya completes the race in 25 seconds. In the carrom tournament (a game of 100 points) Riya can give Sana 20 points and Tara 36 points.<br>(i) By how many metres does Riya beat Tara in the 200 m race?<br>(ii) Find Sana's speed and the time by which Riya beats Sana.<br>(iii) How many points can Sana give Tara in a carrom game of 60 points?",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b> When Riya runs 200 m, Sana runs 180 m. Sana : Tara = 200 : 190, so when Sana runs 180 m, Tara runs 180 × 190/200 = 171 m. Riya beats Tara by 200 − 171 = <b>29 m</b>.</p><p><b>(ii)</b> In Riya's 25 s, Sana covers 180 m, so Sana's speed = 180/25 = <b>7.2 m/s</b>. Sana's time for 200 m = 200/7.2 = 250/9 ≈ 27.78 s. Riya beats Sana by 250/9 − 25 = 25/9 ≈ <b>2.78 s</b>.</p><p><b>(iii)</b> Riya : Sana : Tara = 100 : 80 : 64, so Sana : Tara = 80 : 64 = 5 : 4. In a 60-point game, when Sana scores 60, Tara scores 60 × 4/5 = 48. Sana can give Tara <b>12 points</b>.</p>"
+    }
+  ]
+}

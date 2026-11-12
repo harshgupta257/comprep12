@@ -1,0 +1,176 @@
+{
+  "id": "balance-of-payments",
+  "title": "Balance of Payments and Foreign Exchange Rate",
+  "summary": "The balance of payments is a systematic record of all economic transactions between the residents of a country and the rest of the world during a year. This chapter explains the current and capital accounts, balance of trade, autonomous and accommodating transactions, BoP deficit and surplus, and how the foreign exchange rate is determined under fixed, flexible and managed floating systems, including depreciation, appreciation, devaluation and revaluation.",
+  "notes": [
+    {
+      "heading": "Meaning of balance of payments",
+      "html": "<p>The <b>balance of payments (BoP)</b> is a systematic record of all economic transactions between the <b>normal residents</b> of a country and the rest of the world during a given period, usually a year.</p><ul><li>It is a <b>flow</b> concept.</li><li>It follows the <b>double-entry</b> system: every receipt (credit, +) has a matching payment or financing entry (debit, −). Hence, in the accounting sense, BoP always balances.</li><li>Receipts of foreign exchange (exports, inflow of capital) are credits; payments of foreign exchange (imports, outflow of capital) are debits.</li></ul><p>It has two main accounts: the <b>current account</b> and the <b>capital account</b>, plus 'errors and omissions' to cover statistical gaps.</p>"
+    },
+    {
+      "heading": "Current account",
+      "html": "<p>The <b>current account</b> records transactions in goods, services, income and transfers. These transactions do not create claims or liabilities (they do not change assets or liabilities of residents).</p><ul><li><b>Visible trade (merchandise):</b> exports and imports of goods.</li><li><b>Invisibles:</b><ul><li><i>Services</i>: transport, travel and tourism, banking, insurance, software and other business services.</li><li><i>Income</i>: compensation of employees and investment income (interest, dividends, profits) received from or paid abroad.</li><li><i>Transfers</i>: unilateral (one-sided) receipts and payments such as gifts, remittances from workers abroad, donations and grants.</li></ul></li></ul><p><b>Balance of trade (BoT)</b> = Exports of goods − Imports of goods. It covers only visible items.</p><p><b>Current account balance</b> = BoT + Net invisibles. A <b>current account deficit</b> occurs when payments on goods, services, income and transfers exceed receipts.</p><table><thead><tr><th>Balance of trade</th><th>Balance of payments</th></tr></thead><tbody><tr><td>Records only visible items (goods)</td><td>Records visible, invisible and capital transactions</td></tr><tr><td>A narrower concept, part of the current account</td><td>A broader, complete record</td></tr><tr><td>May be in deficit, surplus or balance</td><td>Always balances in the accounting sense</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Capital account",
+      "html": "<p>The <b>capital account</b> records transactions that change the assets or liabilities of residents of a country vis-à-vis the rest of the world.</p><ul><li><b>Foreign direct investment (FDI):</b> purchase of assets abroad that gives control, e.g. setting up a factory or acquiring a controlling stake.</li><li><b>Foreign portfolio investment (FPI):</b> purchase of shares and bonds without control.</li><li><b>Borrowings:</b> external commercial borrowings by firms and loans to and from foreign governments and institutions.</li><li><b>Banking capital:</b> including NRI deposits.</li><li><b>Changes in foreign exchange reserves</b> (official reserve transactions).</li></ul><p>Inflow of capital (borrowing from abroad, FDI into India, sale of assets to foreigners) is a credit; outflow (lending abroad, Indian investment abroad, repayment of loans) is a debit.</p><table><thead><tr><th>Current account</th><th>Capital account</th></tr></thead><tbody><tr><td>Records goods, services, income and transfers</td><td>Records investment, loans and changes in reserves</td></tr><tr><td>Does not change assets or liabilities</td><td>Changes assets or liabilities</td></tr><tr><td>Flow of income-related items</td><td>Flow of capital (claims)</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Autonomous and accommodating transactions; BoP deficit and surplus",
+      "html": "<ul><li><b>Autonomous transactions</b> are undertaken for their own sake, with an economic motive such as profit, independent of the BoP position, e.g. exports, imports, FDI, remittances. They are 'above the line' items.</li><li><b>Accommodating transactions</b> are undertaken to cover a gap in autonomous transactions, e.g. drawing from foreign exchange reserves or borrowing from the IMF. They are 'below the line' items.</li></ul><p><b>BoP deficit:</b> autonomous payments exceed autonomous receipts; financed by running down reserves or official borrowing (reserves fall). <b>BoP surplus:</b> autonomous receipts exceed autonomous payments; reserves rise.</p><p>The decrease or increase in official reserves is called <b>official reserve transactions</b>. The overall BoP balance = Current account balance + Capital account balance (excluding reserves) + errors and omissions.</p>"
+    },
+    {
+      "heading": "Worked numericals on BoP",
+      "html": "<h4>Worked example 1: balance of trade and current account (₹ crore)</h4><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody><tr><td>Exports of goods</td><td>500</td></tr><tr><td>Imports of goods</td><td>700</td></tr><tr><td>Exports of services</td><td>300</td></tr><tr><td>Imports of services</td><td>150</td></tr><tr><td>Net income from abroad</td><td>−30</td></tr><tr><td>Net current transfers</td><td>90</td></tr></tbody></table><p>Balance of trade = 500 − 700 = <b>−200</b> (trade deficit).</p><p>Net services = 300 − 150 = 150. Net invisibles = 150 + (−30) + 90 = 210.</p><p>Current account balance = −200 + 210 = <b>+10</b> (small surplus).</p><h4>Worked example 2: overall BoP (₹ crore)</h4><p>Current account balance = −250; net FDI inflow = 120; net FPI = −40; net external commercial borrowings = 60; net NRI deposits = 30.</p><p>Capital account balance (excluding reserves) = 120 − 40 + 60 + 30 = 170.</p><p>Overall balance = −250 + 170 = <b>−80</b>, a BoP deficit. It is met by drawing down foreign exchange reserves by ₹80 crore (an accommodating transaction).</p>"
+    },
+    {
+      "heading": "Foreign exchange rate and exchange rate systems",
+      "html": "<p>The <b>foreign exchange rate</b> is the price of one unit of a foreign currency in terms of domestic currency, e.g. ₹84 = 1 US$.</p><table><thead><tr><th>Basis</th><th>Fixed exchange rate</th><th>Flexible (floating) exchange rate</th></tr></thead><tbody><tr><td>Determined by</td><td>Government / central bank</td><td>Market forces of demand and supply of foreign exchange</td></tr><tr><td>Changes</td><td>Devaluation or revaluation by official decision</td><td>Depreciation or appreciation through the market</td></tr><tr><td>Merits</td><td>Stability, encourages trade and long-term investment, checks speculation</td><td>No need for large reserves, automatic BoP adjustment, efficient resource allocation</td></tr><tr><td>Demerits</td><td>Needs large reserves; may be overvalued or undervalued; discourages removal of restrictions</td><td>Uncertainty discourages trade and investment; encourages speculation</td></tr></tbody></table><p><b>Managed floating</b> is a mix of both: the rate is determined by the market, but the central bank intervenes by buying or selling foreign exchange to prevent excessive fluctuations. India follows a managed floating system.</p><p>Under the gold standard (a historical fixed system), each currency's value was fixed in terms of gold. The Bretton Woods system (1944) fixed currencies to the US dollar, which was convertible into gold; it broke down in the early 1970s.</p>"
+    },
+    {
+      "heading": "Determination of the exchange rate in a free market",
+      "html": "<p><b>Demand for foreign exchange</b> arises from: imports of goods and services; tourism and study abroad by residents; investment abroad by residents; repayment of loans and interest to foreigners; gifts and transfers abroad; speculation.</p><p>The demand curve <b>slopes downward</b>: when the price of the foreign currency rises (rupee depreciates), imports become costlier in rupees, so demand for foreign exchange falls.</p><p><b>Supply of foreign exchange</b> comes from: exports of goods and services; tourism by foreigners in India; foreign investment (FDI, FPI) into India; remittances from abroad; borrowing from abroad; speculation.</p><p>The supply curve <b>slopes upward</b>: when the price of the foreign currency rises, Indian goods become cheaper for foreigners, exports rise and more foreign exchange flows in.</p><p><b>Equilibrium:</b> the rate is fixed where demand for foreign exchange equals supply.</p><p><b>Diagram in words:</b> on the X-axis measure the quantity of foreign exchange (dollars) and on the Y-axis the exchange rate (₹ per $). The downward-sloping demand curve and upward-sloping supply curve intersect at point E, giving the equilibrium rate OR and quantity OQ. If demand rises (e.g. more imports), the demand curve shifts right and the rate rises: the rupee depreciates. If supply rises (e.g. larger FDI inflows), the supply curve shifts right and the rate falls: the rupee appreciates.</p>"
+    },
+    {
+      "heading": "Depreciation, appreciation, devaluation and revaluation",
+      "html": "<table><thead><tr><th>Term</th><th>Meaning</th><th>System</th></tr></thead><tbody><tr><td>Depreciation</td><td>Fall in the value of domestic currency in terms of foreign currency due to market forces (₹80 → ₹84 per $)</td><td>Flexible</td></tr><tr><td>Appreciation</td><td>Rise in the value of domestic currency due to market forces (₹84 → ₹80 per $)</td><td>Flexible</td></tr><tr><td>Devaluation</td><td>Deliberate reduction in the value of domestic currency by the government</td><td>Fixed</td></tr><tr><td>Revaluation</td><td>Deliberate increase in the value of domestic currency by the government</td><td>Fixed</td></tr></tbody></table><p><b>Effects of depreciation of the rupee:</b> Indian exports become cheaper for foreigners, so exports rise; imports become costlier in rupees, so imports fall. The trade balance tends to improve (if demand is responsive). It can, however, raise domestic prices of imported goods such as crude oil.</p><p><b>Worked example:</b> if the rate moves from ₹80 to ₹84 per dollar, the rupee price of a dollar rises by 4 ÷ 80 × 100 = 5%; the rupee has depreciated. A $100 import now costs ₹8,400 instead of ₹8,000, while an Indian good priced at ₹8,400 costs a foreigner $100 instead of $105.</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Balance of payments", "definition": "A systematic record of all economic transactions between residents of a country and the rest of the world during a year." },
+    { "term": "Balance of trade", "definition": "Difference between the value of exports and imports of <b>goods</b> (visible items) during a year." },
+    { "term": "Invisibles", "definition": "Current account items other than goods: services, income and transfers." },
+    { "term": "Current account", "definition": "The account recording exports and imports of goods and services, income and transfer receipts and payments." },
+    { "term": "Capital account", "definition": "The account recording transactions that change the assets or liabilities of residents with the rest of the world, such as investment and loans." },
+    { "term": "Autonomous transactions", "definition": "International transactions made for their own sake (profit or other economic motive), independent of the BoP position." },
+    { "term": "Accommodating transactions", "definition": "Transactions undertaken to cover a deficit or surplus in autonomous transactions, such as drawing on foreign exchange reserves." },
+    { "term": "Foreign exchange rate", "definition": "The price of one unit of foreign currency in terms of domestic currency." },
+    { "term": "Managed floating", "definition": "An exchange rate system in which the rate is market-determined but the central bank intervenes to limit excessive fluctuations." },
+    { "term": "Depreciation", "definition": "A fall in the value of domestic currency relative to foreign currency due to market forces under a flexible system." },
+    { "term": "Devaluation", "definition": "A deliberate reduction in the value of domestic currency by the government under a fixed exchange rate system." },
+    { "term": "Foreign direct investment", "definition": "Investment from abroad that gives the investor control over the enterprise, such as setting up a subsidiary." }
+  ],
+  "formulas": [
+    { "name": "Balance of trade", "html": "BoT = Exports of goods − Imports of goods" },
+    { "name": "Net invisibles", "html": "Net invisibles = Net services + Net income + Net transfers" },
+    { "name": "Current account balance", "html": "CAB = BoT + Net invisibles" },
+    { "name": "Overall balance of payments", "html": "Overall balance = Current account balance + Capital account balance (excluding reserves) + Errors and omissions" },
+    { "name": "Percentage depreciation", "html": "% change in exchange rate = (New rate − Old rate) ÷ Old rate × 100" }
+  ],
+  "mcqs": [
+    {
+      "q": "Which of the following is recorded in the <b>capital account</b> of the balance of payments?",
+      "options": ["Remittances from Indians working abroad", "Export of software services", "Foreign direct investment into India", "Import of crude oil"],
+      "answer": 2,
+      "explanation": "FDI creates a liability of India towards foreign investors, so it is a capital account item. The other three are current account items (transfers, services and goods)."
+    },
+    {
+      "q": "Exports of goods ₹600 crore, imports of goods ₹850 crore, net invisibles ₹180 crore. The current account balance is:",
+      "options": ["−₹250 crore", "+₹70 crore", "−₹70 crore", "+₹430 crore"],
+      "answer": 2,
+      "explanation": "BoT = 600 − 850 = −250. CAB = −250 + 180 = −₹70 crore. −250 is only the balance of trade."
+    },
+    {
+      "q": "Under a flexible exchange rate, a fall in the value of the domestic currency is called:",
+      "options": ["Depreciation", "Devaluation", "Revaluation", "Appreciation"],
+      "answer": 0,
+      "explanation": "A market-driven fall is depreciation. Devaluation is a deliberate official reduction under a fixed system."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The demand curve for foreign exchange slopes downwards.<br><b>Reason (R):</b> When the price of foreign currency rises, imports become costlier, so the demand for foreign currency falls.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "A higher rupee price of the dollar makes imports dearer in rupees; residents import less and need fewer dollars, which gives the inverse relation. R explains A."
+    },
+    {
+      "q": "Which of the following leads to an <b>appreciation</b> of the Indian rupee?",
+      "options": ["Rise in Indian imports of gold", "Large inflow of foreign portfolio investment into India", "More Indians travelling abroad", "Repayment of foreign loans by India"],
+      "answer": 1,
+      "explanation": "FPI inflows raise the supply of dollars, shifting the supply curve right and lowering the rupee price of the dollar. The other options raise demand for dollars and cause depreciation."
+    },
+    {
+      "q": "Drawing down foreign exchange reserves to meet a deficit is an example of:",
+      "options": ["An autonomous transaction", "A current account transaction", "An unilateral transfer", "An accommodating transaction"],
+      "answer": 3,
+      "explanation": "Reserves are used only because autonomous receipts fell short of autonomous payments, so it is an accommodating (below the line) transaction."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: Balance of trade includes trade in services.<br>Statement 2: The balance of payments always balances in the accounting sense.",
+      "options": ["Both statements are true", "Statement 1 is false and Statement 2 is true", "Statement 1 is true and Statement 2 is false", "Both statements are false"],
+      "answer": 1,
+      "explanation": "BoT covers only goods; services are invisibles. Because of double-entry and accommodating items, the BoP always balances in accounting terms."
+    },
+    {
+      "q": "India follows which exchange rate system?",
+      "options": ["Fixed exchange rate", "Gold standard", "Managed floating", "Pure flexible exchange rate with no intervention"],
+      "answer": 2,
+      "explanation": "The rupee's value is market-determined, but the RBI intervenes by buying and selling dollars to curb excessive volatility, which is managed floating."
+    },
+    {
+      "q": "The rupee moves from ₹82 to ₹86 per US dollar. Which statement is correct?",
+      "options": ["The rupee has appreciated", "Indian exports become costlier for Americans", "The rupee has been revalued", "Imports from the USA become costlier in rupees"],
+      "answer": 3,
+      "explanation": "More rupees are now needed per dollar, so the rupee has depreciated and a dollar-priced import costs more in rupees, while Indian exports become cheaper abroad."
+    },
+    {
+      "q": "Gifts received by Indian residents from relatives abroad are recorded as:",
+      "options": ["Credit in the current account (transfers)", "Debit in the current account", "Credit in the capital account", "Debit in the capital account"],
+      "answer": 0,
+      "explanation": "Gifts are unilateral transfers that bring in foreign exchange and create no liability, so they are a credit under transfers in the current account."
+    },
+    {
+      "q": "Which of the following is a demerit of a fixed exchange rate system?",
+      "options": ["It creates uncertainty in international trade", "It requires the central bank to hold large foreign exchange reserves", "It encourages large-scale speculation", "It leads to frequent fluctuations in the exchange rate"],
+      "answer": 1,
+      "explanation": "To keep the rate at the fixed level the central bank must be ready to buy and sell foreign exchange, which needs large reserves. Uncertainty, speculation and fluctuations are features of flexible rates."
+    },
+    {
+      "q": "Current account deficit is ₹300 crore and net capital inflow (excluding reserves) is ₹350 crore. What happens to foreign exchange reserves?",
+      "options": ["They fall by ₹650 crore", "They fall by ₹50 crore", "They rise by ₹50 crore", "They remain unchanged"],
+      "answer": 2,
+      "explanation": "Overall balance = −300 + 350 = +50, a BoP surplus, which adds ₹50 crore to the reserves."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Define the foreign exchange rate.",
+      "marks": 1,
+      "answerHtml": "<p>The foreign exchange rate is the price of one unit of a foreign currency in terms of the domestic currency, e.g. ₹84 per US dollar.</p>"
+    },
+    {
+      "q": "State whether the following is recorded in the current account or capital account: 'Borrowing by an Indian firm from a foreign bank'.",
+      "marks": 1,
+      "answerHtml": "<p>Capital account, because the borrowing creates a liability of an Indian resident towards a foreign entity.</p>"
+    },
+    {
+      "q": "Distinguish between autonomous and accommodating transactions in the balance of payments.",
+      "marks": 3,
+      "answerHtml": "<table><thead><tr><th>Autonomous transactions</th><th>Accommodating transactions</th></tr></thead><tbody><tr><td>Undertaken for their own sake, for profit or other economic motive</td><td>Undertaken to cover a deficit or surplus in autonomous transactions</td></tr><tr><td>Independent of the BoP position</td><td>Depend on the BoP position</td></tr><tr><td>'Above the line' items</td><td>'Below the line' items</td></tr><tr><td>Examples: exports, imports, FDI, remittances</td><td>Examples: drawing on forex reserves, borrowing from the IMF</td></tr></tbody></table>"
+    },
+    {
+      "q": "Explain the meaning of a 'managed floating' exchange rate system. Why do countries prefer it?",
+      "marks": 3,
+      "answerHtml": "<p>Under <b>managed floating</b>, the exchange rate is basically determined by the demand and supply of foreign exchange in the market, but the central bank intervenes when the rate moves too sharply. It sells foreign currency from its reserves when the domestic currency is depreciating too fast and buys foreign currency when it is appreciating too fast.</p><p>Countries prefer it because it combines the <b>flexibility</b> of a floating rate (automatic adjustment, no fixed level to defend) with a degree of <b>stability</b> (avoiding wild fluctuations that harm trade and investment and encourage speculation).</p>"
+    },
+    {
+      "q": "'Depreciation of the domestic currency is likely to improve the balance of trade.' Defend or refute.",
+      "marks": 4,
+      "answerHtml": "<p>The statement is <b>defended</b> (under normal conditions).</p><ul><li>When the rupee depreciates, a foreign buyer needs fewer dollars to buy an Indian good priced in rupees. Indian <b>exports become cheaper</b> abroad and their demand rises.</li><li>At the same time, imported goods priced in dollars now cost more rupees. <b>Imports become costlier</b> and their demand falls.</li><li>Rising exports and falling imports reduce the trade deficit, improving the balance of trade.</li></ul><p>Example: at ₹80 per dollar a $10 import costs ₹800; at ₹84 it costs ₹840, so imports fall.</p><p>The improvement depends on demand being sufficiently responsive to price; for essential imports such as crude oil, the import bill may rise in the short run.</p>"
+    },
+    {
+      "q": "From the following data (₹ crore), calculate (a) balance of trade (b) current account balance: Exports of goods 900; Imports of goods 1,200; Export of services 450; Import of services 250; Net income receipts −60; Net transfers 140. Comment on the result.",
+      "marks": 4,
+      "answerHtml": "<p><b>(a)</b> Balance of trade = 900 − 1,200 = <b>−₹300 crore</b> (deficit).</p><p><b>(b)</b> Net services = 450 − 250 = 200. Net invisibles = 200 + (−60) + 140 = 280.</p><p>Current account balance = −300 + 280 = <b>−₹20 crore</b> (deficit).</p><p><b>Comment:</b> the large trade deficit is mostly offset by surplus on invisibles (services and transfers), leaving a small current account deficit that must be financed by a net capital inflow or use of reserves.</p>"
+    },
+    {
+      "q": "How is the equilibrium exchange rate determined in a flexible exchange rate system? What will happen to the rate if demand for foreign exchange rises?",
+      "marks": 6,
+      "answerHtml": "<p>Under a flexible system the exchange rate is the price at which the <b>demand</b> for foreign exchange equals its <b>supply</b>.</p><p><b>Demand</b> comes from imports, travel and study abroad, investment abroad, repayment of foreign loans and gifts sent abroad. It is inversely related to the exchange rate: a higher rupee price of the dollar makes imports costlier, so less foreign exchange is demanded. The demand curve slopes downward.</p><p><b>Supply</b> comes from exports, foreign tourists, foreign investment into the country, remittances and borrowing from abroad. It is directly related to the rate: a higher rupee price of the dollar makes domestic goods cheaper for foreigners, so exports and dollar inflows rise. The supply curve slopes upward.</p><p><b>Diagram in words:</b> X-axis = quantity of dollars, Y-axis = ₹ per $. The demand curve DD and supply curve SS intersect at E, giving the equilibrium rate OR and quantity OQ. At a rate above OR supply exceeds demand and the rate falls; below OR demand exceeds supply and the rate rises.</p><p><b>Rise in demand:</b> if, say, imports increase, DD shifts right to D′D′. At the old rate OR there is excess demand for dollars, so the rate rises to a new equilibrium OR′ (with a larger quantity OQ′). The rupee <b>depreciates</b>. This makes exports cheaper and imports dearer, which moves the market to the new equilibrium.</p>"
+    },
+    {
+      "q": "Explain the components of the current account of the balance of payments. Distinguish between balance of trade and current account balance.",
+      "marks": 6,
+      "answerHtml": "<p>The <b>current account</b> records:</p><ol><li><b>Visible trade:</b> exports and imports of goods (merchandise). Their difference is the balance of trade.</li><li><b>Services:</b> receipts and payments for transport, travel, insurance, banking, software and other business services.</li><li><b>Income:</b> compensation of employees and investment income such as interest, dividends and profits received from or paid to the rest of the world.</li><li><b>Transfers:</b> unilateral receipts and payments like workers' remittances, gifts, donations and grants, which involve no return obligation.</li></ol><p>Items 2–4 together are called <b>invisibles</b>.</p><table><thead><tr><th>Balance of trade</th><th>Current account balance</th></tr></thead><tbody><tr><td>Exports of goods − Imports of goods</td><td>BoT + Net invisibles (services, income, transfers)</td></tr><tr><td>Covers only visible items</td><td>Covers both visible and invisible items</td></tr><tr><td>Narrower concept</td><td>Wider concept that includes BoT</td></tr></tbody></table><p>For India, the BoT is usually in deficit, while net invisibles (especially software services and remittances) are positive, which reduces the current account deficit.</p>"
+    }
+  ]
+}

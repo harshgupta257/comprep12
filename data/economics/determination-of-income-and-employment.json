@@ -1,0 +1,188 @@
+{
+  "id": "determination-of-income-and-employment",
+  "title": "Determination of Income and Employment",
+  "summary": "This chapter builds the Keynesian model of income determination in a two-sector economy: aggregate demand and aggregate supply, the consumption and saving functions, propensities to consume and save, and equilibrium output where AD = AS or planned saving = planned investment. It then explains the investment multiplier and the problems of excess and deficient demand, along with fiscal and monetary measures to correct them.",
+  "notes": [
+    {
+      "heading": "Aggregate demand and aggregate supply",
+      "html": "<p><b>Aggregate demand (AD)</b> is the total planned (ex-ante) expenditure on final goods and services in an economy during a period at a given level of income.</p><ul><li>Four-sector economy: AD = C + I + G + (X − M).</li><li>Two-sector economy (households and firms): <b>AD = C + I</b>.</li></ul><p><b>Aggregate supply (AS)</b> is the total planned output of final goods and services; its money value equals national income, which households either consume or save. Hence <b>AS = C + S = Y</b>.</p><p><b>Diagram in words:</b> with income/output on the X-axis and AD/AS on the Y-axis, the AS curve is a 45° line from the origin because at every point AS equals income. The AD curve starts above the origin (at C̄ + Ī, because autonomous consumption and investment exist even at zero income) and rises with a slope equal to MPC, which is less than 1, so it is flatter than the 45° line.</p><p><b>Ex-ante vs ex-post:</b> ex-ante means planned or intended (e.g. planned investment); ex-post means actual or realised (actual investment = planned + unplanned inventory change). Ex-post saving always equals ex-post investment; equilibrium requires ex-ante saving = ex-ante investment.</p>"
+    },
+    {
+      "heading": "Consumption function and saving function",
+      "html": "<p><b>Consumption function</b> shows the functional relationship between consumption and income: C = f(Y). In linear form <b>C = C̄ + bY</b>, where C̄ is autonomous consumption (consumption at zero income, financed by past savings or borrowing) and b is the marginal propensity to consume.</p><p><b>Saving function</b>: S = Y − C = −C̄ + (1 − b)Y.</p><h4>Schedule (C̄ = 40, MPC = 0.8), ₹ crore</h4><table><thead><tr><th>Income (Y)</th><th>Consumption (C)</th><th>Saving (S)</th><th>APC</th><th>APS</th></tr></thead><tbody><tr><td>0</td><td>40</td><td>−40</td><td>–</td><td>–</td></tr><tr><td>100</td><td>120</td><td>−20</td><td>1.20</td><td>−0.20</td></tr><tr><td>200</td><td>200</td><td>0</td><td>1.00</td><td>0</td></tr><tr><td>300</td><td>280</td><td>20</td><td>0.93</td><td>0.07</td></tr><tr><td>400</td><td>360</td><td>40</td><td>0.90</td><td>0.10</td></tr><tr><td>500</td><td>440</td><td>60</td><td>0.88</td><td>0.12</td></tr></tbody></table><p>The <b>break-even point</b> is at Y = 200, where C = Y and S = 0. Below it there is dissaving.</p><p><b>Diagram in words:</b> the consumption curve starts at 40 on the Y-axis and cuts the 45° line at the break-even point (Y = 200). The saving curve starts at −40 below the origin, cuts the X-axis at the same income (200) and lies above it at higher income. Both are straight lines here because MPC and MPS are constant.</p>"
+    },
+    {
+      "heading": "Propensities to consume and save",
+      "html": "<table><thead><tr><th>Concept</th><th>Formula</th><th>Range and behaviour</th></tr></thead><tbody><tr><td>Average propensity to consume (APC)</td><td>C ÷ Y</td><td>Can be more than 1 (below break-even), equal to 1 (at break-even) or less than 1; falls as income rises</td></tr><tr><td>Average propensity to save (APS)</td><td>S ÷ Y</td><td>Can be negative, zero or positive but never equal to 1 in practice; rises as income rises</td></tr><tr><td>Marginal propensity to consume (MPC)</td><td>ΔC ÷ ΔY</td><td>Between 0 and 1 (0 ≤ MPC ≤ 1)</td></tr><tr><td>Marginal propensity to save (MPS)</td><td>ΔS ÷ ΔY</td><td>Between 0 and 1 (0 ≤ MPS ≤ 1)</td></tr></tbody></table><p><b>Relations (derivation):</b></p><ul><li>Y = C + S. Dividing by Y: 1 = C/Y + S/Y, so <b>APC + APS = 1</b>.</li><li>ΔY = ΔC + ΔS. Dividing by ΔY: 1 = ΔC/ΔY + ΔS/ΔY, so <b>MPC + MPS = 1</b>.</li></ul><p>APC cannot be zero because some consumption takes place even at zero income. MPC can be zero in theory (if all extra income is saved) or 1 (if all extra income is consumed).</p>"
+    },
+    {
+      "heading": "Investment",
+      "html": "<p><b>Investment</b> is addition to the stock of physical capital (machines, buildings, inventories). In this chapter investment refers to <b>planned</b> investment by firms.</p><ul><li><b>Autonomous investment</b> does not depend on income; it depends on factors such as new technology, government policy and long-term expectations. Its curve is a horizontal line parallel to the X-axis.</li><li><b>Induced investment</b> rises with income (profit expectations). It is ignored in the simple model.</li></ul><p>The model assumes investment is autonomous (Ī), the price level is fixed and there is excess capacity, so output can rise with demand without any rise in prices.</p>"
+    },
+    {
+      "heading": "Equilibrium level of income",
+      "html": "<p>Equilibrium is reached where <b>AD = AS</b>, or equivalently where <b>planned saving = planned investment</b> (S = I).</p><h4>Worked example 1 (schedule): C̄ = 40, MPC = 0.8, I = 40, ₹ crore</h4><table><thead><tr><th>Y (= AS)</th><th>C</th><th>S</th><th>I</th><th>AD = C + I</th><th>Situation</th></tr></thead><tbody><tr><td>200</td><td>200</td><td>0</td><td>40</td><td>240</td><td>AD &gt; AS: output rises</td></tr><tr><td>300</td><td>280</td><td>20</td><td>40</td><td>320</td><td>AD &gt; AS: output rises</td></tr><tr><td><b>400</b></td><td>360</td><td>40</td><td>40</td><td><b>400</b></td><td><b>Equilibrium</b></td></tr><tr><td>500</td><td>440</td><td>60</td><td>40</td><td>480</td><td>AD &lt; AS: output falls</td></tr></tbody></table><p><b>Adjustment mechanism:</b> if AD &gt; AS (S &lt; I), planned demand exceeds production, inventories fall below the desired level, firms expand output and income rises. If AD &lt; AS (S &gt; I), unsold goods pile up (unplanned inventory accumulation), firms cut output and income falls. The process stops only where AD = AS.</p><p><b>Algebraic derivation:</b> Y = C + I = C̄ + bY + Ī ⇒ Y − bY = C̄ + Ī ⇒ <b>Y = (C̄ + Ī) ÷ (1 − b)</b>. Here Y = (40 + 40) ÷ 0.2 = 400. ✓</p><h4>Worked example 2: C = 100 + 0.8Y, I = ₹50 crore</h4><p>Y = (100 + 50) ÷ (1 − 0.8) = 150 ÷ 0.2 = <b>₹750 crore</b>.</p><p>Check: C = 100 + 0.8 × 750 = 700; S = 750 − 700 = 50 = I; AD = 700 + 50 = 750 = Y. ✓</p><p><b>Diagram in words:</b> the AD (C + I) line cuts the 45° AS line at point E, giving equilibrium income OY. In the saving–investment version, the upward-sloping S curve cuts the horizontal I line at the same income OY.</p>"
+    },
+    {
+      "heading": "Investment multiplier",
+      "html": "<p>The <b>investment multiplier (K)</b> is the ratio of the change in income to the change in investment that caused it: <b>K = ΔY ÷ ΔI</b>. Since ΔY = ΔC + ΔI, it can be shown that <b>K = 1 ÷ (1 − MPC) = 1 ÷ MPS</b>.</p><p><b>Derivation:</b> ΔY = ΔC + ΔI. Dividing by ΔY: 1 = MPC + ΔI/ΔY ⇒ ΔI/ΔY = 1 − MPC ⇒ ΔY/ΔI = 1/(1 − MPC).</p><h4>Working of the multiplier (ΔI = ₹100 crore, MPC = 0.8)</h4><table><thead><tr><th>Round</th><th>ΔI</th><th>ΔY</th><th>ΔC (0.8 of ΔY)</th><th>ΔS (0.2 of ΔY)</th></tr></thead><tbody><tr><td>1</td><td>100</td><td>100</td><td>80</td><td>20</td></tr><tr><td>2</td><td>–</td><td>80</td><td>64</td><td>16</td></tr><tr><td>3</td><td>–</td><td>64</td><td>51.2</td><td>12.8</td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td><td>…</td></tr><tr><td>Total</td><td>100</td><td><b>500</b></td><td>400</td><td>100</td></tr></tbody></table><p>Income rises because one person's spending is another's income. The process ends when the extra saving (₹100) equals the extra investment.</p><p><b>Range:</b> K lies between 1 (MPC = 0) and infinity (MPC = 1). The higher the MPC, the larger the multiplier.</p><h4>Worked example 3</h4><p>MPS = 0.25, ΔI = ₹500 crore. K = 1 ÷ 0.25 = 4. ΔY = 4 × 500 = <b>₹2,000 crore</b>. ΔC = 2,000 × 0.75 = ₹1,500 crore.</p><h4>Worked example 4</h4><p>Investment rises by ₹250 crore and income rises by ₹1,000 crore. K = 1,000 ÷ 250 = 4. MPS = 1/K = 0.25; MPC = 0.75.</p><h4>Worked example 5 (new equilibrium)</h4><p>In example 2 (C = 100 + 0.8Y, I = 50), if investment rises by ₹20 crore, ΔY = 20 × 1/0.2 = 100, so the new equilibrium income = 750 + 100 = <b>₹850 crore</b>.</p>"
+    },
+    {
+      "heading": "Full employment, unemployment and the two gaps",
+      "html": "<p><b>Full employment</b> is the situation in which all those who are able and willing to work at the existing wage rate get work. There may still be some frictional and structural unemployment. <b>Voluntary unemployment</b>: people unwilling to work at the prevailing wage. <b>Involuntary unemployment</b>: people willing and able to work at the prevailing wage but not finding work.</p><p>Equilibrium can occur at less than full employment (Keynes) if AD is not sufficient.</p><table><thead><tr><th>Basis</th><th>Excess demand</th><th>Deficient demand</th></tr></thead><tbody><tr><td>Meaning</td><td>AD exceeds AS at the full employment level of output</td><td>AD falls short of AS at the full employment level of output</td></tr><tr><td>Gap</td><td>Inflationary gap = AD at full employment − AS at full employment</td><td>Deflationary gap = AS at full employment − AD at full employment</td></tr><tr><td>Effect on output and employment</td><td>No rise possible (already full employment)</td><td>Output and employment fall; involuntary unemployment appears</td></tr><tr><td>Effect on prices</td><td>Price level rises (inflation)</td><td>Price level tends to fall (deflation)</td></tr></tbody></table><p><b>Causes of excess demand:</b> rise in household consumption (fall in saving), rise in investment due to easy credit, rise in government expenditure or deficit financing, rise in exports, fall in taxes. <b>Causes of deficient demand:</b> the opposite of these.</p><h4>Worked example 6</h4><p>Full employment output = ₹1,000 crore. If AD at that level is ₹1,100 crore, the inflationary gap = 1,100 − 1,000 = <b>₹100 crore</b>. If instead AD at full employment is ₹950 crore, the deflationary gap = 1,000 − 950 = <b>₹50 crore</b>.</p><p><b>Diagram in words:</b> draw the 45° AS line and mark full employment output Y<sub>F</sub> on the X-axis. If the AD line passes above the AS line at Y<sub>F</sub>, the vertical distance between them at Y<sub>F</sub> is the inflationary gap. If the AD line passes below the AS line at Y<sub>F</sub>, the vertical distance is the deflationary gap, and the actual equilibrium lies to the left of Y<sub>F</sub>.</p>"
+    },
+    {
+      "heading": "Measures to correct excess and deficient demand",
+      "html": "<table><thead><tr><th>Measure</th><th>To correct excess demand</th><th>To correct deficient demand</th></tr></thead><tbody><tr><td><b>Fiscal (by government)</b></td><td></td><td></td></tr><tr><td>Taxes</td><td>Raise taxes to reduce disposable income</td><td>Cut taxes to raise disposable income</td></tr><tr><td>Government expenditure</td><td>Reduce public spending on works, salaries, subsidies</td><td>Increase public spending, e.g. on infrastructure</td></tr><tr><td>Public borrowing / deficit financing</td><td>Borrow more from the public, reduce deficit financing</td><td>Reduce borrowing from the public; deficit financing</td></tr><tr><td><b>Monetary (by central bank)</b></td><td></td><td></td></tr><tr><td>Repo rate / bank rate</td><td>Raise</td><td>Lower</td></tr><tr><td>CRR / SLR</td><td>Raise</td><td>Lower</td></tr><tr><td>Open market operations</td><td>Sell government securities</td><td>Buy government securities</td></tr><tr><td>Margin requirement</td><td>Raise</td><td>Lower</td></tr></tbody></table><p>The aim in both cases is to bring AD back to the level of AS at full employment, removing the inflationary or deflationary gap.</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Aggregate demand", "definition": "Total planned expenditure on final goods and services in an economy at a given level of income; AD = C + I in a two-sector economy." },
+    { "term": "Aggregate supply", "definition": "Total planned output of final goods and services, equal in value to national income; AS = C + S." },
+    { "term": "Autonomous consumption", "definition": "The minimum consumption (C̄) that takes place even at zero income; independent of income." },
+    { "term": "Marginal propensity to consume", "definition": "The ratio of change in consumption to change in income, MPC = ΔC/ΔY." },
+    { "term": "Average propensity to save", "definition": "The ratio of saving to income at a given income level, APS = S/Y." },
+    { "term": "Break-even point", "definition": "The level of income at which consumption equals income and saving is zero." },
+    { "term": "Ex-ante investment", "definition": "Planned or intended investment that firms wish to undertake during a period." },
+    { "term": "Investment multiplier", "definition": "The ratio of the final change in income to the initial change in investment, K = ΔY/ΔI = 1/MPS." },
+    { "term": "Full employment", "definition": "Situation where everyone who is able and willing to work at the prevailing wage rate gets work." },
+    { "term": "Involuntary unemployment", "definition": "Unemployment of people who are able and willing to work at the existing wage rate but do not get work." },
+    { "term": "Inflationary gap", "definition": "The excess of aggregate demand over aggregate supply at the full employment level of output; it measures excess demand." },
+    { "term": "Deflationary gap", "definition": "The shortfall of aggregate demand from aggregate supply at the full employment level of output; it measures deficient demand." }
+  ],
+  "formulas": [
+    { "name": "Aggregate demand (two-sector)", "html": "AD = C + I" },
+    { "name": "Aggregate demand (four-sector)", "html": "AD = C + I + G + (X − M)" },
+    { "name": "Aggregate supply", "html": "AS = C + S = Y" },
+    { "name": "Consumption function", "html": "C = C̄ + bY, where b = MPC" },
+    { "name": "Saving function", "html": "S = −C̄ + (1 − b)Y" },
+    { "name": "Average propensity to consume", "html": "APC = C ÷ Y" },
+    { "name": "Average propensity to save", "html": "APS = S ÷ Y" },
+    { "name": "Marginal propensity to consume", "html": "MPC = ΔC ÷ ΔY" },
+    { "name": "Marginal propensity to save", "html": "MPS = ΔS ÷ ΔY" },
+    { "name": "Sum of average propensities", "html": "APC + APS = 1" },
+    { "name": "Sum of marginal propensities", "html": "MPC + MPS = 1" },
+    { "name": "Equilibrium condition", "html": "AD = AS, or planned S = planned I" },
+    { "name": "Equilibrium income", "html": "Y = (C̄ + Ī) ÷ (1 − b)" },
+    { "name": "Investment multiplier", "html": "K = ΔY ÷ ΔI = 1 ÷ (1 − MPC) = 1 ÷ MPS" },
+    { "name": "Change in income", "html": "ΔY = K × ΔI" },
+    { "name": "Inflationary gap", "html": "Inflationary gap = AD<sub>F</sub> − AS<sub>F</sub> (at full employment output)" },
+    { "name": "Deflationary gap", "html": "Deflationary gap = AS<sub>F</sub> − AD<sub>F</sub> (at full employment output)" }
+  ],
+  "mcqs": [
+    {
+      "q": "If MPC = 0.75, the value of the investment multiplier is:",
+      "options": ["0.25", "1.33", "3", "4"],
+      "answer": 3,
+      "explanation": "K = 1 ÷ (1 − MPC) = 1 ÷ 0.25 = 4."
+    },
+    {
+      "q": "In an economy C = 200 + 0.5Y and investment = ₹300 crore. The equilibrium level of income is:",
+      "options": ["₹1,000 crore", "₹500 crore", "₹1,500 crore", "₹600 crore"],
+      "answer": 0,
+      "explanation": "Y = (C̄ + I) ÷ (1 − MPC) = (200 + 300) ÷ 0.5 = ₹1,000 crore. Check: C = 200 + 500 = 700; AD = 700 + 300 = 1,000 = Y."
+    },
+    {
+      "q": "Which of the following can be negative?",
+      "options": ["MPC", "APC", "APS", "MPS in the Keynesian range"],
+      "answer": 2,
+      "explanation": "At income below the break-even point saving is negative (dissaving), so APS is negative. APC is always positive, and MPC and MPS lie between 0 and 1."
+    },
+    {
+      "q": "At the break-even point:",
+      "options": ["APS = 1", "APC = 1", "MPC = 1", "Investment = 0"],
+      "answer": 1,
+      "explanation": "At break-even, C = Y so APC = C/Y = 1 and saving (and APS) is zero."
+    },
+    {
+      "q": "If planned saving exceeds planned investment, then:",
+      "options": ["Inventories fall below the desired level and output rises", "Unplanned inventories accumulate and output falls", "The economy is in equilibrium", "Prices must rise"],
+      "answer": 1,
+      "explanation": "S &gt; I means AD &lt; AS: firms cannot sell all they produce, unsold stocks pile up and they reduce output until S = I."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The value of the investment multiplier is higher when MPC is higher.<br><b>Reason (R):</b> A higher MPC means a larger part of each additional income is spent, generating more income in successive rounds.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "K = 1/(1 − MPC) rises with MPC because each round of spending, which becomes someone's income, is larger. R explains A."
+    },
+    {
+      "q": "Investment increases by ₹400 crore and MPS is 0.2. The increase in consumption is:",
+      "options": ["₹2,000 crore", "₹400 crore", "₹1,600 crore", "₹80 crore"],
+      "answer": 2,
+      "explanation": "K = 1/0.2 = 5, so ΔY = 2,000. ΔC = ΔY − ΔI = 2,000 − 400 = ₹1,600 crore (or MPC × ΔY = 0.8 × 2,000)."
+    },
+    {
+      "q": "Which of the following is a measure to correct deficient demand?",
+      "options": ["Raising the repo rate", "Selling government securities", "Increasing taxes", "Increasing government expenditure on public works"],
+      "answer": 3,
+      "explanation": "Higher government spending directly raises AD. The other three reduce AD and are used against excess demand."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: Excess demand at full employment leads to a rise in output and employment.<br>Statement 2: Deficient demand can cause involuntary unemployment.",
+      "options": ["Both statements are true", "Both statements are false", "Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true"],
+      "answer": 3,
+      "explanation": "At full employment output cannot rise further, so excess demand only raises prices. Deficient demand reduces output, so some willing workers lose work."
+    },
+    {
+      "q": "The slope of the consumption curve is measured by:",
+      "options": ["MPC", "APC", "Autonomous consumption", "MPS"],
+      "answer": 0,
+      "explanation": "Slope = ΔC/ΔY = MPC. APC is the slope of a ray from the origin to a point on the curve, and C̄ is the intercept."
+    },
+    {
+      "q": "If the investment multiplier is 5 and income rises by ₹1,500 crore, the initial change in investment was:",
+      "options": ["₹7,500 crore", "₹300 crore", "₹1,200 crore", "₹500 crore"],
+      "answer": 1,
+      "explanation": "ΔI = ΔY ÷ K = 1,500 ÷ 5 = ₹300 crore."
+    },
+    {
+      "q": "The minimum value of the investment multiplier is:",
+      "options": ["Zero", "Infinity", "One", "Less than one"],
+      "answer": 2,
+      "explanation": "If MPC = 0 (MPS = 1), K = 1/1 = 1: income rises only by the amount of extra investment. K can never be less than 1."
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is meant by ex-ante investment?",
+      "marks": 1,
+      "answerHtml": "<p>Ex-ante investment is the planned or intended investment that firms wish to make during a period of time.</p>"
+    },
+    {
+      "q": "Can the value of the average propensity to consume be greater than one? Give a reason.",
+      "marks": 1,
+      "answerHtml": "<p>Yes. At income levels below the break-even point, consumption exceeds income (due to autonomous consumption financed by past savings or borrowing), so APC = C/Y &gt; 1.</p>"
+    },
+    {
+      "q": "Complete the table: Income (₹) 0, 100, 200, 300; Consumption (₹) 50, 125, 200, 275. Find saving, APC and MPC at each level.",
+      "marks": 3,
+      "answerHtml": "<table><thead><tr><th>Y</th><th>C</th><th>S = Y − C</th><th>APC = C/Y</th><th>MPC = ΔC/ΔY</th></tr></thead><tbody><tr><td>0</td><td>50</td><td>−50</td><td>–</td><td>–</td></tr><tr><td>100</td><td>125</td><td>−25</td><td>1.25</td><td>75/100 = 0.75</td></tr><tr><td>200</td><td>200</td><td>0</td><td>1.00</td><td>0.75</td></tr><tr><td>300</td><td>275</td><td>25</td><td>0.92</td><td>0.75</td></tr></tbody></table><p>The break-even point is at income ₹200, where saving is zero.</p>"
+    },
+    {
+      "q": "In an economy, investment increases by ₹1,100 crore and MPC is 0.9. Calculate the total increase in income and consumption.",
+      "marks": 3,
+      "answerHtml": "<p>K = 1 ÷ (1 − MPC) = 1 ÷ (1 − 0.9) = 1 ÷ 0.1 = 10.</p><p>ΔY = K × ΔI = 10 × 1,100 = <b>₹11,000 crore</b>.</p><p>ΔC = MPC × ΔY = 0.9 × 11,000 = <b>₹9,900 crore</b> (also ΔY − ΔI = 11,000 − 1,100 = 9,900).</p>"
+    },
+    {
+      "q": "In an economy, C = 500 + 0.75Y and investment = ₹1,000 crore. Calculate (a) equilibrium income (b) consumption at equilibrium (c) saving at equilibrium. Verify that S = I.",
+      "marks": 4,
+      "answerHtml": "<p><b>(a)</b> Y = (C̄ + I) ÷ (1 − b) = (500 + 1,000) ÷ (1 − 0.75) = 1,500 ÷ 0.25 = <b>₹6,000 crore</b>.</p><p><b>(b)</b> C = 500 + 0.75 × 6,000 = 500 + 4,500 = <b>₹5,000 crore</b>.</p><p><b>(c)</b> S = Y − C = 6,000 − 5,000 = <b>₹1,000 crore</b>.</p><p>Verification: saving (₹1,000 crore) = investment (₹1,000 crore), so the economy is in equilibrium. Also AD = C + I = 5,000 + 1,000 = 6,000 = Y.</p>"
+    },
+    {
+      "q": "'An increase in investment always leads to a proportionate increase in income.' Defend or refute.",
+      "marks": 4,
+      "answerHtml": "<p>The statement is <b>refuted</b>. An increase in investment leads to a <b>more than proportionate</b> increase in income (unless MPC = 0) because of the multiplier.</p><p>When investment rises by ΔI, the income of those producing capital goods rises by ΔI. They spend a part (MPC) of it on consumption, which becomes income for others, who again spend a part. These rounds of spending continue, so the final rise in income is ΔY = ΔI × 1/(1 − MPC).</p><p>Example: if ΔI = ₹100 crore and MPC = 0.8, K = 5 and ΔY = ₹500 crore, five times the increase in investment. Only in the extreme case MPC = 0 does income rise by the same amount as investment.</p>"
+    },
+    {
+      "q": "Explain, with the help of a schedule, how equilibrium income is determined by the aggregate demand–aggregate supply approach. What happens if AD is greater than AS?",
+      "marks": 6,
+      "answerHtml": "<p>In a two-sector economy, AD = C + I and AS = C + S = Y. Suppose C = 40 + 0.8Y and planned investment I = 40 (₹ crore).</p><table><thead><tr><th>Y = AS</th><th>C</th><th>I</th><th>AD = C + I</th><th>Result</th></tr></thead><tbody><tr><td>200</td><td>200</td><td>40</td><td>240</td><td>AD &gt; AS, output rises</td></tr><tr><td>300</td><td>280</td><td>40</td><td>320</td><td>AD &gt; AS, output rises</td></tr><tr><td>400</td><td>360</td><td>40</td><td>400</td><td>Equilibrium</td></tr><tr><td>500</td><td>440</td><td>40</td><td>480</td><td>AD &lt; AS, output falls</td></tr></tbody></table><p>Equilibrium income is <b>₹400 crore</b>, where AD = AS. Algebraically Y = (40 + 40) ÷ 0.2 = 400.</p><p><b>Diagram in words:</b> the AS curve is the 45° line from the origin; the AD curve starts at 80 on the vertical axis and rises with slope 0.8. They intersect at point E, corresponding to income 400 on the horizontal axis.</p><p><b>If AD &gt; AS</b> (e.g. at Y = 300, AD = 320): buyers want to buy more than is being produced, so firms meet the extra demand from their stocks. Inventories fall below the planned level, so firms increase production and employment. Income rises, and this continues until AD = AS at Y = 400. Conversely, if AD &lt; AS, unsold stocks accumulate and output falls back towards equilibrium.</p>"
+    },
+    {
+      "q": "What is meant by deficient demand? Explain its effects and any two fiscal and two monetary measures to correct it.",
+      "marks": 6,
+      "answerHtml": "<p><b>Deficient demand</b> is the situation in which aggregate demand falls short of aggregate supply at the full employment level of output. The shortfall is the <b>deflationary gap</b>.</p><p><b>Effects:</b></p><ul><li><b>Output:</b> firms cannot sell their output, inventories pile up and they cut production, so equilibrium output settles below full employment.</li><li><b>Employment:</b> involuntary unemployment appears as firms reduce their workforce.</li><li><b>Prices:</b> the general price level tends to fall (deflationary tendency).</li></ul><p><b>Fiscal measures:</b></p><ol><li><b>Increase government expenditure</b> on public works such as roads and housing; this directly raises AD and, through the multiplier, income and employment.</li><li><b>Reduce taxes</b>, which raises disposable income and therefore consumption and investment demand.</li></ol><p><b>Monetary measures:</b></p><ol><li><b>Lower the repo rate</b>: banks borrow from the RBI more cheaply and reduce their lending rates, encouraging borrowing for consumption and investment.</li><li><b>Buy government securities (OMO) or lower CRR</b>: bank reserves rise, the money multiplier rises and credit expands.</li></ol>"
+    }
+  ]
+}

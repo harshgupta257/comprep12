@@ -1,0 +1,168 @@
+{
+  "id": "business-environment",
+  "title": "Business Environment",
+  "summary": "Business environment is the sum total of all individuals, institutions and other forces outside the control of a business enterprise that may affect its performance. This chapter covers its features, importance, dimensions (economic, social, technological, political and legal) and the concept and features of demonetisation.",
+  "notes": [
+    {
+      "heading": "Meaning of Business Environment",
+      "html": "<p><b>Business environment</b> means the sum total of all individuals, institutions and other forces that are <b>outside the control</b> of a business enterprise but that may affect its performance.</p><ul><li>Individuals – customers, competitors, owners.</li><li>Institutions – suppliers, government, regulators, media, trade unions.</li><li>Forces – economic, social, political, technological and legal factors.</li></ul><p>A business cannot control its environment; it can only <b>adapt</b> to it.</p>"
+    },
+    {
+      "heading": "Features of Business Environment",
+      "html": "<ol><li><b>Totality of external forces</b> – it is the aggregate of all things outside the firm; hence it is aggregative in nature.</li><li><b>Specific and general forces</b> – specific forces (customers, competitors, suppliers, investors) directly affect individual firms; general forces (social, political, legal, technological) affect all firms indirectly.</li><li><b>Inter-relatedness</b> – different forces are closely linked (e.g. rising health awareness increases demand for organic food, encouraging new technology and laws on labelling).</li><li><b>Dynamic nature</b> – it keeps changing due to changes in technology, consumer tastes and government policy.</li><li><b>Uncertainty</b> – future changes are difficult to predict, especially in fast-changing fields such as fashion or technology.</li><li><b>Complexity</b> – it consists of many inter-related forces, so it is difficult to understand fully.</li><li><b>Relativity</b> – it differs from country to country and region to region (e.g. demand for saris in India vs elsewhere).</li></ol><p><b>Memory aid:</b> <i>TSIDUCR</i> – Totality, Specific and general, Inter-related, Dynamic, Uncertain, Complex, Relative.</p>"
+    },
+    {
+      "heading": "Importance of Business Environment",
+      "html": "<ol><li><b>Enables the firm to identify opportunities and get the first mover advantage</b> – early identification of opportunities helps the firm beat competitors (e.g. an early entrant in electric two-wheelers).</li><li><b>Helps the firm identify threats and early warning signals</b> – the firm can prepare in advance to face threats such as a new competitor.</li><li><b>Helps in tapping useful resources</b> – the firm gets inputs (finance, machines, raw material) from the environment and supplies output to it.</li><li><b>Helps in coping with rapid changes</b> – scanning the environment helps the firm respond effectively to change.</li><li><b>Helps in assisting planning and policy formulation</b> – environmental understanding forms the basis of future plans.</li><li><b>Helps in improving performance</b> – firms that continuously monitor the environment perform better and survive longer.</li></ol><p><b>Memory aid:</b> <i>O-T-R-C-P-P</i> – Opportunities, Threats, Resources, Coping with change, Planning, Performance.</p>"
+    },
+    {
+      "heading": "Dimensions of Business Environment",
+      "html": "<table><thead><tr><th>Dimension</th><th>Meaning</th><th>Examples</th></tr></thead><tbody><tr><td><b>Economic</b></td><td>Economic conditions and policies affecting business</td><td>Interest rates, inflation, disposable income, stock market indices, value of the rupee, GST rates</td></tr><tr><td><b>Social</b></td><td>Social forces such as customs, traditions, values, trends and lifestyles</td><td>Demand for festive gifts, health and fitness trend, more working women, work-life balance</td></tr><tr><td><b>Technological</b></td><td>Scientific improvements and innovations that provide new ways of producing goods and services</td><td>UPI payments, AI, e-commerce, electric vehicles replacing petrol vehicles</td></tr><tr><td><b>Political</b></td><td>Political conditions such as stability of government, attitude towards business and law and order</td><td>Stable government raising investor confidence, policies towards foreign investment</td></tr><tr><td><b>Legal</b></td><td>Laws passed by the government, administrative orders, court judgements</td><td>Consumer Protection Act 2019, Companies Act 2013, ban on single-use plastic, statutory health warning on cigarette packs</td></tr></tbody></table><p><b>Memory aid:</b> <i>PESTLE</i> without the E for environment: Political, Economic, Social, Technological, Legal.</p>"
+    },
+    {
+      "heading": "Demonetisation: Concept",
+      "html": "<p><b>Demonetisation</b> means the withdrawal of the legal tender status of a currency unit. In India, the government announced on <b>8 November 2016</b> that the then existing <b>₹500 and ₹1,000</b> notes would cease to be legal tender from midnight. New ₹500 and ₹2,000 notes were introduced.</p><p>It was viewed as a <b>tax administration measure</b> and a step against black money, counterfeit currency and terror financing, as well as a push towards a less-cash economy.</p>"
+    },
+    {
+      "heading": "Features of Demonetisation",
+      "html": "<ol><li><b>Tax administration measure</b> – cash held by people had to be deposited in banks, so unexplained cash became visible to tax authorities; those with black money had to declare it and pay penalty.</li><li><b>Shift from cash to savings</b> – it signalled that the government will not tolerate tax evasion; it channelled savings into the formal financial system.</li><li><b>Creation of a less-cash (digital) economy</b> – it pushed digital modes such as debit cards, UPI and mobile wallets.</li><li><b>Formalisation of the economy</b> – it encouraged the shift from the informal to the formal sector, widening the tax base.</li></ol>"
+    },
+    {
+      "heading": "Impact of Demonetisation on Business",
+      "html": "<ul><li><b>Cash crunch</b> – short-term fall in demand, especially in cash-based sectors (real estate, small traders, agriculture).</li><li><b>Increase in bank deposits</b> – banks received large deposits, which led to lower interest rates.</li><li><b>Boost to digital payments</b> – wide acceptance of e-wallets, cards and UPI.</li><li><b>Reduction in counterfeit currency</b> and pressure on illegal activities financed by cash.</li><li><b>Increase in tax compliance</b> – more income tax returns were filed.</li></ul>"
+    },
+    {
+      "heading": "Specific vs General Forces",
+      "html": "<table><thead><tr><th>Basis</th><th>Specific Forces</th><th>General Forces</th></tr></thead><tbody><tr><td>Meaning</td><td>Forces that directly affect the day-to-day working of a particular firm</td><td>Forces that indirectly affect all firms</td></tr><tr><td>Examples</td><td>Customers, competitors, suppliers, investors</td><td>Social, political, legal, technological conditions</td></tr><tr><td>Impact</td><td>Direct and immediate</td><td>Indirect and broad</td></tr></tbody></table>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Business environment", "definition": "The sum total of all individuals, institutions and other forces outside the control of a business that may affect its performance." },
+    { "term": "First mover advantage", "definition": "The benefit gained by a firm that is the first to identify and exploit an opportunity in the market." },
+    { "term": "Specific forces", "definition": "Forces such as customers, competitors, suppliers and investors that directly affect a particular firm." },
+    { "term": "General forces", "definition": "Social, political, legal and technological forces that indirectly affect all firms." },
+    { "term": "Economic environment", "definition": "Economic factors such as interest rates, inflation, income levels and the value of the rupee that affect business." },
+    { "term": "Social environment", "definition": "Customs, traditions, values, social trends and lifestyles of society that influence business." },
+    { "term": "Technological environment", "definition": "Scientific improvements and innovations that provide new ways of producing and delivering goods and services." },
+    { "term": "Political environment", "definition": "Political conditions such as general stability, peace and the attitude of the government towards business." },
+    { "term": "Legal environment", "definition": "Legislation, administrative orders, court judgements and decisions of commissions that govern business." },
+    { "term": "Demonetisation", "definition": "Withdrawal of legal tender status of a currency unit; in India, ₹500 and ₹1,000 notes were demonetised on 8 November 2016." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "A rise in awareness about fitness has led many restaurants to add low-calorie meals to their menus. Which dimension of business environment is reflected?",
+      "options": ["Economic", "Social", "Legal", "Political"],
+      "answer": 1,
+      "explanation": "Changing lifestyles and health awareness are part of the <b>social environment</b>."
+    },
+    {
+      "q": "The Reserve Bank of India cut the repo rate, making home loans cheaper and increasing demand for houses. This is an example of which dimension?",
+      "options": ["Technological", "Social", "Economic", "Legal"],
+      "answer": 2,
+      "explanation": "Interest rates and credit availability are part of the <b>economic environment</b>."
+    },
+    {
+      "q": "Ride-hailing apps have reduced demand for traditional radio taxis. This reflects which dimension?",
+      "options": ["Technological", "Political", "Legal", "Social"],
+      "answer": 0,
+      "explanation": "New ways of delivering services due to innovation form the <b>technological environment</b>."
+    },
+    {
+      "q": "A ban on single-use plastic forced packaging companies to switch to paper-based alternatives. Identify the dimension.",
+      "options": ["Economic", "Social", "Political", "Legal"],
+      "answer": 3,
+      "explanation": "A rule made by the government and enforceable by law belongs to the <b>legal environment</b>."
+    },
+    {
+      "q": "A company launched electric scooters before others and captured a large market share. Which importance of business environment does this highlight?",
+      "options": ["Tapping useful resources", "Identifying opportunities and getting the first mover advantage", "Coping with rapid changes", "Identifying threats"],
+      "answer": 1,
+      "explanation": "Being the first to identify and use an opportunity gives the <b>first mover advantage</b>."
+    },
+    {
+      "q": "The demand for woollen clothes is high in Shimla but very low in Chennai. Which feature of business environment is shown?",
+      "options": ["Complexity", "Uncertainty", "Relativity", "Dynamic nature"],
+      "answer": 2,
+      "explanation": "Environment differs from place to place; this is <b>relativity</b>."
+    },
+    {
+      "q": "On which date was demonetisation of ₹500 and ₹1,000 notes announced in India?",
+      "options": ["8 November 2016", "1 July 2017", "26 January 2016", "8 November 2017"],
+      "answer": 0,
+      "explanation": "It was announced on <b>8 November 2016</b>; 1 July 2017 is the date GST was introduced."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Business environment is dynamic.<br><b>Reason (R):</b> Technology, consumer preferences and government policies keep changing.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Continuous change in its components is exactly why the environment is <b>dynamic</b>."
+    },
+    {
+      "q": "Which of the following is a specific force of business environment?",
+      "options": ["Social values", "Political stability", "Competitors", "New laws"],
+      "answer": 2,
+      "explanation": "<b>Competitors</b> directly affect a particular firm, so they are a specific force."
+    },
+    {
+      "q": "A stable government with a clear policy on foreign investment raised the confidence of investors. Which dimension of the environment is this?",
+      "options": ["Legal", "Economic", "Social", "Political"],
+      "answer": 3,
+      "explanation": "Stability of government and its attitude towards business form the <b>political environment</b>."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Demonetisation was a tax administration measure.<br><b>Reason (R):</b> Demonetisation increased the use of cash in the economy.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 2,
+      "explanation": "A is true. R is false: demonetisation aimed at a <b>less-cash</b> economy and pushed digital payments."
+    },
+    {
+      "q": "Rising demand for organic food led to new farming technology and new labelling regulations. Which feature of business environment does this show?",
+      "options": ["Uncertainty", "Inter-relatedness", "Relativity", "Totality"],
+      "answer": 1,
+      "explanation": "A change in one (social) force causing changes in technological and legal forces shows <b>inter-relatedness</b>."
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is meant by business environment?",
+      "marks": 1,
+      "answerHtml": "<p>Business environment is the sum total of all individuals, institutions and other forces that are outside the control of a business enterprise but may affect its performance.</p>"
+    },
+    {
+      "q": "Give one example of the legal environment affecting business.",
+      "marks": 1,
+      "answerHtml": "<p>The requirement to print a statutory health warning on cigarette packets (any similar law, such as the ban on single-use plastic, is acceptable).</p>"
+    },
+    {
+      "q": "State any three features of demonetisation.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Tax administration measure</b> – unexplained cash deposited in banks came under the scrutiny of tax authorities.</li><li><b>Shift towards a less-cash economy</b> – it promoted digital payments such as UPI, cards and e-wallets.</li><li><b>Formalisation of savings</b> – money moved from idle cash into the formal banking system, widening the tax base.</li></ol>"
+    },
+    {
+      "q": "Explain 'uncertainty' and 'complexity' as features of business environment.",
+      "marks": 3,
+      "answerHtml": "<ul><li><b>Uncertainty</b> – it is very difficult to predict future changes in the environment, particularly in fast-changing fields like information technology and fashion.</li><li><b>Complexity</b> – the environment consists of many inter-related and dynamic forces, so it is difficult to understand it in totality.</li></ul>"
+    },
+    {
+      "q": "Explain any four points of importance of business environment.",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>Identifying opportunities and first mover advantage</b> – environmental scanning helps a firm spot opportunities early and gain an advantage over competitors.</li><li><b>Identifying threats and early warning signals</b> – the firm can prepare in advance to face threats like new competitors or changing laws.</li><li><b>Coping with rapid changes</b> – understanding the environment helps the firm adapt to changes in technology, tastes and policies.</li><li><b>Assisting in planning and policy formulation</b> – environment provides the information on which future plans and policies are based.</li></ol>"
+    },
+    {
+      "q": "Distinguish between specific and general forces of business environment.",
+      "marks": 3,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Specific Forces</th><th>General Forces</th></tr></thead><tbody><tr><td>Meaning</td><td>Directly affect a particular firm</td><td>Indirectly affect all firms</td></tr><tr><td>Examples</td><td>Customers, competitors, suppliers, investors</td><td>Social, political, legal, technological conditions</td></tr><tr><td>Impact</td><td>Direct and immediate</td><td>Indirect and broad</td></tr></tbody></table>"
+    },
+    {
+      "q": "Read the following and identify the dimensions of business environment involved: (a) Increasing number of nuclear families has raised demand for compact appliances. (b) A cut in GST rates on two-wheelers increased their sales. (c) Online classes became common due to high-speed internet. (d) A court judgement required all packaged food to display allergen information. Explain each dimension briefly.",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>(a) Social environment</b> – changes in family structure and lifestyle affect demand for products.</li><li><b>(b) Economic environment</b> – tax rates affect prices and purchasing power of customers.</li><li><b>(c) Technological environment</b> – innovations provide new ways of delivering services.</li><li><b>(d) Legal environment</b> – court judgements and laws regulate how businesses operate.</li></ol>"
+    },
+    {
+      "q": "'Business environment is the totality of external forces, specific and general, which are inter-related.' Explain these and any other three features of business environment.",
+      "marks": 6,
+      "answerHtml": "<ol><li><b>Totality of external forces</b> – it is the sum of all forces outside the firm, so it is aggregative in nature.</li><li><b>Specific and general forces</b> – specific forces like customers and competitors affect a firm directly; general forces like social and political conditions affect all firms indirectly.</li><li><b>Inter-relatedness</b> – different forces are closely linked; a change in one leads to changes in others (e.g. health awareness leads to new products and new labelling laws).</li><li><b>Dynamic nature</b> – the environment keeps changing with technology, tastes and policies.</li><li><b>Uncertainty</b> – future environmental changes are difficult to predict.</li><li><b>Relativity</b> – the environment differs from country to country and region to region.</li></ol>"
+    }
+  ]
+}

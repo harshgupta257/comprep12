@@ -1,0 +1,170 @@
+{
+  "id": "financial-markets",
+  "title": "Financial Markets",
+  "summary": "A financial market brings together those who have surplus funds and those who need funds, through the creation and exchange of financial assets. This chapter covers the functions of financial markets, money market instruments, the primary and secondary capital markets, the stock exchange and its trading procedure, and the objectives and functions of SEBI.",
+  "notes": [
+    {
+      "heading": "Meaning and Functions of Financial Markets",
+      "html": "<p>A <b>financial market</b> is a market for the creation and exchange of financial assets. It <b>allocates</b> savings (from households) to investment (by firms and government) through banks (indirect) and the market (direct).</p><p><b>Functions:</b></p><ol><li><b>Mobilisation of savings and channelling them into the most productive uses</b> – transfers funds from savers to investors.</li><li><b>Facilitating price discovery</b> – the price of financial assets is determined by the forces of demand (by households) and supply (by firms) of funds.</li><li><b>Providing liquidity to financial assets</b> – assets can be easily bought and sold, converted into cash.</li><li><b>Reducing the cost of transactions</b> – provides valuable information about securities, saving time, effort and money.</li></ol><p><b>Memory aid:</b> <i>M-P-L-R</i> – Mobilise, Price, Liquidity, Reduce cost.</p>"
+    },
+    {
+      "heading": "Money Market and its Instruments",
+      "html": "<p><b>Money market</b> is a market for <b>short-term funds</b> with maturity of up to <b>one year</b>. Major participants: RBI, commercial banks, non-banking finance companies, state governments, large corporates and mutual funds. There is no physical location; dealing is done over phone and electronic systems.</p><ol><li><b>Treasury Bill (T-bill)</b> – short-term borrowing instrument of the Government of India, issued by RBI on behalf of the Centre; maturity <b>91, 182 and 364 days</b>; issued at a discount and redeemed at par (<b>zero coupon bond</b>); minimum amount ₹25,000 and in multiples thereof; highly liquid and risk-free.</li><li><b>Commercial Paper (CP)</b> – short-term, unsecured promissory note issued by large creditworthy companies, negotiable and transferable by endorsement and delivery; issued at a discount. Maturity: 15 days to one year as per NCERT (current RBI directions permit a minimum of 7 days). Used for <b>bridge financing</b> and working capital.</li><li><b>Call Money</b> – short-term finance repayable on demand, with maturity of <b>1 day to 15 days</b>; used for inter-bank transactions to maintain the cash reserve ratio. Interest is called the <b>call rate</b>, which is highly volatile.</li><li><b>Certificate of Deposit (CD)</b> – unsecured, negotiable, short-term instrument in bearer form issued by commercial banks and financial institutions to individuals, corporations and companies during periods of tight liquidity. Maturity: 91 days to one year (per NCERT; RBI allows banks 7 days to one year).</li><li><b>Commercial Bill</b> – a bill of exchange used by firms for working capital needs; drawn by the seller on the buyer for credit sales; can be discounted with a bank before maturity (trade bill accepted becomes a commercial bill).</li></ol>"
+    },
+    {
+      "heading": "Capital Market: Primary and Secondary",
+      "html": "<p><b>Capital market</b> deals in <b>medium- and long-term funds</b> (debentures, bonds, equity and preference shares). It consists of development banks, commercial banks and stock exchanges.</p><ul><li><b>Primary market (new issues market)</b> – deals with <b>new securities</b> issued for the first time; contributes directly to capital formation.</li><li><b>Secondary market (stock market)</b> – deals with the purchase and sale of <b>existing securities</b>; provides liquidity.</li></ul><table><thead><tr><th>Basis</th><th>Primary Market</th><th>Secondary Market</th></tr></thead><tbody><tr><td>Function</td><td>Transfer of new securities from company to investors</td><td>Trading of existing securities</td></tr><tr><td>Participants</td><td>Company and investors</td><td>Investors only (company not involved)</td></tr><tr><td>Capital formation</td><td>Directly promotes capital formation</td><td>Indirectly promotes it by providing liquidity</td></tr><tr><td>Flow of funds</td><td>From investors to the company</td><td>From one investor to another</td></tr><tr><td>Location</td><td>No fixed geographical location</td><td>Located at specific places (stock exchanges)</td></tr><tr><td>Direction</td><td>Only buying of securities</td><td>Both buying and selling</td></tr><tr><td>Price</td><td>Fixed by company management</td><td>Determined by demand and supply</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Money Market vs Capital Market",
+      "html": "<table><thead><tr><th>Basis</th><th>Money Market</th><th>Capital Market</th></tr></thead><tbody><tr><td>Participants</td><td>Financial institutions, banks, RBI, government, large corporates</td><td>Financial institutions, banks, corporates, foreign investors and retail investors</td></tr><tr><td>Instruments</td><td>T-bills, CPs, CDs, call money, commercial bills</td><td>Equity shares, debentures, bonds, preference shares</td></tr><tr><td>Investment outlay</td><td>Large amounts (instruments of high value)</td><td>Small amounts possible (units of shares are low-priced)</td></tr><tr><td>Duration</td><td>Up to one year</td><td>More than one year</td></tr><tr><td>Liquidity</td><td>Highly liquid</td><td>Liquid but less than money market</td></tr><tr><td>Safety</td><td>Safer; low risk of default</td><td>Riskier in return and principal</td></tr><tr><td>Expected return</td><td>Lower</td><td>Higher (dividends and capital gains)</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Stock Exchange and its Functions",
+      "html": "<p>A <b>stock exchange</b> is an institution that provides a platform for buying and selling of existing securities. Major Indian exchanges: <b>BSE</b> (oldest, 1875) and <b>NSE</b> (1992, fully screen-based).</p><ol><li><b>Providing liquidity and marketability to existing securities</b> – investors can easily convert securities into cash.</li><li><b>Pricing of securities</b> – prices are determined by demand and supply; serves as a constant valuation of securities.</li><li><b>Safety of transactions</b> – trading is regulated by a legal framework (SEBI), ensuring a safe and fair market.</li><li><b>Contributes to economic growth</b> – process of disinvestment and reinvestment channels savings into productive investment.</li><li><b>Spreading of equity cult</b> – encourages people to invest in ownership securities through better trading practices and investor education.</li><li><b>Providing scope for speculation</b> – permits healthy speculation within the law to ensure liquidity and price continuity.</li></ol>"
+    },
+    {
+      "heading": "Trading Procedure on a Stock Exchange",
+      "html": "<p>Trading is now online and screen-based (NSE's NEAT, BSE's BOLT), and securities are held in electronic (dematerialised) form.</p><ol><li><b>Selecting a broker</b> – a SEBI-registered broker (individual, partnership or company) is selected.</li><li><b>Opening a Demat account</b> – a dematerialised account is opened with a Depository Participant (DP) of a depository (NSDL or CDSL), along with a trading account; a bank account and PAN are required.</li><li><b>Placing the order</b> – the investor places an order with the broker (online or by phone) with clear instructions about the number of shares and price.</li><li><b>Executing the order</b> – the broker executes the order on the trading platform.</li><li><b>Issuing a contract note</b> – the broker issues a contract note within 24 hours, showing the number of shares, price, date and time of transaction, and brokerage.</li><li><b>Delivery of securities and payment (settlement)</b> – the buyer pays and the seller delivers shares through the clearing house. Indian markets now follow a <b>T+1 rolling settlement</b> (fully implemented from January 2023), i.e. settlement one working day after the trade.</li></ol><p><b>Dematerialisation</b> is the process of converting physical share certificates into electronic form. <b>Depository</b> = institution that holds securities in electronic form (NSDL, CDSL); <b>Depository Participant</b> = agent (bank or broker) through whom the investor deals with the depository.</p>"
+    },
+    {
+      "heading": "SEBI: Establishment and Objectives",
+      "html": "<p>The <b>Securities and Exchange Board of India (SEBI)</b> was established by the Government of India on <b>12 April 1988</b> as an interim administrative body and was given <b>statutory status on 30 January 1992</b> through an ordinance, later replaced by the SEBI Act, 1992. Headquarters: Mumbai.</p><p><b>Reasons for establishment:</b> rapid growth of the capital market led to malpractices such as price rigging, unofficial premium on new issues, violation of rules, delay in delivery of shares and insider trading.</p><p><b>Objectives:</b></p><ol><li>To <b>regulate stock exchanges</b> and the securities industry to promote their orderly functioning.</li><li>To <b>protect the rights and interests of investors</b>, particularly individual investors, and guide and educate them.</li><li>To <b>prevent trading malpractices</b> and achieve a balance between self-regulation of business and its statutory regulation.</li><li>To <b>regulate and develop a code of conduct</b> and fair practices for intermediaries such as brokers and merchant bankers.</li></ol>"
+    },
+    {
+      "heading": "Functions of SEBI",
+      "html": "<p><b>1. Protective functions</b> (protect investors):</p><ul><li>Prohibits <b>fraudulent and unfair trade practices</b> such as misleading statements.</li><li>Checks <b>price rigging</b> (manipulating prices to cheat investors).</li><li>Prohibits <b>insider trading</b> (dealing by persons with price-sensitive unpublished information).</li><li>Undertakes steps for <b>investor education</b>.</li><li>Promotes <b>fair practices and a code of conduct</b> in the securities market.</li></ul><p><b>2. Developmental functions</b> (develop the market):</p><ul><li><b>Training of intermediaries</b> of the securities market.</li><li>Conducting <b>research</b> and publishing information useful to market participants.</li><li>Adopting a <b>flexible and adaptable approach</b>, e.g. permitting internet trading through registered brokers and making underwriting optional to reduce issue costs.</li></ul><p><b>3. Regulatory functions</b> (control the market):</p><ul><li><b>Registration</b> of brokers, sub-brokers, merchant bankers, mutual funds and other intermediaries.</li><li>Framing rules and regulations and a code of conduct for intermediaries.</li><li>Regulating <b>takeover</b> of companies.</li><li>Conducting <b>inquiries and audits</b> of stock exchanges.</li><li><b>Levying fees</b> or other charges for carrying out the purposes of the Act.</li><li>Performing functions under the Securities Contracts (Regulation) Act, 1956.</li></ul><p><b>Memory aid:</b> <i>PDR</i> – Protect, Develop, Regulate.</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Financial market", "definition": "A market for the creation and exchange of financial assets, linking savers and investors." },
+    { "term": "Money market", "definition": "Market for short-term funds with maturity of up to one year." },
+    { "term": "Capital market", "definition": "Market for medium- and long-term funds, dealing in shares, debentures and bonds." },
+    { "term": "Treasury bill", "definition": "Short-term (91, 182 or 364 days) zero coupon borrowing instrument of the Government of India, issued at a discount by RBI." },
+    { "term": "Commercial paper", "definition": "Short-term unsecured promissory note issued at a discount by large creditworthy companies." },
+    { "term": "Call money", "definition": "Short-term finance (1 to 15 days) repayable on demand, mainly used by banks; its interest is the call rate." },
+    { "term": "Certificate of deposit", "definition": "Unsecured, negotiable short-term bearer instrument issued by banks and financial institutions." },
+    { "term": "Primary market", "definition": "Market for new securities issued for the first time; also called the new issues market." },
+    { "term": "Secondary market", "definition": "Market for the purchase and sale of existing securities, i.e. the stock exchange." },
+    { "term": "Dematerialisation", "definition": "Conversion of physical share certificates into electronic form held in a demat account." },
+    { "term": "Depository Participant", "definition": "An agent of a depository (NSDL or CDSL), such as a bank or broker, through whom investors open demat accounts." },
+    { "term": "Insider trading", "definition": "Buying or selling securities by persons having access to unpublished price-sensitive information; prohibited by SEBI." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "Which of the following money market instruments is issued by RBI on behalf of the Government of India?",
+      "options": ["Commercial paper", "Treasury bill", "Certificate of deposit", "Commercial bill"],
+      "answer": 1,
+      "explanation": "<b>Treasury bills</b> are short-term borrowing instruments of the Government of India issued by RBI."
+    },
+    {
+      "q": "A bank short of funds to maintain its cash reserve ratio borrowed from another bank for 3 days. The instrument used is:",
+      "options": ["Treasury bill", "Commercial paper", "Commercial bill", "Call money"],
+      "answer": 3,
+      "explanation": "Inter-bank borrowing for 1 to 15 days, repayable on demand, is <b>call money</b>."
+    },
+    {
+      "q": "Treasury bills are also called zero coupon bonds because:",
+      "options": ["They pay no interest separately; they are issued at a discount and redeemed at par", "They carry zero risk", "They have no maturity", "They are issued free of cost"],
+      "answer": 0,
+      "explanation": "The investor's return is the <b>difference between issue price and face value</b>; no coupon (interest) is paid."
+    },
+    {
+      "q": "A large company issued a short-term unsecured promissory note to raise funds needed until its long-term loan is sanctioned. Which instrument is this and for what purpose?",
+      "options": ["Certificate of deposit; working capital", "Treasury bill; government expenditure", "Commercial paper; bridge financing", "Call money; cash reserve ratio"],
+      "answer": 2,
+      "explanation": "<b>Commercial paper</b> is often used for <b>bridge financing</b>, meeting interim needs till long-term funds are raised."
+    },
+    {
+      "q": "In which market does a company directly raise funds from investors by issuing new shares?",
+      "options": ["Secondary market", "Primary market", "Money market", "Call money market"],
+      "answer": 1,
+      "explanation": "New securities are issued in the <b>primary market</b>, where funds flow from investors to the company."
+    },
+    {
+      "q": "Under the present settlement cycle in Indian stock exchanges, a trade done on Monday is settled on:",
+      "options": ["Monday itself", "Wednesday", "Thursday", "Tuesday"],
+      "answer": 3,
+      "explanation": "India follows <b>T+1 rolling settlement</b>, so a Monday trade is settled on Tuesday (next working day)."
+    },
+    {
+      "q": "SEBI was given statutory powers on:",
+      "options": ["12 April 1988", "30 January 1992", "1 April 1935", "15 August 1991"],
+      "answer": 1,
+      "explanation": "SEBI was set up on 12 April 1988 but became a <b>statutory body on 30 January 1992</b>."
+    },
+    {
+      "q": "SEBI's step of making underwriting of issues optional to reduce the cost of issue is an example of its:",
+      "options": ["Protective function", "Regulatory function", "Developmental function", "Supervisory function"],
+      "answer": 2,
+      "explanation": "Adopting a flexible approach to develop the market is a <b>developmental function</b>."
+    },
+    {
+      "q": "A director bought shares of his own company just before an unannounced merger was made public. SEBI penalised him for:",
+      "options": ["Price rigging", "Insider trading", "Speculation", "Fraudulent prospectus"],
+      "answer": 1,
+      "explanation": "Trading on unpublished price-sensitive information is <b>insider trading</b>, prohibited under SEBI's protective functions."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The secondary market indirectly promotes capital formation.<br><b>Reason (R):</b> By providing liquidity to existing securities, the secondary market encourages people to invest in the primary market.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Investors buy new issues more readily when they know they can sell them later; hence liquidity in the secondary market <b>indirectly</b> aids capital formation."
+    },
+    {
+      "q": "Which document does a broker issue within 24 hours of executing an order?",
+      "options": ["Contract note", "Prospectus", "Share certificate", "Demat request form"],
+      "answer": 0,
+      "explanation": "A <b>contract note</b> records details of the transaction such as quantity, price, time and brokerage."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Money market instruments are less liquid than capital market instruments.<br><b>Reason (R):</b> Money market instruments have a maturity of up to one year.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 3,
+      "explanation": "A is false: money market instruments are <b>highly liquid</b>. R is true."
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is meant by a Treasury bill?",
+      "marks": 1,
+      "answerHtml": "<p>A Treasury bill is a short-term borrowing instrument of the Government of India, issued by RBI at a discount and redeemed at par, with a maturity of 91, 182 or 364 days.</p>"
+    },
+    {
+      "q": "Name the two depositories in India.",
+      "marks": 1,
+      "answerHtml": "<p>National Securities Depository Limited (NSDL) and Central Depository Services (India) Limited (CDSL).</p>"
+    },
+    {
+      "q": "Explain any three functions of financial markets.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Mobilisation of savings and channelling them into productive uses</b> – transfers savings from households to firms that need funds.</li><li><b>Facilitating price discovery</b> – prices of financial assets are determined by the demand and supply of funds.</li><li><b>Providing liquidity to financial assets</b> – assets can be easily converted into cash at prevailing prices.</li></ol>"
+    },
+    {
+      "q": "Explain commercial paper and certificate of deposit as money market instruments.",
+      "marks": 3,
+      "answerHtml": "<ul><li><b>Commercial paper</b> – a short-term unsecured promissory note issued at a discount by large, creditworthy companies, negotiable by endorsement and delivery; used for working capital and bridge financing.</li><li><b>Certificate of deposit</b> – an unsecured, negotiable, short-term instrument in bearer form issued by commercial banks and financial institutions to individuals and companies, generally during periods of tight liquidity.</li></ul>"
+    },
+    {
+      "q": "Distinguish between the primary market and the secondary market on four bases.",
+      "marks": 4,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Primary Market</th><th>Secondary Market</th></tr></thead><tbody><tr><td>Function</td><td>Issue of new securities</td><td>Trading of existing securities</td></tr><tr><td>Participants</td><td>Company and investors</td><td>Investors among themselves</td></tr><tr><td>Capital formation</td><td>Directly promotes it</td><td>Indirectly promotes it</td></tr><tr><td>Location</td><td>No fixed location</td><td>Specific location (stock exchange)</td></tr></tbody></table>"
+    },
+    {
+      "q": "Explain the steps involved in the trading procedure on a stock exchange.",
+      "marks": 6,
+      "answerHtml": "<ol><li><b>Selecting a broker</b> – the investor selects a SEBI-registered broker who will trade on his behalf.</li><li><b>Opening a demat and trading account</b> – a demat account is opened with a Depository Participant of NSDL/CDSL; PAN and bank account details are required.</li><li><b>Placing the order</b> – the investor gives clear instructions to the broker about the security, quantity and price.</li><li><b>Executing the order</b> – the broker executes the order through the online trading system of the exchange.</li><li><b>Issue of contract note</b> – within 24 hours the broker issues a contract note giving details of the trade and brokerage.</li><li><b>Settlement</b> – the buyer pays money and the seller delivers securities through the clearing house; under T+1 settlement this is completed on the next working day after the trade.</li></ol>"
+    },
+    {
+      "q": "Explain the functions of a stock exchange (any four).",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>Providing liquidity and marketability</b> – investors can sell existing securities easily and get cash.</li><li><b>Pricing of securities</b> – share prices are determined by demand and supply, giving a constant valuation.</li><li><b>Safety of transactions</b> – trading is regulated by SEBI's legal framework, ensuring fair dealing.</li><li><b>Contributes to economic growth</b> – savings are channelled into the most productive investments through disinvestment and reinvestment.</li></ol>"
+    },
+    {
+      "q": "SEBI noticed that (a) some brokers were not registered with it, (b) a group of traders was artificially raising the price of a small company's shares to sell them at a profit, and (c) investors lacked awareness about risks of derivatives. SEBI cancelled the operations of unregistered brokers, penalised the traders and launched investor awareness programmes across cities. Identify the functions of SEBI involved and state two other activities under each.",
+      "marks": 6,
+      "answerHtml": "<p><b>1. Regulatory function</b> – 'cancelled the operations of unregistered brokers'. SEBI registers and regulates intermediaries.</p><p>Other regulatory activities:</p><ul><li>Regulating the takeover of companies.</li><li>Conducting inquiries and audits of stock exchanges and levying fees.</li></ul><p><b>2. Protective function</b> – 'penalised the traders' (checking <b>price rigging</b>) and 'launched investor awareness programmes' (<b>investor education</b>). SEBI protects the interests of investors.</p><p>Other protective activities:</p><ul><li>Prohibiting insider trading.</li><li>Prohibiting fraudulent and unfair trade practices and promoting a fair code of conduct.</li></ul>"
+    }
+  ]
+}

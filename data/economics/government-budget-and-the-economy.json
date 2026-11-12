@@ -1,0 +1,178 @@
+{
+  "id": "government-budget-and-the-economy",
+  "title": "Government Budget and the Economy",
+  "summary": "The government budget is an annual statement of estimated receipts and expenditure of the government for a financial year. This chapter covers the objectives of the budget, the classification of receipts and expenditure into revenue and capital, types of budget and the measures of government deficit (revenue, fiscal and primary deficit) along with their implications.",
+  "notes": [
+    {
+      "heading": "Meaning of the government budget",
+      "html": "<p>A <b>government budget</b> is an annual financial statement showing the estimated receipts and estimated expenditure of the government for the coming financial year (1 April to 31 March). In India it is presented to Parliament under <b>Article 112</b> of the Constitution as the 'Annual Financial Statement'.</p><p>The budget has two parts: the <b>revenue budget</b> (revenue receipts and revenue expenditure) and the <b>capital budget</b> (capital receipts and capital expenditure).</p><p>Since 2017–18 the earlier classification into plan and non-plan expenditure has been discontinued; expenditure is now classified mainly as revenue and capital.</p>"
+    },
+    {
+      "heading": "Objectives of the government budget",
+      "html": "<ul><li><b>Reallocation of resources:</b> the private sector produces what is profitable; the government uses taxes, subsidies and its own spending to direct resources to socially desirable areas. For example, high taxes on tobacco discourage its production; subsidies and public spending promote health, education and clean energy. It also provides <b>public goods</b> (defence, roads, street lighting) which are non-excludable and non-rival and would not be supplied adequately by the market.</li><li><b>Reducing inequalities of income and wealth (redistribution):</b> progressive taxes on the rich and spending on the poor (free education, subsidised food, social security) narrow inequality.</li><li><b>Economic stability:</b> the budget is used to control inflation (surplus budget, higher taxes, lower spending) and deflation (deficit budget, lower taxes, higher spending), smoothing fluctuations in the business cycle.</li><li><b>Management of public enterprises:</b> the government runs enterprises in areas of natural monopoly and social importance (railways, power) to serve social welfare rather than only profit.</li><li><b>Economic growth and reducing regional disparities:</b> through public investment in infrastructure and incentives for backward regions.</li></ul>"
+    },
+    {
+      "heading": "Budget receipts",
+      "html": "<table><thead><tr><th>Basis</th><th>Revenue receipts</th><th>Capital receipts</th></tr></thead><tbody><tr><td>Liability</td><td>Do not create a liability for the government</td><td>Either create a liability (borrowings)</td></tr><tr><td>Assets</td><td>Do not reduce the assets of the government</td><td>Or reduce assets (disinvestment, recovery of loans)</td></tr><tr><td>Nature</td><td>Regular and recurring</td><td>Generally irregular and non-recurring</td></tr><tr><td>Examples</td><td>Taxes, interest, dividends, fees, fines, grants</td><td>Market borrowings, loans from abroad, recovery of loans, disinvestment proceeds, small savings</td></tr></tbody></table><h4>Revenue receipts</h4><ul><li><b>Tax revenue:</b> compulsory payments to the government with no direct return (quid pro quo). <i>Direct taxes</i>: impact and incidence fall on the same person and the burden cannot be shifted, e.g. income tax, corporation tax. <i>Indirect taxes</i>: imposed on goods and services; the burden can be shifted to others, e.g. GST (introduced in July 2017), customs duty.</li><li><b>Non-tax revenue:</b> interest and dividends on government investments and loans, profits of public enterprises, fees (court fee, registration fee), licence fees, fines and penalties, escheat (property of a person dying without heir), and grants-in-aid from foreign governments and international bodies.</li></ul><h4>Capital receipts</h4><ul><li><b>Borrowings</b> (debt-creating): market borrowings, loans from RBI and foreign governments/institutions, small savings such as NSC and PPF.</li><li><b>Non-debt creating</b>: recovery of loans given earlier, and <b>disinvestment</b> (sale of the government's share in public sector enterprises), which reduces assets.</li></ul>"
+    },
+    {
+      "heading": "Budget expenditure",
+      "html": "<table><thead><tr><th>Basis</th><th>Revenue expenditure</th><th>Capital expenditure</th></tr></thead><tbody><tr><td>Effect on assets/liabilities</td><td>Neither creates assets nor reduces liabilities</td><td>Either creates assets or reduces liabilities</td></tr><tr><td>Nature</td><td>Recurring, for running government departments and services</td><td>Non-recurring, for long-term development</td></tr><tr><td>Examples</td><td>Salaries, pensions, interest payments, subsidies, grants to states, defence services, old age pensions</td><td>Construction of roads, schools, hospitals, purchase of machinery, loans to states and PSUs, repayment of loans, acquiring shares</td></tr></tbody></table><p><b>Note:</b> grants given to state governments are revenue expenditure for the Centre even if states use them to create assets, because the Centre does not own those assets.</p><p><b>Interest payments</b> are revenue expenditure; <b>repayment of a loan</b> is capital expenditure (it reduces a liability).</p>"
+    },
+    {
+      "heading": "Types of budget",
+      "html": "<ul><li><b>Balanced budget:</b> estimated receipts = estimated expenditure. It neither adds to nor reduces aggregate demand directly, but cannot help much in correcting inflation or deflation.</li><li><b>Surplus budget:</b> estimated receipts &gt; estimated expenditure. It reduces aggregate demand and is suitable for controlling inflation.</li><li><b>Deficit budget:</b> estimated expenditure &gt; estimated receipts (excluding borrowings). It raises aggregate demand and is suitable during deflation and for development spending in developing economies.</li></ul><p>In the accounting sense receipts always equal expenditure because borrowings close the gap; the 'deficit' therefore refers to receipts other than borrowings.</p>"
+    },
+    {
+      "heading": "Measures of government deficit",
+      "html": "<table><thead><tr><th>Deficit</th><th>Formula</th><th>What it indicates</th></tr></thead><tbody><tr><td>Revenue deficit</td><td>Revenue expenditure − Revenue receipts</td><td>Government is dissaving: borrowing to meet current consumption expenditure, which creates no assets</td></tr><tr><td>Fiscal deficit</td><td>Total expenditure − (Revenue receipts + Non-debt creating capital receipts) = Borrowings</td><td>Total borrowing requirement of the government for the year</td></tr><tr><td>Primary deficit</td><td>Fiscal deficit − Interest payments</td><td>Borrowing needed for expenses other than interest on past loans; shows current fiscal behaviour</td></tr></tbody></table><p>A <b>zero primary deficit</b> means the government is borrowing only to pay interest on past debt. If revenue deficit is a large share of fiscal deficit, most borrowing is going into consumption rather than investment.</p>"
+    },
+    {
+      "heading": "Worked numericals on deficits",
+      "html": "<h4>Worked example 1 (₹ crore)</h4><table><thead><tr><th>Item</th><th>Amount</th></tr></thead><tbody><tr><td>Tax revenue</td><td>450</td></tr><tr><td>Non-tax revenue</td><td>150</td></tr><tr><td>Revenue expenditure (of which interest payments 200)</td><td>750</td></tr><tr><td>Capital expenditure</td><td>210</td></tr><tr><td>Recovery of loans</td><td>40</td></tr><tr><td>Disinvestment proceeds</td><td>20</td></tr><tr><td>Borrowings</td><td>300</td></tr></tbody></table><p>Revenue receipts = 450 + 150 = 600.</p><p><b>Revenue deficit</b> = 750 − 600 = <b>150</b>.</p><p>Total expenditure = 750 + 210 = 960. Non-debt capital receipts = 40 + 20 = 60.</p><p><b>Fiscal deficit</b> = 960 − (600 + 60) = <b>300</b> (equal to borrowings, as it must be).</p><p><b>Primary deficit</b> = 300 − 200 = <b>100</b>.</p><p>Interpretation: half of the borrowing (150 of 300) finances revenue expenditure, which is a sign of poor fiscal health.</p><h4>Worked example 2</h4><p>Fiscal deficit = ₹1,20,000 crore; interest payments = ₹45,000 crore; revenue deficit = ₹60,000 crore.</p><p>Primary deficit = 1,20,000 − 45,000 = <b>₹75,000 crore</b>.</p><p>Revenue deficit as a share of fiscal deficit = 60,000 ÷ 1,20,000 × 100 = <b>50%</b>.</p><h4>Worked example 3</h4><p>Primary deficit = ₹20,000 crore and interest payments = ₹30,000 crore. Fiscal deficit = 20,000 + 30,000 = <b>₹50,000 crore</b>.</p>"
+    },
+    {
+      "heading": "Implications of deficits",
+      "html": "<h4>Revenue deficit</h4><ul><li>Government dissaves: it uses the savings of other sectors to finance its consumption expenditure.</li><li>Borrowing to cover it raises future interest burden without creating assets that could generate income to repay.</li><li>It may force cuts in capital expenditure, slowing growth.</li></ul><p><b>Remedies:</b> cut unnecessary revenue expenditure (e.g. untargeted subsidies) and raise tax and non-tax revenue.</p><h4>Fiscal deficit</h4><ul><li><b>Debt trap:</b> borrowing raises interest payments, which raise revenue expenditure and deficits, leading to more borrowing.</li><li><b>Inflation:</b> if financed by borrowing from the RBI (monetisation), money supply rises and prices may rise.</li><li><b>Crowding out:</b> heavy government borrowing from the market reduces funds available for private investment and may push up interest rates.</li><li><b>Burden on future generations</b>, who must repay loans with interest.</li><li><b>Positive side:</b> if the borrowing is used for productive capital expenditure (infrastructure), it can raise future output and income and help in recession.</li></ul><h4>Primary deficit</h4><p>A falling primary deficit shows that the government is reducing borrowing for current non-interest spending, which signals fiscal discipline.</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Government budget", "definition": "An annual statement of the estimated receipts and expenditure of the government for a financial year." },
+    { "term": "Revenue receipts", "definition": "Receipts that neither create a liability nor reduce the assets of the government, e.g. taxes, interest, dividends, fees." },
+    { "term": "Capital receipts", "definition": "Receipts that either create a liability (borrowings) or reduce the assets (disinvestment, recovery of loans) of the government." },
+    { "term": "Direct tax", "definition": "A tax whose impact and incidence fall on the same person, so its burden cannot be shifted, e.g. income tax." },
+    { "term": "Indirect tax", "definition": "A tax levied on goods and services whose burden can be shifted to others, e.g. GST and customs duty." },
+    { "term": "Disinvestment", "definition": "Sale of a part or all of the government's equity in public sector enterprises; a non-debt creating capital receipt." },
+    { "term": "Revenue expenditure", "definition": "Expenditure that neither creates assets nor reduces liabilities, e.g. salaries, interest payments, subsidies." },
+    { "term": "Capital expenditure", "definition": "Expenditure that creates assets or reduces liabilities, e.g. building roads, repayment of loans, loans to states." },
+    { "term": "Revenue deficit", "definition": "Excess of revenue expenditure over revenue receipts." },
+    { "term": "Fiscal deficit", "definition": "Excess of total expenditure over total receipts excluding borrowings; equal to the borrowing requirement of the government." },
+    { "term": "Primary deficit", "definition": "Fiscal deficit minus interest payments." },
+    { "term": "Public goods", "definition": "Goods such as defence and street lighting that are non-rival and non-excludable, and so are provided by the government." }
+  ],
+  "formulas": [
+    { "name": "Revenue receipts", "html": "Revenue receipts = Tax revenue + Non-tax revenue" },
+    { "name": "Capital receipts", "html": "Capital receipts = Borrowings + Recovery of loans + Disinvestment (and other receipts)" },
+    { "name": "Total expenditure", "html": "Total expenditure = Revenue expenditure + Capital expenditure" },
+    { "name": "Revenue deficit", "html": "Revenue deficit = Revenue expenditure − Revenue receipts" },
+    { "name": "Fiscal deficit", "html": "Fiscal deficit = Total expenditure − (Revenue receipts + Non-debt creating capital receipts) = Borrowings" },
+    { "name": "Primary deficit", "html": "Primary deficit = Fiscal deficit − Interest payments" },
+    { "name": "Deficit as a share of GDP", "html": "Deficit (% of GDP) = (Deficit ÷ GDP) × 100" }
+  ],
+  "mcqs": [
+    {
+      "q": "Which of the following is a <b>capital receipt</b>?",
+      "options": ["Dividends from public sector enterprises", "Disinvestment proceeds", "Fines and penalties", "Goods and services tax"],
+      "answer": 1,
+      "explanation": "Disinvestment reduces the government's assets (its shares in PSUs), so it is a capital receipt. Dividends, fines and GST neither create liabilities nor reduce assets."
+    },
+    {
+      "q": "Fiscal deficit = ₹80,000 crore and interest payments = ₹35,000 crore. Primary deficit is:",
+      "options": ["₹1,15,000 crore", "₹35,000 crore", "₹45,000 crore", "₹80,000 crore"],
+      "answer": 2,
+      "explanation": "Primary deficit = Fiscal deficit − Interest payments = 80,000 − 35,000 = ₹45,000 crore."
+    },
+    {
+      "q": "Which of the following is a <b>direct tax</b>?",
+      "options": ["Corporation tax", "Customs duty", "Goods and services tax", "Excise duty"],
+      "answer": 0,
+      "explanation": "Corporation tax is paid by the company on its own profits and cannot be shifted. Customs duty, GST and excise duty are indirect taxes whose burden passes to buyers."
+    },
+    {
+      "q": "Interest payments on past borrowings are classified as:",
+      "options": ["Capital expenditure", "Capital receipts", "Revenue receipts", "Revenue expenditure"],
+      "answer": 3,
+      "explanation": "Interest payment neither creates an asset nor reduces a liability (the principal remains), so it is revenue expenditure."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Fiscal deficit indicates the total borrowing requirement of the government.<br><b>Reason (R):</b> Fiscal deficit is the excess of total expenditure over total receipts excluding borrowings.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Since fiscal deficit is the gap left after all non-borrowed receipts, it must be met by borrowing. R explains A."
+    },
+    {
+      "q": "A zero primary deficit means that:",
+      "options": ["There is no borrowing at all", "Revenue receipts equal revenue expenditure", "Borrowing is used only to make interest payments", "The budget is in surplus"],
+      "answer": 2,
+      "explanation": "If FD − interest = 0, then fiscal deficit equals interest payments, so the whole borrowing goes into paying interest on past debt."
+    },
+    {
+      "q": "Revenue receipts = ₹500 crore, revenue expenditure = ₹650 crore, capital expenditure = ₹250 crore, non-debt capital receipts = ₹50 crore. Fiscal deficit is:",
+      "options": ["₹150 crore", "₹350 crore", "₹400 crore", "₹300 crore"],
+      "answer": 1,
+      "explanation": "Total expenditure = 650 + 250 = 900. FD = 900 − (500 + 50) = ₹350 crore. ₹150 crore is the revenue deficit."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: Grants given by the Central government to state governments are capital expenditure.<br>Statement 2: Recovery of loans is a non-debt creating capital receipt.",
+      "options": ["Both statements are true", "Both statements are false", "Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true"],
+      "answer": 3,
+      "explanation": "Grants do not create assets for the Centre, so they are revenue expenditure. Recovery of loans reduces an asset of the government (loans given) and creates no debt."
+    },
+    {
+      "q": "Which objective of the budget is served by imposing heavy taxes on cigarettes and giving subsidies for solar panels?",
+      "options": ["Reallocation of resources", "Management of public enterprises", "Reducing the fiscal deficit", "Redistribution of income only"],
+      "answer": 0,
+      "explanation": "Taxes discourage production of harmful goods and subsidies encourage desirable ones, shifting resources according to social priorities."
+    },
+    {
+      "q": "A surplus budget is suitable when the economy is facing:",
+      "options": ["Deficient demand", "Unemployment", "Inflation", "A deflationary gap"],
+      "answer": 2,
+      "explanation": "A surplus budget takes more out of the economy as receipts than it puts in as spending, reducing aggregate demand and inflationary pressure."
+    },
+    {
+      "q": "Which of the following is <b>not</b> a consequence of a large fiscal deficit?",
+      "options": ["Rising interest burden", "Possible crowding out of private investment", "Inflationary pressure if financed by money creation", "Automatic reduction in public debt"],
+      "answer": 3,
+      "explanation": "Fiscal deficit is financed by borrowing, so it adds to public debt; it cannot reduce it."
+    },
+    {
+      "q": "Revenue deficit is ₹40,000 crore and fiscal deficit is ₹1,00,000 crore. The share of borrowing used for revenue expenditure is:",
+      "options": ["60%", "40%", "250%", "25%"],
+      "answer": 1,
+      "explanation": "RD ÷ FD × 100 = 40,000 ÷ 1,00,000 × 100 = 40%."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Define primary deficit.",
+      "marks": 1,
+      "answerHtml": "<p>Primary deficit is the fiscal deficit minus interest payments; it shows the borrowing requirement of the government excluding interest payments on past loans.</p>"
+    },
+    {
+      "q": "Why is repayment of a loan a capital expenditure?",
+      "marks": 1,
+      "answerHtml": "<p>Because it reduces a liability (outstanding debt) of the government.</p>"
+    },
+    {
+      "q": "Giving reasons, classify the following as revenue receipts or capital receipts: (a) Borrowings from the public (b) Profits of public sector undertakings (c) Sale of shares of a public sector undertaking.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Borrowings from the public: capital receipt</b>, as it creates a liability for the government (the loan must be repaid).</li><li><b>Profits of PSUs: revenue receipt</b> (non-tax), as it neither creates a liability nor reduces any asset.</li><li><b>Sale of PSU shares (disinvestment): capital receipt</b>, as it reduces the assets of the government.</li></ol>"
+    },
+    {
+      "q": "Explain how the government budget can be used to reduce inequalities of income.",
+      "marks": 3,
+      "answerHtml": "<p>The government reduces inequality through both receipts and expenditure:</p><ul><li><b>Taxation:</b> progressive income tax (higher rates on higher incomes), wealth-related taxes and higher GST rates on luxury goods take a larger share from the rich, reducing their disposable income.</li><li><b>Expenditure:</b> the revenue is spent on the poor through free or subsidised education and health care, subsidised food grains under the public distribution system, housing schemes and old age pensions. This raises the real income of the poor.</li></ul><p>Taking more from the rich and giving more to the poor narrows the gap in incomes.</p>"
+    },
+    {
+      "q": "From the following data (₹ crore) calculate (a) revenue deficit (b) fiscal deficit (c) primary deficit: Tax revenue 47; Non-tax revenue 10; Capital receipts (of which borrowings 32) 34; Revenue expenditure 80; Capital expenditure 11; Interest payments 20.",
+      "marks": 4,
+      "answerHtml": "<p>Revenue receipts = 47 + 10 = 57.</p><p><b>(a)</b> Revenue deficit = Revenue expenditure − Revenue receipts = 80 − 57 = <b>₹23 crore</b>.</p><p>Non-debt capital receipts = 34 − 32 = 2. Total expenditure = 80 + 11 = 91.</p><p><b>(b)</b> Fiscal deficit = 91 − (57 + 2) = <b>₹32 crore</b>, which equals borrowings.</p><p><b>(c)</b> Primary deficit = 32 − 20 = <b>₹12 crore</b>.</p>"
+    },
+    {
+      "q": "'Revenue deficit is a burden on the economy.' Defend or refute the statement.",
+      "marks": 4,
+      "answerHtml": "<p>The statement is <b>defended</b>.</p><ul><li>Revenue deficit means the government's revenue receipts are not enough even to meet its current expenses such as salaries, subsidies and interest. It is a sign of <b>dissaving</b> by the government.</li><li>The gap is met by borrowing or disinvestment, but the money is used for consumption that creates no assets. Hence there is no future income from which the loans can be repaid.</li><li>It adds to future interest payments, which in turn raise revenue expenditure and the deficit again, pushing the government towards a <b>debt trap</b>.</li><li>To keep the deficit in check the government may cut capital expenditure, which hurts growth.</li></ul><p>Thus a persistent revenue deficit weakens the fiscal position and burdens future generations.</p>"
+    },
+    {
+      "q": "Distinguish between revenue expenditure and capital expenditure with examples. Why is a high share of capital expenditure considered desirable?",
+      "marks": 6,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Revenue expenditure</th><th>Capital expenditure</th></tr></thead><tbody><tr><td>Meaning</td><td>Expenditure that neither creates assets nor reduces liabilities</td><td>Expenditure that creates assets or reduces liabilities</td></tr><tr><td>Nature</td><td>Recurring</td><td>Non-recurring</td></tr><tr><td>Purpose</td><td>Running of government departments and services</td><td>Building productive capacity</td></tr><tr><td>Examples</td><td>Salaries, pensions, interest payments, subsidies, grants to states</td><td>Construction of highways and dams, purchase of machinery, loans to states, repayment of loans</td></tr></tbody></table><p><b>Why a high share of capital expenditure is desirable:</b></p><ul><li>It builds infrastructure (roads, power, ports) which raises the productive capacity of the economy and promotes long-term growth.</li><li>Assets created may generate future income (e.g. user charges, dividends), helping repay borrowings.</li><li>Through the multiplier, public investment raises income and employment, and it often attracts private investment ('crowding in').</li><li>It keeps borrowing productive, so the debt burden remains sustainable.</li></ul>"
+    },
+    {
+      "q": "What is fiscal deficit? Explain its implications for the economy.",
+      "marks": 6,
+      "answerHtml": "<p><b>Fiscal deficit</b> is the excess of total expenditure of the government over its total receipts excluding borrowings: FD = Total expenditure − (Revenue receipts + Non-debt creating capital receipts). It equals the total borrowing requirement of the government.</p><p><b>Implications:</b></p><ol><li><b>Rising debt and interest burden:</b> every year's fiscal deficit adds to public debt. Interest payments rise and may lead to a debt trap where the government borrows just to pay interest.</li><li><b>Inflation:</b> if the deficit is financed by borrowing from the RBI, new money is created and aggregate demand may exceed supply, raising prices.</li><li><b>Crowding out of private investment:</b> when the government borrows heavily from the market, less loanable funds remain for private firms and interest rates may rise.</li><li><b>Burden on future generations:</b> the loans and interest must be repaid by future taxpayers.</li><li><b>Dependence on foreign sources:</b> borrowing from abroad may raise external debt.</li><li><b>Positive role:</b> if the borrowed funds finance productive capital expenditure such as infrastructure, a fiscal deficit can raise growth and help the economy recover from a recession. The quality of spending, not just the size of the deficit, matters.</li></ol>"
+    }
+  ]
+}

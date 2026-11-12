@@ -1,0 +1,299 @@
+{
+  "id": "modular-arithmetic",
+  "title": "Modular Arithmetic and Congruence",
+  "summary": "Modular arithmetic is arithmetic of remainders: numbers \"wrap around\" after reaching a fixed modulus, exactly like hours on a clock or days of a week. This chapter covers the mod operation, congruence modulo n, its properties, modular inverses, linear congruences and everyday applications such as clocks, calendars and unit digits of large powers.",
+  "notes": [
+    {
+      "heading": "The division algorithm and a mod n",
+      "html": "<p>For any integer a and any positive integer n there are unique integers q (quotient) and r (remainder) such that <b>a = nq + r, where 0 ≤ r &lt; n</b>. This is the <b>division algorithm</b>.</p><p>The remainder r is written <b>a mod n</b> and read \"a modulo n\". The number n is called the <b>modulus</b>.</p><ul><li>47 mod 6 = 5, because 47 = 6 × 7 + 5.</li><li>30 mod 5 = 0, because 5 divides 30 exactly.</li><li>For a negative number the remainder must still lie between 0 and n − 1: −17 = 5 × (−4) + 3, so −17 mod 5 = 3 (not −2).</li></ul><p>So a mod n can only take the n values 0, 1, 2, …, n − 1. This set is called the set of <b>least non-negative residues</b> modulo n, written Z<sub>n</sub>.</p>"
+    },
+    {
+      "heading": "Congruence modulo n",
+      "html": "<p>Two integers a and b are <b>congruent modulo n</b> if they leave the same remainder when divided by n. Equivalently, n divides their difference:</p><p><b>a ≡ b (mod n) ⇔ n | (a − b) ⇔ a − b = kn for some integer k.</b></p><ul><li>38 ≡ 14 (mod 6) because 38 − 14 = 24 = 6 × 4.</li><li>25 ≢ 4 (mod 6) because 25 − 4 = 21 is not a multiple of 6.</li><li>−7 ≡ 5 (mod 12) because −7 − 5 = −12. (7 hours before midnight is 5 o'clock.)</li></ul><p>Congruence is an <b>equivalence relation</b>: it is reflexive (a ≡ a), symmetric (a ≡ b ⇒ b ≡ a) and transitive (a ≡ b and b ≡ c ⇒ a ≡ c). It splits all integers into n classes, called <b>residue classes</b> or congruence classes.</p>"
+    },
+    {
+      "heading": "Properties of congruence (rules of modular arithmetic)",
+      "html": "<p>If a ≡ b (mod n) and c ≡ d (mod n), then:</p><ol><li>a + c ≡ b + d (mod n) — congruences can be added.</li><li>a − c ≡ b − d (mod n) — congruences can be subtracted.</li><li>ac ≡ bd (mod n) — congruences can be multiplied.</li><li>a<sup>k</sup> ≡ b<sup>k</sup> (mod n) for every positive integer k — congruences can be raised to powers.</li><li>a + m ≡ b + m and am ≡ bm (mod n) for any integer m.</li></ol><p>In practice: <b>(a + b) mod n = [(a mod n) + (b mod n)] mod n</b> and <b>(a × b) mod n = [(a mod n) × (b mod n)] mod n</b>. So we may replace any number by its remainder at any stage — this keeps the numbers small.</p><p><b>Caution:</b> congruences cannot in general be divided. 2 × 3 ≡ 2 × 8 (mod 10) (6 ≡ 16) but 3 ≢ 8 (mod 10). Cancellation of a common factor k is allowed only when gcd(k, n) = 1.</p>"
+    },
+    {
+      "heading": "Additive and multiplicative inverses; linear congruences",
+      "html": "<p><b>Additive inverse</b> of a modulo n is the number b in Z<sub>n</sub> with a + b ≡ 0 (mod n). Example: the additive inverse of 9 mod 13 is 4, since 9 + 4 = 13 ≡ 0.</p><p><b>Multiplicative inverse</b> of a modulo n is the number a<sup>−1</sup> with a × a<sup>−1</sup> ≡ 1 (mod n). It exists <b>only when gcd(a, n) = 1</b>. Example: 4<sup>−1</sup> mod 11 = 3, since 4 × 3 = 12 ≡ 1 (mod 11). 2 has no inverse mod 6 because gcd(2, 6) = 2.</p><p>A <b>linear congruence</b> is ax ≡ b (mod n). Key result: it has a solution <b>if and only if d = gcd(a, n) divides b</b>, and then it has exactly d incongruent solutions modulo n.</p><p><b>Method to solve ax ≡ b (mod n):</b></p><ol><li>Find d = gcd(a, n). If d does not divide b, there is no solution.</li><li>If d &gt; 1, divide a, b and n by d to get a'x ≡ b' (mod n').</li><li>Find the inverse of a' modulo n' (by trial: a' × 1, a' × 2, … until the product leaves remainder 1).</li><li>Multiply both sides by the inverse: x ≡ (inverse × b') mod n'.</li><li>If d &gt; 1, list the d solutions x, x + n', x + 2n', … below n. Check one solution by substitution.</li></ol>"
+    },
+    {
+      "heading": "Worked Example 1 — remainder of a large power",
+      "html": "<p><b>Find the remainder when 3<sup>100</sup> is divided by 7.</b></p><p>Step 1: Find the cycle of powers of 3 modulo 7:</p><table><thead><tr><th>k</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td>3<sup>k</sup> mod 7</td><td>3</td><td>2</td><td>6</td><td>4</td><td>5</td><td>1</td></tr></tbody></table><p>(3<sup>2</sup> = 9 ≡ 2; 3<sup>3</sup> ≡ 2 × 3 = 6; 3<sup>4</sup> ≡ 6 × 3 = 18 ≡ 4; 3<sup>5</sup> ≡ 12 ≡ 5; 3<sup>6</sup> ≡ 15 ≡ 1.)</p><p>Step 2: Since 3<sup>6</sup> ≡ 1 (mod 7), write 100 = 6 × 16 + 4.</p><p>Step 3: 3<sup>100</sup> = (3<sup>6</sup>)<sup>16</sup> × 3<sup>4</sup> ≡ 1<sup>16</sup> × 4 = 4 (mod 7).</p><p><b>Remainder = 4.</b></p>"
+    },
+    {
+      "heading": "Worked Example 2 — clocks, calendars and unit digits",
+      "html": "<p><b>(a) It is 9 o'clock now (12-hour clock). What time will it show after 50 hours?</b></p><p>Hours on a dial work modulo 12: (9 + 50) mod 12 = 59 mod 12 = 11 (since 59 = 12 × 4 + 11). The clock shows <b>11 o'clock</b>.</p><p><b>(b) Today is Monday. Which day will it be after 100 days?</b></p><p>Days repeat modulo 7: 100 = 7 × 14 + 2, so 100 ≡ 2 (mod 7). Two days after Monday is <b>Wednesday</b>.</p><p><b>(c) Find the unit digit of 7<sup>2025</sup>.</b></p><p>The unit digit is the remainder mod 10. Powers of 7 mod 10: 7, 9, 3, 1, then repeat (cycle length 4). 2025 = 4 × 506 + 1, so 7<sup>2025</sup> ≡ 7<sup>1</sup> = 7 (mod 10). <b>Unit digit = 7.</b></p>"
+    },
+    {
+      "heading": "Worked Example 3 — solving linear congruences",
+      "html": "<p><b>(a) Solve 3x ≡ 4 (mod 7).</b></p><p>gcd(3, 7) = 1, so there is exactly one solution mod 7. Inverse of 3 mod 7: 3 × 5 = 15 ≡ 1, so 3<sup>−1</sup> = 5.</p><p>Multiply both sides by 5: x ≡ 20 ≡ 6 (mod 7). Check: 3 × 6 = 18 = 14 + 4 ≡ 4 ✓. <b>x ≡ 6 (mod 7)</b>, i.e. x = 6, 13, 20, …</p><p><b>(b) Solve 4x ≡ 6 (mod 10).</b></p><p>d = gcd(4, 10) = 2 and 2 | 6, so there are 2 solutions mod 10. Divide by 2: 2x ≡ 3 (mod 5). Inverse of 2 mod 5 is 3 (2 × 3 = 6 ≡ 1). x ≡ 9 ≡ 4 (mod 5).</p><p>Solutions mod 10: x = 4 and x = 4 + 5 = 9. Check: 4 × 4 = 16 ≡ 6 ✓; 4 × 9 = 36 ≡ 6 ✓. <b>x ≡ 4 or 9 (mod 10).</b></p><p><b>(c) Solve 6x ≡ 5 (mod 9).</b> gcd(6, 9) = 3 does not divide 5, so there is <b>no solution</b>.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Giving a negative remainder: −23 mod 5 is 2, not −3. Always add the modulus until the answer lies in 0 to n − 1.</li><li>Dividing both sides of a congruence by a number that shares a factor with the modulus.</li><li>Forgetting that a multiplicative inverse exists only when gcd(a, n) = 1.</li><li>For days of the week, counting the starting day as day 1. \"After 100 days\" means add 100 to today, then reduce mod 7.</li><li>For a 24-hour clock use mod 24; for a dial clock use mod 12 and remember that remainder 0 means 12 o'clock.</li><li>Saying a linear congruence has one solution when gcd(a, n) = d &gt; 1 — it has d solutions.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Modulus",
+      "definition": "The fixed positive integer n with respect to which remainders are taken in a ≡ b (mod n)."
+    },
+    {
+      "term": "a mod n",
+      "definition": "The remainder r (0 ≤ r &lt; n) left when a is divided by n."
+    },
+    {
+      "term": "Congruence",
+      "definition": "a ≡ b (mod n) means n divides a − b, i.e. a and b leave the same remainder on division by n."
+    },
+    {
+      "term": "Residue class",
+      "definition": "The set of all integers congruent to a given number modulo n; there are exactly n such classes."
+    },
+    {
+      "term": "Z<sub>n</sub>",
+      "definition": "The set {0, 1, 2, …, n − 1} of least non-negative residues modulo n."
+    },
+    {
+      "term": "Additive inverse mod n",
+      "definition": "The number b with a + b ≡ 0 (mod n); it equals n − (a mod n) when a is not a multiple of n."
+    },
+    {
+      "term": "Multiplicative inverse mod n",
+      "definition": "The number a<sup>−1</sup> with a × a<sup>−1</sup> ≡ 1 (mod n); it exists only when gcd(a, n) = 1."
+    },
+    {
+      "term": "Linear congruence",
+      "definition": "A congruence of the form ax ≡ b (mod n); solvable iff gcd(a, n) divides b."
+    },
+    {
+      "term": "Cyclicity",
+      "definition": "The repeating pattern of remainders of successive powers a, a<sup>2</sup>, a<sup>3</sup>, … modulo n, used for large powers."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Division algorithm",
+      "html": "a = nq + r, 0 ≤ r &lt; n; r = a mod n"
+    },
+    {
+      "name": "Definition of congruence",
+      "html": "a ≡ b (mod n) ⇔ n | (a − b) ⇔ a mod n = b mod n"
+    },
+    {
+      "name": "Addition rule",
+      "html": "(a + b) mod n = [(a mod n) + (b mod n)] mod n"
+    },
+    {
+      "name": "Subtraction rule",
+      "html": "(a − b) mod n = [(a mod n) − (b mod n) + n] mod n"
+    },
+    {
+      "name": "Multiplication rule",
+      "html": "(a × b) mod n = [(a mod n) × (b mod n)] mod n"
+    },
+    {
+      "name": "Power rule",
+      "html": "a ≡ b (mod n) ⇒ a<sup>k</sup> ≡ b<sup>k</sup> (mod n)"
+    },
+    {
+      "name": "Using a cycle",
+      "html": "If a<sup>m</sup> ≡ 1 (mod n) and k = mq + s, then a<sup>k</sup> ≡ a<sup>s</sup> (mod n)"
+    },
+    {
+      "name": "Additive inverse",
+      "html": "−a mod n = n − (a mod n), when a mod n ≠ 0"
+    },
+    {
+      "name": "Multiplicative inverse",
+      "html": "a × a<sup>−1</sup> ≡ 1 (mod n), exists iff gcd(a, n) = 1"
+    },
+    {
+      "name": "Linear congruence",
+      "html": "ax ≡ b (mod n) solvable iff d = gcd(a, n) | b; then d solutions mod n"
+    },
+    {
+      "name": "Clock / calendar",
+      "html": "Dial clock: mod 12; 24-hour clock: mod 24; day of week: mod 7; unit digit: mod 10"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "The value of 47 mod 6 is",
+      "options": [
+        "5",
+        "4",
+        "7",
+        "1"
+      ],
+      "answer": 0,
+      "explanation": "47 = 6 × 7 + 5, so the remainder is 5."
+    },
+    {
+      "q": "The value of −23 mod 5 is",
+      "options": [
+        "−3",
+        "3",
+        "2",
+        "−2"
+      ],
+      "answer": 2,
+      "explanation": "−23 = 5 × (−5) + 2, and 0 ≤ 2 &lt; 5. So −23 mod 5 = 2. (−3 is wrong because a remainder cannot be negative.)"
+    },
+    {
+      "q": "Which of the following congruences is true?",
+      "options": [
+        "25 ≡ 4 (mod 6)",
+        "17 ≡ 5 (mod 5)",
+        "40 ≡ 3 (mod 7)",
+        "38 ≡ 14 (mod 6)"
+      ],
+      "answer": 3,
+      "explanation": "38 − 14 = 24 = 6 × 4 ✓. The others: 25 − 4 = 21, 17 − 5 = 12, 40 − 3 = 37 are not multiples of 6, 5, 7 respectively."
+    },
+    {
+      "q": "The remainder when 2<sup>20</sup> is divided by 7 is",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "2<sup>3</sup> = 8 ≡ 1 (mod 7). 20 = 3 × 6 + 2, so 2<sup>20</sup> ≡ 1<sup>6</sup> × 2<sup>2</sup> = 4 (mod 7)."
+    },
+    {
+      "q": "The unit digit of 3<sup>47</sup> is",
+      "options": [
+        "9",
+        "7",
+        "3",
+        "1"
+      ],
+      "answer": 1,
+      "explanation": "Unit digits of powers of 3 cycle as 3, 9, 7, 1 (length 4). 47 = 4 × 11 + 3, so the unit digit is the 3rd in the cycle, i.e. 7."
+    },
+    {
+      "q": "It is 7 a.m. now. What time will it be 75 hours later?",
+      "options": [
+        "8 a.m.",
+        "10 p.m.",
+        "10 a.m.",
+        "7 p.m."
+      ],
+      "answer": 2,
+      "explanation": "Use mod 24: 75 = 24 × 3 + 3. So the time is 3 hours after 7 a.m., i.e. 10 a.m. (three days later)."
+    },
+    {
+      "q": "The solution of 5x ≡ 3 (mod 8) is",
+      "options": [
+        "x ≡ 7 (mod 8)",
+        "x ≡ 3 (mod 8)",
+        "x ≡ 5 (mod 8)",
+        "x ≡ 1 (mod 8)"
+      ],
+      "answer": 0,
+      "explanation": "gcd(5, 8) = 1. Inverse of 5 mod 8 is 5 (25 ≡ 1). x ≡ 5 × 3 = 15 ≡ 7. Check: 5 × 7 = 35 = 32 + 3 ✓."
+    },
+    {
+      "q": "The additive inverse of 9 in Z<sub>13</sub> is",
+      "options": [
+        "−9",
+        "4",
+        "9",
+        "3"
+      ],
+      "answer": 1,
+      "explanation": "We need b with 9 + b ≡ 0 (mod 13): b = 13 − 9 = 4. (−9 is not an element of Z<sub>13</sub>.)"
+    },
+    {
+      "q": "The multiplicative inverse of 4 modulo 11 is",
+      "options": [
+        "7",
+        "4",
+        "9",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "4 × 3 = 12 = 11 + 1 ≡ 1 (mod 11). So 4<sup>−1</sup> = 3."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The congruence 7x ≡ 2 (mod 14) has no solution.<br><b>Reason (R):</b> ax ≡ b (mod n) has a solution if and only if gcd(a, n) divides b.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 0,
+      "explanation": "R is the standard theorem. gcd(7, 14) = 7 and 7 does not divide 2, so by R there is no solution — A is true and follows from R."
+    },
+    {
+      "q": "(125 × 47) mod 9 equals",
+      "options": [
+        "8",
+        "2",
+        "7",
+        "0"
+      ],
+      "answer": 2,
+      "explanation": "125 mod 9 = 8 (125 = 117 + 8) and 47 mod 9 = 2. So the product ≡ 8 × 2 = 16 ≡ 7 (mod 9). Check: 125 × 47 = 5875 and 5875 = 9 × 652 + 7 ✓."
+    },
+    {
+      "q": "Today is Friday. Which day of the week will it be after 1000 days?",
+      "options": [
+        "Friday",
+        "Wednesday",
+        "Saturday",
+        "Thursday"
+      ],
+      "answer": 3,
+      "explanation": "1000 = 7 × 142 + 6, so 1000 ≡ 6 (mod 7). Six days after Friday is Thursday."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Find 89 mod 12.",
+      "marks": 1,
+      "answerHtml": "<p>89 = 12 × 7 + 5, so <b>89 mod 12 = 5</b>.</p>"
+    },
+    {
+      "q": "Is 73 ≡ 13 (mod 15)? Justify.",
+      "marks": 1,
+      "answerHtml": "<p>73 − 13 = 60 = 15 × 4, which is divisible by 15. Hence <b>yes, 73 ≡ 13 (mod 15)</b>.</p>"
+    },
+    {
+      "q": "Find the remainder when 5<sup>40</sup> is divided by 6.",
+      "marks": 2,
+      "answerHtml": "<p>5 ≡ −1 (mod 6). Therefore 5<sup>40</sup> ≡ (−1)<sup>40</sup> = 1 (mod 6).</p><p><b>Remainder = 1.</b></p>"
+    },
+    {
+      "q": "A wall clock (12-hour dial) shows 4 o'clock. What will it show after 1000 hours?",
+      "marks": 2,
+      "answerHtml": "<p>Dial positions repeat every 12 hours, so work modulo 12.</p><p>(4 + 1000) mod 12 = 1004 mod 12. Since 1004 = 12 × 83 + 8, the remainder is 8.</p><p><b>The clock will show 8 o'clock.</b></p>"
+    },
+    {
+      "q": "Solve the linear congruence 4x ≡ 6 (mod 10) and list all incongruent solutions.",
+      "marks": 3,
+      "answerHtml": "<p>Step 1: d = gcd(4, 10) = 2, and 2 divides 6, so there are exactly 2 solutions modulo 10.</p><p>Step 2: Divide by 2: 2x ≡ 3 (mod 5).</p><p>Step 3: Inverse of 2 modulo 5 is 3, because 2 × 3 = 6 ≡ 1 (mod 5). Multiply: x ≡ 9 ≡ 4 (mod 5).</p><p>Step 4: Solutions modulo 10 are x = 4 and x = 4 + 5 = 9.</p><p>Check: 4 × 4 = 16 ≡ 6 (mod 10) ✓ and 4 × 9 = 36 ≡ 6 (mod 10) ✓.</p><p><b>x ≡ 4 (mod 10) or x ≡ 9 (mod 10).</b></p>"
+    },
+    {
+      "q": "Using congruences, prove that 2<sup>3n</sup> − 1 is divisible by 7 for every natural number n.",
+      "marks": 3,
+      "answerHtml": "<p>2<sup>3n</sup> = (2<sup>3</sup>)<sup>n</sup> = 8<sup>n</sup>.</p><p>Since 8 = 7 + 1, we have 8 ≡ 1 (mod 7).</p><p>By the power rule, 8<sup>n</sup> ≡ 1<sup>n</sup> = 1 (mod 7).</p><p>Hence 2<sup>3n</sup> − 1 ≡ 1 − 1 = 0 (mod 7), i.e. 7 divides 2<sup>3n</sup> − 1 for every natural n. ∎</p>"
+    },
+    {
+      "q": "(a) Find the remainder when 17<sup>23</sup> is divided by 5. (b) Find the unit digit of 17<sup>23</sup>. (c) Find x in Z<sub>9</sub> such that 7x ≡ 1 (mod 9).",
+      "marks": 5,
+      "answerHtml": "<p><b>(a)</b> 17 ≡ 2 (mod 5). Powers of 2 mod 5: 2, 4, 3, 1 (cycle of 4). 23 = 4 × 5 + 3, so 17<sup>23</sup> ≡ 2<sup>23</sup> ≡ 2<sup>3</sup> = 8 ≡ 3 (mod 5). <b>Remainder = 3.</b></p><p><b>(b)</b> 17 ≡ 7 (mod 10). Unit digits of powers of 7: 7, 9, 3, 1 (cycle of 4). 23 ≡ 3 (mod 4), so the unit digit is the third term, <b>3</b>. (Consistent with (a): a number ending in 3 leaves remainder 3 on division by 5.)</p><p><b>(c)</b> gcd(7, 9) = 1, so an inverse exists. Try multiples of 7: 7 × 1 = 7, 7 × 2 = 14 ≡ 5, 7 × 3 = 21 ≡ 3, 7 × 4 = 28 ≡ 1 (mod 9). <b>x = 4.</b></p>"
+    },
+    {
+      "q": "<b>Case study.</b> A cargo ship leaves port at 22:00 hours (24-hour clock) on a Tuesday. Its voyage takes 150 hours. A second ship leaves at the same time on a voyage of 100 hours. The port crane is serviced every 9 days, and was last serviced on that Tuesday.<br>(i) At what time and on which day does the first ship arrive?<br>(ii) At what time and on which day does the second ship arrive?<br>(iii) On which day of the week will the 10th service after that Tuesday fall?",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b> Hours counted from 00:00 Tuesday: 22 + 150 = 172. 172 = 24 × 7 + 4, so 172 ≡ 4 (mod 24): the clock shows <b>04:00</b>. Seven full days have passed, and 7 ≡ 0 (mod 7), so the day is again <b>Tuesday</b> (of the next week).</p><p><b>(ii)</b> 22 + 100 = 122 = 24 × 5 + 2. Time = <b>02:00</b>; 5 days after Tuesday is <b>Sunday</b>.</p><p><b>(iii)</b> The 10th service comes 10 × 9 = 90 days later. 90 = 7 × 12 + 6, so 90 ≡ 6 (mod 7). Six days after Tuesday is <b>Monday</b>.</p>"
+    }
+  ]
+}

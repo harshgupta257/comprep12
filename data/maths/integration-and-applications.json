@@ -1,0 +1,307 @@
+{
+  "id": "integration-and-applications",
+  "title": "Integration and its Applications",
+  "summary": "Integration reverses differentiation: from a marginal function it recovers the total function, and as a definite integral it measures area under a curve. This chapter covers standard integrals, substitution, partial fractions and integration by parts, definite integrals and their properties, and business applications such as total cost from marginal cost, consumer surplus and producer surplus.",
+  "notes": [
+    {
+      "heading": "Indefinite integral as anti-derivative",
+      "html": "<p>If d/dx [F(x)] = f(x), then F is an <b>anti-derivative</b> of f and we write <b>∫ f(x) dx = F(x) + C</b>, where C is the arbitrary <b>constant of integration</b>. Geometrically, ∫ f(x) dx is a family of curves, each a vertical shift of the others.</p><table><thead><tr><th>f(x)</th><th>∫ f(x) dx</th></tr></thead><tbody><tr><td>x<sup>n</sup> (n ≠ −1)</td><td>x<sup>n + 1</sup>/(n + 1) + C</td></tr><tr><td>1/x</td><td>log |x| + C</td></tr><tr><td>e<sup>x</sup></td><td>e<sup>x</sup> + C</td></tr><tr><td>e<sup>ax + b</sup></td><td>e<sup>ax + b</sup>/a + C</td></tr><tr><td>a<sup>x</sup></td><td>a<sup>x</sup>/log a + C</td></tr><tr><td>1/(ax + b)</td><td>(1/a) log |ax + b| + C</td></tr><tr><td>k (constant)</td><td>kx + C</td></tr></tbody></table><p>Rules: ∫ [f(x) ± g(x)] dx = ∫ f dx ± ∫ g dx and ∫ k f(x) dx = k ∫ f(x) dx. There is <b>no</b> product rule of this simple kind: ∫ fg dx ≠ (∫ f dx)(∫ g dx).</p>"
+    },
+    {
+      "heading": "Methods: substitution, partial fractions, by parts",
+      "html": "<ul><li><b>Substitution:</b> if the integrand contains a function and (a multiple of) its derivative, put t = that function. Key results: ∫ f′(x)/f(x) dx = log |f(x)| + C and ∫ f′(x) e<sup>f(x)</sup> dx = e<sup>f(x)</sup> + C.</li><li><b>Partial fractions</b> (proper rational functions with distinct linear factors): (px + q)/((x − a)(x − b)) = A/(x − a) + B/(x − b). Find A by putting x = a in (px + q)/(x − b), and B by putting x = b in (px + q)/(x − a) (cover-up rule). Each term integrates to a logarithm.</li><li><b>Integration by parts:</b> ∫ u v dx = u ∫ v dx − ∫ [u′ ∫ v dx] dx. Choose u by the ILATE order (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential) — the function earlier in the list is u.</li><li>Useful results: ∫ x e<sup>x</sup> dx = e<sup>x</sup>(x − 1) + C; ∫ log x dx = x log x − x + C; ∫ e<sup>x</sup>[f(x) + f′(x)] dx = e<sup>x</sup>f(x) + C.</li></ul><p><b>Worked Example 1.</b></p><ol><li>∫ (3x<sup>2</sup> + 4/x − e<sup>2x</sup> + 5) dx = x<sup>3</sup> + 4 log |x| − e<sup>2x</sup>/2 + 5x + C.</li><li>∫ 2x/(x<sup>2</sup> + 1) dx: the numerator is the derivative of the denominator, so the answer is log (x<sup>2</sup> + 1) + C.</li><li>∫ (x + 5)/((x + 1)(x + 2)) dx: A = (−1 + 5)/(−1 + 2) = 4, B = (−2 + 5)/(−2 + 1) = −3. Integral = 4 log |x + 1| − 3 log |x + 2| + C.</li><li>∫ x log x dx: u = log x (L before A), v = x. = (x<sup>2</sup>/2) log x − ∫ (1/x)(x<sup>2</sup>/2) dx = (x<sup>2</sup>/2) log x − x<sup>2</sup>/4 + C.</li></ol>"
+    },
+    {
+      "heading": "Definite integrals and their properties",
+      "html": "<p>If F′(x) = f(x), then <b>∫<sub>a</sub><sup>b</sup> f(x) dx = F(b) − F(a)</b> (Fundamental Theorem of Calculus). No constant C is needed. If f(x) ≥ 0 on [a, b], this equals the <b>area</b> between y = f(x), the x-axis and the lines x = a, x = b.</p><ol><li>∫<sub>a</sub><sup>b</sup> f(x) dx = −∫<sub>b</sub><sup>a</sup> f(x) dx; ∫<sub>a</sub><sup>a</sup> f(x) dx = 0.</li><li>∫<sub>a</sub><sup>b</sup> f(x) dx = ∫<sub>a</sub><sup>c</sup> f(x) dx + ∫<sub>c</sub><sup>b</sup> f(x) dx.</li><li>∫<sub>0</sub><sup>a</sup> f(x) dx = ∫<sub>0</sub><sup>a</sup> f(a − x) dx.</li><li>∫<sub>−a</sub><sup>a</sup> f(x) dx = 2∫<sub>0</sub><sup>a</sup> f(x) dx if f is even (f(−x) = f(x)), and = 0 if f is odd (f(−x) = −f(x)).</li><li>In a substitution, change the limits too.</li></ol><p><b>Worked Example 2.</b> (a) ∫<sub>1</sub><sup>3</sup> (2x + 1) dx = [x<sup>2</sup> + x]<sub>1</sub><sup>3</sup> = (9 + 3) − (1 + 1) = <b>10</b>.</p><p>(b) Area under y = x<sup>2</sup> from x = 0 to x = 3 = [x<sup>3</sup>/3]<sub>0</sub><sup>3</sup> = <b>9 sq units</b>.</p><p>(c) ∫<sub>−2</sub><sup>2</sup> (x<sup>3</sup> + 5x) dx = 0, because x<sup>3</sup> + 5x is odd.</p>"
+    },
+    {
+      "heading": "From marginal to total functions",
+      "html": "<ul><li>Total cost C(x) = ∫ MC dx + k, where the constant k is the <b>fixed cost</b> (C(0) = k).</li><li>Total revenue R(x) = ∫ MR dx, with R(0) = 0; then the demand (price) function is p = R(x)/x.</li><li>Change in cost when output rises from a to b = ∫<sub>a</sub><sup>b</sup> MC dx.</li><li>Change in profit = ∫<sub>a</sub><sup>b</sup> (MR − MC) dx.</li></ul><p><b>Worked Example 3.</b> MC = 3x<sup>2</sup> − 10x + 15 and fixed cost is ₹400. Then C(x) = x<sup>3</sup> − 5x<sup>2</sup> + 15x + 400 and AC = x<sup>2</sup> − 5x + 15 + 400/x.</p><p>The extra cost of raising output from 4 to 6 units = ∫<sub>4</sub><sup>6</sup> (3x<sup>2</sup> − 10x + 15) dx = [x<sup>3</sup> − 5x<sup>2</sup> + 15x]<sub>4</sub><sup>6</sup> = (216 − 180 + 90) − (64 − 80 + 60) = 126 − 44 = <b>₹82</b>.</p>"
+    },
+    {
+      "heading": "Consumer surplus and producer surplus",
+      "html": "<p>Let the demand curve be p = D(x), the supply curve p = S(x), and let the market settle at quantity x<sub>0</sub> and price p<sub>0</sub> (usually the equilibrium, where D(x<sub>0</sub>) = S(x<sub>0</sub>)).</p><ul><li><b>Consumer surplus (CS)</b>: the benefit to buyers who were willing to pay more than p<sub>0</sub>. <b>CS = ∫<sub>0</sub><sup>x<sub>0</sub></sup> D(x) dx − p<sub>0</sub>x<sub>0</sub></b> — the area below the demand curve and above the price line.</li><li><b>Producer surplus (PS)</b>: the benefit to sellers who would have accepted less than p<sub>0</sub>. <b>PS = p<sub>0</sub>x<sub>0</sub> − ∫<sub>0</sub><sup>x<sub>0</sub></sup> S(x) dx</b> — the area above the supply curve and below the price line.</li><li>For straight-line curves the surpluses are triangles: area = ½ × base × height, a quick check.</li></ul><p><b>Worked Example 4.</b> Demand p = 30 − 2x, supply p = 6 + x.</p><p>Equilibrium: 30 − 2x = 6 + x ⇒ x<sub>0</sub> = 8, p<sub>0</sub> = 14; p<sub>0</sub>x<sub>0</sub> = 112.</p><p>CS = ∫<sub>0</sub><sup>8</sup> (30 − 2x) dx − 112 = [30x − x<sup>2</sup>]<sub>0</sub><sup>8</sup> − 112 = 176 − 112 = <b>₹64</b> (triangle check: ½ × 8 × (30 − 14) = 64 ✓).</p><p>PS = 112 − ∫<sub>0</sub><sup>8</sup> (6 + x) dx = 112 − [6x + x<sup>2</sup>/2]<sub>0</sub><sup>8</sup> = 112 − 80 = <b>₹32</b> (½ × 8 × (14 − 6) = 32 ✓).</p>"
+    },
+    {
+      "heading": "Worked Example 5 — surplus with non-linear curves",
+      "html": "<p><b>Demand p = 40 − x<sup>2</sup>, supply p = x<sup>2</sup> + 2x + 16. Find CS and PS at equilibrium.</b></p><p>Equilibrium: 40 − x<sup>2</sup> = x<sup>2</sup> + 2x + 16 ⇒ 2x<sup>2</sup> + 2x − 24 = 0 ⇒ x<sup>2</sup> + x − 12 = 0 ⇒ (x + 4)(x − 3) = 0 ⇒ x<sub>0</sub> = 3 (quantity cannot be negative).</p><p>p<sub>0</sub> = 40 − 9 = 31; p<sub>0</sub>x<sub>0</sub> = 93.</p><p>CS = ∫<sub>0</sub><sup>3</sup> (40 − x<sup>2</sup>) dx − 93 = [40x − x<sup>3</sup>/3]<sub>0</sub><sup>3</sup> − 93 = (120 − 9) − 93 = <b>18</b>.</p><p>PS = 93 − ∫<sub>0</sub><sup>3</sup> (x<sup>2</sup> + 2x + 16) dx = 93 − [x<sup>3</sup>/3 + x<sup>2</sup> + 16x]<sub>0</sub><sup>3</sup> = 93 − (9 + 9 + 48) = <b>27</b>.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Forgetting + C in indefinite integrals (and wrongly adding it in definite integrals).</li><li>Writing ∫ x<sup>−1</sup> dx = x<sup>0</sup>/0 — the power rule fails for n = −1; the answer is log |x|.</li><li>Forgetting to divide by a in ∫ e<sup>ax</sup> dx.</li><li>Treating ∫ fg dx as the product of the separate integrals.</li><li>Forgetting the fixed cost when recovering C(x) from MC, or adding a constant to R(x) (R(0) = 0).</li><li>Using the area under the demand curve alone as CS, without subtracting p<sub>0</sub>x<sub>0</sub>.</li><li>Using a negative root as the equilibrium quantity.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Anti-derivative",
+      "definition": "A function F with F′(x) = f(x)."
+    },
+    {
+      "term": "Constant of integration",
+      "definition": "The arbitrary constant C added to every indefinite integral."
+    },
+    {
+      "term": "Definite integral",
+      "definition": "∫<sub>a</sub><sup>b</sup> f(x) dx = F(b) − F(a); for f ≥ 0 it is the area under the curve from a to b."
+    },
+    {
+      "term": "Integration by parts",
+      "definition": "∫ uv dx = u∫v dx − ∫(u′∫v dx) dx; u is chosen by the ILATE rule."
+    },
+    {
+      "term": "Partial fractions",
+      "definition": "Splitting a rational function into simpler fractions, e.g. A/(x − a) + B/(x − b), before integrating."
+    },
+    {
+      "term": "Fixed cost",
+      "definition": "The cost incurred even at zero output; it is the constant of integration in C(x) = ∫ MC dx + k."
+    },
+    {
+      "term": "Consumer surplus",
+      "definition": "Area below the demand curve and above the market price line: ∫<sub>0</sub><sup>x<sub>0</sub></sup> D(x) dx − p<sub>0</sub>x<sub>0</sub>."
+    },
+    {
+      "term": "Producer surplus",
+      "definition": "Area above the supply curve and below the market price line: p<sub>0</sub>x<sub>0</sub> − ∫<sub>0</sub><sup>x<sub>0</sub></sup> S(x) dx."
+    },
+    {
+      "term": "Market equilibrium",
+      "definition": "The quantity and price at which demand equals supply."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Power rule",
+      "html": "∫ x<sup>n</sup> dx = x<sup>n + 1</sup>/(n + 1) + C, n ≠ −1"
+    },
+    {
+      "name": "Reciprocal",
+      "html": "∫ (1/x) dx = log |x| + C; ∫ 1/(ax + b) dx = (1/a) log |ax + b| + C"
+    },
+    {
+      "name": "Exponentials",
+      "html": "∫ e<sup>ax + b</sup> dx = e<sup>ax + b</sup>/a + C; ∫ a<sup>x</sup> dx = a<sup>x</sup>/log a + C"
+    },
+    {
+      "name": "Log of a function",
+      "html": "∫ f′(x)/f(x) dx = log |f(x)| + C"
+    },
+    {
+      "name": "Exponential of a function",
+      "html": "∫ f′(x) e<sup>f(x)</sup> dx = e<sup>f(x)</sup> + C"
+    },
+    {
+      "name": "By parts",
+      "html": "∫ uv dx = u ∫ v dx − ∫ [u′ ∫ v dx] dx"
+    },
+    {
+      "name": "Special by-parts results",
+      "html": "∫ x e<sup>x</sup> dx = e<sup>x</sup>(x − 1) + C; ∫ log x dx = x log x − x + C; ∫ e<sup>x</sup>[f + f′] dx = e<sup>x</sup> f + C"
+    },
+    {
+      "name": "Partial fractions (cover-up)",
+      "html": "(px + q)/((x − a)(x − b)) = A/(x − a) + B/(x − b), A = (pa + q)/(a − b), B = (pb + q)/(b − a)"
+    },
+    {
+      "name": "Fundamental theorem",
+      "html": "∫<sub>a</sub><sup>b</sup> f(x) dx = F(b) − F(a)"
+    },
+    {
+      "name": "Properties",
+      "html": "∫<sub>a</sub><sup>b</sup> f = −∫<sub>b</sub><sup>a</sup> f; ∫<sub>a</sub><sup>b</sup> f = ∫<sub>a</sub><sup>c</sup> f + ∫<sub>c</sub><sup>b</sup> f; ∫<sub>0</sub><sup>a</sup> f(x) dx = ∫<sub>0</sub><sup>a</sup> f(a − x) dx"
+    },
+    {
+      "name": "Even / odd functions",
+      "html": "∫<sub>−a</sub><sup>a</sup> f dx = 2∫<sub>0</sub><sup>a</sup> f dx (even); = 0 (odd)"
+    },
+    {
+      "name": "Total cost and revenue",
+      "html": "C(x) = ∫ MC dx + fixed cost; R(x) = ∫ MR dx, R(0) = 0; p = R/x"
+    },
+    {
+      "name": "Consumer surplus",
+      "html": "CS = ∫<sub>0</sub><sup>x<sub>0</sub></sup> D(x) dx − p<sub>0</sub>x<sub>0</sub>"
+    },
+    {
+      "name": "Producer surplus",
+      "html": "PS = p<sub>0</sub>x<sub>0</sub> − ∫<sub>0</sub><sup>x<sub>0</sub></sup> S(x) dx"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "∫ e<sup>3x</sup> dx equals",
+      "options": [
+        "3e<sup>3x</sup> + C",
+        "e<sup>3x</sup>/3 + C",
+        "e<sup>3x</sup> + C",
+        "e<sup>4x</sup>/4 + C"
+      ],
+      "answer": 1,
+      "explanation": "d/dx (e<sup>3x</sup>/3) = e<sup>3x</sup>, so ∫ e<sup>3x</sup> dx = e<sup>3x</sup>/3 + C. (3e<sup>3x</sup> is the derivative, not the integral.)"
+    },
+    {
+      "q": "∫<sub>0</sub><sup>2</sup> (3x<sup>2</sup> + 1) dx equals",
+      "options": [
+        "13",
+        "8",
+        "10",
+        "14"
+      ],
+      "answer": 2,
+      "explanation": "[x<sup>3</sup> + x]<sub>0</sub><sup>2</sup> = 8 + 2 = 10."
+    },
+    {
+      "q": "∫ x e<sup>x</sup> dx equals",
+      "options": [
+        "(x − 1)e<sup>x</sup> + C",
+        "(x + 1)e<sup>x</sup> + C",
+        "x<sup>2</sup>e<sup>x</sup>/2 + C",
+        "xe<sup>x</sup> + C"
+      ],
+      "answer": 0,
+      "explanation": "By parts with u = x, v = e<sup>x</sup>: xe<sup>x</sup> − ∫ e<sup>x</sup> dx = xe<sup>x</sup> − e<sup>x</sup> + C = (x − 1)e<sup>x</sup> + C."
+    },
+    {
+      "q": "∫<sub>−1</sub><sup>1</sup> x<sup>3</sup> dx equals",
+      "options": [
+        "1/2",
+        "2",
+        "1/4",
+        "0"
+      ],
+      "answer": 3,
+      "explanation": "x<sup>3</sup> is an odd function, so the integral over [−1, 1] is 0. Directly: [x<sup>4</sup>/4]<sub>−1</sub><sup>1</sup> = 1/4 − 1/4 = 0."
+    },
+    {
+      "q": "∫ 2x/(1 + x<sup>2</sup>) dx equals",
+      "options": [
+        "2 log (1 + x<sup>2</sup>) + C",
+        "log (1 + x<sup>2</sup>) + C",
+        "x<sup>2</sup> log (1 + x<sup>2</sup>) + C",
+        "1/(1 + x<sup>2</sup>) + C"
+      ],
+      "answer": 1,
+      "explanation": "The numerator 2x is the derivative of the denominator, so ∫ f′/f dx = log |f| + C = log (1 + x<sup>2</sup>) + C."
+    },
+    {
+      "q": "The marginal cost of a product is MC = 2x + 5 and the fixed cost is ₹100. The total cost of producing 10 units is",
+      "options": [
+        "₹150",
+        "₹25",
+        "₹250",
+        "₹200"
+      ],
+      "answer": 2,
+      "explanation": "C(x) = x<sup>2</sup> + 5x + 100. C(10) = 100 + 50 + 100 = ₹250. (₹150 forgets the fixed cost.)"
+    },
+    {
+      "q": "For the demand function p = 20 − x, the consumer surplus when the market price is ₹8 is",
+      "options": [
+        "₹96",
+        "₹144",
+        "₹48",
+        "₹72"
+      ],
+      "answer": 3,
+      "explanation": "At p<sub>0</sub> = 8, x<sub>0</sub> = 12. CS = ∫<sub>0</sub><sup>12</sup> (20 − x) dx − 96 = (240 − 72) − 96 = 72 (triangle: ½ × 12 × 12)."
+    },
+    {
+      "q": "The supply function is p = 4 + 2x. If the market quantity is 3 units, the producer surplus is",
+      "options": [
+        "₹9",
+        "₹21",
+        "₹30",
+        "₹12"
+      ],
+      "answer": 0,
+      "explanation": "p<sub>0</sub> = 4 + 6 = 10, p<sub>0</sub>x<sub>0</sub> = 30. PS = 30 − ∫<sub>0</sub><sup>3</sup> (4 + 2x) dx = 30 − (12 + 9) = 9."
+    },
+    {
+      "q": "∫<sub>1</sub><sup>e</sup> (1/x) dx equals",
+      "options": [
+        "e",
+        "1",
+        "e − 1",
+        "0"
+      ],
+      "answer": 1,
+      "explanation": "[log x]<sub>1</sub><sup>e</sup> = log e − log 1 = 1 − 0 = 1."
+    },
+    {
+      "q": "∫ dx/(x(x + 1)) equals",
+      "options": [
+        "log |x(x + 1)| + C",
+        "log |(x + 1)/x| + C",
+        "log |x/(x + 1)| + C",
+        "1/(x(x + 1)) + C"
+      ],
+      "answer": 2,
+      "explanation": "1/(x(x + 1)) = 1/x − 1/(x + 1), so the integral is log |x| − log |x + 1| + C = log |x/(x + 1)| + C."
+    },
+    {
+      "q": "The marginal revenue is MR = 20 − 4x. The demand function is",
+      "options": [
+        "p = 20 − 2x",
+        "p = 20x − 2x<sup>2</sup>",
+        "p = 20 − 4x",
+        "p = −4"
+      ],
+      "answer": 0,
+      "explanation": "R = ∫ (20 − 4x) dx = 20x − 2x<sup>2</sup> (R(0) = 0). p = R/x = 20 − 2x. (20x − 2x<sup>2</sup> is R itself, not p.)"
+    },
+    {
+      "q": "<b>Assertion (A):</b> ∫ x e<sup>x</sup> dx = (∫ x dx)(∫ e<sup>x</sup> dx) = (x<sup>2</sup>/2)e<sup>x</sup> + C.<br><b>Reason (R):</b> The integral of a sum of functions is the sum of their integrals.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Differentiating (x<sup>2</sup>/2)e<sup>x</sup> gives xe<sup>x</sup> + (x<sup>2</sup>/2)e<sup>x</sup> ≠ xe<sup>x</sup>, so A is false; integrals do not split over products. R is a true rule about sums."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Evaluate ∫ (x<sup>2</sup> + 1/x<sup>2</sup>) dx.",
+      "marks": 1,
+      "answerHtml": "<p>∫ x<sup>2</sup> dx + ∫ x<sup>−2</sup> dx = <b>x<sup>3</sup>/3 − 1/x + C</b>.</p>"
+    },
+    {
+      "q": "Evaluate ∫<sub>0</sub><sup>1</sup> e<sup>x</sup> dx.",
+      "marks": 1,
+      "answerHtml": "<p>[e<sup>x</sup>]<sub>0</sub><sup>1</sup> = e − 1 ≈ <b>1.718</b>.</p>"
+    },
+    {
+      "q": "Evaluate ∫ (x + 5)/((x + 1)(x + 2)) dx.",
+      "marks": 2,
+      "answerHtml": "<p>Let (x + 5)/((x + 1)(x + 2)) = A/(x + 1) + B/(x + 2). Then x + 5 = A(x + 2) + B(x + 1).</p><p>x = −1: 4 = A(1) ⇒ A = 4. x = −2: 3 = B(−1) ⇒ B = −3.</p><p>Integral = <b>4 log |x + 1| − 3 log |x + 2| + C</b>.</p>"
+    },
+    {
+      "q": "The marginal cost of a firm is MC = 3x<sup>2</sup> − 10x + 15 and its fixed cost is ₹400. Find the total cost and average cost functions.",
+      "marks": 2,
+      "answerHtml": "<p>C(x) = ∫ (3x<sup>2</sup> − 10x + 15) dx = x<sup>3</sup> − 5x<sup>2</sup> + 15x + k. Fixed cost C(0) = k = 400.</p><p><b>C(x) = x<sup>3</sup> − 5x<sup>2</sup> + 15x + 400</b>; <b>AC = x<sup>2</sup> − 5x + 15 + 400/x</b>.</p>"
+    },
+    {
+      "q": "Evaluate ∫<sub>1</sub><sup>e</sup> x log x dx.",
+      "marks": 3,
+      "answerHtml": "<p>By parts with u = log x and v = x: ∫ x log x dx = (x<sup>2</sup>/2) log x − ∫ (1/x)(x<sup>2</sup>/2) dx = (x<sup>2</sup>/2) log x − x<sup>2</sup>/4.</p><p>At x = e: e<sup>2</sup>/2 − e<sup>2</sup>/4 = e<sup>2</sup>/4. At x = 1: 0 − 1/4 = −1/4.</p><p><b>∫<sub>1</sub><sup>e</sup> x log x dx = (e<sup>2</sup> + 1)/4 ≈ 2.097.</b></p>"
+    },
+    {
+      "q": "The demand and supply functions are p = 30 − 2x and p = 6 + x. Find the consumer surplus and producer surplus at market equilibrium.",
+      "marks": 3,
+      "answerHtml": "<p>Equilibrium: 30 − 2x = 6 + x ⇒ x<sub>0</sub> = 8, p<sub>0</sub> = 14, p<sub>0</sub>x<sub>0</sub> = 112.</p><p>CS = ∫<sub>0</sub><sup>8</sup> (30 − 2x) dx − 112 = [30x − x<sup>2</sup>]<sub>0</sub><sup>8</sup> − 112 = (240 − 64) − 112 = <b>₹64</b>.</p><p>PS = 112 − ∫<sub>0</sub><sup>8</sup> (6 + x) dx = 112 − [6x + x<sup>2</sup>/2]<sub>0</sub><sup>8</sup> = 112 − (48 + 32) = <b>₹32</b>.</p>"
+    },
+    {
+      "q": "The demand function for a commodity is p = 40 − x<sup>2</sup> and the supply function is p = x<sup>2</sup> + 2x + 16. Find the equilibrium price and quantity, and the consumer and producer surplus.",
+      "marks": 5,
+      "answerHtml": "<p>Equilibrium: 40 − x<sup>2</sup> = x<sup>2</sup> + 2x + 16 ⇒ 2x<sup>2</sup> + 2x − 24 = 0 ⇒ x<sup>2</sup> + x − 12 = 0 ⇒ (x + 4)(x − 3) = 0.</p><p>x<sub>0</sub> = 3 (reject −4). p<sub>0</sub> = 40 − 9 = 31. <b>Equilibrium: 3 units at ₹31.</b> p<sub>0</sub>x<sub>0</sub> = 93.</p><p>CS = ∫<sub>0</sub><sup>3</sup> (40 − x<sup>2</sup>) dx − 93 = [40x − x<sup>3</sup>/3]<sub>0</sub><sup>3</sup> − 93 = 111 − 93 = <b>18</b>.</p><p>PS = 93 − ∫<sub>0</sub><sup>3</sup> (x<sup>2</sup> + 2x + 16) dx = 93 − [x<sup>3</sup>/3 + x<sup>2</sup> + 16x]<sub>0</sub><sup>3</sup> = 93 − 66 = <b>27</b>.</p>"
+    },
+    {
+      "q": "<b>Case study.</b> A small furniture unit finds that its marginal revenue and marginal cost (₹ hundred) for x chairs per day are MR = 100 − 6x and MC = 4x + 10. Its fixed cost is 50 (₹ hundred).<br>(i) Find the total revenue and the demand function.<br>(ii) Find the total cost function.<br>(iii) Find the output that maximises profit and the maximum profit.<br>(iv) By how much does profit increase if output is raised from 5 to that level?",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b> R = ∫ (100 − 6x) dx = 100x − 3x<sup>2</sup> (R(0) = 0). Demand: p = R/x = <b>100 − 3x</b>.</p><p><b>(ii)</b> C = ∫ (4x + 10) dx + 50 = <b>2x<sup>2</sup> + 10x + 50</b>.</p><p><b>(iii)</b> MR = MC ⇒ 100 − 6x = 4x + 10 ⇒ x = 9. d/dx (MR − MC) = −10 &lt; 0 ⇒ maximum. P(9) = R − C = (900 − 243) − (162 + 90 + 50) = 657 − 302 = <b>355 (₹35,500)</b>.</p><p><b>(iv)</b> ∫<sub>5</sub><sup>9</sup> (MR − MC) dx = ∫<sub>5</sub><sup>9</sup> (90 − 10x) dx = [90x − 5x<sup>2</sup>]<sub>5</sub><sup>9</sup> = (810 − 405) − (450 − 125) = 405 − 325 = <b>80 (₹8,000)</b>. Check: P(5) = (500 − 75) − (50 + 50 + 50) = 275, and 355 − 275 = 80 ✓.</p>"
+    }
+  ]
+}

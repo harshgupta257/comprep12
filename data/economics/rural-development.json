@@ -1,0 +1,170 @@
+{
+  "id": "rural-development",
+  "title": "Rural Development",
+  "summary": "Rural development means improving the economic and social conditions of people living in villages who lag behind in overall development. This chapter discusses the key issues of rural development, rural credit and the role of institutions such as NABARD, RRBs and self-help groups, agricultural marketing and its alternative channels, diversification into new activities like animal husbandry, fisheries and horticulture, the role of IT, and organic farming as a sustainable option.",
+  "notes": [
+    {
+      "heading": "Meaning and key issues of rural development",
+      "html": "<p><b>Rural development</b> is a comprehensive term focusing on action for the development of areas that are lagging behind in the overall development of the village economy. A large share of India's population lives in rural areas and depends on agriculture, which has low productivity.</p><h4>Key issues</h4><ul><li><b>Development of human resources:</b> literacy (especially female literacy), education and skill development, health, sanitation and public hygiene.</li><li><b>Land reforms</b> to give ownership and security to tillers.</li><li><b>Development of the productive resources</b> of each locality.</li><li><b>Infrastructure development:</b> electricity, irrigation, credit, marketing, transport (including village roads and feeder roads to highways), agricultural research and extension, and information dissemination.</li><li><b>Poverty alleviation</b> and significant improvement in the living conditions of weaker sections, with emphasis on access to productive employment.</li></ul><p>After the 1991 reforms, agricultural growth slowed, partly because public investment in agriculture fell. Inadequate infrastructure, lack of alternative employment outside agriculture and growing casualisation of employment have added to rural distress.</p>"
+    },
+    {
+      "heading": "Rural credit",
+      "html": "<p>Farmers need credit because of the long gestation period between sowing and harvest. They need money for <b>initial investment</b> (seeds, fertilisers, implements) and for family needs such as marriages, deaths and religious ceremonies.</p><table><thead><tr><th>Non-institutional sources</th><th>Institutional sources</th></tr></thead><tbody><tr><td>Moneylenders, traders, landlords, relatives and friends</td><td>Cooperative credit societies, commercial banks, regional rural banks, NABARD</td></tr><tr><td>Very high interest rates; manipulation of accounts</td><td>Reasonable interest rates; regulated by RBI</td></tr><tr><td>Often lead to a debt trap and loss of land</td><td>Credit for productive purposes, with timely and adequate supply in principle</td></tr></tbody></table><h4>Development of institutional credit</h4><ul><li>At independence, moneylenders and traders were the main lenders, exploiting small and marginal farmers.</li><li>The nationalisation of major commercial banks in <b>1969</b> marked a shift towards <b>social banking</b> and the multi-agency approach to rural credit.</li><li><b>Regional Rural Banks</b> were set up from <b>1975</b> to provide credit to small farmers, artisans and landless labourers.</li><li><b>NABARD</b> (National Bank for Agriculture and Rural Development) was established in <b>1982</b> as the apex body to coordinate the activities of all institutions involved in the rural financing system.</li><li>The <b>Kisan Credit Card</b> scheme (1998) provides farmers with timely, flexible credit for cultivation and related needs.</li></ul><p>The <b>institutional structure of rural banking</b> today is a set of multi-agency institutions: commercial banks, RRBs, cooperatives and land development banks.</p>"
+    },
+    {
+      "heading": "Self-help groups and microcredit",
+      "html": "<ul><li>A <b>self-help group (SHG)</b> is a small group of (mostly) rural women who pool small savings regularly. From the pooled money they give small loans to members at reasonable interest rates.</li><li>Once the group shows regular saving and repayment, banks lend to the SHG (SHG–bank linkage), without requiring collateral. Such small loans to the poor are called <b>microcredit</b>.</li><li><b>Benefits:</b> reduce dependence on moneylenders, promote thrift, empower women, help start small enterprises and increase their role in household decisions.</li><li><b>Limitation:</b> loans are often used for consumption rather than productive purposes, and the amounts are small.</li></ul><h4>Problems of rural banking</h4><ul><li>Inadequate coverage: a large number of small farmers still depend on informal lenders.</li><li>High overdue loans and <b>non-performing assets</b> (defaults), partly due to loan waivers and poor recovery.</li><li>Commercial banks have been reluctant to expand in rural areas due to low profitability.</li><li>Except for some commercial banks, other institutions have failed to develop a culture of deposit mobilisation and lending to genuine borrowers.</li></ul>"
+    },
+    {
+      "heading": "Agricultural marketing",
+      "html": "<p><b>Agricultural marketing</b> is the process that covers the assembling, storage, processing, transportation, packaging, grading and distribution of agricultural commodities across the country.</p><p>Before state intervention, farmers sold produce at low prices to traders and moneylenders, faced faulty weights and manipulation of accounts, had no information on market prices, and lacked storage, so they had to sell immediately after harvest (distress sale).</p><h4>Government measures</h4><ol><li><b>Regulated markets:</b> orderly and transparent marketing conditions were created through regulated markets (mandis), which benefit both farmers and consumers.</li><li><b>Physical infrastructure:</b> roads, railways, warehouses, godowns, cold storage and processing units.</li><li><b>Cooperative marketing:</b> cooperatives help farmers get fair prices; e.g. the success of milk cooperatives in Gujarat (Amul) and other parts of India.</li><li><b>Policy instruments:</b><ul><li><b>Minimum support price (MSP)</b> for many crops, to protect farmers against a fall in prices;</li><li><b>Buffer stocks</b> of wheat and rice maintained by the <b>Food Corporation of India</b>;</li><li>distribution of food grains and sugar through the <b>public distribution system</b> (PDS) at subsidised prices.</li></ul></li></ol><p>Despite these, private trade by moneylenders, rural political elites and big merchants still dominates in many areas, and storage facilities remain inadequate.</p>"
+    },
+    {
+      "heading": "Emerging alternative marketing channels",
+      "html": "<p>When farmers sell directly to consumers, their share in the price paid by the consumer rises. Examples of such channels:</p><table><thead><tr><th>Channel</th><th>State / place</th></tr></thead><tbody><tr><td>Apni Mandi</td><td>Punjab, Haryana and Rajasthan</td></tr><tr><td>Hadaspar Mandi</td><td>Pune (Maharashtra)</td></tr><tr><td>Rythu Bazars (fruit and vegetable markets)</td><td>Andhra Pradesh and Telangana</td></tr><tr><td>Uzhavar Sandies (farmers' markets)</td><td>Tamil Nadu</td></tr></tbody></table><ul><li>National and multinational fast food chains increasingly enter into <b>contracts</b> with farmers to grow farm products of desired quality, providing seeds and inputs and assuring purchase at pre-decided prices. This reduces price risk and expands markets.</li><li>The electronic National Agriculture Market (<b>e-NAM</b>), launched in 2016, links regulated mandis online so that farmers can sell to buyers across markets.</li></ul>"
+    },
+    {
+      "heading": "Diversification into productive activities",
+      "html": "<p><b>Diversification</b> has two aspects: change in <b>cropping pattern</b> (from food grains to fruits, vegetables, oilseeds and other crops) and shift of the workforce from agriculture to <b>allied and non-farm activities</b>. It reduces the risk of depending on agriculture alone and provides productive employment, particularly since agriculture is seasonal and already overcrowded.</p><ul><li><b>Animal husbandry:</b> farmers in India use a mixed crop–livestock system. Poultry forms the largest share of livestock, followed by cattle, goats and others. Livestock provides increased stability of income, food security, transport, fuel and nutrition. Under <b>Operation Flood</b> (launched in 1970 by the National Dairy Development Board), milk cooperatives pooled milk from farmers, processed and marketed it, and India became one of the largest milk producers in the world. Gujarat's cooperative model is the best example.</li><li><b>Fisheries:</b> both inland (rivers, ponds, reservoirs) and marine. The fishing community depends heavily on water bodies; women play a large role in fish processing and marketing. Problems include low literacy, indebtedness and lack of storage among fishermen.</li><li><b>Horticulture:</b> fruits, vegetables, tuber crops, flowers, medicinal and aromatic plants and spices. India has become one of the largest producers of fruits and vegetables. The rapid growth in horticulture from the 1990s is sometimes called the <b>Golden Revolution</b>. It provides more income and employment, especially to women.</li><li><b>Other non-farm activities:</b> agro-processing, food processing, leather, tourism, pottery, crafts and handlooms.</li></ul>"
+    },
+    {
+      "heading": "Role of information technology",
+      "html": "<ul><li>IT helps achieve <b>food security</b> by giving early warning of weather, crop conditions and pest attacks.</li><li>It spreads information on emerging technologies, prices, weather and soil conditions, so farmers can make better decisions.</li><li>It enables access to market information, e-markets (e-NAM), online payments and digital banking in villages.</li><li>It creates employment opportunities in rural areas through common service centres and similar facilities.</li><li>It is an instrument for releasing the creative potential and knowledge embedded in people.</li></ul>"
+    },
+    {
+      "heading": "Sustainable development and organic farming",
+      "html": "<p><b>Organic farming</b> is a whole system of farming that restores, maintains and enhances ecological balance. It does not use chemical fertilisers, pesticides and synthetic inputs; instead it uses organic manure, crop rotation and biological pest control.</p><h4>Benefits</h4><ul><li>Substitutes costlier agro-inputs (HYV seeds, chemical fertilisers, pesticides) with locally produced organic inputs, which are cheaper, giving good returns on investment.</li><li>Organic produce is healthier and has more nutritional value; it is free of chemical residues.</li><li>It generates income through exports, as demand for organic food is rising worldwide.</li><li>It is more labour-intensive and so generates more employment in rural areas.</li><li>It is environmentally sustainable: maintains soil fertility and avoids water pollution.</li></ul><h4>Challenges</h4><ul><li>Yields may be lower in the initial years, so small and marginal farmers may find it hard to adopt on a large scale.</li><li>Lack of awareness and willingness among farmers; need for adequate infrastructure and marketing.</li><li>Organic produce may have more blemishes and a shorter shelf life than sprayed produce.</li><li>Choice of crops in off-season is limited.</li></ul><p>Sikkim became India's first fully organic state in 2016.</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Rural development", "definition": "Action for the development of areas lagging behind in the overall development of the village economy, covering human resources, infrastructure, land reforms and poverty reduction." },
+    { "term": "NABARD", "definition": "National Bank for Agriculture and Rural Development, set up in 1982 as the apex institution coordinating rural financing." },
+    { "term": "Regional Rural Banks", "definition": "Banks set up from 1975 to provide credit to small farmers, agricultural labourers and artisans in rural areas." },
+    { "term": "Self-help group", "definition": "A small voluntary group, mostly of rural women, that pools savings and lends to members, and can access bank loans as a group." },
+    { "term": "Microcredit", "definition": "Small loans provided to poor people, often through SHGs, without collateral." },
+    { "term": "Agricultural marketing", "definition": "The process of assembling, storing, processing, transporting, packaging, grading and distributing agricultural commodities." },
+    { "term": "Regulated market", "definition": "A market where buying and selling of farm produce takes place under rules laid down by the government to ensure fair practices." },
+    { "term": "Minimum support price", "definition": "The price announced by the government at which it is ready to buy a crop from farmers, protecting them from a sharp fall in prices." },
+    { "term": "Buffer stock", "definition": "Stock of food grains (wheat and rice) procured and held by the government through FCI for times of shortage and for the PDS." },
+    { "term": "Operation Flood", "definition": "The dairy development programme launched in 1970 under which milk cooperatives pooled, processed and marketed milk, greatly raising milk production." },
+    { "term": "Golden Revolution", "definition": "The rapid growth in production of horticultural crops in India from the 1990s." },
+    { "term": "Organic farming", "definition": "A system of farming that avoids chemical fertilisers and pesticides and uses organic inputs to maintain ecological balance." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "NABARD was set up in:",
+      "options": ["1969", "1975", "1982", "1998"],
+      "answer": 2,
+      "explanation": "NABARD was established in 1982. 1969 is bank nationalisation, 1975 the start of RRBs and 1998 the Kisan Credit Card scheme."
+    },
+    {
+      "q": "Rythu Bazars, an alternative marketing channel, are found in:",
+      "options": ["Andhra Pradesh and Telangana", "Tamil Nadu", "Punjab and Haryana", "Maharashtra"],
+      "answer": 0,
+      "explanation": "Rythu Bazars are fruit and vegetable markets in Andhra Pradesh and Telangana. Uzhavar Sandies are in Tamil Nadu, Apni Mandi in Punjab–Haryana–Rajasthan and Hadaspar Mandi in Pune."
+    },
+    {
+      "q": "Which of the following is a <b>non-institutional</b> source of rural credit?",
+      "options": ["Regional Rural Banks", "Cooperative credit societies", "Moneylenders", "Commercial banks"],
+      "answer": 2,
+      "explanation": "Moneylenders, traders and landlords are informal lenders not regulated by the RBI."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Self-help groups have helped reduce the dependence of rural women on moneylenders.<br><b>Reason (R):</b> SHGs pool members' savings and provide small loans at reasonable interest rates.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Because SHGs offer small loans at fair rates and connect members to bank credit, the need to borrow from moneylenders falls. R explains A."
+    },
+    {
+      "q": "Buffer stocks of food grains in India are maintained by:",
+      "options": ["NABARD", "Food Corporation of India", "Reserve Bank of India", "National Dairy Development Board"],
+      "answer": 1,
+      "explanation": "FCI procures wheat and rice from farmers and maintains buffer stocks used for the PDS and emergencies."
+    },
+    {
+      "q": "Operation Flood is associated with:",
+      "options": ["Fisheries", "Irrigation", "Flood control", "Milk production"],
+      "answer": 3,
+      "explanation": "Operation Flood (1970) organised milk cooperatives that made India one of the largest milk producers in the world."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: Agricultural marketing includes only the selling of produce in the market.<br>Statement 2: Minimum support price protects farmers against a fall in the prices of their produce.",
+      "options": ["Both statements are true", "Both statements are false", "Statement 1 is false and Statement 2 is true", "Statement 1 is true and Statement 2 is false"],
+      "answer": 2,
+      "explanation": "Agricultural marketing covers assembling, storage, processing, transport, packaging, grading and distribution, not merely selling. MSP is a price floor for farmers."
+    },
+    {
+      "q": "Which of the following is a benefit of organic farming?",
+      "options": ["It always gives higher yields than chemical farming in the first years", "It increases the use of chemical pesticides", "It is less labour-intensive", "It uses cheaper, locally produced inputs and maintains soil fertility"],
+      "answer": 3,
+      "explanation": "Organic farming replaces costly chemical inputs with local organic inputs and is environmentally sustainable. It may initially yield less and is more labour-intensive."
+    },
+    {
+      "q": "The rapid growth of horticulture in India is referred to as the:",
+      "options": ["Golden Revolution", "Green Revolution", "White Revolution", "Blue Revolution"],
+      "answer": 0,
+      "explanation": "The Golden Revolution refers to horticulture. Green relates to food grains, White to milk and Blue to fisheries."
+    },
+    {
+      "q": "Diversification of agricultural activities is needed mainly because:",
+      "options": ["Agriculture has very high productivity", "Agriculture is seasonal and overcrowded, so other activities are needed to provide stable income and employment", "Government has banned food grain cultivation", "Farmers have surplus land"],
+      "answer": 1,
+      "explanation": "Diversification reduces the risk of depending only on agriculture and provides supplementary employment in the lean season."
+    },
+    {
+      "q": "Which of the following is a problem of rural banking in India?",
+      "options": ["Excessive deposit mobilisation", "Very low interest rates charged by moneylenders", "High level of overdue loans and non-performing assets", "Too many bank branches in villages"],
+      "answer": 2,
+      "explanation": "Poor recovery and defaults have created high NPAs in rural lending institutions."
+    },
+    {
+      "q": "The nationalisation of major commercial banks in 1969 led to:",
+      "options": ["Abolition of RRBs", "A shift towards social banking and expansion of rural credit", "Closure of cooperative societies", "Ban on agricultural loans"],
+      "answer": 1,
+      "explanation": "After 1969, banks expanded branches in rural areas and directed credit to agriculture under the social banking approach."
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is meant by microcredit?",
+      "marks": 1,
+      "answerHtml": "<p>Microcredit refers to small loans given to poor people, usually through self-help groups, without collateral, to meet their consumption and small business needs.</p>"
+    },
+    {
+      "q": "Name any two alternative channels of agricultural marketing in India.",
+      "marks": 1,
+      "answerHtml": "<p>Apni Mandi (Punjab, Haryana, Rajasthan) and Uzhavar Sandies (Tamil Nadu). (Others: Hadaspar Mandi in Pune, Rythu Bazars in Andhra Pradesh and Telangana.)</p>"
+    },
+    {
+      "q": "Why do farmers need credit? Explain the role of NABARD.",
+      "marks": 3,
+      "answerHtml": "<p><b>Need for credit:</b> there is a long gestation period between sowing and harvesting, so farmers need money for seeds, fertilisers, implements and other inputs, as well as for family expenses such as marriages and ceremonies. Their incomes are low, so they must borrow.</p><p><b>Role of NABARD:</b> set up in 1982, NABARD is the apex institution for rural credit. It coordinates the activities of all institutions in the rural financing system (cooperatives, RRBs, commercial banks), provides refinance to them, supports rural infrastructure development and monitors and promotes schemes such as SHG–bank linkage.</p>"
+    },
+    {
+      "q": "Explain the role of self-help groups in providing rural credit.",
+      "marks": 3,
+      "answerHtml": "<ul><li>SHGs are small groups, mostly of rural women, who save small amounts regularly. The pooled savings are lent to members at reasonable rates.</li><li>After establishing a record of regular saving and repayment, the group gets loans from banks without collateral (microcredit).</li><li>They reduce dependence on moneylenders, encourage thrift, help start small businesses and empower women socially and economically.</li></ul><p>A limitation is that much of the borrowing is used for consumption rather than production.</p>"
+    },
+    {
+      "q": "What measures have been taken by the government to improve agricultural marketing?",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>Regulation of markets:</b> regulated markets were set up to create orderly and transparent marketing conditions and prevent malpractices such as faulty weights.</li><li><b>Physical infrastructure:</b> roads, railways, warehouses, godowns and cold storage were developed to reduce losses and allow farmers to hold their produce.</li><li><b>Cooperative marketing:</b> cooperatives help farmers get fair prices; dairy cooperatives in Gujarat are a notable success.</li><li><b>Policy instruments:</b> minimum support prices for many crops, buffer stocks of wheat and rice by FCI, and distribution through the public distribution system. The e-NAM platform now links mandis electronically.</li></ol>"
+    },
+    {
+      "q": "'Organic farming is the solution to all problems of Indian agriculture.' Defend or refute.",
+      "marks": 4,
+      "answerHtml": "<p>The statement is <b>refuted</b>, although organic farming has clear benefits.</p><p><b>Benefits:</b> it uses cheaper local inputs, produces healthier food free of chemicals, is more labour-intensive (creating rural jobs), earns export income and maintains soil fertility and the environment.</p><p><b>Limitations:</b></p><ul><li>Yields are often lower in the initial years, which small and marginal farmers can hardly afford.</li><li>It requires awareness, training, certification and marketing infrastructure that are still inadequate.</li><li>Organic produce may have a shorter shelf life and off-season choices are limited.</li></ul><p>Agricultural problems such as small holdings, poor irrigation, credit and marketing need wider solutions. Organic farming is a valuable sustainable option, not a cure for everything.</p>"
+    },
+    {
+      "q": "Explain the importance of diversification into allied activities such as animal husbandry, fisheries and horticulture for rural development.",
+      "marks": 6,
+      "answerHtml": "<p><b>Need for diversification:</b> agriculture is seasonal, risky and already overburdened with workers. Diversification reduces risk and provides supplementary income and productive employment.</p><ol><li><b>Animal husbandry:</b> Indian farmers follow a mixed crop–livestock system with poultry, cattle, goats and buffaloes. Livestock gives stable income, food security, transport, fuel and nutrition without disturbing other farm work. Operation Flood (1970) organised milk cooperatives, making India one of the largest milk producers in the world.</li><li><b>Fisheries:</b> inland and marine fisheries provide livelihood to many communities. Women take part in processing and marketing. Better credit, storage and technology can raise fishermen's incomes.</li><li><b>Horticulture:</b> fruits, vegetables, flowers, spices and medicinal plants give higher income per hectare. India has become one of the leading producers of fruits and vegetables (the Golden Revolution). It provides employment, especially to women, and supports food processing.</li><li><b>Other non-farm activities:</b> agro-processing, handicrafts, pottery and rural tourism provide further avenues.</li></ol><p>Thus diversification raises rural incomes, generates employment, improves nutrition and reduces dependence on uncertain crop agriculture.</p>"
+    },
+    {
+      "q": "Discuss the role of institutional sources of credit in rural development and the problems faced by them.",
+      "marks": 6,
+      "answerHtml": "<h4>Role</h4><ul><li>Before independence, moneylenders charged very high interest and manipulated accounts, trapping farmers in debt. Institutional sources replaced them with cheaper and regulated credit.</li><li><b>Cooperative societies</b> give short- and medium-term loans to members at low interest.</li><li><b>Commercial banks</b>, after nationalisation in 1969, expanded rural branches under social banking.</li><li><b>Regional Rural Banks</b> (from 1975) serve small farmers, artisans and landless labourers.</li><li><b>NABARD</b> (1982) coordinates and refinances rural credit institutions.</li><li>Schemes like the <b>Kisan Credit Card</b> and <b>SHG–bank linkage</b> provide timely and flexible credit.</li></ul><p>This helped finance the Green Revolution, reduce exploitation and spread modern inputs.</p><h4>Problems</h4><ul><li>Coverage is still inadequate; many small and marginal farmers depend on informal lenders.</li><li>High overdue loans and non-performing assets due to poor recovery and defaults, sometimes encouraged by loan waivers.</li><li>Commercial banks are reluctant to lend in rural areas because of low profitability and high risk.</li><li>Institutions other than commercial banks have not developed a culture of deposit mobilisation and lending to genuine borrowers.</li></ul><p>Reforms are needed to make rural banking more efficient and inclusive.</p>"
+    }
+  ]
+}

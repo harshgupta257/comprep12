@@ -1,0 +1,169 @@
+{
+  "id": "principles-of-management",
+  "title": "Principles of Management",
+  "summary": "Principles of management are broad, flexible guidelines for managerial decision-making and behaviour. This chapter covers their nature and significance, Henri Fayol's 14 principles of general management, and F.W. Taylor's principles and techniques of scientific management, along with a comparison of the two.",
+  "notes": [
+    {
+      "heading": "Meaning and Nature of Principles of Management",
+      "html": "<p>A <b>principle of management</b> is a broad and general guideline for decision-making and behaviour of managers. Principles are not rigid like the principles of pure science; they are applied creatively according to the situation.</p><ol><li><b>Universal applicability</b> – apply to all types of organisations, big or small, business or non-business.</li><li><b>General guidelines</b> – they guide action but do not give ready-made solutions.</li><li><b>Formed by practice and experimentation</b> – developed from the experience and collective wisdom of managers.</li><li><b>Flexible</b> – can be modified by managers to suit the situation.</li><li><b>Mainly behavioural</b> – they aim at influencing human behaviour.</li><li><b>Cause and effect relationship</b> – they tell us what is likely to happen if a principle is applied.</li><li><b>Contingent</b> – their application depends on prevailing conditions.</li></ol><p><b>Memory aid:</b> <i>UG-FFB-CC</i>.</p>"
+    },
+    {
+      "heading": "Significance of Principles of Management",
+      "html": "<ol><li><b>Provides managers with useful insights into reality</b> – adds to their knowledge and understanding of situations.</li><li><b>Optimum utilisation of resources and effective administration</b> – resources (human and material) are used with maximum benefit and minimum cost.</li><li><b>Scientific decisions</b> – decisions are based on facts, thoughtful and justifiable, free from bias.</li><li><b>Meeting changing environment requirements</b> – principles are flexible and help adapt to change (e.g. division of work leads to specialisation).</li><li><b>Fulfilling social responsibility</b> – principles evolve to meet social expectations (e.g. equity, fair remuneration).</li><li><b>Management training, education and research</b> – principles form the core of management study and help develop new techniques.</li></ol>"
+    },
+    {
+      "heading": "Fayol's 14 Principles of General Management (1 to 7)",
+      "html": "<p>Henri Fayol (1841–1925), a French mining engineer, is known as the <b>father of general (modern) management</b>.</p><ol><li><b>Division of work</b> – work is divided into small tasks and each is done by a trained specialist, leading to efficiency.</li><li><b>Authority and responsibility</b> – authority (right to give orders) must be balanced with responsibility (obligation to perform). Authority without responsibility leads to misuse; responsibility without authority makes the manager ineffective.</li><li><b>Discipline</b> – obedience to organisational rules and the employment agreement; requires good supervisors, clear rules and fair penalties.</li><li><b>Unity of command</b> – an employee should receive orders from <b>one superior only</b>; violation causes confusion and conflict.</li><li><b>Unity of direction</b> – each group of activities with the same objective should have <b>one head and one plan</b>.</li><li><b>Subordination of individual interest to general interest</b> – the interest of the organisation must prevail over that of an individual.</li><li><b>Remuneration of employees</b> – pay should be fair and just, giving reasonable standard of living to employees and within the paying capacity of the company.</li></ol>"
+    },
+    {
+      "heading": "Fayol's 14 Principles of General Management (8 to 14)",
+      "html": "<ul><li><b>8. Centralisation and decentralisation</b> – a balance between concentration and dispersal of decision-making authority is needed, depending on the size and nature of the firm.</li><li><b>9. Scalar chain</b> – the formal line of authority from the highest to the lowest rank; communication should follow it. <b>Gang plank</b> allows direct communication between employees at the same level in emergencies, with superiors informed.</li><li><b>10. Order</b> – a place for everything (and everyone) and everything (everyone) in its place.</li><li><b>11. Equity</b> – kindness and justice in behaviour towards all employees; no discrimination on the basis of caste, religion, gender, nationality etc.</li><li><b>12. Stability of tenure of personnel</b> – employees should be selected carefully and kept in their posts long enough to show results; high turnover is wasteful.</li><li><b>13. Initiative</b> – employees should be encouraged to develop and carry out their own plans for improvement (e.g. suggestion systems).</li><li><b>14. Esprit de corps</b> – management should promote team spirit and unity; use 'we' instead of 'I'.</li></ul><p><b>Memory aid:</b> <i>DAD-UUSR-CSO-ESIE</i>.</p>"
+    },
+    {
+      "heading": "Unity of Command vs Unity of Direction",
+      "html": "<table><thead><tr><th>Basis</th><th>Unity of Command</th><th>Unity of Direction</th></tr></thead><tbody><tr><td>Meaning</td><td>One subordinate should receive orders from one superior only</td><td>Each group of activities with the same objective must have one head and one plan</td></tr><tr><td>Aim</td><td>Prevents dual subordination</td><td>Prevents overlapping of activities</td></tr><tr><td>Implication</td><td>Affects an individual employee</td><td>Affects the entire organisation or a department</td></tr><tr><td>Result</td><td>Efficient working of subordinates</td><td>Coordinated working of the organisation</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Taylor's Scientific Management: Principles",
+      "html": "<p>F.W. Taylor (1856–1915), an American engineer, is the <b>father of scientific management</b>. Scientific management means conducting business activities according to standardised tools, methods and trained personnel to increase output, efficiency and reduce waste.</p><ol><li><b>Science, not rule of thumb</b> – every job should be studied scientifically to find the one best way of doing it, instead of relying on trial and error.</li><li><b>Harmony, not discord</b> – managers and workers should realise that each is important; requires a <b>mental revolution</b> (complete change in attitude) on both sides.</li><li><b>Cooperation, not individualism</b> – cooperation between labour and management in place of competition; management should invite suggestions and workers should not strike unreasonably.</li><li><b>Development of each and every person to his or her greatest efficiency and prosperity</b> – scientific selection and training of workers so that they work to their full potential.</li></ol>"
+    },
+    {
+      "heading": "Techniques of Scientific Management",
+      "html": "<ol><li><b>Functional foremanship</b> – separates planning from execution and puts a worker under <b>eight specialist foremen</b>. Planning in-charge: instruction card clerk, route clerk, time and cost clerk, disciplinarian. Production in-charge: speed boss, gang boss, repair boss, inspector. (It violates Fayol's unity of command.)</li><li><b>Standardisation and simplification of work</b> – standardisation sets standards for every activity (materials, methods, output); simplification eliminates unnecessary varieties, sizes and grades of products.</li><li><b>Method study</b> – finds the one best way of doing a job (e.g. using process charts and operations research) to minimise cost and maximise quality.</li><li><b>Motion study</b> – studies movements of workers to eliminate unnecessary motions.</li><li><b>Time study</b> – determines the standard time to complete a well-defined job, used to fix wages and number of workers.</li><li><b>Fatigue study</b> – determines the amount and frequency of rest intervals needed to restore energy.</li><li><b>Differential piece wage system</b> – workers who meet the standard get a higher rate per unit; those below standard get a lower rate (e.g. ₹50 vs ₹40 per unit).</li></ol>"
+    },
+    {
+      "heading": "Fayol vs Taylor",
+      "html": "<table><thead><tr><th>Basis</th><th>Henri Fayol</th><th>F.W. Taylor</th></tr></thead><tbody><tr><td>Perspective</td><td>Top level management</td><td>Shop floor / supervisory level</td></tr><tr><td>Unity of command</td><td>Staunch supporter</td><td>Did not follow (functional foremanship)</td></tr><tr><td>Applicability</td><td>Universally applicable</td><td>Applicable to specialised situations</td></tr><tr><td>Basis of formation</td><td>Personal experience</td><td>Observation and experimentation</td></tr><tr><td>Focus</td><td>Improving overall administration</td><td>Increasing productivity</td></tr><tr><td>Personality</td><td>Practitioner</td><td>Scientist</td></tr><tr><td>Expression</td><td>General theory of administration</td><td>Scientific management</td></tr></tbody></table>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Principle of management", "definition": "A broad, general guideline for managerial decision-making and behaviour." },
+    { "term": "Unity of command", "definition": "Each subordinate should receive orders from and be accountable to <b>one superior only</b>." },
+    { "term": "Unity of direction", "definition": "One head and one plan for a group of activities having the same objective." },
+    { "term": "Scalar chain", "definition": "The formal line of authority running from the highest to the lowest rank in an organisation." },
+    { "term": "Gang plank", "definition": "A shortcut in the scalar chain permitting direct contact between employees at the same level in an emergency." },
+    { "term": "Esprit de corps", "definition": "Team spirit and harmony among employees; 'union is strength'." },
+    { "term": "Mental revolution", "definition": "Complete change in the attitude of management and workers towards each other, from conflict to cooperation." },
+    { "term": "Functional foremanship", "definition": "Taylor's technique of placing each worker under eight specialist foremen, separating planning from execution." },
+    { "term": "Differential piece wage system", "definition": "Wage system paying a higher rate per unit to efficient workers who meet the standard and a lower rate to those who do not." },
+    { "term": "Standardisation", "definition": "Setting standards for every business activity such as process, raw material, time, product and working conditions." },
+    { "term": "Simplification", "definition": "Eliminating unnecessary diversity of products, sizes and grades to reduce cost." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "At Deco Paints, a salesman received instructions from both the regional manager and the marketing head on the same day, which were contradictory. Which principle was violated?",
+      "options": ["Unity of direction", "Unity of command", "Scalar chain", "Order"],
+      "answer": 1,
+      "explanation": "Receiving orders from <b>two superiors</b> violates <b>unity of command</b>."
+    },
+    {
+      "q": "A company manufacturing both cosmetics and stationery set up two separate divisions, each with its own head and plan. Which principle is followed?",
+      "options": ["Division of work", "Centralisation", "Unity of direction", "Equity"],
+      "answer": 2,
+      "explanation": "One head and one plan for each group of activities with the same objective is <b>unity of direction</b>."
+    },
+    {
+      "q": "Which technique of scientific management determines the standard time for doing a job?",
+      "options": ["Method study", "Motion study", "Fatigue study", "Time study"],
+      "answer": 3,
+      "explanation": "<b>Time study</b> fixes the standard time taken to perform a well-defined job."
+    },
+    {
+      "q": "In a factory, workers producing 20 or more units a day are paid ₹60 per unit, and those producing fewer are paid ₹45 per unit. Identify the technique.",
+      "options": ["Differential piece wage system", "Time study", "Functional foremanship", "Standardisation"],
+      "answer": 0,
+      "explanation": "Paying a higher rate to efficient workers and a lower rate to inefficient ones is Taylor's <b>differential piece wage system</b>."
+    },
+    {
+      "q": "The principle 'a place for everything and everything in its place' refers to:",
+      "options": ["Discipline", "Order", "Equity", "Stability of tenure"],
+      "answer": 1,
+      "explanation": "Fayol's principle of <b>order</b> says this about both materials and people."
+    },
+    {
+      "q": "Which of the following is NOT a feature of principles of management?",
+      "options": ["Universal applicability", "Flexibility", "Rigid like scientific laws", "Contingent"],
+      "answer": 2,
+      "explanation": "Principles of management are <b>flexible</b>, not rigid like laws of pure science."
+    },
+    {
+      "q": "Due to a fire, the production supervisor directly contacted the purchase supervisor without going through the managers, and both informed their superiors later. This is an example of:",
+      "options": ["Unity of command", "Gang plank", "Centralisation", "Initiative"],
+      "answer": 1,
+      "explanation": "Direct communication between same-level employees in an emergency, with superiors informed, is a <b>gang plank</b> under the scalar chain."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Functional foremanship violates Fayol's principle of unity of command.<br><b>Reason (R):</b> Under functional foremanship a worker gets orders from eight foremen.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Since a worker reports to eight specialists, he has more than one boss, which violates <b>unity of command</b>."
+    },
+    {
+      "q": "A manager announced that the best suggestion for reducing waste each month would be rewarded. Which principle of Fayol is being applied?",
+      "options": ["Esprit de corps", "Equity", "Discipline", "Initiative"],
+      "answer": 3,
+      "explanation": "Encouraging employees to think and suggest improvements is the principle of <b>initiative</b>."
+    },
+    {
+      "q": "Eliminating unnecessary sizes and varieties of a product to cut costs is called:",
+      "options": ["Simplification", "Standardisation", "Method study", "Motion study"],
+      "answer": 0,
+      "explanation": "<b>Simplification</b> eliminates superfluous varieties, sizes and grades."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Principles of management are universally applicable.<br><b>Reason (R):</b> Principles of management give exact, ready-made solutions to every problem.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 2,
+      "explanation": "A is true. R is false: principles are only <b>general guidelines</b>, not ready-made solutions."
+    },
+    {
+      "q": "A manager pays male and female workers doing the same job different wages. Which principle is violated?",
+      "options": ["Remuneration of employees", "Order", "Equity", "Stability of tenure"],
+      "answer": 2,
+      "explanation": "Discrimination on the basis of gender violates the principle of <b>equity</b>."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Name the principle of Fayol which suggests that the interest of the organisation should take priority over the interest of an individual.",
+      "marks": 1,
+      "answerHtml": "<p>Subordination of individual interest to general interest.</p>"
+    },
+    {
+      "q": "What is meant by 'mental revolution'?",
+      "marks": 1,
+      "answerHtml": "<p>Mental revolution is a complete change in the attitude of both management and workers, so that they cooperate with each other instead of competing over the division of surplus.</p>"
+    },
+    {
+      "q": "Explain any three points of significance of principles of management.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Useful insights into reality</b> – principles increase managers' knowledge and help them understand and handle situations better.</li><li><b>Optimum utilisation of resources</b> – they help in using human and material resources with maximum benefit and minimum cost.</li><li><b>Scientific decisions</b> – decisions based on principles are logical, thoughtful and free from personal bias.</li></ol>"
+    },
+    {
+      "q": "Distinguish between unity of command and unity of direction on three bases.",
+      "marks": 3,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Unity of Command</th><th>Unity of Direction</th></tr></thead><tbody><tr><td>Meaning</td><td>One subordinate, one superior</td><td>One head and one plan for a group of similar activities</td></tr><tr><td>Aim</td><td>Prevents dual subordination</td><td>Prevents overlapping of activities</td></tr><tr><td>Implication</td><td>Concerns an individual employee</td><td>Concerns the whole organisation</td></tr></tbody></table>"
+    },
+    {
+      "q": "Explain the principles 'science, not rule of thumb' and 'harmony, not discord' of scientific management.",
+      "marks": 4,
+      "answerHtml": "<p><b>1. Science, not rule of thumb</b></p><ul><li>Taylor believed there is only one best way to do a job.</li><li>This should be found through scientific study and analysis instead of trial and error (rule of thumb).</li><li>For example, he found the ideal shovel load for workers, which increased output.</li></ul><p><b>2. Harmony, not discord</b></p><ul><li>There should be complete harmony between management and workers.</li><li>Both should realise that each is important; this requires a mental revolution.</li><li>Management should share gains with workers, and workers should work hard and accept changes.</li></ul>"
+    },
+    {
+      "q": "Explain the technique of functional foremanship.",
+      "marks": 4,
+      "answerHtml": "<ul><li>Taylor proposed separation of planning and execution functions.</li><li>Each worker is supervised by <b>eight specialist foremen</b>.</li><li><b>Under the planning in-charge:</b> instruction card clerk (drafts instructions), route clerk (specifies the route of production), time and cost clerk (prepares time and cost sheets), disciplinarian (ensures discipline).</li><li><b>Under the production in-charge:</b> speed boss (ensures timely completion), gang boss (keeps machines and tools ready), repair boss (keeps machines in working order), inspector (checks quality).</li><li>It ensures specialised supervision, but violates the principle of unity of command.</li></ul>"
+    },
+    {
+      "q": "At Shreya Textiles, the owner hires workers for short periods and keeps replacing them. Workers are paid below the industry rate and promotions are given to relatives of the owner. Supervisors often abuse workers, and there is no team spirit. Identify and explain four principles of Fayol being violated.",
+      "marks": 6,
+      "answerHtml": "<ol><li><b>Stability of tenure of personnel</b> – workers are replaced frequently. Employees should be selected carefully and kept in their positions for a reasonable period to show results; high turnover increases cost of recruitment and training.</li><li><b>Remuneration of employees</b> – wages are below the industry rate. Remuneration should be fair and just, enough to give a reasonable standard of living and within the paying capacity of the firm.</li><li><b>Equity</b> – promotions are given to relatives. Managers should be kind and just to all employees without discrimination.</li><li><b>Esprit de corps</b> – there is no team spirit. Management should promote unity and harmony among employees, creating a sense of belonging.</li></ol><p>Note: abuse of workers by supervisors also goes against equity (kindliness and justice in behaviour).</p>"
+    },
+    {
+      "q": "Differentiate between the contributions of Fayol and Taylor on six bases.",
+      "marks": 6,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Fayol</th><th>Taylor</th></tr></thead><tbody><tr><td>Perspective</td><td>Top level management</td><td>Shop floor level</td></tr><tr><td>Unity of command</td><td>Strong supporter</td><td>Did not follow it (functional foremanship)</td></tr><tr><td>Applicability</td><td>Universal</td><td>Specialised situations</td></tr><tr><td>Basis of formation</td><td>Personal experience</td><td>Observation and experimentation</td></tr><tr><td>Focus</td><td>Improving overall administration</td><td>Increasing productivity</td></tr><tr><td>Personality</td><td>Practitioner</td><td>Scientist</td></tr></tbody></table>"
+    }
+  ]
+}

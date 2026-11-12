@@ -1,0 +1,385 @@
+{
+  "updated": "2026-11-13",
+  "subjects": {
+    "accountancy": {
+      "syllabus": [
+        {
+          "title": "Accountancy syllabus 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Accountancy_SecP2_2026-27.pdf",
+          "source": "CBSE",
+          "note": "Official Class XI–XII curriculum PDF"
+        },
+        {
+          "title": "CBSE curriculum 2026-27 (all subjects)",
+          "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+          "source": "CBSE",
+          "note": "Official index page"
+        }
+      ],
+      "samplePapers": [
+        {
+          "title": "Sample Question Paper 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Accountancy-SQP.pdf",
+          "source": "CBSE",
+          "note": "Accountancy · current session"
+        },
+        {
+          "title": "Marking Scheme 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Accountancy-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2026-27 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Accountancy-SQP.pdf",
+          "source": "CBSE",
+          "note": "Accountancy"
+        },
+        {
+          "title": "Marking Scheme 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Accountancy-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2025-26 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Accountancy-SQP.pdf",
+          "source": "CBSE",
+          "note": "Accountancy"
+        },
+        {
+          "title": "Marking Scheme 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Accountancy-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2024-25 sample paper"
+        },
+        {
+          "title": "All Class XII sample papers",
+          "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html",
+          "source": "CBSE",
+          "note": "Official index page for every subject"
+        }
+      ],
+      "lastYearPapers": [
+        {
+          "title": "CBSE board question papers (previous years)",
+          "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+          "source": "CBSE",
+          "note": "Official archive: choose the year, then Class XII and Accountancy. Papers are published year-wise."
+        }
+      ],
+      "ncert": [
+        {
+          "title": "NCERT textbooks (official PDFs)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "source": "NCERT",
+          "note": "Class XII → Accountancy: Accountancy Part I (partnership) and Part II (company accounts and analysis of financial statements)."
+        }
+      ]
+    },
+    "bst": {
+      "syllabus": [
+        {
+          "title": "Business Studies syllabus 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/BusinessStudies_SecP2_2026-27.pdf",
+          "source": "CBSE",
+          "note": "Official Class XI–XII curriculum PDF"
+        },
+        {
+          "title": "CBSE curriculum 2026-27 (all subjects)",
+          "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+          "source": "CBSE",
+          "note": "Official index page"
+        }
+      ],
+      "samplePapers": [
+        {
+          "title": "Sample Question Paper 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/BusinessStudies-SQP.pdf",
+          "source": "CBSE",
+          "note": "Business Studies · current session"
+        },
+        {
+          "title": "Marking Scheme 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/BusinessStudies-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2026-27 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/BusinessStudies-SQP.pdf",
+          "source": "CBSE",
+          "note": "Business Studies"
+        },
+        {
+          "title": "Marking Scheme 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/BusinessStudies-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2025-26 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/BusinessStudies-SQP.pdf",
+          "source": "CBSE",
+          "note": "Business Studies"
+        },
+        {
+          "title": "Marking Scheme 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/BusinessStudies-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2024-25 sample paper"
+        },
+        {
+          "title": "All Class XII sample papers",
+          "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html",
+          "source": "CBSE",
+          "note": "Official index page for every subject"
+        }
+      ],
+      "lastYearPapers": [
+        {
+          "title": "CBSE board question papers (previous years)",
+          "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+          "source": "CBSE",
+          "note": "Official archive: choose the year, then Class XII and Business Studies. Papers are published year-wise."
+        }
+      ],
+      "ncert": [
+        {
+          "title": "NCERT textbooks (official PDFs)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "source": "NCERT",
+          "note": "Class XII → Business Studies: Part I (Principles and Functions of Management) and Part II (Business Finance and Marketing)."
+        }
+      ]
+    },
+    "economics": {
+      "syllabus": [
+        {
+          "title": "Economics syllabus 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Economics_SecP2_2026-27.pdf",
+          "source": "CBSE",
+          "note": "Official Class XI–XII curriculum PDF"
+        },
+        {
+          "title": "CBSE curriculum 2026-27 (all subjects)",
+          "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+          "source": "CBSE",
+          "note": "Official index page"
+        }
+      ],
+      "samplePapers": [
+        {
+          "title": "Sample Question Paper 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Economics-SQP.pdf",
+          "source": "CBSE",
+          "note": "Economics · current session"
+        },
+        {
+          "title": "Marking Scheme 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Economics-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2026-27 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Economics-SQP.pdf",
+          "source": "CBSE",
+          "note": "Economics"
+        },
+        {
+          "title": "Marking Scheme 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Economics-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2025-26 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Economics-SQP.pdf",
+          "source": "CBSE",
+          "note": "Economics"
+        },
+        {
+          "title": "Marking Scheme 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Economics-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2024-25 sample paper"
+        },
+        {
+          "title": "All Class XII sample papers",
+          "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html",
+          "source": "CBSE",
+          "note": "Official index page for every subject"
+        }
+      ],
+      "lastYearPapers": [
+        {
+          "title": "CBSE board question papers (previous years)",
+          "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+          "source": "CBSE",
+          "note": "Official archive: choose the year, then Class XII and Economics. Papers are published year-wise."
+        }
+      ],
+      "ncert": [
+        {
+          "title": "NCERT textbooks (official PDFs)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "source": "NCERT",
+          "note": "Class XII → Economics: Introductory Macroeconomics. Indian Economic Development is listed under Class XI → Economics."
+        }
+      ]
+    },
+    "english": {
+      "syllabus": [
+        {
+          "title": "English Core syllabus 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/English_core_SecP2_2026-27.pdf",
+          "source": "CBSE",
+          "note": "Official Class XI–XII curriculum PDF"
+        },
+        {
+          "title": "CBSE curriculum 2026-27 (all subjects)",
+          "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+          "source": "CBSE",
+          "note": "Official index page"
+        }
+      ],
+      "samplePapers": [
+        {
+          "title": "Sample Question Paper 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/EnglishCore-SQP.pdf",
+          "source": "CBSE",
+          "note": "English Core · current session"
+        },
+        {
+          "title": "Marking Scheme 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/EnglishCore-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2026-27 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/EnglishCore-SQP.pdf",
+          "source": "CBSE",
+          "note": "English Core"
+        },
+        {
+          "title": "Marking Scheme 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/EnglishCore-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2025-26 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/EnglishCore-SQP.pdf",
+          "source": "CBSE",
+          "note": "English Core"
+        },
+        {
+          "title": "Marking Scheme 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/EnglishCore-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2024-25 sample paper"
+        },
+        {
+          "title": "All Class XII sample papers",
+          "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html",
+          "source": "CBSE",
+          "note": "Official index page for every subject"
+        }
+      ],
+      "lastYearPapers": [
+        {
+          "title": "CBSE board question papers (previous years)",
+          "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+          "source": "CBSE",
+          "note": "Official archive: choose the year, then Class XII and English Core. Papers are published year-wise."
+        }
+      ],
+      "ncert": [
+        {
+          "title": "NCERT textbooks (official PDFs)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "source": "NCERT",
+          "note": "Class XII → English: Flamingo and Vistas."
+        }
+      ]
+    },
+    "maths": {
+      "syllabus": [
+        {
+          "title": "Applied Mathematics syllabus 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/CurriculumMain27/SecPart2/Applied_Mathematics_SecP2_2026-27.pdf",
+          "source": "CBSE",
+          "note": "Official Class XI–XII curriculum PDF"
+        },
+        {
+          "title": "CBSE curriculum 2026-27 (all subjects)",
+          "url": "https://cbseacademic.nic.in/curriculum_2027.html",
+          "source": "CBSE",
+          "note": "Official index page"
+        }
+      ],
+      "samplePapers": [
+        {
+          "title": "Sample Question Paper 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Applied-Maths-SQP.pdf",
+          "source": "CBSE",
+          "note": "Applied Mathematics · current session"
+        },
+        {
+          "title": "Marking Scheme 2026-27",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Applied-Maths-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2026-27 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Applied-Maths-SQP.pdf",
+          "source": "CBSE",
+          "note": "Applied Mathematics"
+        },
+        {
+          "title": "Marking Scheme 2025-26",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2025_26/Applied-Maths-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2025-26 sample paper"
+        },
+        {
+          "title": "Sample Question Paper 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Applied-Maths-SQP.pdf",
+          "source": "CBSE",
+          "note": "Applied Mathematics"
+        },
+        {
+          "title": "Marking Scheme 2024-25",
+          "url": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2024_25/Applied-Maths-MS.pdf",
+          "source": "CBSE",
+          "note": "Official answers and step marks for the 2024-25 sample paper"
+        },
+        {
+          "title": "All Class XII sample papers",
+          "url": "https://cbseacademic.nic.in/SQP_CLASSXII_2026-27.html",
+          "source": "CBSE",
+          "note": "Official index page for every subject"
+        }
+      ],
+      "lastYearPapers": [
+        {
+          "title": "CBSE board question papers (previous years)",
+          "url": "https://www.cbse.gov.in/cbsenew/question-paper.html",
+          "source": "CBSE",
+          "note": "Official archive: choose the year, then Class XII and Applied Mathematics. Papers are published year-wise."
+        }
+      ],
+      "ncert": [
+        {
+          "title": "NCERT textbooks (official PDFs)",
+          "url": "https://ncert.nic.in/textbook.php",
+          "source": "NCERT",
+          "note": "NCERT has no separate Applied Mathematics textbook; the Class XII Mathematics books cover matrices, calculus, probability and linear programming."
+        }
+      ]
+    }
+  }
+}

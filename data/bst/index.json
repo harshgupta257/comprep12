@@ -1,0 +1,59 @@
+{
+  "id": "bst",
+  "name": "Business Studies",
+  "shortName": "BSt",
+  "code": "054",
+  "color": "#B4530A",
+  "icon": "💼",
+  "theoryMarks": 80,
+  "description": "Principles and functions of management, business finance and marketing for the CBSE Class 12 Business Studies (054) board exam.",
+  "units": [
+    {
+      "id": "u1",
+      "title": "Part A: Nature, Significance and Principles of Management",
+      "marks": 16,
+      "chapters": [
+        { "id": "nature-and-significance-of-management", "title": "Nature and Significance of Management", "file": "nature-and-significance-of-management.json" },
+        { "id": "principles-of-management", "title": "Principles of Management", "file": "principles-of-management.json" }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Part A: Business Environment and Planning",
+      "marks": 14,
+      "chapters": [
+        { "id": "business-environment", "title": "Business Environment", "file": "business-environment.json" },
+        { "id": "planning", "title": "Planning", "file": "planning.json" }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Part A: Organising, Staffing, Directing and Controlling",
+      "marks": 20,
+      "chapters": [
+        { "id": "organising", "title": "Organising", "file": "organising.json" },
+        { "id": "staffing", "title": "Staffing", "file": "staffing.json" },
+        { "id": "directing", "title": "Directing", "file": "directing.json" },
+        { "id": "controlling", "title": "Controlling", "file": "controlling.json" }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Part B: Financial Management and Financial Markets",
+      "marks": 15,
+      "chapters": [
+        { "id": "financial-management", "title": "Financial Management", "file": "financial-management.json" },
+        { "id": "financial-markets", "title": "Financial Markets", "file": "financial-markets.json" }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Part B: Marketing Management and Consumer Protection",
+      "marks": 15,
+      "chapters": [
+        { "id": "marketing-management", "title": "Marketing Management", "file": "marketing-management.json" },
+        { "id": "consumer-protection", "title": "Consumer Protection", "file": "consumer-protection.json" }
+      ]
+    }
+  ]
+}

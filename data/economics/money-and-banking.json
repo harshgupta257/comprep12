@@ -1,0 +1,177 @@
+{
+  "id": "money-and-banking",
+  "title": "Money and Banking",
+  "summary": "This chapter explains what money is, how it removed the difficulties of barter and the functions it performs. It covers the supply of money (currency held by the public plus demand deposits), how commercial banks create credit through the money multiplier, and how the Reserve Bank of India as the central bank controls credit using quantitative and qualitative instruments.",
+  "notes": [
+    {
+      "heading": "Barter system and its drawbacks",
+      "html": "<p><b>Barter</b> is the direct exchange of goods for goods without the use of money. Its main difficulties are:</p><ul><li><b>Lack of double coincidence of wants:</b> a seller must find a buyer who wants his good and also has the good he wants, which is rare.</li><li><b>Lack of a common measure of value:</b> there is no unit in which the values of all goods can be expressed, so too many exchange ratios must be remembered.</li><li><b>Indivisibility of goods:</b> a cow cannot be divided to buy a small quantity of salt.</li><li><b>Difficulty of storing wealth:</b> goods are perishable or costly to store, so purchasing power cannot easily be stored.</li><li><b>No standard of deferred payments:</b> lending and borrowing in goods is difficult as goods may deteriorate and their value may change.</li></ul><p>Money solves each of these problems.</p>"
+    },
+    {
+      "heading": "Meaning and functions of money",
+      "html": "<p><b>Money</b> is anything that is generally accepted as a medium of exchange and also serves as a measure of value, a store of value and a standard of deferred payments.</p><table><thead><tr><th>Function</th><th>Type</th><th>How it helps</th></tr></thead><tbody><tr><td>Medium of exchange</td><td>Primary</td><td>Splits barter into two separate acts, sale and purchase, removing the need for double coincidence of wants.</td></tr><tr><td>Measure (unit) of value</td><td>Primary</td><td>Values of all goods are expressed in one unit (price), making comparison and accounting easy.</td></tr><tr><td>Store of value</td><td>Secondary</td><td>Money can be saved for future use since it is not perishable and is liquid.</td></tr><tr><td>Standard of deferred payments</td><td>Secondary</td><td>Future payments such as loans and their interest can be stated in money, which has a relatively stable value.</td></tr></tbody></table><p><b>Types:</b> <i>fiat money</i> is money by government order (currency notes and coins) with no intrinsic value; <i>legal tender</i> money cannot be refused in settlement of payments; <i>fiduciary money</i> (cheques, drafts) is accepted on trust and cannot be legally forced on a payee.</p>"
+    },
+    {
+      "heading": "Supply of money",
+      "html": "<p><b>Money supply</b> is the total stock of money held by the <b>public</b> at a point of time. It is a stock concept. The 'public' excludes the government and the banking system, since money held by them is not in circulation.</p><p><b>Narrow money (M1)</b> = C + DD + OD, where:</p><ul><li><b>C</b> = currency (notes and coins) held by the public;</li><li><b>DD</b> = net demand deposits held by commercial banks (current and savings account balances that can be withdrawn on demand by cheque); 'net' means inter-bank deposits are excluded;</li><li><b>OD</b> = other deposits with the RBI (deposits of foreign central banks, international bodies and some institutions).</li></ul><p><b>Broad money (M3)</b> = M1 + net time deposits of commercial banks (fixed deposits). M3 is the most commonly used measure of money supply in India.</p><p>In India the RBI issues all currency notes except the ₹1 note; the ₹1 note and all coins are issued by the Government of India (Ministry of Finance).</p>"
+    },
+    {
+      "heading": "Commercial banks and their functions",
+      "html": "<p>A <b>commercial bank</b> is a financial institution that accepts deposits from the public and lends money to earn profit.</p><ul><li><b>Accepting deposits:</b> current account deposits (for businesses, no interest, withdrawable any time), savings deposits (low interest, limited withdrawals) and fixed (time) deposits (higher interest, withdrawable after a fixed period).</li><li><b>Advancing loans:</b> cash credit, overdrafts, demand loans, term loans and discounting of bills of exchange.</li><li><b>Credit creation:</b> by lending a part of deposits, banks create new deposits several times the initial deposit.</li><li><b>Other functions:</b> transfer of funds, collection of cheques, locker facilities, issuing drafts and letters of credit.</li></ul>"
+    },
+    {
+      "heading": "Credit creation (money multiplier)",
+      "html": "<p>Banks know that all depositors do not withdraw their money at the same time. They keep a fraction of deposits as reserves (the <b>legal reserve ratio</b>, LRR, fixed by the central bank) and lend the rest. Each loan is spent and redeposited in the banking system, creating fresh deposits.</p><p><b>Assumptions:</b> all transactions are routed through banks (no cash drain), the whole loan is redeposited, and banks keep only the required reserve.</p><p><b>Money multiplier</b> = 1 ÷ LRR. Total deposits created = Initial deposit × 1/LRR.</p><h4>Worked example 1: initial deposit ₹10,000, LRR = 20%</h4><table><thead><tr><th>Round</th><th>Deposits (₹)</th><th>Reserves at 20% (₹)</th><th>Loans (₹)</th></tr></thead><tbody><tr><td>1 (initial)</td><td>10,000</td><td>2,000</td><td>8,000</td></tr><tr><td>2</td><td>8,000</td><td>1,600</td><td>6,400</td></tr><tr><td>3</td><td>6,400</td><td>1,280</td><td>5,120</td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td></tr><tr><td><b>Total</b></td><td><b>50,000</b></td><td><b>10,000</b></td><td><b>40,000</b></td></tr></tbody></table><p>Money multiplier = 1 ÷ 0.20 = 5. Total deposits = 10,000 × 5 = ₹50,000. Credit created (loans) = 50,000 − 10,000 = ₹40,000. The process stops when total reserves (₹10,000) equal the initial deposit.</p><h4>Worked example 2: finding the LRR</h4><p>An initial deposit of ₹40,000 leads to total deposits of ₹2,00,000. Money multiplier = 2,00,000 ÷ 40,000 = 5. LRR = 1 ÷ 5 = 0.2 = <b>20%</b>.</p><h4>Worked example 3: finding the initial deposit</h4><p>LRR = 10%, total deposits created = ₹5,00,000. Multiplier = 1 ÷ 0.1 = 10. Initial deposit = 5,00,000 ÷ 10 = <b>₹50,000</b>.</p><p><b>Key relation:</b> the higher the LRR, the smaller the money multiplier and the less credit banks can create.</p>"
+    },
+    {
+      "heading": "Central bank and its functions",
+      "html": "<p>The <b>central bank</b> is the apex institution of the monetary and banking system. In India it is the <b>Reserve Bank of India</b>, set up in 1935 and nationalised in 1949.</p><ul><li><b>Bank of issue (currency authority):</b> it has the sole right to issue currency notes (except ₹1 notes). This ensures uniformity in the note issue and public confidence, and allows control over money supply.</li><li><b>Banker to the government:</b> it maintains government accounts, receives and makes payments for the government, manages public debt and gives short-term loans (ways and means advances) to the government; it also advises the government on monetary and economic matters.</li><li><b>Banker's bank and supervisor:</b> commercial banks keep part of their reserves (CRR) with it; it licenses, regulates and inspects banks.</li><li><b>Lender of last resort:</b> when a commercial bank faces a financial crisis and cannot get funds elsewhere, the RBI provides funds against eligible securities, protecting depositors and preventing a bank failure from spreading.</li><li><b>Custodian of foreign exchange reserves:</b> it holds the country's forex reserves and manages the exchange rate (managed floating).</li><li><b>Controller of credit:</b> it regulates the volume and direction of credit through monetary policy to maintain price stability with growth.</li></ul>"
+    },
+    {
+      "heading": "Instruments of credit control (monetary policy)",
+      "html": "<h4>Quantitative instruments (affect the total volume of credit)</h4><ul><li><b>Repo rate:</b> the rate at which the RBI lends short-term funds to commercial banks against government securities, with an agreement to repurchase. It is the key policy rate.</li><li><b>Reverse repo rate:</b> the rate at which the RBI borrows from (absorbs surplus funds of) commercial banks. Since 2022 the Standing Deposit Facility has served as the floor for absorbing liquidity, but the reverse repo remains a recognised tool.</li><li><b>Bank rate:</b> the rate at which the RBI lends to commercial banks for the long term without collateral of the repo type (traditionally by rediscounting bills).</li><li><b>Cash reserve ratio (CRR):</b> the minimum percentage of a bank's net demand and time liabilities that must be kept as cash with the RBI.</li><li><b>Statutory liquidity ratio (SLR):</b> the minimum percentage of net demand and time liabilities that banks must keep with themselves in liquid assets such as cash, gold and approved government securities.</li><li><b>Open market operations (OMO):</b> buying and selling of government securities by the RBI in the open market. Sale of securities absorbs money from banks; purchase injects money.</li></ul><h4>Qualitative instruments (affect the direction of credit)</h4><ul><li><b>Margin requirements:</b> the difference between the value of the security offered and the loan granted. Raising the margin reduces the borrowing capacity against a security.</li><li><b>Moral suasion:</b> persuasion, advice and pressure by the RBI on banks to follow its policy.</li><li><b>Selective credit control:</b> directions to banks to give or not give credit for particular purposes or sectors.</li></ul><table><thead><tr><th>Instrument</th><th>To control inflation (excess demand)</th><th>To fight deflation (deficient demand)</th></tr></thead><tbody><tr><td>Repo rate / bank rate</td><td>Raise</td><td>Lower</td></tr><tr><td>Reverse repo rate</td><td>Raise</td><td>Lower</td></tr><tr><td>CRR / SLR</td><td>Raise</td><td>Lower</td></tr><tr><td>Open market operations</td><td>Sell securities</td><td>Buy securities</td></tr><tr><td>Margin requirement</td><td>Raise</td><td>Lower</td></tr><tr><td>Moral suasion</td><td>Persuade banks to lend less</td><td>Persuade banks to lend more</td></tr></tbody></table>"
+    },
+    {
+      "heading": "How a change in the repo rate or CRR works",
+      "html": "<p><b>Rise in repo rate:</b> borrowing from the RBI becomes costlier for commercial banks → banks raise their lending rates → loans become costlier for households and firms → demand for credit falls → consumption and investment spending fall → aggregate demand falls, easing inflation.</p><p><b>Rise in CRR:</b> banks must keep a larger share of deposits with the RBI → excess reserves available for lending fall and the money multiplier falls → credit creation shrinks → aggregate demand falls.</p><p><b>Fall in CRR or repo rate</b> works in exactly the opposite direction and is used during recession or deficient demand.</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Barter system", "definition": "Direct exchange of goods for goods without the use of money." },
+    { "term": "Double coincidence of wants", "definition": "The situation in which each party to an exchange wants exactly what the other has to offer; rarely found, which makes barter difficult." },
+    { "term": "Money supply", "definition": "Total stock of money (currency and demand deposits) held by the <b>public</b> at a point of time; excludes money held by the government and banks." },
+    { "term": "Legal tender", "definition": "Money that is legally backed and cannot be refused in settlement of payments, e.g. currency notes and coins." },
+    { "term": "Fiat money", "definition": "Money issued by order of the government that has no intrinsic value but is accepted because of government authority." },
+    { "term": "Legal reserve ratio (LRR)", "definition": "The minimum fraction of deposits that banks must keep as reserves as required by the central bank (CRR + SLR together in a broad sense)." },
+    { "term": "Money multiplier", "definition": "The ratio of total deposits created to the initial deposit; equal to 1/LRR." },
+    { "term": "Repo rate", "definition": "Rate at which the central bank lends short-term funds to commercial banks against government securities." },
+    { "term": "Reverse repo rate", "definition": "Rate at which the central bank borrows funds from commercial banks." },
+    { "term": "Cash reserve ratio", "definition": "Percentage of net demand and time liabilities that commercial banks must keep as cash with the central bank." },
+    { "term": "Open market operations", "definition": "Purchase and sale of government securities by the central bank in the open market to change the reserves of banks." },
+    { "term": "Lender of last resort", "definition": "The function of the central bank of providing funds to a commercial bank in crisis when no other source is available." }
+  ],
+  "formulas": [
+    { "name": "Narrow money", "html": "M1 = C + DD + OD" },
+    { "name": "Broad money", "html": "M3 = M1 + Net time deposits of commercial banks" },
+    { "name": "Money multiplier", "html": "Money multiplier = 1 ÷ LRR" },
+    { "name": "Total deposits created", "html": "Total deposits = Initial deposit × (1 ÷ LRR)" },
+    { "name": "Credit created", "html": "Credit (loans) created = Total deposits − Initial deposit" },
+    { "name": "Legal reserve ratio from deposits", "html": "LRR = Initial deposit ÷ Total deposits" }
+  ],
+  "mcqs": [
+    {
+      "q": "Which function of money removes the need for double coincidence of wants?",
+      "options": ["Store of value", "Medium of exchange", "Standard of deferred payments", "Measure of value"],
+      "answer": 1,
+      "explanation": "As a medium of exchange money separates the act of sale from the act of purchase, so a seller need not find a buyer who also has the good he wants."
+    },
+    {
+      "q": "If the legal reserve ratio is 25%, the value of the money multiplier is:",
+      "options": ["2.5", "25", "4", "0.25"],
+      "answer": 2,
+      "explanation": "Money multiplier = 1 ÷ LRR = 1 ÷ 0.25 = 4."
+    },
+    {
+      "q": "A fresh deposit of ₹20,000 is made in a bank. With LRR = 10%, the total credit (loans) created by the banking system is:",
+      "options": ["₹1,80,000", "₹2,00,000", "₹18,000", "₹2,000"],
+      "answer": 0,
+      "explanation": "Total deposits = 20,000 × 1/0.1 = ₹2,00,000. Credit created = 2,00,000 − 20,000 = ₹1,80,000. ₹2,00,000 is total deposits, not loans."
+    },
+    {
+      "q": "Which of the following is a <b>qualitative</b> instrument of credit control?",
+      "options": ["Cash reserve ratio", "Repo rate", "Open market operations", "Margin requirements"],
+      "answer": 3,
+      "explanation": "Margin requirements affect credit for particular purposes (direction of credit). CRR, repo rate and OMO change the total volume of credit and are quantitative."
+    },
+    {
+      "q": "To control inflation, the RBI is most likely to:",
+      "options": ["Buy government securities in the open market", "Lower the cash reserve ratio", "Raise the repo rate", "Lower the margin requirements"],
+      "answer": 2,
+      "explanation": "A higher repo rate makes borrowing costlier for banks, which raise lending rates, reducing credit and aggregate demand. The other three measures expand credit."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Money supply includes cash held by commercial banks in their vaults.<br><b>Reason (R):</b> Money supply is the stock of money held by the public at a point of time.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 3,
+      "explanation": "Money supply measures money held by the public; cash held by banks is not in circulation and is excluded. So A is false while R is a correct statement."
+    },
+    {
+      "q": "Which of the following is <b>not</b> a function of the Reserve Bank of India?",
+      "options": ["Accepting deposits from the general public", "Acting as lender of last resort", "Issuing currency notes", "Managing foreign exchange reserves"],
+      "answer": 0,
+      "explanation": "The central bank does not deal directly with the public; accepting public deposits is a function of commercial banks."
+    },
+    {
+      "q": "An initial deposit of ₹50,000 leads to total deposits of ₹4,00,000. The legal reserve ratio is:",
+      "options": ["8%", "12.5%", "20%", "25%"],
+      "answer": 1,
+      "explanation": "Multiplier = 4,00,000 ÷ 50,000 = 8. LRR = 1 ÷ 8 = 0.125 = 12.5%."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: The ₹1 note in India is issued by the Government of India.<br>Statement 2: SLR is maintained by commercial banks with the RBI in the form of cash.",
+      "options": ["Both statements are true", "Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are false"],
+      "answer": 1,
+      "explanation": "The ₹1 note and coins are issued by the Ministry of Finance. SLR is kept by banks <i>with themselves</i> in liquid assets like cash, gold and approved securities; it is CRR that is kept with the RBI."
+    },
+    {
+      "q": "When the RBI sells government securities in the open market:",
+      "options": ["Reserves of commercial banks rise", "The money multiplier rises", "Reserves of commercial banks fall and credit creation shrinks", "The repo rate falls automatically"],
+      "answer": 2,
+      "explanation": "Buyers pay for the securities from their bank deposits, so money flows from banks to the RBI, reducing bank reserves and their capacity to lend."
+    },
+    {
+      "q": "Demand deposits are considered money because:",
+      "options": ["They earn a high rate of interest", "They can be withdrawn by cheque at any time and used for payments", "They are issued by the RBI", "They are legal tender"],
+      "answer": 1,
+      "explanation": "Demand deposits are payable on demand and can be transferred by cheque or electronically, so they serve as a medium of exchange. They are not legal tender and are created by commercial banks."
+    },
+    {
+      "q": "A fall in the cash reserve ratio will:",
+      "options": ["Reduce the money multiplier", "Increase the lendable resources of banks", "Reduce aggregate demand", "Increase the bank rate"],
+      "answer": 1,
+      "explanation": "With a lower CRR, banks keep less with the RBI and have more excess reserves to lend; the multiplier rises and aggregate demand tends to rise."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Define money supply.",
+      "marks": 1,
+      "answerHtml": "<p>Money supply is the total stock of money (currency and demand deposits) held by the public at a particular point of time.</p>"
+    },
+    {
+      "q": "What is meant by 'lender of last resort'?",
+      "marks": 1,
+      "answerHtml": "<p>It is the function of the central bank of providing financial help to commercial banks facing a liquidity crisis when they cannot obtain funds from any other source.</p>"
+    },
+    {
+      "q": "Explain the 'medium of exchange' and 'store of value' functions of money.",
+      "marks": 3,
+      "answerHtml": "<p><b>Medium of exchange:</b> money is accepted in payment for goods and services. This splits barter into two separate transactions, sale and purchase, so the need for double coincidence of wants disappears. Trade becomes faster and wider.</p><p><b>Store of value:</b> money allows people to save purchasing power for the future. Unlike goods, it is not perishable, is easy to store and is the most liquid asset, so wealth can be held conveniently in money form and used whenever needed.</p>"
+    },
+    {
+      "q": "Calculate the total deposits and the credit created if an initial deposit of ₹15,000 is made and the legal reserve ratio is 20%. Show the first three rounds.",
+      "marks": 3,
+      "answerHtml": "<p>Money multiplier = 1 ÷ 0.2 = 5.</p><table><thead><tr><th>Round</th><th>Deposits (₹)</th><th>Reserves (₹)</th><th>Loans (₹)</th></tr></thead><tbody><tr><td>1</td><td>15,000</td><td>3,000</td><td>12,000</td></tr><tr><td>2</td><td>12,000</td><td>2,400</td><td>9,600</td></tr><tr><td>3</td><td>9,600</td><td>1,920</td><td>7,680</td></tr><tr><td>Total</td><td>75,000</td><td>15,000</td><td>60,000</td></tr></tbody></table><p>Total deposits = 15,000 × 5 = <b>₹75,000</b>. Credit created = 75,000 − 15,000 = <b>₹60,000</b>.</p>"
+    },
+    {
+      "q": "Explain the role of the repo rate and open market operations in controlling credit in the economy.",
+      "marks": 4,
+      "answerHtml": "<p><b>Repo rate:</b> it is the rate at which the RBI lends short-term funds to commercial banks against government securities.</p><ul><li>When the RBI <b>raises</b> the repo rate, borrowing becomes costlier for banks; they raise their lending rates, demand for loans falls and credit contracts. This is used to check inflation.</li><li>A <b>cut</b> in the repo rate makes credit cheaper and expands it during a slowdown.</li></ul><p><b>Open market operations:</b> these are sales and purchases of government securities by the RBI.</p><ul><li><b>Sale</b> of securities: buyers pay through their banks, reserves of banks fall and their ability to create credit falls.</li><li><b>Purchase</b> of securities: the RBI pays money to sellers, bank reserves rise and credit expands.</li></ul>"
+    },
+    {
+      "q": "'The central bank acts as the banker to the government.' Explain.",
+      "marks": 4,
+      "answerHtml": "<p>The RBI performs the following services for the central and state governments:</p><ol><li><b>Maintains accounts:</b> it keeps the deposit accounts of governments and receives and makes payments on their behalf.</li><li><b>Manages public debt:</b> it raises loans for the government by issuing bonds and treasury bills and arranges repayment and interest.</li><li><b>Provides short-term credit:</b> it gives ways and means advances to governments to bridge temporary gaps between receipts and payments.</li><li><b>Acts as adviser and agent:</b> it advises the government on monetary, banking and exchange-rate matters and helps in framing economic policy; it also manages foreign exchange transactions of the government.</li></ol>"
+    },
+    {
+      "q": "Explain the process of credit creation by commercial banks with the help of a numerical example. What limits this process?",
+      "marks": 6,
+      "answerHtml": "<p>Commercial banks create credit because experience shows that depositors do not withdraw all their money at once. Banks keep a fraction of deposits as reserves (LRR) and lend the rest. The borrower spends the loan, and the money is deposited by the receivers in banks, creating new deposits which are again partly lent.</p><p><b>Example:</b> initial deposit ₹1,000, LRR = 20%.</p><table><thead><tr><th>Round</th><th>Deposits (₹)</th><th>Reserves (₹)</th><th>Loans (₹)</th></tr></thead><tbody><tr><td>1</td><td>1,000</td><td>200</td><td>800</td></tr><tr><td>2</td><td>800</td><td>160</td><td>640</td></tr><tr><td>3</td><td>640</td><td>128</td><td>512</td></tr><tr><td>…</td><td>…</td><td>…</td><td>…</td></tr><tr><td>Total</td><td>5,000</td><td>1,000</td><td>4,000</td></tr></tbody></table><p>Money multiplier = 1 ÷ LRR = 1 ÷ 0.2 = 5. Total deposits = 1,000 × 5 = ₹5,000 and credit created = ₹4,000. The process ends when the total reserves (₹1,000) equal the initial deposit.</p><p><b>Limits:</b> (i) the legal reserve ratio: the higher it is, the smaller the multiplier; (ii) the initial amount of fresh deposits; (iii) cash leakages, when people hold part of loans as cash instead of depositing it; (iv) the willingness of borrowers to borrow and the availability of good security.</p>"
+    },
+    {
+      "q": "The economy is facing inflationary pressure. Explain any three quantitative measures the RBI can take to control it.",
+      "marks": 6,
+      "answerHtml": "<p>Inflation from excess demand can be reduced by contracting credit:</p><ol><li><b>Raise the repo rate (and bank rate):</b> borrowing from the RBI becomes costlier, so banks raise their interest rates on loans. Households postpone credit-financed purchases and firms reduce borrowing for investment, so aggregate demand falls.</li><li><b>Raise the cash reserve ratio:</b> banks must keep a larger part of deposits as cash with the RBI. Their excess reserves fall and the money multiplier falls, so the capacity of banks to create credit shrinks.</li><li><b>Sell government securities (open market operations):</b> when the RBI sells securities, buyers pay by drawing on bank deposits. Bank reserves fall and they can lend less.</li></ol><p>An increase in SLR and the reverse repo rate also helps: a higher SLR locks more funds in liquid assets, and a higher reverse repo rate encourages banks to park surplus funds with the RBI instead of lending. The combined effect is lower money supply, lower aggregate demand and reduced inflationary pressure.</p>"
+    }
+  ]
+}

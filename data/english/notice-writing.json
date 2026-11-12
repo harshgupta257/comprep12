@@ -1,0 +1,121 @@
+{
+  "id": "notice-writing",
+  "title": "Notice Writing",
+  "summary": "A notice is a short, formal written announcement displayed on a notice board or published to inform a group about an event, change or instruction. In the board exam it carries 4 marks with a limit of about 50 words, and marks depend as much on the correct boxed format as on complete content.",
+  "notes": [
+    {
+      "heading": "What a notice is and where it appears",
+      "html": "<p>A notice gives information to a <b>specific group</b> of people (students, residents, members, employees). It is issued by an institution or office and signed by a responsible person. Common subjects: events, competitions, meetings, lost and found, change of schedule, camps, drives and campaigns.</p><p>In the exam you choose one of two notices. Word limit: <b>about 50 words</b> (the content inside the box, not counting the name of the institution, date and signature).</p>"
+    },
+    {
+      "heading": "Format",
+      "html": "<p>Write the notice inside a box.</p><blockquote><p>NAME OF THE INSTITUTION / ORGANISATION<br>NOTICE<br>Date<br>HEADING (in capitals)<br>Body: what, when, where, who, how to register / contact<br>Signature<br>Name (in capitals)<br>Designation</p></blockquote><p>Some schools also show the word NOTICE first and the institution second; either is accepted if consistent.</p>"
+    },
+    {
+      "heading": "Marking scheme (4 marks)",
+      "html": "<table><thead><tr><th>Component</th><th>Marks</th></tr></thead><tbody><tr><td>Format (institution name, NOTICE, date, heading, writer’s name and designation)</td><td>1</td></tr><tr><td>Content (all relevant details)</td><td>2</td></tr><tr><td>Expression (accuracy, fluency, appropriate words)</td><td>1</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Steps to write",
+      "html": "<ol><li>Identify the issuing authority and its designation (Head Girl, Secretary, Cultural Secretary).</li><li>Write a short, catchy heading in capitals.</li><li>Cover the five Ws: <b>what</b> event, <b>when</b> (date, day, time), <b>where</b> (venue), <b>who</b> is eligible, <b>why</b> or purpose.</li><li>Add how to register or whom to contact and a last date.</li><li>Close with the name and designation.</li></ol>"
+    },
+    {
+      "heading": "Do’s and don’ts",
+      "html": "<h4>Do</h4><ul><li>Use the passive voice or impersonal tone: ‘Students are informed…’.</li><li>Use the name given in the question; otherwise write ABC School / XYZ.</li><li>Keep sentences short and factual.</li></ul><h4>Don’t</h4><ul><li>Don’t write in first person plural (‘we are going to…’) excessively.</li><li>Don’t add your own address, roll number or ‘Dear students’.</li><li>Don’t exceed the word limit or leave the box incomplete.</li><li>Don’t sign with your real name if the question gives one.</li></ul>"
+    },
+    {
+      "heading": "Useful phrases",
+      "html": "<ul><li>All students are hereby informed that…</li><li>The school is organising… under the aegis of…</li><li>Interested students may give their names to the undersigned latest by…</li><li>Attendance is compulsory for…</li><li>For further details, contact…</li><li>The finder is requested to return it to…</li></ul>"
+    },
+    {
+      "heading": "Complete sample",
+      "html": "<p><b>Question:</b> You are Ritika / Rohan, Head of the Eco Club, Sunrise Public School, Jaipur. Write a notice inviting students of Classes 9–12 to a ‘Plastic-Free Campus’ drive.</p><blockquote><p>SUNRISE PUBLIC SCHOOL, JAIPUR<br>NOTICE<br>14 August 20XX<br>JOIN THE PLASTIC-FREE CAMPUS DRIVE</p><p>The Eco Club will hold a Plastic-Free Campus Drive on 22 August 20XX (Friday) from 8:00 a.m. to 11:00 a.m. Students of Classes 9–12 will collect plastic waste, set up segregation bins and make cloth bags. Gloves and refreshments will be provided. Interested students may register with the undersigned by 19 August.</p><p>Rohan Mehta<br>ROHAN MEHTA<br>Head, Eco Club</p></blockquote>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Notice", "definition": "A brief formal announcement addressed to a specific group and displayed publicly." },
+    { "term": "Heading", "definition": "A short title in capitals that tells the reader the subject of the notice at a glance." },
+    { "term": "Issuing authority", "definition": "The person, with designation, who writes and signs the notice on behalf of the institution." },
+    { "term": "Undersigned", "definition": "Formal word for the person who has signed the notice; used in ‘contact the undersigned’." },
+    { "term": "Five Ws", "definition": "<b>What, when, where, who, why</b>: the core details every notice must contain." },
+    { "term": "Impersonal tone", "definition": "A style that avoids personal pronouns and emotion, e.g. ‘Students are informed’." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "What is the word limit for a notice in the CBSE Class 12 board exam?",
+      "options": ["About 50 words", "About 100 words", "120–150 words", "30 words"],
+      "answer": 0,
+      "explanation": "A notice is a short message of <b>about 50 words</b>; 120–150 words is the limit for letters, articles and reports."
+    },
+    {
+      "q": "How many marks are given for the format of a notice?",
+      "options": ["2", "0.5", "1", "3"],
+      "answer": 2,
+      "explanation": "The 4 marks are split as format <b>1</b>, content 2 and expression 1."
+    },
+    {
+      "q": "Which of these is NOT part of the notice format?",
+      "options": ["Date", "Heading", "Designation of the writer", "Salutation such as ‘Dear Students’"],
+      "answer": 3,
+      "explanation": "A notice has no salutation; it addresses a group impersonally. Date, heading and designation are compulsory."
+    },
+    {
+      "q": "Which opening line best suits a notice?",
+      "options": ["Hey friends, guess what!", "All students are hereby informed that the annual sports meet will be held on…", "I am very happy to tell you all that…", "Respected Principal, I want to say…"],
+      "answer": 1,
+      "explanation": "Notices are <b>formal and impersonal</b>. The other options are chatty, overly personal, or written like a letter."
+    },
+    {
+      "q": "The heading of a notice should be:",
+      "options": ["a full sentence in lower case", "the name of the school", "short, in capital letters, stating the subject", "placed after the signature"],
+      "answer": 2,
+      "explanation": "A good heading is <b>short, in capitals and states the subject</b>, e.g. INTER-HOUSE QUIZ. It comes before the body."
+    },
+    {
+      "q": "A notice for a lost wristwatch must include all EXCEPT:",
+      "options": ["description of the watch", "where and when it was lost", "whom to return it to", "the price of the watch"],
+      "answer": 3,
+      "explanation": "Description, place and time, and contact are needed to identify and return it. The <b>price</b> is irrelevant and wastes words."
+    },
+    {
+      "q": "Where should the words count for a notice be focused?",
+      "options": ["On the body of the notice inside the box", "On the institution name only", "On the signature", "On the date and heading only"],
+      "answer": 0,
+      "explanation": "The ~50-word limit applies to the <b>body</b>; the format elements are not counted strictly."
+    },
+    {
+      "q": "Which voice is most commonly used in notices?",
+      "options": ["Exclamatory voice", "Passive voice", "Interrogative voice", "Poetic voice"],
+      "answer": 1,
+      "explanation": "Notices commonly use the <b>passive voice</b> (‘Students are informed’, ‘Entries are invited’) because it is formal and impersonal."
+    }
+  ],
+  "questions": [
+    {
+      "q": "You are Ananya / Arjun, Cultural Secretary of Green Valley School, Pune. Write a notice in about 50 words inviting names for an inter-house debate competition.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>GREEN VALLEY SCHOOL, PUNE<br>NOTICE<br>3 September 20XX<br>INTER-HOUSE DEBATE COMPETITION</p><p>An inter-house debate on the topic ‘Artificial Intelligence Will Create More Jobs Than It Destroys’ will be held on 15 September 20XX at 10:00 a.m. in the auditorium. Each house may send two speakers from Classes 10–12. Names should reach the undersigned by 10 September. Speaking time: three minutes each.</p><p>Arjun Rao<br>ARJUN RAO<br>Cultural Secretary</p></blockquote>"
+    },
+    {
+      "q": "You are Kavya / Kunal, Secretary of Shanti Nagar Residents’ Welfare Association, Lucknow. Write a notice informing residents about a two-day water supply cut for pipeline repair.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>SHANTI NAGAR RESIDENTS’ WELFARE ASSOCIATION, LUCKNOW<br>NOTICE<br>18 June 20XX<br>WATER SUPPLY SUSPENSION</p><p>Residents are informed that the water supply will remain suspended on 21 and 22 June 20XX (Saturday and Sunday) from 9:00 a.m. to 6:00 p.m. for repair of the main pipeline. Residents are requested to store sufficient water in advance. A tanker will be stationed near Block C for emergencies. Inconvenience is regretted.</p><p>Kunal Verma<br>KUNAL VERMA<br>Secretary, RWA</p></blockquote>"
+    },
+    {
+      "q": "You are Meera / Manav, Head Girl / Head Boy of DAV Public School, Patna. Write a notice about a blood donation camp organised by the school for parents and staff.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>DAV PUBLIC SCHOOL, PATNA<br>NOTICE<br>2 October 20XX<br>BLOOD DONATION CAMP</p><p>The school, in association with the City Red Cross Society, is organising a blood donation camp on 12 October 20XX from 9:00 a.m. to 2:00 p.m. in the school gym. Parents and staff aged 18–60 in good health may donate. A doctor will conduct a free check-up. Register at the school reception by 9 October.</p><p>Meera Singh<br>MEERA SINGH<br>Head Girl</p></blockquote>"
+    },
+    {
+      "q": "You are Sana / Samar of St. Paul’s School, Bhopal. You lost a blue geometry box in the library. Write a lost-and-found notice.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>ST. PAUL’S SCHOOL, BHOPAL<br>NOTICE<br>9 November 20XX<br>LOST: GEOMETRY BOX</p><p>A blue metal geometry box with the initials ‘S.K.’ engraved on the lid was lost in the school library on 8 November 20XX between 11:00 a.m. and 12:00 noon. It contains a scientific calculator and a steel compass. The finder is requested to return it to the undersigned in Class 12-B or to the library counter.</p><p>Samar Khan<br>SAMAR KHAN<br>Class 12-B</p></blockquote>"
+    },
+    {
+      "q": "You are Ishita / Ishaan, President of the Literary Club, Kendriya Vidyalaya, Dehradun. Write a notice announcing a creative writing workshop with a visiting author.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>KENDRIYA VIDYALAYA, DEHRADUN<br>NOTICE<br>25 July 20XX<br>CREATIVE WRITING WORKSHOP</p><p>The Literary Club is organising a two-day creative writing workshop on 5 and 6 August 20XX from 2:00 p.m. to 4:30 p.m. in the library. A noted children’s author will guide participants in short story and poetry writing. Students of Classes 9–12 may enrol with the undersigned by 1 August. Seats are limited to forty.</p><p>Ishaan Negi<br>ISHAAN NEGI<br>President, Literary Club</p></blockquote>"
+    }
+  ]
+}

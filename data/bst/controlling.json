@@ -1,0 +1,162 @@
+{
+  "id": "controlling",
+  "title": "Controlling",
+  "summary": "Controlling ensures that activities in an organisation are performed as per plans by comparing actual performance with standards and taking corrective action. This chapter covers the meaning, importance and limitations of controlling, the steps in the controlling process including critical point control and management by exception, and the relationship between planning and controlling.",
+  "notes": [
+    {
+      "heading": "Meaning and Nature of Controlling",
+      "html": "<p><b>Controlling</b> is the process of ensuring that actual activities conform to planned activities. It involves setting standards, measuring performance, comparing it with standards and taking corrective action.</p><ul><li><b>Goal-oriented</b> – ensures that resources are used to achieve goals.</li><li><b>Pervasive</b> – performed by managers at all levels in all organisations.</li><li><b>Continuous</b> – a constant review of performance.</li><li><b>Backward-looking and forward-looking</b> – it checks past performance and uses the lessons to improve future plans.</li><li><b>Last but not the least</b> – it is the last function of management but leads back to planning.</li></ul>"
+    },
+    {
+      "heading": "Importance of Controlling",
+      "html": "<ol><li><b>Accomplishing organisational goals</b> – measures progress and brings deviations to light so that corrective action keeps the firm on track.</li><li><b>Judging accuracy of standards</b> – helps verify whether standards are realistic and revise them as needed.</li><li><b>Making efficient use of resources</b> – reduces wastage and spoilage.</li><li><b>Improving employee motivation</b> – employees know in advance what is expected and on what basis they will be appraised.</li><li><b>Ensuring order and discipline</b> – close check reduces dishonest behaviour.</li><li><b>Facilitating coordination in action</b> – all activities are directed towards common goals with predetermined standards.</li></ol><p><b>Memory aid:</b> <i>A-J-E-I-E-F</i> – Accomplish, Judge, Efficient, Improve motivation, Ensure discipline, Facilitate coordination.</p>"
+    },
+    {
+      "heading": "Limitations of Controlling",
+      "html": "<ol><li><b>Difficulty in setting quantitative standards</b> – standards for employee morale, job satisfaction and human behaviour are hard to quantify.</li><li><b>Little control on external factors</b> – the firm cannot control government policies, technological changes or competition.</li><li><b>Resistance from employees</b> – employees may see control as a restriction on their freedom (e.g. CCTV cameras).</li><li><b>Costly affair</b> – involves a lot of expenditure, time and effort; small firms may not afford elaborate systems.</li></ol>"
+    },
+    {
+      "heading": "Controlling Process",
+      "html": "<ol><li><b>Setting performance standards</b> – standards are criteria against which performance is measured; may be <i>quantitative</i> (cost, units, time) or <i>qualitative</i> (goodwill, morale). They should be flexible.</li><li><b>Measurement of actual performance</b> – done objectively through personal observation, sample checking, performance reports. It should be in the same units as the standards.</li><li><b>Comparing actual performance with standards</b> – reveals deviations between actual and desired results.</li><li><b>Analysing deviations</b> – minor deviations are ignored, major ones are reported; uses <b>critical point control</b> and <b>management by exception</b>. Causes of deviations are identified.</li><li><b>Taking corrective action</b> – if deviations go beyond the acceptable range, corrective action is taken (e.g. training, new machinery, revising standards).</li></ol><p><b>Memory aid:</b> <i>S-M-C-A-T</i> – Set, Measure, Compare, Analyse, Take action.</p>"
+    },
+    {
+      "heading": "Critical Point Control and Management by Exception",
+      "html": "<p><b>Critical Point Control (CPC)</b> – it is neither economical nor easy to monitor every activity, so control should focus on <b>key result areas (KRAs)</b> that are critical to the success of the organisation. E.g. a 5% rise in labour cost is more serious than a 15% rise in stationery cost.</p><p><b>Management by Exception (MBE)</b> – 'an attempt to control everything results in controlling nothing'. Only <b>significant deviations</b> beyond the permissible limit should be brought to the notice of management.</p><p><b>Advantages of MBE:</b> saves time and effort of managers; focuses attention on important areas; routine problems are handled by subordinates; facilitates delegation; identifies critical problems on time.</p><table><thead><tr><th>Basis</th><th>Critical Point Control</th><th>Management by Exception</th></tr></thead><tbody><tr><td>Focus</td><td>Key result areas of the business</td><td>Significant deviations from standards</td></tr><tr><td>Question answered</td><td>What to control?</td><td>When to report?</td></tr><tr><td>Example</td><td>Monitoring labour cost closely</td><td>Reporting only if cost exceeds budget by more than 2%</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Relationship between Planning and Controlling",
+      "html": "<ul><li><b>Planning is the basis of controlling</b> – without plans there are no standards to control against.</li><li><b>Controlling is meaningless without planning</b>, and planning is blind without controlling.</li><li><b>Planning is prescriptive, controlling is evaluative</b> – planning prescribes the course of action; controlling evaluates whether decisions have been translated into action.</li><li><b>Planning is looking ahead, controlling is looking back</b> – but this is only partly true: planning is guided by past experience, and controlling aims to improve future performance. Thus <b>both are forward-looking as well as backward-looking</b>.</li><li>They are <b>inseparable twins</b> of management and reinforce each other.</li></ul>"
+    },
+    {
+      "heading": "Planning vs Controlling",
+      "html": "<table><thead><tr><th>Basis</th><th>Planning</th><th>Controlling</th></tr></thead><tbody><tr><td>Nature</td><td>Prescriptive</td><td>Evaluative</td></tr><tr><td>Position</td><td>First function of management</td><td>Last function of management</td></tr><tr><td>Orientation</td><td>Primarily forward-looking</td><td>Primarily backward-looking, also forward-looking</td></tr><tr><td>Purpose</td><td>Sets objectives and standards</td><td>Ensures actual performance matches standards</td></tr></tbody></table>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Controlling", "definition": "Ensuring that actual performance conforms to planned performance and taking corrective action where needed." },
+    { "term": "Standard", "definition": "A criterion against which actual performance is measured; may be quantitative or qualitative." },
+    { "term": "Deviation", "definition": "The difference between actual performance and the planned standard." },
+    { "term": "Critical point control", "definition": "Focusing control on key result areas that are critical to the success of the organisation." },
+    { "term": "Key result areas (KRAs)", "definition": "Activities whose performance is vital for the success of the organisation." },
+    { "term": "Management by exception", "definition": "Bringing only significant deviations beyond permissible limits to the notice of management." },
+    { "term": "Corrective action", "definition": "Steps taken to remove the causes of significant deviations, such as training, new machines or revised standards." },
+    { "term": "Sample checking", "definition": "Measuring performance by checking a random portion of output instead of every unit." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "A bakery decided that each worker should pack 400 biscuit packets per shift. Which step of controlling is this?",
+      "options": ["Measuring actual performance", "Setting performance standards", "Analysing deviations", "Taking corrective action"],
+      "answer": 1,
+      "explanation": "Fixing a target against which performance will be measured is <b>setting performance standards</b>."
+    },
+    {
+      "q": "The manager of a factory is informed only when the rejection rate exceeds 3%. Which principle is being followed?",
+      "options": ["Management by exception", "Critical point control", "Unity of command", "Scalar chain"],
+      "answer": 0,
+      "explanation": "Reporting only <b>significant deviations</b> beyond the limit is <b>management by exception</b>."
+    },
+    {
+      "q": "A company monitors raw material cost very closely but pays little attention to the cost of office stationery. This reflects:",
+      "options": ["Management by exception", "Sample checking", "Critical point control", "Budgetary control"],
+      "answer": 2,
+      "explanation": "Focusing on key result areas that affect success is <b>critical point control</b>."
+    },
+    {
+      "q": "'Planning is the base of controlling.' This means:",
+      "options": ["Controlling is done before planning", "Planning provides the standards against which performance is controlled", "Planning and controlling are unrelated", "Controlling sets the objectives"],
+      "answer": 1,
+      "explanation": "Planning sets the standards; without them, there is nothing to compare actual results with."
+    },
+    {
+      "q": "Workers of a firm protested against the installation of CCTV cameras on the shop floor. Which limitation of controlling is this?",
+      "options": ["Little control on external factors", "Costly affair", "Difficulty in setting quantitative standards", "Resistance from employees"],
+      "answer": 3,
+      "explanation": "Employees feeling their freedom is restricted shows <b>resistance from employees</b>."
+    },
+    {
+      "q": "The quality inspector checks every 50th unit produced instead of all units. This method of measurement is called:",
+      "options": ["Personal observation", "Sample checking", "Performance report", "Critical point control"],
+      "answer": 1,
+      "explanation": "Checking a portion of output to judge the whole is <b>sample checking</b>."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Controlling is both backward-looking and forward-looking.<br><b>Reason (R):</b> It checks past performance and uses the findings to improve future performance.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "R explains exactly why controlling looks back (past performance) and ahead (future improvement)."
+    },
+    {
+      "q": "After finding that output was below target due to old machines, the company replaced them. This is:",
+      "options": ["Comparing performance", "Analysing deviations", "Measuring performance", "Taking corrective action"],
+      "answer": 3,
+      "explanation": "Removing the cause of deviation by replacing machines is <b>taking corrective action</b>."
+    },
+    {
+      "q": "A firm finds it difficult to measure the job satisfaction of its employees. Which limitation of controlling is this?",
+      "options": ["Difficulty in setting quantitative standards", "Costly affair", "Little control on external factors", "Resistance from employees"],
+      "answer": 0,
+      "explanation": "Human factors like satisfaction cannot easily be expressed in numbers, so <b>quantitative standards are difficult to set</b>."
+    },
+    {
+      "q": "Controlling helps managers know whether standards set were too high or too low. This is the importance of controlling in:",
+      "options": ["Ensuring order and discipline", "Improving employee motivation", "Judging accuracy of standards", "Facilitating coordination"],
+      "answer": 2,
+      "explanation": "Controlling checks and revises standards; this is <b>judging accuracy of standards</b>."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Planning is prescriptive whereas controlling is evaluative.<br><b>Reason (R):</b> Planning is the last function of management.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 2,
+      "explanation": "A is true. R is false: planning is the <b>first</b> function; controlling is the last."
+    },
+    {
+      "q": "A sales manager found that sales were lower than target and discovered that the cause was a new competitor's price cut. Which step of controlling is this?",
+      "options": ["Setting standards", "Analysing deviations", "Taking corrective action", "Measuring performance"],
+      "answer": 1,
+      "explanation": "Finding the <b>cause</b> of a deviation is part of <b>analysing deviations</b>."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Define controlling.",
+      "marks": 1,
+      "answerHtml": "<p>Controlling is the process of ensuring that actual performance conforms to planned performance, and taking corrective action when it does not.</p>"
+    },
+    {
+      "q": "State the principle of management by exception.",
+      "marks": 1,
+      "answerHtml": "<p>Only significant deviations that go beyond the permissible limits should be brought to the notice of management.</p>"
+    },
+    {
+      "q": "Explain any three limitations of controlling.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Difficulty in setting quantitative standards</b> – areas like morale and job satisfaction cannot be measured in numbers.</li><li><b>Little control on external factors</b> – the firm cannot control government policies, technology changes or competition.</li><li><b>Costly affair</b> – control involves heavy expenditure, time and effort.</li></ol>"
+    },
+    {
+      "q": "'Planning is looking ahead and controlling is looking back.' Comment.",
+      "marks": 3,
+      "answerHtml": "<ul><li>The statement is only <b>partially correct</b>.</li><li>Planning is looking ahead because plans are made for the future; but plans are also based on past experience and the results of controlling, so planning also looks back.</li><li>Controlling is looking back because it checks past performance; but its aim is to improve future performance and revise future plans, so it also looks ahead.</li><li>Hence both planning and controlling are backward-looking as well as forward-looking.</li></ul>"
+    },
+    {
+      "q": "Explain any four points of importance of controlling.",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>Accomplishing organisational goals</b> – controlling measures progress and helps take corrective action to keep the firm on track.</li><li><b>Judging accuracy of standards</b> – it helps verify whether standards are realistic and revise them.</li><li><b>Making efficient use of resources</b> – it reduces wastage and spoilage.</li><li><b>Ensuring order and discipline</b> – close checks minimise dishonest behaviour among employees.</li></ol>"
+    },
+    {
+      "q": "Distinguish between critical point control and management by exception.",
+      "marks": 3,
+      "answerHtml": "<table><thead><tr><th>Basis</th><th>Critical Point Control</th><th>Management by Exception</th></tr></thead><tbody><tr><td>Meaning</td><td>Control focuses on key result areas</td><td>Only significant deviations are reported to management</td></tr><tr><td>Purpose</td><td>Decides what to control</td><td>Decides when to report</td></tr><tr><td>Example</td><td>Closely monitoring labour cost</td><td>Reporting only if labour cost exceeds budget by more than 2%</td></tr></tbody></table>"
+    },
+    {
+      "q": "Explain the steps in the controlling process.",
+      "marks": 6,
+      "answerHtml": "<ol><li><b>Setting performance standards</b> – standards are the criteria against which performance is measured. They may be quantitative (units, cost, time) or qualitative (goodwill, morale) and should be flexible.</li><li><b>Measurement of actual performance</b> – performance is measured objectively through personal observation, sample checking or reports, in the same units as the standards.</li><li><b>Comparing actual performance with standards</b> – this reveals the deviation between actual and desired results.</li><li><b>Analysing deviations</b> – acceptable range is fixed; minor deviations are ignored and major ones are reported, using critical point control and management by exception. The causes of deviation are found out.</li><li><b>Taking corrective action</b> – if deviations are beyond the acceptable range, action is taken, such as training of workers, repairing machines or revising standards.</li></ol>"
+    },
+    {
+      "q": "Silverline Ltd. set a target of producing 1,000 water purifiers a week. At the end of the week, the production manager found that only 850 units were produced. On investigation, he found that two machines were faulty. He ignored a ₹500 rise in canteen expenses but reported to the director that labour cost had risen by 4%. The machines were repaired immediately. (a) Identify the function of management. (b) Quote the lines showing four steps of this function. (c) Identify the two techniques used in deciding what to report.",
+      "marks": 6,
+      "answerHtml": "<p><b>(a) Function: Controlling.</b></p><p><b>(b) Steps:</b></p><ol><li><b>Setting performance standards</b> – 'set a target of producing 1,000 water purifiers a week'.</li><li><b>Measurement and comparison of actual performance</b> – 'found that only 850 units were produced'.</li><li><b>Analysing deviations</b> – 'on investigation, he found that two machines were faulty'.</li><li><b>Taking corrective action</b> – 'the machines were repaired immediately'.</li></ol><p><b>(c) Techniques:</b></p><ul><li><b>Critical point control</b> – labour cost is a key result area, so its rise was monitored closely.</li><li><b>Management by exception</b> – the minor rise in canteen expenses was ignored and only the significant deviation was reported to the director.</li></ul>"
+    }
+  ]
+}

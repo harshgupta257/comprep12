@@ -1,0 +1,52 @@
+{
+  "id": "accountancy",
+  "name": "Accountancy",
+  "shortName": "Accounts",
+  "code": "055",
+  "color": "#0E7C66",
+  "icon": "📒",
+  "theoryMarks": 80,
+  "description": "Partnership and company accounts plus analysis of financial statements, ratios and cash flow, as per the CBSE Class 12 Accountancy (055) syllabus.",
+  "units": [
+    {
+      "id": "u1",
+      "title": "Accounting for Partnership Firms",
+      "marks": 36,
+      "chapters": [
+        { "id": "partnership-fundamentals", "title": "Accounting for Partnership Firms: Fundamentals", "file": "partnership-fundamentals.json" },
+        { "id": "goodwill", "title": "Goodwill: Nature and Valuation", "file": "goodwill.json" },
+        { "id": "change-in-profit-sharing-ratio", "title": "Change in Profit-Sharing Ratio among Existing Partners", "file": "change-in-profit-sharing-ratio.json" },
+        { "id": "admission-of-partner", "title": "Admission of a Partner", "file": "admission-of-partner.json" },
+        { "id": "retirement-death-of-partner", "title": "Retirement and Death of a Partner", "file": "retirement-death-of-partner.json" },
+        { "id": "dissolution-of-partnership-firm", "title": "Dissolution of a Partnership Firm", "file": "dissolution-of-partnership-firm.json" }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Accounting for Companies",
+      "marks": 24,
+      "chapters": [
+        { "id": "accounting-for-share-capital", "title": "Accounting for Share Capital", "file": "accounting-for-share-capital.json" },
+        { "id": "issue-of-debentures", "title": "Issue of Debentures", "file": "issue-of-debentures.json" }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Analysis of Financial Statements",
+      "marks": 12,
+      "chapters": [
+        { "id": "financial-statements-of-company", "title": "Financial Statements of a Company", "file": "financial-statements-of-company.json" },
+        { "id": "tools-of-financial-analysis", "title": "Tools of Financial Statement Analysis: Comparative and Common-Size Statements", "file": "tools-of-financial-analysis.json" },
+        { "id": "accounting-ratios", "title": "Accounting Ratios", "file": "accounting-ratios.json" }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Cash Flow Statement",
+      "marks": 8,
+      "chapters": [
+        { "id": "cash-flow-statement", "title": "Cash Flow Statement", "file": "cash-flow-statement.json" }
+      ]
+    }
+  ]
+}

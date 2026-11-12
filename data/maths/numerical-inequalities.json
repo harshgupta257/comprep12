@@ -1,0 +1,291 @@
+{
+  "id": "numerical-inequalities",
+  "title": "Numerical Inequalities",
+  "summary": "An inequality compares two quantities using &lt;, &gt;, ≤ or ≥ and usually has a whole interval of solutions rather than one value. This chapter covers the rules for manipulating inequalities, interval notation, linear, double, modulus, rational and simple quadratic inequalities, and their use in business and everyday word problems.",
+  "notes": [
+    {
+      "heading": "What an inequality is; interval notation",
+      "html": "<p>A <b>numerical inequality</b> is a statement that one quantity is less than (&lt;), greater than (&gt;), at most (≤) or at least (≥) another. 3 &lt; 7 is a true inequality; x + 2 ≥ 5 is an inequality in a variable, true for all x ≥ 3.</p><p>The <b>solution set</b> of an inequality is the set of all values that make it true. It is usually written in <b>interval notation</b>:</p><table><thead><tr><th>Inequality</th><th>Interval</th><th>Endpoints</th></tr></thead><tbody><tr><td>a &lt; x &lt; b</td><td>(a, b)</td><td>open: both excluded</td></tr><tr><td>a ≤ x ≤ b</td><td>[a, b]</td><td>closed: both included</td></tr><tr><td>a ≤ x &lt; b</td><td>[a, b)</td><td>a included, b excluded</td></tr><tr><td>x &gt; a</td><td>(a, ∞)</td><td>∞ is always open</td></tr><tr><td>x ≤ b</td><td>(−∞, b]</td><td>b included</td></tr></tbody></table><p>On a number line an included endpoint is shown by a filled dot and an excluded endpoint by a hollow dot.</p>"
+    },
+    {
+      "heading": "Rules for working with inequalities",
+      "html": "<ol><li>Adding or subtracting the same number on both sides keeps the sign: a &lt; b ⇒ a ± c &lt; b ± c.</li><li>Multiplying or dividing both sides by a <b>positive</b> number keeps the sign: a &lt; b, k &gt; 0 ⇒ ka &lt; kb.</li><li>Multiplying or dividing both sides by a <b>negative</b> number <b>reverses</b> the sign: a &lt; b, k &lt; 0 ⇒ ka &gt; kb.</li><li>Transitivity: a &lt; b and b &lt; c ⇒ a &lt; c.</li><li>Adding inequalities of the same direction: a &lt; b and c &lt; d ⇒ a + c &lt; b + d (but they may <b>not</b> be subtracted).</li><li>Reciprocals of positive numbers reverse the sign: 0 &lt; a &lt; b ⇒ 1/a &gt; 1/b.</li><li>Squares: if 0 ≤ a &lt; b then a<sup>2</sup> &lt; b<sup>2</sup>; this fails for negative numbers (−3 &lt; 2 but 9 &gt; 4).</li></ol><p><b>Modulus results</b> (for a &gt; 0): |x| &lt; a ⇔ −a &lt; x &lt; a; |x| &gt; a ⇔ x &lt; −a or x &gt; a. More generally |x − c| &lt; a means x is within distance a of c.</p><p><b>A useful numerical inequality:</b> for positive numbers a and b, AM ≥ GM, i.e. (a + b)/2 ≥ √(ab), with equality only when a = b.</p>"
+    },
+    {
+      "heading": "Method: solving different types of inequality",
+      "html": "<ul><li><b>Linear:</b> expand, collect x-terms on one side, constants on the other, divide by the coefficient of x (reverse the sign if it is negative).</li><li><b>Double (combined):</b> a &lt; px + q &lt; b — perform the same operation on all three parts.</li><li><b>System:</b> solve each inequality separately and take the intersection (common part).</li><li><b>Modulus:</b> convert |…| &lt; a into a double inequality, and |…| &gt; a into two separate inequalities joined by \"or\".</li><li><b>Rational (p(x)/q(x) compared with 0):</b> bring everything to one side, never multiply by an expression whose sign is unknown, find the critical points (zeros of numerator and denominator), make a sign table, and exclude zeros of the denominator.</li><li><b>Quadratic:</b> factorise, find the roots α &lt; β; (x − α)(x − β) &lt; 0 ⇔ α &lt; x &lt; β, and (x − α)(x − β) &gt; 0 ⇔ x &lt; α or x &gt; β.</li></ul>"
+    },
+    {
+      "heading": "Worked Example 1 — linear and double inequalities",
+      "html": "<p><b>(a) Solve 3(x − 2) ≤ 5x + 4.</b></p><p>3x − 6 ≤ 5x + 4 ⇒ −6 − 4 ≤ 5x − 3x ⇒ −10 ≤ 2x ⇒ x ≥ −5. <b>Solution: [−5, ∞).</b></p><p><b>(b) Solve −3 &lt; (2x − 1)/3 ≤ 5.</b></p><p>Multiply all parts by 3 (positive): −9 &lt; 2x − 1 ≤ 15.</p><p>Add 1: −8 &lt; 2x ≤ 16. Divide by 2: −4 &lt; x ≤ 8. <b>Solution: (−4, 8].</b></p><p><b>(c) Solve 7 − 2x &gt; 13.</b> −2x &gt; 6 ⇒ x &lt; −3 (sign reversed on dividing by −2). <b>Solution: (−∞, −3).</b></p>"
+    },
+    {
+      "heading": "Worked Example 2 — modulus inequalities",
+      "html": "<p><b>(a) Solve |2x − 3| &lt; 7.</b></p><p>−7 &lt; 2x − 3 &lt; 7 ⇒ −4 &lt; 2x &lt; 10 ⇒ −2 &lt; x &lt; 5. <b>Solution: (−2, 5).</b></p><p><b>(b) Solve |x + 1| ≥ 4.</b></p><p>Either x + 1 ≥ 4, giving x ≥ 3, or x + 1 ≤ −4, giving x ≤ −5.</p><p><b>Solution: (−∞, −5] ∪ [3, ∞).</b></p><p>Interpretation: (a) says 2x is within 7 units of 3; (b) says x is at least 4 units away from −1.</p>"
+    },
+    {
+      "heading": "Worked Example 3 — rational and quadratic inequalities",
+      "html": "<p><b>(a) Solve (x − 2)/(x + 3) ≥ 0.</b></p><p>Critical points: x = 2 (numerator zero) and x = −3 (denominator zero, must be excluded).</p><table><thead><tr><th>Interval</th><th>x − 2</th><th>x + 3</th><th>Quotient</th></tr></thead><tbody><tr><td>x &lt; −3</td><td>−</td><td>−</td><td>+</td></tr><tr><td>−3 &lt; x &lt; 2</td><td>−</td><td>+</td><td>−</td></tr><tr><td>x &gt; 2</td><td>+</td><td>+</td><td>+</td></tr></tbody></table><p>Quotient ≥ 0 for x &lt; −3 or x ≥ 2 (x = 2 gives 0, allowed; x = −3 is not allowed). <b>Solution: (−∞, −3) ∪ [2, ∞).</b></p><p><b>(b) Solve x<sup>2</sup> − 5x + 6 &lt; 0.</b></p><p>x<sup>2</sup> − 5x + 6 = (x − 2)(x − 3). The product is negative only between the roots: <b>2 &lt; x &lt; 3</b>, i.e. (2, 3).</p>"
+    },
+    {
+      "heading": "Worked Example 4 — word problems",
+      "html": "<p><b>(a) A student scored 62 and 74 in two tests. What must she score in the third test (out of 100) to have an average of at least 70?</b></p><p>(62 + 74 + x)/3 ≥ 70 ⇒ 136 + x ≥ 210 ⇒ x ≥ 74. Since marks cannot exceed 100: <b>74 ≤ x ≤ 100</b>.</p><p><b>(b) A firm's cost is C(x) = 26000 + 30x and revenue is R(x) = 43x, where x is the number of units sold. How many units must be sold to make a profit?</b></p><p>Profit when R(x) &gt; C(x): 43x &gt; 26000 + 30x ⇒ 13x &gt; 26000 ⇒ x &gt; 2000.</p><p>The firm must sell <b>more than 2000 units</b>, i.e. at least 2001 units.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Forgetting to reverse the sign when multiplying or dividing by a negative number.</li><li>Cross-multiplying a rational inequality such as (x − 2)/(x + 3) ≥ 0 by (x + 3) — its sign is unknown. Use a sign table instead.</li><li>Including a zero of the denominator in the solution set.</li><li>Writing |x| &gt; 4 as −4 &gt; x &gt; 4 (impossible). It must be \"x &lt; −4 or x &gt; 4\".</li><li>Squaring both sides when one side may be negative.</li><li>In word problems, ignoring natural restrictions such as \"number of units is a whole number\" or \"marks ≤ 100\".</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Inequality",
+      "definition": "A statement comparing two quantities with &lt;, &gt;, ≤ or ≥."
+    },
+    {
+      "term": "Strict inequality",
+      "definition": "One using &lt; or &gt;; the boundary value is not included."
+    },
+    {
+      "term": "Slack (non-strict) inequality",
+      "definition": "One using ≤ or ≥; the boundary value is included."
+    },
+    {
+      "term": "Solution set",
+      "definition": "The set of all values of the variable that satisfy the inequality."
+    },
+    {
+      "term": "Closed / open interval",
+      "definition": "[a, b] includes both endpoints; (a, b) excludes both."
+    },
+    {
+      "term": "Critical points",
+      "definition": "Values where the numerator or denominator of an expression is zero; the sign can change only there."
+    },
+    {
+      "term": "Modulus",
+      "definition": "|x| = x if x ≥ 0 and −x if x &lt; 0; it measures distance from 0 on the number line."
+    },
+    {
+      "term": "System of inequalities",
+      "definition": "Two or more inequalities to be satisfied together; its solution is the intersection of the individual solution sets."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Adding a constant",
+      "html": "a &lt; b ⇒ a + c &lt; b + c"
+    },
+    {
+      "name": "Multiplying by a positive number",
+      "html": "a &lt; b, k &gt; 0 ⇒ ka &lt; kb"
+    },
+    {
+      "name": "Multiplying by a negative number",
+      "html": "a &lt; b, k &lt; 0 ⇒ ka &gt; kb (sign reverses)"
+    },
+    {
+      "name": "Reciprocal rule",
+      "html": "0 &lt; a &lt; b ⇒ 1/a &gt; 1/b"
+    },
+    {
+      "name": "Modulus less than",
+      "html": "|x − c| &lt; a ⇔ c − a &lt; x &lt; c + a (a &gt; 0)"
+    },
+    {
+      "name": "Modulus greater than",
+      "html": "|x − c| &gt; a ⇔ x &lt; c − a or x &gt; c + a"
+    },
+    {
+      "name": "Quadratic between roots",
+      "html": "(x − α)(x − β) &lt; 0, α &lt; β ⇔ α &lt; x &lt; β"
+    },
+    {
+      "name": "Quadratic outside roots",
+      "html": "(x − α)(x − β) &gt; 0, α &lt; β ⇔ x &lt; α or x &gt; β"
+    },
+    {
+      "name": "AM–GM inequality",
+      "html": "(a + b)/2 ≥ √(ab) for a, b &gt; 0"
+    },
+    {
+      "name": "Profit condition",
+      "html": "Profit ⇔ R(x) &gt; C(x); break-even when R(x) = C(x)"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "If a &lt; b and c &lt; 0, then",
+      "options": [
+        "ac &lt; bc",
+        "ac &gt; bc",
+        "ac = bc",
+        "a/c &lt; b/c"
+      ],
+      "answer": 1,
+      "explanation": "Multiplying by a negative number reverses the inequality, so ac &gt; bc. (Likewise a/c &gt; b/c.)"
+    },
+    {
+      "q": "The solution of −4x &gt; 12 is",
+      "options": [
+        "x &gt; −3",
+        "x &gt; 3",
+        "x &lt; 3",
+        "x &lt; −3"
+      ],
+      "answer": 3,
+      "explanation": "Divide by −4 and reverse the sign: x &lt; −3."
+    },
+    {
+      "q": "The solution set of |x − 3| ≤ 2 is",
+      "options": [
+        "[1, 5]",
+        "(1, 5)",
+        "[−5, −1]",
+        "(−∞, 1] ∪ [5, ∞)"
+      ],
+      "answer": 0,
+      "explanation": "−2 ≤ x − 3 ≤ 2 ⇒ 1 ≤ x ≤ 5; both ends included because of ≤."
+    },
+    {
+      "q": "The solution set of |x| &gt; 4 is",
+      "options": [
+        "(−4, 4)",
+        "[−4, 4]",
+        "(−∞, −4) ∪ (4, ∞)",
+        "(4, ∞)"
+      ],
+      "answer": 2,
+      "explanation": "|x| &gt; 4 means x is more than 4 units from 0: x &lt; −4 or x &gt; 4."
+    },
+    {
+      "q": "The solution of 2 ≤ 3x − 4 &lt; 11 is",
+      "options": [
+        "(2, 5]",
+        "[2, 5)",
+        "[2, 5]",
+        "(2, 5)"
+      ],
+      "answer": 1,
+      "explanation": "Add 4: 6 ≤ 3x &lt; 15. Divide by 3: 2 ≤ x &lt; 5, i.e. [2, 5)."
+    },
+    {
+      "q": "The natural numbers satisfying 2x + 5 &lt; 15 are",
+      "options": [
+        "{1, 2, 3, 4, 5}",
+        "{0, 1, 2, 3, 4}",
+        "{1, 2, 3, 4}",
+        "{5, 6, 7, …}"
+      ],
+      "answer": 2,
+      "explanation": "2x &lt; 10 ⇒ x &lt; 5. Natural numbers less than 5: 1, 2, 3, 4 (0 is not natural, 5 is excluded)."
+    },
+    {
+      "q": "The solution of (x − 1)/(x + 2) &lt; 0 is",
+      "options": [
+        "x &lt; −2 or x &gt; 1",
+        "−1 &lt; x &lt; 2",
+        "−2 ≤ x &lt; 1",
+        "−2 &lt; x &lt; 1"
+      ],
+      "answer": 3,
+      "explanation": "Critical points −2 and 1. The quotient is negative only between them; x = −2 is excluded (denominator 0) and x = 1 gives 0, not &lt; 0. So −2 &lt; x &lt; 1."
+    },
+    {
+      "q": "The solution set of x<sup>2</sup> − 9 ≥ 0 is",
+      "options": [
+        "(−∞, −3] ∪ [3, ∞)",
+        "[−3, 3]",
+        "[3, ∞)",
+        "(−3, 3)"
+      ],
+      "answer": 0,
+      "explanation": "(x − 3)(x + 3) ≥ 0 holds outside or on the roots: x ≤ −3 or x ≥ 3."
+    },
+    {
+      "q": "For a product, cost C(x) = 4500 + 25x and revenue R(x) = 40x. The least number of units that gives a profit is",
+      "options": [
+        "300",
+        "301",
+        "180",
+        "113"
+      ],
+      "answer": 1,
+      "explanation": "40x &gt; 4500 + 25x ⇒ 15x &gt; 4500 ⇒ x &gt; 300. At x = 300 there is break-even (no profit), so the least is 301."
+    },
+    {
+      "q": "If 0 &lt; a &lt; b, which statement is always true?",
+      "options": [
+        "1/a &lt; 1/b",
+        "−a &lt; −b",
+        "a<sup>2</sup> &gt; b<sup>2</sup>",
+        "1/a &gt; 1/b"
+      ],
+      "answer": 3,
+      "explanation": "For positive numbers, taking reciprocals reverses the order: 1/a &gt; 1/b. Also −a &gt; −b and a<sup>2</sup> &lt; b<sup>2</sup>."
+    },
+    {
+      "q": "<b>Assertion (A):</b> If −2x ≥ 6, then x ≤ −3.<br><b>Reason (R):</b> When both sides of an inequality are divided by a negative number, the inequality sign is reversed.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 0,
+      "explanation": "Dividing −2x ≥ 6 by −2 and reversing gives x ≤ −3. A is true and follows from R."
+    },
+    {
+      "q": "<b>Assertion (A):</b> x<sup>2</sup> &gt; 4 implies x &gt; 2.<br><b>Reason (R):</b> If a &gt; b &gt; 0, then a<sup>2</sup> &gt; b<sup>2</sup>.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "x = −3 gives x<sup>2</sup> = 9 &gt; 4 but x &lt; 2, so A is false (the correct solution is x &lt; −2 or x &gt; 2). R is a true property of positive numbers."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Write the inequality x ≥ −2 in interval notation.",
+      "marks": 1,
+      "answerHtml": "<p><b>[−2, ∞)</b> — square bracket because −2 is included; ∞ always takes a round bracket.</p>"
+    },
+    {
+      "q": "Solve 5x − 3 &lt; 7.",
+      "marks": 1,
+      "answerHtml": "<p>5x &lt; 10 ⇒ <b>x &lt; 2</b>, i.e. (−∞, 2).</p>"
+    },
+    {
+      "q": "Solve |3x − 4| ≤ 5.",
+      "marks": 2,
+      "answerHtml": "<p>−5 ≤ 3x − 4 ≤ 5.</p><p>Add 4: −1 ≤ 3x ≤ 9. Divide by 3: −1/3 ≤ x ≤ 3.</p><p><b>Solution: [−1/3, 3].</b></p>"
+    },
+    {
+      "q": "Solve (x + 4)/(x − 3) &gt; 0.",
+      "marks": 2,
+      "answerHtml": "<p>Critical points: x = −4 and x = 3.</p><table><thead><tr><th>Interval</th><th>x + 4</th><th>x − 3</th><th>Quotient</th></tr></thead><tbody><tr><td>x &lt; −4</td><td>−</td><td>−</td><td>+</td></tr><tr><td>−4 &lt; x &lt; 3</td><td>+</td><td>−</td><td>−</td></tr><tr><td>x &gt; 3</td><td>+</td><td>+</td><td>+</td></tr></tbody></table><p><b>Solution: (−∞, −4) ∪ (3, ∞).</b> Neither endpoint is included (strict inequality; x = 3 makes the denominator zero).</p>"
+    },
+    {
+      "q": "Solve the system 2x − 3 ≥ x − 7 and 3x + 2 &lt; 2x + 9. How many integers satisfy it?",
+      "marks": 3,
+      "answerHtml": "<p>First: 2x − x ≥ −7 + 3 ⇒ x ≥ −4.</p><p>Second: 3x − 2x &lt; 9 − 2 ⇒ x &lt; 7.</p><p>Common solution: <b>−4 ≤ x &lt; 7, i.e. [−4, 7)</b>.</p><p>Integers: −4, −3, −2, −1, 0, 1, 2, 3, 4, 5, 6 — <b>11 integers</b>.</p>"
+    },
+    {
+      "q": "A medicine must be stored between 59 °F and 77 °F (inclusive). Using C = 5(F − 32)/9, find the range of temperature in °C.",
+      "marks": 3,
+      "answerHtml": "<p>59 ≤ F ≤ 77. Subtract 32: 27 ≤ F − 32 ≤ 45.</p><p>Multiply by 5/9 (positive, sign unchanged): 27 × 5/9 ≤ C ≤ 45 × 5/9 ⇒ 15 ≤ C ≤ 25.</p><p><b>The medicine must be stored between 15 °C and 25 °C.</b></p>"
+    },
+    {
+      "q": "(a) Solve (2x − 1)/(x + 2) ≥ 1. (b) Solve x<sup>2</sup> − x − 12 ≤ 0. (c) Find the values of x satisfying both.",
+      "marks": 5,
+      "answerHtml": "<p><b>(a)</b> (2x − 1)/(x + 2) − 1 ≥ 0 ⇒ (2x − 1 − x − 2)/(x + 2) ≥ 0 ⇒ (x − 3)/(x + 2) ≥ 0.</p><p>Critical points −2 and 3. Sign: positive for x &lt; −2, negative for −2 &lt; x &lt; 3, positive for x &gt; 3. Including x = 3 (value 0) and excluding x = −2: <b>x ∈ (−∞, −2) ∪ [3, ∞)</b>.</p><p>(Note: cross-multiplying by x + 2 would have lost the part x &lt; −2.)</p><p><b>(b)</b> x<sup>2</sup> − x − 12 = (x − 4)(x + 3) ≤ 0 ⇒ <b>−3 ≤ x ≤ 4</b>.</p><p><b>(c)</b> Intersection of (a) and (b): <b>[−3, −2) ∪ [3, 4]</b>.</p>"
+    },
+    {
+      "q": "<b>Case study.</b> A start-up assembles mobile phones. Its fixed cost is ₹1,80,000 per month, the variable cost is ₹1,200 per phone and each phone sells for ₹2,100. Its monthly capacity is 400 phones.<br>(i) Write the profit P(x) for x phones.<br>(ii) Find the least number of phones it must sell in a month to make a profit.<br>(iii) How many phones must it sell to earn a profit of at least ₹45,000, and what is the range of possible profit in that case?",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b> R(x) = 2100x, C(x) = 180000 + 1200x, so <b>P(x) = 900x − 180000</b>.</p><p><b>(ii)</b> P(x) &gt; 0 ⇒ 900x &gt; 180000 ⇒ x &gt; 200. At x = 200 the firm only breaks even, so it must sell <b>at least 201 phones</b>.</p><p><b>(iii)</b> 900x − 180000 ≥ 45000 ⇒ 900x ≥ 225000 ⇒ x ≥ 250. With capacity 400: <b>250 ≤ x ≤ 400</b>.</p><p>Profit at x = 400: 900 × 400 − 180000 = ₹1,80,000. So the profit lies between <b>₹45,000 and ₹1,80,000</b>.</p>"
+    }
+  ]
+}

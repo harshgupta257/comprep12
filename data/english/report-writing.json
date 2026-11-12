@@ -1,0 +1,122 @@
+{
+  "id": "report-writing",
+  "title": "Report Writing",
+  "summary": "A report is a factual account of an event that has already taken place, written for a school magazine or a newspaper. It is offered as an internal choice with the article for 5 marks in 120–150 words, and must have a heading, byline, place and date, and a past-tense account answering who, what, when, where, why and how.",
+  "notes": [
+    {
+      "heading": "Kinds of reports",
+      "html": "<ul><li><b>Magazine / school report:</b> on a school event (annual day, sports meet, workshop, exhibition, visit). Written by a student office-bearer.</li><li><b>Newspaper report:</b> on a public event or incident (accident, fire, flood, festival, campaign), written by a staff reporter or correspondent. Starts with place and date in the first line.</li></ul><p>Both are written in the <b>past tense</b> and mostly in the <b>passive voice</b>, in an objective tone.</p>"
+    },
+    {
+      "heading": "Format",
+      "html": "<blockquote><p>HEADING (title in capitals)<br>By: Name, designation (e.g. Head Girl / Staff Reporter)<br>Place, Date (newspaper reports put this at the start of the first paragraph)<br><br>Para 1: what, when, where, who organised, chief guest / occasion<br>Para 2: sequence of events, highlights, people involved, quotes paraphrased<br>Para 3: outcome, impact, vote of thanks / concluding remark</p></blockquote>"
+    },
+    {
+      "heading": "Marking scheme (5 marks)",
+      "html": "<table><thead><tr><th>Component</th><th>Marks</th></tr></thead><tbody><tr><td>Format (heading, byline, place and date)</td><td>1</td></tr><tr><td>Organisation of ideas</td><td>1</td></tr><tr><td>Content (complete facts, sequence)</td><td>1.5</td></tr><tr><td>Accuracy and fluency of expression</td><td>1.5</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Steps",
+      "html": "<ol><li>Decide whether it is a magazine or newspaper report.</li><li>Note the five Ws and one H: <b>who, what, when, where, why, how</b>.</li><li>Write an informative heading.</li><li>Open with a summary sentence that answers the key Ws.</li><li>Narrate events in chronological order.</li><li>Close with the result or the significance of the event.</li></ol>"
+    },
+    {
+      "heading": "Do’s and don’ts",
+      "html": "<h4>Do</h4><ul><li>Use the past tense: ‘The exhibition was inaugurated…’.</li><li>Include facts: numbers of participants, names of winners, timings.</li><li>Stay objective; let facts carry feeling.</li></ul><h4>Don’t</h4><ul><li>Don’t write in the future tense; a report records what has happened.</li><li>Don’t write personal opinions at length (‘I felt so bored…’).</li><li>Don’t forget the byline and date.</li><li>Don’t confuse a report with a notice or an article.</li></ul>"
+    },
+    {
+      "heading": "Useful phrases",
+      "html": "<ul><li>…was organised by … on … in …</li><li>The programme commenced with the lighting of the lamp…</li><li>The chief guest, …, graced the occasion.</li><li>The highlight of the event was…</li><li>In a tragic incident, … were injured when…</li><li>Eyewitnesses said that…</li><li>The event concluded with a vote of thanks proposed by…</li></ul>"
+    },
+    {
+      "heading": "Complete sample: school report",
+      "html": "<blockquote><p><b>SCIENCE EXHIBITION SPARKS YOUNG MINDS</b><br>By Tanya Bose, Head Girl<br>Delhi Public School, Ranchi, 18 November 20XX</p><p>A two-day inter-school science exhibition, ‘Innovate 20XX’, was organised by Delhi Public School, Ranchi, on 15 and 16 November in the school’s multipurpose hall. Twenty-two schools from the city took part.</p><p>The exhibition was inaugurated by Dr. M. Prasad, Director of the Regional Science Centre, who urged students to design solutions for local problems. Over 120 working models were displayed. A low-cost water purifier made from clay and charcoal, a solar-powered vegetable cart and a smart dustbin that sorted waste drew the largest crowds. Judges from BIT Mesra evaluated the projects on originality and usefulness.</p><p>The first prize went to St. Xavier’s School for its flood-alert sensor. The exhibition ended with a prize distribution and a vote of thanks by the Principal, leaving visitors inspired.</p></blockquote>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Report", "definition": "A factual, past-tense account of an event, written objectively for a magazine or newspaper." },
+    { "term": "Byline", "definition": "Name and designation of the reporter written under the heading." },
+    { "term": "Dateline", "definition": "Place and date with which a newspaper report opens, e.g. <i>Ranchi, 18 November:</i>." },
+    { "term": "5 Ws and 1 H", "definition": "Who, what, when, where, why and how: the questions a complete report must answer." },
+    { "term": "Chronological order", "definition": "Narration of events in the sequence in which they happened." },
+    { "term": "Objective tone", "definition": "A neutral, factual style without personal bias or exaggeration." },
+    { "term": "Vote of thanks", "definition": "Formal speech of gratitude at the end of a function; often the closing detail of a school report." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "Which tense is mainly used in a report?",
+      "options": ["Simple future", "Present continuous", "Past tense", "Future perfect"],
+      "answer": 2,
+      "explanation": "A report narrates an event that has <b>already happened</b>, so it uses the past tense."
+    },
+    {
+      "q": "A newspaper report usually begins its first paragraph with:",
+      "options": ["Respected Editor,", "the place and date", "a poem", "the reporter’s address"],
+      "answer": 1,
+      "explanation": "Newspaper reports open with a <b>dateline</b> (place and date), e.g. ‘Shimla, 5 June:’."
+    },
+    {
+      "q": "Which of these is NOT part of a report’s format?",
+      "options": ["Heading", "Byline", "Date", "Salutation"],
+      "answer": 3,
+      "explanation": "Reports have <b>no salutation</b>; they are not addressed to anyone."
+    },
+    {
+      "q": "The best heading for a report on a fire in a market is:",
+      "options": ["Fire Guts Ten Shops in Old Market", "A Bad Day", "My Experience of Fire", "Fire Safety Is Important"],
+      "answer": 0,
+      "explanation": "A report heading should be <b>factual and specific</b>. ‘Fire Safety Is Important’ suits an article."
+    },
+    {
+      "q": "Which sentence suits a report best?",
+      "options": ["I think the function was boring.", "The function will be held tomorrow.", "The function was inaugurated by the District Magistrate at 10 a.m.", "Please attend the function."],
+      "answer": 2,
+      "explanation": "It is <b>factual, past tense and impersonal</b>. The others are opinion, future (notice) or a request."
+    },
+    {
+      "q": "The concluding paragraph of a school report usually mentions:",
+      "options": ["how to register for the event", "the outcome, prizes or vote of thanks", "the writer’s marks", "the agenda of the next meeting"],
+      "answer": 1,
+      "explanation": "Reports end with the <b>result or close of the event</b>, such as prize distribution or the vote of thanks."
+    },
+    {
+      "q": "Which voice dominates report writing?",
+      "options": ["Passive voice", "Active imperative", "Interrogative", "Exclamatory"],
+      "answer": 0,
+      "explanation": "The <b>passive voice</b> (‘was organised’, ‘were awarded’) keeps reports formal and focused on events."
+    },
+    {
+      "q": "Who would most likely sign a newspaper report on a road accident?",
+      "options": ["The Principal", "The victim", "The police commissioner", "A staff reporter or correspondent"],
+      "answer": 3,
+      "explanation": "Newspaper reports carry the byline of a <b>staff reporter or correspondent</b>."
+    }
+  ],
+  "questions": [
+    {
+      "q": "As Ankita / Ankit, a staff reporter, write a newspaper report on a cleanliness drive at a city lake organised by local college students. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>STUDENTS CLEAN UP BADA TALAB</b><br>By Ankit Tiwari, Staff Reporter</p><p>Bhopal, 6 January: Over 300 students from five city colleges took part in a cleanliness drive at the Upper Lake on Sunday morning, collecting nearly two tonnes of waste in four hours.</p><p>The drive, organised by the NSS units of the colleges with support from the Municipal Corporation, began at 7 a.m. at Boat Club. Armed with gloves, sacks and rakes, volunteers cleared plastic bottles, thermocol plates, idols and fishing nets from the banks. Corporation trucks carried the waste to a segregation centre.</p><p>The Municipal Commissioner, who joined the volunteers, praised their commitment and announced that more dustbins and CCTV cameras would be installed around the lake. Volunteers also distributed cloth bags to visitors and urged them not to litter.</p><p>The organisers plan to hold such drives every month.</p></blockquote>"
+    },
+    {
+      "q": "As Sakshi / Sameer, Head of the Sports Council, write a report for your school magazine on the Annual Sports Meet. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>ANNUAL SPORTS MEET: A FESTIVAL OF FITNESS</b><br>By Sameer Ali, Head, Sports Council<br>Army Public School, Jodhpur, 30 November 20XX</p><p>The Annual Sports Meet of Army Public School, Jodhpur, was held on 28 November on the school ground. Colonel R. Shekhawat was the chief guest.</p><p>The meet began with a march-past by the four houses and the lighting of the sports torch by the school captain. More than 400 students competed in track events, long jump, shot put, tug-of-war and relay races. The 4×100 metre girls’ relay, won by a whisker, was the highlight of the day, and the junior students’ drill display drew loud applause.</p><p>Shivaji House lifted the overall trophy, while Neha Rathore of Class 11 was declared the best athlete. In his address, the chief guest stressed discipline and fitness. The event ended with the vote of thanks by the Sports Teacher.</p></blockquote>"
+    },
+    {
+      "q": "As Riya / Rajat, a correspondent, write a newspaper report on heavy rain causing waterlogging in your city. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>HEAVY RAIN BRINGS CITY TO A STANDSTILL</b><br>By Rajat Kulkarni, Correspondent</p><p>Mumbai, 20 July: Incessant rain over the past 24 hours left large parts of the city waterlogged on Monday, throwing road and rail traffic out of gear.</p><p>The weather department recorded 230 mm of rainfall between Sunday evening and Monday afternoon. Low-lying areas such as Sion, Andheri subway and Kurla were under knee-deep water. Local trains on the Central line were suspended for nearly five hours, stranding thousands of commuters. Schools and colleges declared a holiday.</p><p>Municipal workers operated pumps at major junctions, and the fire brigade rescued residents from two flooded buildings. No casualties were reported.</p><p>Officials blamed choked drains and high tide for the flooding. The weather office has predicted more heavy showers over the next two days and advised citizens to avoid unnecessary travel.</p></blockquote>"
+    },
+    {
+      "q": "As Nandini / Naveen, Secretary of the Commerce Club, write a report for your school magazine on a visit to a bank. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>COMMERCE STUDENTS LEARN BANKING FIRST-HAND</b><br>By Naveen Pillai, Secretary, Commerce Club<br>Kendriya Vidyalaya, Kochi, 12 August 20XX</p><p>Forty students of Class 12 Commerce visited the main branch of a public sector bank at MG Road, Kochi, on 9 August, accompanied by two Accountancy teachers.</p><p>The Branch Manager welcomed the group and explained the bank’s structure and the role of the Reserve Bank of India. Students watched how accounts are opened, how cheques are cleared and how loans are sanctioned. An officer demonstrated digital banking, UPI and the precautions needed against online fraud. Students asked lively questions about interest rates, KYC norms and careers in banking.</p><p>The visit helped students connect classroom theory with real practice. The Club thanked the bank officials with a memento, and students returned with a better understanding of how money moves in an economy.</p></blockquote>"
+    },
+    {
+      "q": "Give four differences between an article and a report. (4)",
+      "marks": 4,
+      "answerHtml": "<table><thead><tr><th>Article</th><th>Report</th></tr></thead><tbody><tr><td>Discusses an issue and presents views and suggestions.</td><td>Records facts of an event that has taken place.</td></tr><tr><td>Mostly present tense, with some future.</td><td>Mainly past tense, often passive voice.</td></tr><tr><td>Subjective; the writer’s opinion is welcome.</td><td>Objective; personal opinion is kept minimal.</td></tr><tr><td>Format: title and writer’s name.</td><td>Format: heading, byline, place and date.</td></tr></tbody></table>"
+    }
+  ]
+}

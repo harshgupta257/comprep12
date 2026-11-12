@@ -1,0 +1,291 @@
+{
+  "id": "matrices",
+  "title": "Matrices",
+  "summary": "A matrix is a rectangular arrangement of numbers that lets us store and process data such as sales, prices or production in a compact form. This chapter covers types of matrices, equality, addition, scalar and matrix multiplication, transpose, symmetric and skew-symmetric matrices, and simple business applications.",
+  "notes": [
+    {
+      "heading": "Matrix, order and notation",
+      "html": "<p>A <b>matrix</b> is a rectangular array of numbers (called <b>elements</b> or <b>entries</b>) arranged in rows and columns. A matrix with m rows and n columns has <b>order m × n</b> and has mn elements. We write A = [a<sub>ij</sub>]<sub>m × n</sub>, where a<sub>ij</sub> is the element in the i-th row and j-th column.</p><p>Example: the matrix below has order 2 × 3, and a<sub>12</sub> = 5, a<sub>23</sub> = 0.</p><table><tbody><tr><td>3</td><td>5</td><td>−1</td></tr><tr><td>2</td><td>7</td><td>0</td></tr></tbody></table><p><b>Constructing a matrix from a rule:</b> if A = [a<sub>ij</sub>]<sub>2 × 2</sub> with a<sub>ij</sub> = i + 2j, then a<sub>11</sub> = 3, a<sub>12</sub> = 5, a<sub>21</sub> = 4, a<sub>22</sub> = 6.</p><p>In this app, when a matrix appears inside a question line it may be described by its rows, e.g. \"rows (3, 5) and (4, 6)\".</p>"
+    },
+    {
+      "heading": "Types of matrices",
+      "html": "<ul><li><b>Row matrix</b>: only one row (order 1 × n). <b>Column matrix</b>: only one column (order m × 1).</li><li><b>Square matrix</b>: m = n. Its elements a<sub>11</sub>, a<sub>22</sub>, …, a<sub>nn</sub> form the <b>principal (leading) diagonal</b>.</li><li><b>Diagonal matrix</b>: a square matrix in which every non-diagonal element is 0.</li><li><b>Scalar matrix</b>: a diagonal matrix with all diagonal elements equal (e.g. 5I).</li><li><b>Identity (unit) matrix I</b>: a diagonal matrix with every diagonal element 1. AI = IA = A.</li><li><b>Zero (null) matrix O</b>: every element is 0.</li><li><b>Upper / lower triangular matrix</b>: all elements below / above the principal diagonal are 0.</li><li><b>Equal matrices</b>: A = B when they have the same order and a<sub>ij</sub> = b<sub>ij</sub> for every i, j.</li></ul>"
+    },
+    {
+      "heading": "Operations on matrices",
+      "html": "<ul><li><b>Addition / subtraction</b>: defined only for matrices of the same order; add or subtract corresponding elements. It is commutative (A + B = B + A) and associative.</li><li><b>Scalar multiplication</b>: kA = [k a<sub>ij</sub>] — multiply every element by k. k(A + B) = kA + kB.</li><li><b>Matrix multiplication</b>: AB is defined only when the number of columns of A equals the number of rows of B. If A is m × n and B is n × p, then AB is m × p and (AB)<sub>ij</sub> = a<sub>i1</sub>b<sub>1j</sub> + a<sub>i2</sub>b<sub>2j</sub> + … + a<sub>in</sub>b<sub>nj</sub> (\"row of A into column of B\").</li><li>Multiplication is associative, A(BC) = (AB)C, and distributive, A(B + C) = AB + AC, but <b>not commutative</b>: in general AB ≠ BA.</li><li>AB = O does not imply A = O or B = O.</li><li>Powers: A<sup>2</sup> = AA, A<sup>3</sup> = A<sup>2</sup>A (only for square matrices).</li></ul>"
+    },
+    {
+      "heading": "Transpose; symmetric and skew-symmetric matrices",
+      "html": "<p>The <b>transpose</b> A′ (or A<sup>T</sup>) is obtained by interchanging rows and columns: if A is m × n then A′ is n × m and (A′)<sub>ij</sub> = a<sub>ji</sub>.</p><ol><li>(A′)′ = A</li><li>(kA)′ = kA′</li><li>(A + B)′ = A′ + B′</li><li>(AB)′ = B′A′ (reversal law)</li></ol><p>A square matrix is <b>symmetric</b> if A′ = A (a<sub>ij</sub> = a<sub>ji</sub>) and <b>skew-symmetric</b> if A′ = −A (a<sub>ij</sub> = −a<sub>ji</sub>). Every diagonal element of a skew-symmetric matrix is 0, because a<sub>ii</sub> = −a<sub>ii</sub>.</p><p><b>Theorem.</b> Every square matrix can be written uniquely as the sum of a symmetric and a skew-symmetric matrix:</p><p><b>A = P + Q, where P = (A + A′)/2 is symmetric and Q = (A − A′)/2 is skew-symmetric.</b></p><p>Also, A + A′ is always symmetric and A − A′ is always skew-symmetric. The only matrix that is both symmetric and skew-symmetric is the zero matrix.</p>"
+    },
+    {
+      "heading": "Worked Example 1 — operations and non-commutativity",
+      "html": "<p>Let A and B be the matrices</p><table><tbody><tr><td>A =</td><td>2</td><td>−1</td></tr><tr><td></td><td>3</td><td>4</td></tr></tbody></table><table><tbody><tr><td>B =</td><td>1</td><td>5</td></tr><tr><td></td><td>−2</td><td>0</td></tr></tbody></table><p><b>(a) 2A − 3B:</b> 2A has rows (4, −2), (6, 8); 3B has rows (3, 15), (−6, 0). Subtracting element by element:</p><table><tbody><tr><td>1</td><td>−17</td></tr><tr><td>12</td><td>8</td></tr></tbody></table><p><b>(b) AB:</b> row 1 × columns: 2(1) + (−1)(−2) = 4 and 2(5) + (−1)(0) = 10; row 2: 3(1) + 4(−2) = −5 and 3(5) + 4(0) = 15.</p><table><tbody><tr><td>4</td><td>10</td></tr><tr><td>−5</td><td>15</td></tr></tbody></table><p><b>(c) BA:</b> row 1: 1(2) + 5(3) = 17 and 1(−1) + 5(4) = 19; row 2: −2(2) + 0(3) = −4 and −2(−1) + 0(4) = 2.</p><table><tbody><tr><td>17</td><td>19</td></tr><tr><td>−4</td><td>2</td></tr></tbody></table><p>Since AB ≠ BA, matrix multiplication is not commutative.</p>"
+    },
+    {
+      "heading": "Worked Example 2 — symmetric + skew-symmetric decomposition",
+      "html": "<p>Express A as the sum of a symmetric and a skew-symmetric matrix, where</p><table><tbody><tr><td>2</td><td>4</td><td>−6</td></tr><tr><td>0</td><td>3</td><td>5</td></tr><tr><td>2</td><td>−1</td><td>1</td></tr></tbody></table><p>Step 1: A′ (rows of A become columns):</p><table><tbody><tr><td>2</td><td>0</td><td>2</td></tr><tr><td>4</td><td>3</td><td>−1</td></tr><tr><td>−6</td><td>5</td><td>1</td></tr></tbody></table><p>Step 2: P = (A + A′)/2. A + A′ has rows (4, 4, −4), (4, 6, 4), (−4, 4, 2), so</p><table><tbody><tr><td>2</td><td>2</td><td>−2</td></tr><tr><td>2</td><td>3</td><td>2</td></tr><tr><td>−2</td><td>2</td><td>1</td></tr></tbody></table><p>P′ = P, so P is symmetric.</p><p>Step 3: Q = (A − A′)/2. A − A′ has rows (0, 4, −8), (−4, 0, 6), (8, −6, 0), so</p><table><tbody><tr><td>0</td><td>2</td><td>−4</td></tr><tr><td>−2</td><td>0</td><td>3</td></tr><tr><td>4</td><td>−3</td><td>0</td></tr></tbody></table><p>Q′ = −Q, so Q is skew-symmetric (note the zero diagonal).</p><p>Step 4: Check P + Q: rows (2, 4, −6), (0, 3, 5), (2, −1, 1) = A ✓.</p>"
+    },
+    {
+      "heading": "Worked Example 3 — matrices in business",
+      "html": "<p>Factory P makes 120 shirts, 80 trousers and 40 jackets per day; factory Q makes 100, 90 and 60. The cost per unit of material is ₹150, ₹250, ₹600 and of labour is ₹60, ₹90, ₹200 respectively; selling prices are ₹250, ₹400, ₹1200.</p><p>Production matrix X (2 × 3) and cost matrix C (3 × 2, columns = material, labour):</p><table><tbody><tr><td>120</td><td>80</td><td>40</td></tr><tr><td>100</td><td>90</td><td>60</td></tr></tbody></table><table><tbody><tr><td>150</td><td>60</td></tr><tr><td>250</td><td>90</td></tr><tr><td>600</td><td>200</td></tr></tbody></table><p>XC (2 × 2): factory P material = 120(150) + 80(250) + 40(600) = 18000 + 20000 + 24000 = 62000; labour = 7200 + 7200 + 8000 = 22400. Factory Q material = 15000 + 22500 + 36000 = 73500; labour = 6000 + 8100 + 12000 = 26100.</p><table><thead><tr><th>Factory</th><th>Material (₹)</th><th>Labour (₹)</th><th>Total cost (₹)</th><th>Revenue (₹)</th><th>Profit (₹)</th></tr></thead><tbody><tr><td>P</td><td>62,000</td><td>22,400</td><td>84,400</td><td>1,10,000</td><td>25,600</td></tr><tr><td>Q</td><td>73,500</td><td>26,100</td><td>99,600</td><td>1,33,000</td><td>33,400</td></tr></tbody></table><p>Revenue for P = 120(250) + 80(400) + 40(1200) = 30000 + 32000 + 48000 = ₹1,10,000; for Q = 25000 + 36000 + 72000 = ₹1,33,000.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Multiplying corresponding elements (like addition) instead of \"row into column\".</li><li>Assuming AB = BA, or using (A + B)<sup>2</sup> = A<sup>2</sup> + 2AB + B<sup>2</sup>; the correct expansion is A<sup>2</sup> + AB + BA + B<sup>2</sup>.</li><li>Writing (AB)′ = A′B′ instead of B′A′.</li><li>Trying to add matrices of different orders, or multiply when columns of A ≠ rows of B.</li><li>Writing the order as columns × rows; it is always rows × columns.</li><li>Forgetting that scalar multiplication multiplies <i>every</i> element (unlike a determinant, where k multiplies one row).</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Matrix",
+      "definition": "A rectangular array of numbers arranged in rows and columns."
+    },
+    {
+      "term": "Order",
+      "definition": "m × n, where m is the number of rows and n the number of columns."
+    },
+    {
+      "term": "Square matrix",
+      "definition": "A matrix with equal numbers of rows and columns."
+    },
+    {
+      "term": "Identity matrix",
+      "definition": "A square matrix with 1 on the principal diagonal and 0 elsewhere; AI = IA = A."
+    },
+    {
+      "term": "Diagonal / scalar matrix",
+      "definition": "A square matrix with zero off-diagonal elements; scalar if all diagonal elements are equal."
+    },
+    {
+      "term": "Transpose",
+      "definition": "A′, obtained by interchanging rows and columns of A."
+    },
+    {
+      "term": "Symmetric matrix",
+      "definition": "A square matrix with A′ = A, i.e. a<sub>ij</sub> = a<sub>ji</sub>."
+    },
+    {
+      "term": "Skew-symmetric matrix",
+      "definition": "A square matrix with A′ = −A; its diagonal elements are all zero."
+    },
+    {
+      "term": "Conformable for multiplication",
+      "definition": "A and B can be multiplied as AB when columns of A = rows of B."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Number of elements",
+      "html": "Order m × n ⇒ mn elements"
+    },
+    {
+      "name": "Addition",
+      "html": "A + B = [a<sub>ij</sub> + b<sub>ij</sub>] (same order only)"
+    },
+    {
+      "name": "Scalar multiple",
+      "html": "kA = [k a<sub>ij</sub>]"
+    },
+    {
+      "name": "Product element",
+      "html": "(AB)<sub>ij</sub> = Σ<sub>k</sub> a<sub>ik</sub> b<sub>kj</sub>; (m × n)(n × p) = m × p"
+    },
+    {
+      "name": "Properties of product",
+      "html": "A(BC) = (AB)C; A(B + C) = AB + AC; AI = IA = A; generally AB ≠ BA"
+    },
+    {
+      "name": "Transpose laws",
+      "html": "(A′)′ = A; (kA)′ = kA′; (A + B)′ = A′ + B′; (AB)′ = B′A′"
+    },
+    {
+      "name": "Symmetric / skew-symmetric",
+      "html": "A′ = A (symmetric); A′ = −A (skew-symmetric)"
+    },
+    {
+      "name": "Decomposition",
+      "html": "A = (A + A′)/2 + (A − A′)/2"
+    },
+    {
+      "name": "Square of a sum",
+      "html": "(A + B)<sup>2</sup> = A<sup>2</sup> + AB + BA + B<sup>2</sup>"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "If A is a 2 × 3 matrix and B is a 3 × 4 matrix, the order of AB is",
+      "options": [
+        "3 × 3",
+        "2 × 4",
+        "4 × 2",
+        "AB is not defined"
+      ],
+      "answer": 1,
+      "explanation": "Columns of A (3) = rows of B (3), so AB exists and has order (rows of A) × (columns of B) = 2 × 4."
+    },
+    {
+      "q": "The number of 2 × 2 matrices whose every element is 0 or 1 is",
+      "options": [
+        "4",
+        "8",
+        "16",
+        "6"
+      ],
+      "answer": 2,
+      "explanation": "There are 4 elements and each has 2 choices: 2<sup>4</sup> = 16."
+    },
+    {
+      "q": "If A = [a<sub>ij</sub>]<sub>2 × 2</sub> with a<sub>ij</sub> = i + 2j, then a<sub>21</sub> equals",
+      "options": [
+        "5",
+        "3",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "explanation": "a<sub>21</sub>: i = 2, j = 1, so 2 + 2(1) = 4. (5 would be a<sub>12</sub> = 1 + 4.)"
+    },
+    {
+      "q": "For matrices A and B for which AB is defined, (AB)′ equals",
+      "options": [
+        "B′A′",
+        "A′B′",
+        "AB",
+        "BA"
+      ],
+      "answer": 0,
+      "explanation": "Reversal law of transpose: (AB)′ = B′A′."
+    },
+    {
+      "q": "Every diagonal element of a skew-symmetric matrix is",
+      "options": [
+        "1",
+        "0",
+        "any real number",
+        "−1"
+      ],
+      "answer": 1,
+      "explanation": "a<sub>ii</sub> = −a<sub>ii</sub> ⇒ 2a<sub>ii</sub> = 0 ⇒ a<sub>ii</sub> = 0."
+    },
+    {
+      "q": "If A has rows (1, 2), (0, 1) and B has rows (3, 0), (1, 2), then AB has rows",
+      "options": [
+        "(3, 0), (0, 2)",
+        "(3, 6), (1, 2)",
+        "(5, 4), (1, 2)",
+        "(5, 2), (1, 4)"
+      ],
+      "answer": 2,
+      "explanation": "Row 1: 1(3) + 2(1) = 5, 1(0) + 2(2) = 4. Row 2: 0(3) + 1(1) = 1, 0(0) + 1(2) = 2. So AB has rows (5, 4), (1, 2). Option (3, 0), (0, 2) multiplies corresponding elements — a typical error."
+    },
+    {
+      "q": "If the matrix with rows (x + y, 2), (5, x − y) equals the matrix with rows (8, 2), (5, 2), then (x, y) is",
+      "options": [
+        "(3, 5)",
+        "(4, 4)",
+        "(6, 2)",
+        "(5, 3)"
+      ],
+      "answer": 3,
+      "explanation": "x + y = 8 and x − y = 2. Adding: 2x = 10 ⇒ x = 5, so y = 3."
+    },
+    {
+      "q": "If A has rows (0, 1), (1, 0), then A<sup>2</sup> is",
+      "options": [
+        "I",
+        "O",
+        "A",
+        "2A"
+      ],
+      "answer": 0,
+      "explanation": "Row 1: 0·0 + 1·1 = 1, 0·1 + 1·0 = 0. Row 2: 1·0 + 0·1 = 0, 1·1 + 0·0 = 1. A<sup>2</sup> = I."
+    },
+    {
+      "q": "If A has rows (2, 3), (−1, 4), then A + A′ has rows",
+      "options": [
+        "(4, 6), (−2, 8)",
+        "(4, 2), (2, 8)",
+        "(0, 4), (−4, 0)",
+        "(4, 3), (−1, 8)"
+      ],
+      "answer": 1,
+      "explanation": "A′ has rows (2, −1), (3, 4). A + A′ has rows (4, 2), (2, 8) — symmetric, as expected."
+    },
+    {
+      "q": "If A is a square matrix with A<sup>2</sup> = A, then (I + A)<sup>2</sup> − 3A equals",
+      "options": [
+        "I",
+        "A",
+        "I + A",
+        "3A"
+      ],
+      "answer": 0,
+      "explanation": "(I + A)<sup>2</sup> = I + 2A + A<sup>2</sup> = I + 2A + A = I + 3A (I commutes with A). Subtracting 3A gives I."
+    },
+    {
+      "q": "<b>Assertion (A):</b> For all square matrices A and B of order 2, (A + B)<sup>2</sup> = A<sup>2</sup> + 2AB + B<sup>2</sup>.<br><b>Reason (R):</b> Matrix multiplication is not commutative in general.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "(A + B)<sup>2</sup> = A<sup>2</sup> + AB + BA + B<sup>2</sup>, which equals A<sup>2</sup> + 2AB + B<sup>2</sup> only if AB = BA. Since R is true, A is false in general."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The matrix with rows (0, 3), (−3, 0) is skew-symmetric.<br><b>Reason (R):</b> A square matrix is skew-symmetric if A′ = A.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 2,
+      "explanation": "A′ has rows (0, −3), (3, 0) = −A, so A is skew-symmetric (A true). R is false: A′ = A defines a symmetric matrix."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Construct the 2 × 2 matrix A = [a<sub>ij</sub>] with a<sub>ij</sub> = (i − j)<sup>2</sup>.",
+      "marks": 1,
+      "answerHtml": "<p>a<sub>11</sub> = 0, a<sub>12</sub> = (1 − 2)<sup>2</sup> = 1, a<sub>21</sub> = 1, a<sub>22</sub> = 0.</p><table><tbody><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>0</td></tr></tbody></table>"
+    },
+    {
+      "q": "If A is of order 3 × 2 and B is of order 2 × 3, what is the order of A′B′?",
+      "marks": 1,
+      "answerHtml": "<p>A′ is 2 × 3 and B′ is 3 × 2, so A′B′ is <b>2 × 2</b>.</p>"
+    },
+    {
+      "q": "Find x and y if 2 × (matrix with rows (x, 5), (7, y − 3)) + (matrix with rows (3, −4), (1, 2)) = (matrix with rows (7, 6), (15, 14)).",
+      "marks": 2,
+      "answerHtml": "<p>Left side has rows (2x + 3, 10 − 4), (14 + 1, 2y − 6 + 2) = (2x + 3, 6), (15, 2y − 4).</p><p>Equating: 2x + 3 = 7 ⇒ <b>x = 2</b>; 2y − 4 = 14 ⇒ <b>y = 9</b>. (The other entries 6 and 15 match automatically.)</p>"
+    },
+    {
+      "q": "Show that the matrix A with rows (0, 2, −3), (−2, 0, 4), (3, −4, 0) is skew-symmetric.",
+      "marks": 2,
+      "answerHtml": "<p>A is</p><table><tbody><tr><td>0</td><td>2</td><td>−3</td></tr><tr><td>−2</td><td>0</td><td>4</td></tr><tr><td>3</td><td>−4</td><td>0</td></tr></tbody></table><p>Its transpose is</p><table><tbody><tr><td>0</td><td>−2</td><td>3</td></tr><tr><td>2</td><td>0</td><td>−4</td></tr><tr><td>−3</td><td>4</td><td>0</td></tr></tbody></table><p>Every element of A′ is the negative of the corresponding element of A, so A′ = −A. Hence A is skew-symmetric.</p>"
+    },
+    {
+      "q": "Express the matrix A with rows (3, 5), (1, −1) as the sum of a symmetric and a skew-symmetric matrix.",
+      "marks": 3,
+      "answerHtml": "<p>A′ has rows (3, 1), (5, −1).</p><p>P = (A + A′)/2: A + A′ has rows (6, 6), (6, −2), so</p><table><tbody><tr><td>3</td><td>3</td></tr><tr><td>3</td><td>−1</td></tr></tbody></table><p>Q = (A − A′)/2: A − A′ has rows (0, 4), (−4, 0), so</p><table><tbody><tr><td>0</td><td>2</td></tr><tr><td>−2</td><td>0</td></tr></tbody></table><p>P′ = P (symmetric), Q′ = −Q (skew-symmetric) and P + Q has rows (3, 5), (1, −1) = A ✓.</p>"
+    },
+    {
+      "q": "If A has rows (3, 1), (−1, 2), show that A<sup>2</sup> − 5A + 7I = O. Hence express A<sup>3</sup> in the form pA + qI.",
+      "marks": 3,
+      "answerHtml": "<p>A<sup>2</sup>: row 1: 3·3 + 1·(−1) = 8, 3·1 + 1·2 = 5; row 2: (−1)·3 + 2·(−1) = −5, (−1)·1 + 2·2 = 3. So A<sup>2</sup> has rows (8, 5), (−5, 3).</p><p>5A has rows (15, 5), (−5, 10); 7I has rows (7, 0), (0, 7).</p><p>A<sup>2</sup> − 5A + 7I has rows (8 − 15 + 7, 5 − 5 + 0), (−5 + 5 + 0, 3 − 10 + 7) = (0, 0), (0, 0) = O ✓.</p><p>So A<sup>2</sup> = 5A − 7I. Multiply by A: A<sup>3</sup> = 5A<sup>2</sup> − 7A = 5(5A − 7I) − 7A = <b>18A − 35I</b>.</p>"
+    },
+    {
+      "q": "Let A be the 3 × 2 matrix with rows (1, 2), (−1, 3), (0, 1) and B the 2 × 3 matrix with rows (2, 0, 1), (1, −1, 2). Find AB and BA, and verify that (AB)′ = B′A′.",
+      "marks": 5,
+      "answerHtml": "<p><b>AB (3 × 3):</b> row 1: (1·2 + 2·1, 1·0 + 2·(−1), 1·1 + 2·2) = (4, −2, 5); row 2: (−2 + 3, 0 − 3, −1 + 6) = (1, −3, 5); row 3: (0 + 1, 0 − 1, 0 + 2) = (1, −1, 2).</p><table><tbody><tr><td>4</td><td>−2</td><td>5</td></tr><tr><td>1</td><td>−3</td><td>5</td></tr><tr><td>1</td><td>−1</td><td>2</td></tr></tbody></table><p><b>BA (2 × 2):</b> row 1: (2·1 + 0·(−1) + 1·0, 2·2 + 0·3 + 1·1) = (2, 5); row 2: (1·1 + (−1)(−1) + 2·0, 1·2 + (−1)·3 + 2·1) = (2, 1).</p><table><tbody><tr><td>2</td><td>5</td></tr><tr><td>2</td><td>1</td></tr></tbody></table><p>AB and BA even have different orders.</p><p><b>(AB)′</b> has rows (4, 1, 1), (−2, −3, −1), (5, 5, 2).</p><p><b>B′A′:</b> B′ is 3 × 2 with rows (2, 1), (0, −1), (1, 2); A′ is 2 × 3 with rows (1, −1, 0), (2, 3, 1).</p><p>Row 1: (2·1 + 1·2, 2·(−1) + 1·3, 0 + 1) = (4, 1, 1); row 2: (0 − 2, 0 − 3, 0 − 1) = (−2, −3, −1); row 3: (1 + 4, −1 + 6, 0 + 2) = (5, 5, 2).</p><p>Hence (AB)′ = B′A′ ✓.</p>"
+    },
+    {
+      "q": "<b>Case study.</b> A school sells three kinds of tickets for its annual fair: Adult (₹100), Student (₹50) and Child (₹20). Sales over two days were:<br>Day 1: 120 adult, 300 student, 80 child tickets. Day 2: 150 adult, 250 student, 100 child tickets.<br>(i) Write the sales as a 2 × 3 matrix S and the prices as a 3 × 1 matrix P.<br>(ii) Find SP and interpret it.<br>(iii) If all prices are raised by 10%, use a matrix operation to find the new total collection over both days.",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b></p><table><tbody><tr><td>120</td><td>300</td><td>80</td></tr><tr><td>150</td><td>250</td><td>100</td></tr></tbody></table><table><tbody><tr><td>100</td></tr><tr><td>50</td></tr><tr><td>20</td></tr></tbody></table><p><b>(ii)</b> SP is 2 × 1: Day 1 = 120(100) + 300(50) + 80(20) = 12000 + 15000 + 1600 = ₹28,600; Day 2 = 150(100) + 250(50) + 100(20) = 15000 + 12500 + 2000 = ₹29,500. SP gives the <b>collection on each day</b>; total = ₹58,100.</p><p><b>(iii)</b> New price matrix = 1.1P, so new collection = S(1.1P) = 1.1(SP): Day 1 = ₹31,460, Day 2 = ₹32,450. Total = 1.1 × 58,100 = <b>₹63,910</b>.</p>"
+    }
+  ]
+}

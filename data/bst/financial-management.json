@@ -1,0 +1,180 @@
+{
+  "id": "financial-management",
+  "title": "Financial Management",
+  "summary": "Financial management is concerned with the optimal procurement and usage of finance so as to maximise the wealth of shareholders. This chapter covers the role and objective of financial management, the three financial decisions (investment, financing and dividend) and their factors, financial planning, capital structure and trading on equity, and the factors determining fixed and working capital requirements.",
+  "notes": [
+    {
+      "heading": "Meaning, Role and Objective of Financial Management",
+      "html": "<p><b>Business finance</b> refers to the money required for carrying out business activities. <b>Financial management</b> is concerned with the <b>optimal procurement as well as usage of finance</b>: obtaining funds at minimum cost and investing them where returns are highest.</p><p><b>Role (financial statements are affected by):</b> size and composition of fixed assets; amount and composition of current assets; long-term and short-term financing mix; break-up of long-term finance between debt and equity; all items in the profit and loss account (interest, depreciation).</p><p><b>Objective: Wealth maximisation</b> – the primary aim is to maximise shareholders' wealth, i.e. the <b>market price of equity shares</b>. Any decision is good if it increases the market value of shares (benefits exceed costs). This is preferred over profit maximisation because it considers risk and time value of money.</p>"
+    },
+    {
+      "heading": "Investment Decision (Capital Budgeting)",
+      "html": "<p>The investment decision relates to how the firm's funds are invested in different assets. <b>Long-term investment decision = capital budgeting</b> (buying a new machine, opening a new branch). Short-term = working capital decision.</p><p><b>Importance of capital budgeting decisions:</b> long-term growth and effects; large amount of funds involved; risk involved; irreversible decisions (can be reversed only at huge cost).</p><p><b>Factors affecting capital budgeting decisions:</b></p><ol><li><b>Cash flows of the project</b> – expected cash receipts and payments over the life of the project.</li><li><b>Rate of return</b> – projects with higher expected returns (given risk) are preferred.</li><li><b>Investment criteria involved</b> – techniques such as payback period, net present value and IRR are used to evaluate projects.</li></ol>"
+    },
+    {
+      "heading": "Financing Decision",
+      "html": "<p>The financing decision is about the <b>quantum of finance</b> to be raised from various long-term sources: <b>owners' funds</b> (equity, retained earnings) and <b>borrowed funds</b> (debentures, loans). Borrowed funds are cheaper (interest is tax deductible) but riskier (fixed obligation of interest and repayment).</p><p><b>Factors affecting financing decision:</b></p><ol><li><b>Cost</b> – the cheapest source should be chosen.</li><li><b>Risk</b> – debt carries financial risk; equity does not.</li><li><b>Floatation costs</b> – higher floatation costs make a source less attractive.</li><li><b>Cash flow position of the business</b> – strong cash flows make debt financing feasible.</li><li><b>Level of fixed operating costs</b> – firms with high fixed operating costs should use less debt.</li><li><b>Control considerations</b> – issue of more equity dilutes control; debt does not.</li><li><b>State of capital markets</b> – during a boom, equity is easier to raise; during a depression, debt may be preferred.</li></ol>"
+    },
+    {
+      "heading": "Dividend Decision",
+      "html": "<p>The dividend decision relates to how much of the profit is <b>distributed to shareholders</b> and how much is <b>retained</b> in the business for future investment.</p><p><b>Factors affecting dividend decision:</b></p><ol><li><b>Amount of earnings</b> – dividends are paid out of current and past earnings.</li><li><b>Stability of earnings</b> – firms with stable earnings can pay higher dividends.</li><li><b>Stability of dividends</b> – companies try to keep dividend per share stable and change it only when earning potential changes permanently.</li><li><b>Growth opportunities</b> – growing firms retain more and pay less.</li><li><b>Cash flow position</b> – dividends require cash.</li><li><b>Shareholders' preference</b> – some shareholders expect regular dividends.</li><li><b>Taxation policy</b> – dividends are now taxable in the hands of shareholders at their slab rates (since 2020); higher tax on dividends may favour retention.</li><li><b>Stock market reaction</b> – an increase in dividend is a positive signal and may raise share price.</li><li><b>Access to capital market</b> – large firms with easy access can pay more dividends.</li><li><b>Legal constraints</b> – Companies Act 2013 provisions on payment of dividend.</li><li><b>Contractual constraints</b> – loan agreements may restrict dividend payments.</li></ol>"
+    },
+    {
+      "heading": "Financial Planning",
+      "html": "<p><b>Financial planning</b> is the preparation of a financial blueprint of future operations: estimating the funds required and deciding the sources. It usually covers 3–5 years (long-term) and one year (short-term budgets).</p><p><b>Objectives:</b></p><ul><li><b>To ensure availability of funds whenever required</b> – estimate funds needed, timing and sources.</li><li><b>To see that the firm does not raise resources unnecessarily</b> – excess funds add to cost.</li></ul><p><b>Importance:</b> helps forecast what may happen and prepares for shocks; prevents business shocks and surprises; helps coordinate various business functions (sales, production); reduces waste and duplication of efforts; links the present with the future; provides a link between investment and financing decisions; provides a basis for evaluation of performance by spelling out detailed plans.</p>"
+    },
+    {
+      "heading": "Capital Structure and Trading on Equity",
+      "html": "<p><b>Capital structure</b> refers to the <b>mix of owners' funds and borrowed funds</b> (equity, preference capital, debentures, loans). It is optimal when the cost of capital is minimum and the market value of shares is maximum.</p><p><b>Financial leverage</b> = proportion of debt in total capital. <b>Trading on equity</b> is using fixed-cost debt to increase the earnings per share of equity shareholders. It is favourable only when <b>ROI &gt; rate of interest on debt</b>.</p><p><b>Illustration:</b> Total capital ₹50,00,000; EBIT ₹10,00,000 (ROI 20%); interest 10%; tax 30%; shares of ₹10 each.</p><table><thead><tr><th>Basis</th><th>A: All equity</th><th>B: ₹20 lakh debt</th><th>C: ₹40 lakh debt</th></tr></thead><tbody><tr><td>EBIT</td><td>₹10,00,000</td><td>₹10,00,000</td><td>₹10,00,000</td></tr><tr><td>Less: Interest</td><td>Nil</td><td>₹2,00,000</td><td>₹4,00,000</td></tr><tr><td>EBT</td><td>₹10,00,000</td><td>₹8,00,000</td><td>₹6,00,000</td></tr><tr><td>Less: Tax 30%</td><td>₹3,00,000</td><td>₹2,40,000</td><td>₹1,80,000</td></tr><tr><td>EAT</td><td>₹7,00,000</td><td>₹5,60,000</td><td>₹4,20,000</td></tr><tr><td>No. of equity shares</td><td>5,00,000</td><td>3,00,000</td><td>1,00,000</td></tr><tr><td>EPS</td><td>₹1.40</td><td>₹1.87</td><td>₹4.20</td></tr></tbody></table><p>Since ROI (20%) is higher than the interest rate (10%), EPS rises with more debt. If ROI were lower than the interest rate, EPS would fall (unfavourable trading on equity).</p>"
+    },
+    {
+      "heading": "Factors Affecting Capital Structure",
+      "html": "<ol><li><b>Cash flow position</b> – ability to meet fixed payment obligations.</li><li><b>Interest coverage ratio (ICR)</b> – higher ICR means the firm can afford more debt.</li><li><b>Debt service coverage ratio (DSCR)</b> – higher DSCR means better ability to meet interest and repayment.</li><li><b>Return on investment (ROI)</b> – if ROI is higher than cost of debt, more debt can be used.</li><li><b>Cost of debt</b> – lower cost of debt encourages its use.</li><li><b>Tax rate</b> – interest is tax deductible, so a higher tax rate makes debt cheaper.</li><li><b>Cost of equity</b> – excessive debt raises risk and the return expected by shareholders.</li><li><b>Floatation costs</b> – cost of raising funds through each source.</li><li><b>Risk consideration</b> – total risk (business plus financial) should be kept within limits.</li><li><b>Flexibility</b> – a firm should keep some borrowing capacity unused for emergencies.</li><li><b>Control</b> – debt does not dilute control; equity does.</li><li><b>Regulatory framework</b> – SEBI and RBI guidelines on issue of securities and loans.</li><li><b>Stock market conditions</b> – boom favours equity; depression favours debt.</li><li><b>Capital structure of other companies</b> – industry norms serve as a guide.</li></ol>"
+    },
+    {
+      "heading": "Fixed Capital and Working Capital",
+      "html": "<p><b>Fixed capital</b> – investment in long-term (fixed) assets such as land, building, plant and machinery. Fixed capital decisions are capital budgeting decisions.</p><p><b>Factors affecting fixed capital:</b> nature of business (manufacturing needs more than trading); scale of operations; choice of technique (capital-intensive vs labour-intensive); technology upgradation; growth prospects; diversification; financing alternatives (leasing reduces need); level of collaboration (sharing facilities).</p><p><b>Working capital</b> – investment in current assets. <b>Net working capital = Current assets – Current liabilities</b>.</p><p><b>Factors affecting working capital:</b> nature of business; scale of operations; business cycle (boom needs more); seasonal factors; production cycle (longer cycle needs more); credit allowed (liberal credit needs more); credit availed (more credit from suppliers needs less); operating efficiency; availability of raw material; growth prospects; level of competition; inflation.</p><table><thead><tr><th>Basis</th><th>Fixed Capital</th><th>Working Capital</th></tr></thead><tbody><tr><td>Meaning</td><td>Investment in long-term assets</td><td>Investment in current assets</td></tr><tr><td>Period</td><td>Long-term</td><td>Short-term</td></tr><tr><td>Sources</td><td>Equity, debentures, long-term loans</td><td>Trade credit, bank overdraft, short-term loans</td></tr><tr><td>Reversibility</td><td>Difficult and costly to reverse</td><td>Can be reversed easily</td></tr></tbody></table>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Financial management", "definition": "Management of the procurement and usage of finance in the most optimal manner to maximise shareholders' wealth." },
+    { "term": "Wealth maximisation", "definition": "The primary objective of financial management: maximising the market price of equity shares." },
+    { "term": "Capital budgeting", "definition": "Long-term investment decisions regarding fixed assets such as plant, machinery and new projects." },
+    { "term": "Financing decision", "definition": "Decision about the amount of finance to be raised from owners' funds and borrowed funds." },
+    { "term": "Dividend decision", "definition": "Decision about how much of the profit is distributed to shareholders and how much is retained." },
+    { "term": "Financial planning", "definition": "Preparing a financial blueprint of future operations by estimating fund requirements and their sources." },
+    { "term": "Capital structure", "definition": "The mix of owners' funds and borrowed funds used by a firm." },
+    { "term": "Financial leverage", "definition": "The proportion of debt in the total capital of a firm." },
+    { "term": "Trading on equity", "definition": "Use of fixed-cost debt to increase EPS of equity shareholders; favourable only when ROI exceeds the rate of interest." },
+    { "term": "Floatation cost", "definition": "Cost of raising funds, such as underwriting, brokerage and issue expenses." },
+    { "term": "Working capital", "definition": "Investment in current assets; net working capital equals current assets minus current liabilities." },
+    { "term": "Operating cycle", "definition": "Time taken from purchase of raw material to realisation of cash from sale of finished goods." }
+  ],
+  "formulas": [
+    { "name": "Earnings Per Share (EPS)", "html": "EPS = (EBIT − Interest) × (1 − Tax rate) ÷ Number of equity shares <br>(If there are preference shares: EPS = (EAT − Preference dividend) ÷ Number of equity shares)" },
+    { "name": "Return on Investment (ROI)", "html": "ROI = (EBIT ÷ Total capital employed) × 100" },
+    { "name": "Debt–Equity Ratio", "html": "Debt–Equity Ratio = Debt ÷ Equity (Shareholders' funds)" },
+    { "name": "Interest Coverage Ratio", "html": "Interest Coverage Ratio = EBIT ÷ Interest charges" },
+    { "name": "Debt Service Coverage Ratio", "html": "DSCR = (Profit after tax + Depreciation + Interest + Non-cash expenses) ÷ (Preference dividend + Interest + Repayment obligation)" },
+    { "name": "Degree of Financial Leverage", "html": "DFL = EBIT ÷ EBT (i.e. EBIT ÷ (EBIT − Interest))" },
+    { "name": "Net Working Capital", "html": "Net Working Capital = Current Assets − Current Liabilities" },
+    { "name": "Operating Cycle", "html": "Operating cycle = Raw material storage period + Work-in-progress period + Finished goods storage period + Debtors collection period (− Creditors payment period, for the net cycle)" },
+    { "name": "Condition for favourable Trading on Equity", "html": "ROI &gt; Rate of interest on debt" }
+  ],
+  "mcqs": [
+    {
+      "q": "The primary objective of financial management is:",
+      "options": ["Profit maximisation", "Maximising sales", "Wealth maximisation of equity shareholders", "Minimising tax"],
+      "answer": 2,
+      "explanation": "Financial management aims at maximising the <b>market value of equity shares</b>, i.e. shareholders' wealth."
+    },
+    {
+      "q": "Galaxy Ltd. decided to buy a new automatic machine costing ₹2 crore to replace its old machines. Which financial decision is this?",
+      "options": ["Financing decision", "Dividend decision", "Working capital decision", "Capital budgeting decision"],
+      "answer": 3,
+      "explanation": "Long-term investment in fixed assets is a <b>capital budgeting (investment) decision</b>."
+    },
+    {
+      "q": "EBIT ₹4,00,000; interest ₹1,00,000; tax rate 30%; number of equity shares 21,000. The EPS is:",
+      "options": ["₹10.00", "₹13.33", "₹14.29", "₹19.05"],
+      "answer": 0,
+      "explanation": "EBT = ₹3,00,000; tax = ₹90,000; EAT = ₹2,10,000; EPS = 2,10,000 ÷ 21,000 = <b>₹10</b>."
+    },
+    {
+      "q": "Trading on equity is favourable when:",
+      "options": ["Rate of interest is higher than ROI", "ROI is higher than the rate of interest on debt", "Tax rate is zero", "The firm has no debt"],
+      "answer": 1,
+      "explanation": "Only when the firm earns more on investment than it pays on debt does debt <b>increase EPS</b>."
+    },
+    {
+      "q": "A software company with a high growth rate retains most of its profits and pays a very small dividend. Which factor affecting dividend decision is reflected?",
+      "options": ["Growth opportunities", "Legal constraints", "Stability of dividends", "Access to capital market"],
+      "answer": 0,
+      "explanation": "Growing firms need funds for investment, so <b>growth opportunities</b> lead to higher retention."
+    },
+    {
+      "q": "A trading firm usually needs less fixed capital than a manufacturing firm. Which factor is responsible?",
+      "options": ["Scale of operations", "Technology upgradation", "Nature of business", "Growth prospects"],
+      "answer": 2,
+      "explanation": "A trading concern does not need plant and machinery; this is the <b>nature of business</b>."
+    },
+    {
+      "q": "A firm selling air-conditioners needs more working capital in summer than in winter. Which factor is this?",
+      "options": ["Business cycle", "Seasonal factors", "Credit allowed", "Operating efficiency"],
+      "answer": 1,
+      "explanation": "Change in requirement due to the season of the year is a <b>seasonal factor</b>."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Debt is a cheaper source of finance than equity.<br><b>Reason (R):</b> Interest on debt is a tax-deductible expense.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Tax deductibility of interest reduces the effective cost of debt, which is why debt is cheaper."
+    },
+    {
+      "q": "The promoters of a company do not want to lose control, so they raise funds through debentures rather than equity shares. Which factor affecting capital structure is this?",
+      "options": ["Flexibility", "Cost of equity", "Floatation cost", "Control"],
+      "answer": 3,
+      "explanation": "Debt does not carry voting rights, so <b>control</b> is not diluted."
+    },
+    {
+      "q": "Which of the following is an objective of financial planning?",
+      "options": ["To maximise sales", "To decide the organisation structure", "To fix the price of products", "To ensure availability of funds whenever required"],
+      "answer": 3,
+      "explanation": "Financial planning aims to <b>ensure funds are available</b> when needed and that excess funds are not raised."
+    },
+    {
+      "q": "<b>Assertion (A):</b> A company with a higher interest coverage ratio can use more debt.<br><b>Reason (R):</b> Interest coverage ratio shows the number of times EBIT covers interest obligations.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "A higher ICR means interest can be paid comfortably out of earnings, so the firm can safely use more debt."
+    },
+    {
+      "q": "A company allows customers 90 days' credit while its competitor allows 30 days. The company will need:",
+      "options": ["Less working capital", "More fixed capital", "More working capital", "Less fixed capital"],
+      "answer": 2,
+      "explanation": "A liberal <b>credit allowed</b> policy increases debtors and therefore working capital needs."
+    }
+  ],
+  "questions": [
+    {
+      "q": "What is meant by capital structure?",
+      "marks": 1,
+      "answerHtml": "<p>Capital structure refers to the mix of owners' funds (equity, retained earnings) and borrowed funds (debentures, loans) used by a business.</p>"
+    },
+    {
+      "q": "State the condition under which trading on equity is favourable.",
+      "marks": 1,
+      "answerHtml": "<p>Trading on equity is favourable when the return on investment (ROI) is higher than the rate of interest on borrowed funds.</p>"
+    },
+    {
+      "q": "State any three factors affecting the financing decision.",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Cost</b> – the cost of raising funds differs among sources; a prudent manager chooses the cheapest source.</li><li><b>Risk</b> – debt involves financial risk because of fixed interest and repayment obligations.</li><li><b>Control considerations</b> – issue of more equity may dilute management control; debt does not.</li></ol>"
+    },
+    {
+      "q": "Explain the importance of financial planning (any three points).",
+      "marks": 3,
+      "answerHtml": "<ol><li><b>Prepares for the future</b> – it forecasts different situations and helps the firm face them.</li><li><b>Prevents business shocks and surprises</b> – funds are arranged in advance.</li><li><b>Links investment and financing decisions</b> – it ensures that funds are raised in line with investment needs and reduces waste and duplication.</li></ol>"
+    },
+    {
+      "q": "Explain any four factors affecting the working capital requirements of a business.",
+      "marks": 4,
+      "answerHtml": "<ol><li><b>Nature of business</b> – a trading firm needs less working capital than a manufacturing firm as there is no processing.</li><li><b>Scale of operations</b> – larger firms need more inventory and debtors, hence more working capital.</li><li><b>Production cycle</b> – a longer production cycle means funds are blocked longer, so more working capital is needed.</li><li><b>Credit allowed</b> – liberal credit to customers increases debtors and working capital needs.</li></ol>"
+    },
+    {
+      "q": "A company needs ₹40,00,000 for a new project and expects EBIT of ₹6,00,000. It can raise the money either (i) entirely through equity shares of ₹10 each, or (ii) ₹20,00,000 through 8% debentures and the rest through equity shares of ₹10 each. Tax rate is 30%. Calculate EPS under both options and state which option is better.",
+      "marks": 4,
+      "answerHtml": "<table><thead><tr><th>Particulars</th><th>Option (i)</th><th>Option (ii)</th></tr></thead><tbody><tr><td>EBIT</td><td>₹6,00,000</td><td>₹6,00,000</td></tr><tr><td>Less: Interest @ 8% on ₹20,00,000</td><td>Nil</td><td>₹1,60,000</td></tr><tr><td>EBT</td><td>₹6,00,000</td><td>₹4,40,000</td></tr><tr><td>Less: Tax @ 30%</td><td>₹1,80,000</td><td>₹1,32,000</td></tr><tr><td>EAT</td><td>₹4,20,000</td><td>₹3,08,000</td></tr><tr><td>Number of equity shares</td><td>4,00,000</td><td>2,00,000</td></tr><tr><td>EPS</td><td>₹1.05</td><td>₹1.54</td></tr></tbody></table><p><b>Option (ii) is better</b> because ROI (₹6,00,000 ÷ ₹40,00,000 = 15%) is higher than the rate of interest (8%), so trading on equity increases EPS.</p>"
+    },
+    {
+      "q": "Explain any six factors affecting the dividend decision.",
+      "marks": 6,
+      "answerHtml": "<ol><li><b>Amount of earnings</b> – dividends are paid out of current and past earnings, so higher earnings allow higher dividends.</li><li><b>Stability of earnings</b> – a company with stable earnings can declare higher dividends.</li><li><b>Growth opportunities</b> – companies with good growth opportunities retain more and pay less dividend.</li><li><b>Cash flow position</b> – payment of dividend requires adequate cash.</li><li><b>Taxation policy</b> – if tax on dividend is high, companies may prefer to pay less and retain more.</li><li><b>Legal and contractual constraints</b> – the Companies Act 2013 and loan agreements may restrict dividend payments.</li></ol>"
+    },
+    {
+      "q": "Urban Wheels Ltd. is a large, established bus-manufacturing company with stable earnings and a high interest coverage ratio. The tax rate applicable to it is high and the stock market is currently depressed. Its ROI is 18% while it can borrow at 9%. Its promoters do not want any dilution of control. Should it raise more funds through debt? Identify and explain the factors of capital structure in the case that support your answer.",
+      "marks": 6,
+      "answerHtml": "<p><b>Yes</b>, the company should raise more funds through debt. Factors:</p><ol><li><b>Interest coverage ratio</b> – a high ICR shows that the company can easily meet interest obligations out of its earnings, so it can use more debt.</li><li><b>Return on investment</b> – ROI (18%) is higher than the cost of debt (9%); trading on equity will increase EPS.</li><li><b>Tax rate</b> – interest is tax deductible; a high tax rate makes debt even cheaper.</li><li><b>Stock market conditions</b> – in a depressed market, equity is difficult to raise, so debt is preferable.</li><li><b>Control</b> – debt does not dilute the control of promoters, unlike equity.</li><li><b>Cash flow position / stability of earnings</b> – stable earnings ensure fixed payments can be met without strain.</li></ol>"
+    }
+  ]
+}

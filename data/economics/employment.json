@@ -1,0 +1,175 @@
+{
+  "id": "employment",
+  "title": "Employment: Growth, Informalisation and Other Issues",
+  "summary": "This chapter explains who is a worker, how the labour force and workforce are measured, and how workers in India are distributed by status (self-employed, regular salaried, casual), by sector and by formal and informal employment. It discusses trends such as jobless growth, casualisation and informalisation, the types of unemployment found in India and the government's measures to generate employment.",
+  "notes": [
+    {
+      "heading": "Workers, labour force and workforce",
+      "html": "<ul><li><b>Worker:</b> a person engaged in an economic (productive) activity that contributes to GDP, including those working on their own farms or enterprises and those temporarily absent due to illness, strike or bad weather.</li><li><b>Labour force:</b> all persons who are working plus those who are not working but are seeking or available for work. Labour force = Workforce + Unemployed.</li><li><b>Workforce:</b> the number of persons actually employed (working).</li><li><b>Unemployment:</b> a situation where people who are willing and able to work at the prevailing wage rate cannot find work.</li></ul><p><b>Worker–population ratio (WPR)</b> = (Total workforce ÷ Total population) × 100. It indicates the proportion of the population actively contributing to production. A higher ratio means more people are engaged in economic activity.</p><h4>Worked example</h4><p>Population = 1,000; labour force = 450; employed persons = 420.</p><p>WPR = 420 ÷ 1,000 × 100 = <b>42%</b>. Unemployed = 450 − 420 = 30. Unemployment rate = 30 ÷ 450 × 100 = <b>6.67%</b>. Labour force participation rate = 450 ÷ 1,000 × 100 = <b>45%</b>.</p>"
+    },
+    {
+      "heading": "Participation of people in employment: trends",
+      "html": "<ul><li><b>Rural vs urban:</b> the worker–population ratio is higher in rural areas than in urban areas. Rural people have limited resources and cannot afford to stay unemployed; many also cannot stay in school or college, so they enter work early. Urban people have more education and can wait for suitable jobs.</li><li><b>Men vs women:</b> participation of women is much lower than that of men in both rural and urban areas, though recent labour force surveys show a rising trend in female participation, especially in rural areas.</li><li><b>Rural women</b> participate more than urban women because poverty forces them to work, often on family farms. Urban men earn higher incomes and families may discourage women from working outside.</li><li>Much of women's unpaid household work is not counted as economic activity, so their contribution is underestimated.</li></ul><p>Data on employment come from the Census, the National Sample Survey (now the Periodic Labour Force Survey, conducted since 2017–18) and the Directorate General of Employment.</p>"
+    },
+    {
+      "heading": "Status of workers: self-employed, regular and casual",
+      "html": "<table><thead><tr><th>Category</th><th>Meaning</th><th>Example</th></tr></thead><tbody><tr><td>Self-employed</td><td>Owns and operates an enterprise to earn a livelihood</td><td>Farmer on own land, shopkeeper, tailor</td></tr><tr><td>Regular salaried employee</td><td>Hired by someone and paid wages/salary on a regular basis, often with social security</td><td>Office clerk, factory worker on rolls, teacher</td></tr><tr><td>Casual wage labourer</td><td>Hired on others' farms or enterprises on a daily or temporary basis, without job security or social security</td><td>Construction labourer, farm labourer</td></tr></tbody></table><p><b>Trends:</b></p><ul><li><b>Self-employment</b> is the largest source of livelihood for both men and women, accounting for about half or more of the workforce.</li><li><b>Casual wage work</b> is more common in rural areas; <b>regular salaried</b> jobs are more common in urban areas, because urban jobs require skills and literacy and enterprises there need workers regularly.</li><li>Women are more likely to be self-employed (often as helpers in household enterprises) or casual labourers than to hold regular jobs.</li></ul>"
+    },
+    {
+      "heading": "Employment by sector and the structural change",
+      "html": "<ul><li><b>Primary sector</b> (agriculture, forestry, fishing, mining) remains the largest employer, providing work to a little under half of India's workforce, although its share has fallen steadily.</li><li><b>Secondary sector</b> (manufacturing, construction, electricity) and <b>tertiary sector</b> (trade, transport, communication, finance, other services) have increased their shares.</li><li>In rural areas, most workers depend on the primary sector; in urban areas, the tertiary sector is the main employer.</li><li>The share of agriculture in GDP has fallen much faster than its share in employment, so productivity in agriculture remains low and there is <b>disguised unemployment</b>.</li></ul><p>In a developing economy, workers normally move from the primary to the secondary and tertiary sectors as development proceeds. In India the movement has been slow and has largely gone into services and construction rather than manufacturing.</p>"
+    },
+    {
+      "heading": "Growth and changing structure: jobless growth and casualisation",
+      "html": "<p><b>Jobless growth</b> is a situation in which GDP grows but employment does not grow correspondingly. During several phases since the 1980s, India's GDP growth has been faster than employment growth; output rose through better technology and capital-intensive methods without generating proportionate jobs.</p><p><b>Casualisation of workforce:</b> the process by which the share of casual wage labour rises relative to regular salaried employment, leaving workers without job and social security. During the 1970s–1990s the share of casual labour rose while that of self-employed and regular workers fell. In recent surveys the share of casual labour has declined while self-employment has risen, but much employment remains insecure.</p><p><b>Informalisation:</b> an increasing share of the workforce finds jobs in the informal sector or on informal terms (without written contracts, paid leave or social security), even within formal enterprises.</p>"
+    },
+    {
+      "heading": "Formal and informal sectors",
+      "html": "<table><thead><tr><th>Basis</th><th>Formal (organised) sector</th><th>Informal (unorganised) sector</th></tr></thead><tbody><tr><td>Coverage</td><td>All public sector establishments and private sector establishments employing 10 or more hired workers</td><td>All other enterprises and workers: farmers, agricultural labourers, small shop owners, self-employed without hired workers, casual workers</td></tr><tr><td>Social security</td><td>Entitled to benefits such as provident fund, gratuity, pension, paid leave</td><td>Generally no such benefits</td></tr><tr><td>Labour laws</td><td>Protected by labour laws; can form trade unions</td><td>Little protection; no regular income</td></tr><tr><td>Income</td><td>Regular and relatively higher</td><td>Irregular and generally low</td></tr></tbody></table><p>The vast majority of Indian workers, roughly nine out of ten, are in the informal sector. Women form a larger proportion of informal workers. Since the 1970s the government and NGOs have tried to modernise informal enterprises and provide social security to their workers, e.g. through pension and insurance schemes for unorganised workers and registration on the e-Shram portal.</p>"
+    },
+    {
+      "heading": "Unemployment in India",
+      "html": "<ul><li><b>Disguised unemployment:</b> more people are engaged in a job than are actually needed; the marginal productivity of the extra workers is zero. Common in agriculture, where all family members work on a small plot.</li><li><b>Seasonal unemployment:</b> people are unemployed during certain months of the year, e.g. farm workers after harvest and before sowing.</li><li><b>Open unemployment:</b> people who are willing and able to work have no work at all; common among landless labourers and urban job seekers.</li><li><b>Educated unemployment:</b> educated persons unable to find suitable jobs, due to a mismatch between education and the needs of the job market.</li><li><b>Structural unemployment:</b> due to changes in the structure of the economy or technology, where workers' skills no longer match available jobs.</li><li><b>Frictional unemployment:</b> temporary unemployment while workers change jobs.</li></ul><p>Unemployment is measured by surveys such as the PLFS; the Census and employment exchanges also give indicators.</p>"
+    },
+    {
+      "heading": "Government and employment generation",
+      "html": "<p>The government creates employment <b>directly</b> (hiring in its departments and public enterprises) and <b>indirectly</b> (when public investment raises output, private enterprises expand and hire more workers).</p><ul><li><b>Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005:</b> guarantees 100 days of wage employment in a financial year to every rural household whose adult members volunteer to do unskilled manual work. It also creates rural assets such as ponds, roads and water conservation works.</li><li><b>Self-employment programmes</b>, e.g. the Prime Minister's Employment Generation Programme, which helps set up micro enterprises.</li><li><b>Skill development</b> under the Skill India mission to improve employability.</li><li><b>Infrastructure</b> spending on roads, housing, electrification and water supply, which creates jobs and supports private investment.</li><li>Promoting <b>small industries, rural non-farm activities</b> and labour-intensive manufacturing.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Worker", "definition": "A person engaged in an economic activity that contributes to the gross domestic product." },
+    { "term": "Labour force", "definition": "All persons who are working plus those who are not working but are seeking or available for work." },
+    { "term": "Workforce", "definition": "The number of persons actually employed at a given time." },
+    { "term": "Worker–population ratio", "definition": "Workforce as a percentage of total population; an indicator of employment in a country." },
+    { "term": "Self-employed", "definition": "Workers who own and operate an enterprise to earn their livelihood." },
+    { "term": "Casual wage labourer", "definition": "A worker hired on a daily or temporary basis, without job security or social security benefits." },
+    { "term": "Regular salaried employee", "definition": "A worker hired by someone and paid wages or salary on a regular basis." },
+    { "term": "Formal sector", "definition": "All public sector establishments and private establishments employing 10 or more hired workers." },
+    { "term": "Jobless growth", "definition": "A situation in which GDP grows without a corresponding increase in employment." },
+    { "term": "Casualisation", "definition": "A rise in the proportion of casual wage labourers in the workforce relative to regular employees." },
+    { "term": "Disguised unemployment", "definition": "A situation in which more people are working than are needed, so the marginal productivity of the extra workers is zero." },
+    { "term": "Seasonal unemployment", "definition": "Unemployment during certain seasons of the year, common in agriculture." }
+  ],
+  "formulas": [
+    { "name": "Worker–population ratio", "html": "WPR = (Total workforce ÷ Total population) × 100" },
+    { "name": "Labour force", "html": "Labour force = Workforce + Unemployed persons" },
+    { "name": "Unemployment rate", "html": "Unemployment rate = (Unemployed persons ÷ Labour force) × 100" },
+    { "name": "Labour force participation rate", "html": "LFPR = (Labour force ÷ Total population) × 100" }
+  ],
+  "mcqs": [
+    {
+      "q": "The formal sector includes all public sector establishments and private sector establishments employing:",
+      "options": ["5 or more hired workers", "10 or more hired workers", "20 or more hired workers", "100 or more hired workers"],
+      "answer": 1,
+      "explanation": "By definition, private establishments with 10 or more hired workers are part of the formal sector."
+    },
+    {
+      "q": "A country has a population of 50 crore and a workforce of 20 crore. Its worker–population ratio is:",
+      "options": ["25%", "60%", "40%", "250%"],
+      "answer": 2,
+      "explanation": "WPR = 20 ÷ 50 × 100 = 40%."
+    },
+    {
+      "q": "Which category forms the largest share of India's workforce?",
+      "options": ["Self-employed", "Regular salaried employees", "Casual wage labourers", "Government employees"],
+      "answer": 0,
+      "explanation": "Self-employment is the largest source of livelihood, accounting for about half or more of all workers."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The worker–population ratio is higher in rural areas than in urban areas.<br><b>Reason (R):</b> Rural people have limited resources and cannot afford to remain unemployed for long.",
+      "options": ["Both A and R are true and R is the correct explanation of A", "Both A and R are true but R is not the correct explanation of A", "A is true but R is false", "A is false but R is true"],
+      "answer": 0,
+      "explanation": "Poverty and limited access to higher education push rural people into work early, raising the rural WPR. R explains A."
+    },
+    {
+      "q": "A situation in which more people are working on a farm than required, with zero marginal productivity of the extra workers, is called:",
+      "options": ["Seasonal unemployment", "Open unemployment", "Frictional unemployment", "Disguised unemployment"],
+      "answer": 3,
+      "explanation": "Withdrawing the extra workers would not reduce output, which is disguised unemployment."
+    },
+    {
+      "q": "MGNREGA guarantees wage employment to every rural household for:",
+      "options": ["50 days a year", "100 days a year", "150 days a year", "365 days a year"],
+      "answer": 1,
+      "explanation": "The Act (2005) guarantees 100 days of unskilled manual work per rural household in a financial year."
+    },
+    {
+      "q": "Read the statements:<br>Statement 1: Regular salaried employment is more common in urban areas than in rural areas.<br>Statement 2: Workers in the informal sector are usually entitled to provident fund and gratuity.",
+      "options": ["Both statements are true", "Statement 1 is true and Statement 2 is false", "Statement 1 is false and Statement 2 is true", "Both statements are false"],
+      "answer": 1,
+      "explanation": "Urban enterprises need regular, skilled workers, so salaried jobs are more common there. Informal workers generally lack social security benefits."
+    },
+    {
+      "q": "Jobless growth means:",
+      "options": ["Employment grows faster than GDP", "Both GDP and employment fall", "GDP grows without a proportionate increase in employment", "Unemployment is zero"],
+      "answer": 2,
+      "explanation": "Output may rise through capital-intensive technology without creating proportionate jobs."
+    },
+    {
+      "q": "Labour force is 600 and the number of unemployed persons is 48. The unemployment rate is:",
+      "options": ["4.8%", "12.5%", "6%", "8%"],
+      "answer": 3,
+      "explanation": "Unemployment rate = 48 ÷ 600 × 100 = 8%."
+    },
+    {
+      "q": "Which sector still employs the largest share of India's workforce?",
+      "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Public sector"],
+      "answer": 0,
+      "explanation": "Agriculture and allied activities still employ a little under half of all workers, though their share is falling."
+    },
+    {
+      "q": "A construction worker hired on a daily basis without any social security is a:",
+      "options": ["Self-employed worker", "Casual wage labourer", "Regular salaried employee", "Formal sector worker"],
+      "answer": 1,
+      "explanation": "Daily hiring without job or social security is the defining feature of casual wage labour."
+    },
+    {
+      "q": "Educated unemployment in India arises mainly because:",
+      "options": ["There are too few educated people", "Educated people refuse all jobs", "Agriculture needs only educated workers", "There is a mismatch between the skills supplied by the education system and those demanded by employers"],
+      "answer": 3,
+      "explanation": "Educational output does not match the needs of the job market, so many graduates do not find suitable jobs."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Who is a worker?",
+      "marks": 1,
+      "answerHtml": "<p>A worker is a person engaged in any economic activity that contributes to the production of goods and services (GDP) of the country.</p>"
+    },
+    {
+      "q": "What is meant by casualisation of the workforce?",
+      "marks": 1,
+      "answerHtml": "<p>It is the process by which the proportion of casual wage labourers increases relative to self-employed and regular salaried workers.</p>"
+    },
+    {
+      "q": "In a country, the total population is 80 crore, the labour force is 36 crore and the number of persons employed is 33 crore. Calculate the worker–population ratio and the unemployment rate.",
+      "marks": 3,
+      "answerHtml": "<p>Worker–population ratio = Workforce ÷ Population × 100 = 33 ÷ 80 × 100 = <b>41.25%</b>.</p><p>Unemployed persons = Labour force − Workforce = 36 − 33 = 3 crore.</p><p>Unemployment rate = 3 ÷ 36 × 100 = <b>8.33%</b>.</p>"
+    },
+    {
+      "q": "Why is the participation of women lower in urban areas than in rural areas?",
+      "marks": 3,
+      "answerHtml": "<ul><li>In rural areas poverty forces women to work, often on family farms or as farm labourers, to supplement household income.</li><li>In urban areas men generally earn higher incomes, so families may discourage women from taking up jobs outside the home.</li><li>Urban jobs often require higher education and skills, and social and safety concerns and lack of child care also limit women's participation in towns.</li></ul><p>Further, much of women's unpaid household work is not counted as economic activity, so their recorded participation is low.</p>"
+    },
+    {
+      "q": "Distinguish between the formal and informal sectors of employment.",
+      "marks": 4,
+      "answerHtml": "<table><thead><tr><th>Formal sector</th><th>Informal sector</th></tr></thead><tbody><tr><td>Includes all public sector establishments and private establishments with 10 or more hired workers</td><td>Includes all other enterprises and workers, such as farmers, agricultural labourers, small shopkeepers and casual workers</td></tr><tr><td>Workers get social security such as provident fund, gratuity and pension</td><td>Workers get no social security benefits</td></tr><tr><td>Protected by labour laws; can form trade unions</td><td>Little legal protection; usually not unionised</td></tr><tr><td>Regular and higher income</td><td>Irregular and low income</td></tr></tbody></table>"
+    },
+    {
+      "q": "'India has experienced jobless growth.' Explain.",
+      "marks": 4,
+      "answerHtml": "<p><b>Jobless growth</b> refers to a situation in which the economy produces more goods and services without a proportionate increase in employment.</p><ul><li>In several phases since the 1980s and particularly after the reforms, India's GDP grew faster than employment.</li><li>Firms increasingly used capital-intensive and labour-saving technology to raise output, so fewer additional workers were needed.</li><li>Growth was led by the services sector, such as IT and finance, which employs relatively fewer, highly skilled workers, while manufacturing did not create enough jobs.</li><li>As a result, a large share of new entrants to the labour force had to depend on informal or self-employment with low earnings.</li></ul>"
+    },
+    {
+      "q": "Explain the distribution of India's workforce by status of employment and discuss the trends.",
+      "marks": 6,
+      "answerHtml": "<p>Workers are classified into three categories:</p><ol><li><b>Self-employed:</b> those who own and run an enterprise, such as farmers cultivating their own land, shopkeepers and artisans. This is the largest category, accounting for about half or more of the workforce.</li><li><b>Regular salaried employees:</b> those hired by others and paid wages or salaries regularly, often with social security, such as office staff and factory workers on the rolls.</li><li><b>Casual wage labourers:</b> those hired on daily or temporary terms without security, such as construction and farm labourers.</li></ol><p><b>Trends:</b></p><ul><li>Self-employment and casual wage work are the main sources of employment in rural areas, as most people work on their own farms or as farm labourers.</li><li>In urban areas, regular salaried jobs and self-employment dominate, because urban enterprises need regular, skilled workers.</li><li>Women are more likely to be self-employed (as helpers in household enterprises) or casual labourers, and less likely to hold regular jobs than men.</li><li>Over the 1970s–1990s the share of casual workers rose (casualisation); recent surveys show self-employment rising and casual labour falling, but regular salaried jobs remain a minority, so most workers still lack job security.</li></ul>"
+    },
+    {
+      "q": "Discuss the role of the government in employment generation in India.",
+      "marks": 6,
+      "answerHtml": "<p>The government generates employment both directly and indirectly.</p><ul><li><b>Direct employment:</b> it employs people in its administrative departments and in public enterprises such as railways, banks, power and steel plants.</li><li><b>Indirect employment:</b> when public enterprises and public investment increase output, demand for raw materials and services rises, so private firms expand and hire more workers.</li></ul><p><b>Major programmes:</b></p><ol><li><b>MGNREGA (2005):</b> guarantees 100 days of wage employment a year to every rural household willing to do unskilled manual work, providing a safety net and creating rural assets like ponds and roads.</li><li><b>Self-employment schemes</b> such as the Prime Minister's Employment Generation Programme, which gives subsidised credit to set up micro enterprises.</li><li><b>Skill development</b> under the Skill India mission, to improve employability and match skills with industry needs.</li><li><b>Infrastructure and housing programmes</b>, which create construction jobs and stimulate private investment.</li><li><b>Promotion of MSMEs and rural non-farm activities</b> such as food processing and handicrafts.</li></ol><p>These programmes aim to reduce poverty, raise incomes and absorb surplus labour from agriculture.</p>"
+    }
+  ]
+}

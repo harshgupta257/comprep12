@@ -1,0 +1,283 @@
+{
+  "id": "differential-equations",
+  "title": "Differential Equations and Modelling",
+  "summary": "A differential equation links an unknown function with its derivatives and is the natural language for growth, decay and change over time. This chapter covers order and degree, general and particular solutions, forming differential equations, solving them by separation of variables, homogeneous and linear methods, and modelling population growth, continuous compounding and depreciation.",
+  "notes": [
+    {
+      "heading": "Definitions: order, degree, solutions",
+      "html": "<p>A <b>differential equation (DE)</b> is an equation involving an independent variable x, a dependent variable y and one or more derivatives of y, e.g. dy/dx = 3y or d<sup>2</sup>y/dx<sup>2</sup> + 4y = 0.</p><ul><li><b>Order</b>: the order of the highest derivative present.</li><li><b>Degree</b>: the power of the highest-order derivative after the equation has been made free of radicals and fractions in the derivatives. Degree is defined only when the DE is a polynomial in its derivatives (so it is not defined for d<sup>2</sup>y/dx<sup>2</sup> + e<sup>dy/dx</sup> = 0).</li><li>Example: (d<sup>2</sup>y/dx<sup>2</sup>)<sup>3</sup> + (dy/dx)<sup>4</sup> + y = 0 has order 2 and degree 3.</li><li><b>General solution</b>: contains as many arbitrary constants as the order of the DE.</li><li><b>Particular solution</b>: obtained from the general solution by giving the constants definite values using initial conditions such as y(0) = 2.</li></ul>"
+    },
+    {
+      "heading": "Forming a differential equation",
+      "html": "<p>To form the DE of a family of curves with n arbitrary constants: differentiate the equation n times and eliminate the n constants from the n + 1 equations. The order of the resulting DE equals n.</p><p><b>Example.</b> y = Ae<sup>2x</sup> + Be<sup>−2x</sup> (two constants). y′ = 2Ae<sup>2x</sup> − 2Be<sup>−2x</sup>, y″ = 4Ae<sup>2x</sup> + 4Be<sup>−2x</sup> = 4y. The DE is <b>d<sup>2</sup>y/dx<sup>2</sup> − 4y = 0</b> (order 2).</p><p><b>Example.</b> y = Ae<sup>3x</sup> (one constant). y′ = 3Ae<sup>3x</sup> = 3y, so the DE is <b>dy/dx = 3y</b>.</p>"
+    },
+    {
+      "heading": "Method 1 — variables separable",
+      "html": "<p>If the DE can be written as <b>dy/dx = f(x) g(y)</b>, separate the variables and integrate both sides:</p><p><b>∫ dy/g(y) = ∫ f(x) dx + C</b></p><p><b>Worked Example 1.</b> (a) Solve dy/dx = 2xy.</p><p>dy/y = 2x dx ⇒ log |y| = x<sup>2</sup> + C ⇒ <b>y = Ke<sup>x<sup>2</sup></sup></b> (K = ±e<sup>C</sup>).</p><p>(b) Solve dy/dx = x e<sup>−y</sup>, given y(0) = 0.</p><p>e<sup>y</sup> dy = x dx ⇒ e<sup>y</sup> = x<sup>2</sup>/2 + C. Put x = 0, y = 0: 1 = C. Particular solution: e<sup>y</sup> = x<sup>2</sup>/2 + 1, i.e. <b>y = log (x<sup>2</sup>/2 + 1)</b>.</p>"
+    },
+    {
+      "heading": "Method 2 — homogeneous equations",
+      "html": "<p>dy/dx = F(x, y) is <b>homogeneous</b> if F(λx, λy) = F(x, y), i.e. F can be written as a function of y/x alone (numerator and denominator have the same degree in every term).</p><ol><li>Put y = vx, so dy/dx = v + x dv/dx.</li><li>Substitute; the equation becomes separable in v and x.</li><li>Separate, integrate, then replace v by y/x.</li></ol><p><b>Worked Example 2.</b> Solve dy/dx = (x<sup>2</sup> + y<sup>2</sup>)/(2xy).</p><p>Put y = vx: v + x dv/dx = (1 + v<sup>2</sup>)/(2v) ⇒ x dv/dx = (1 + v<sup>2</sup> − 2v<sup>2</sup>)/(2v) = (1 − v<sup>2</sup>)/(2v).</p><p>Separate: 2v dv/(1 − v<sup>2</sup>) = dx/x ⇒ −log |1 − v<sup>2</sup>| = log |x| + C ⇒ x(1 − v<sup>2</sup>) = K.</p><p>Replace v = y/x: x(1 − y<sup>2</sup>/x<sup>2</sup>) = K ⇒ <b>x<sup>2</sup> − y<sup>2</sup> = Kx</b>.</p>"
+    },
+    {
+      "heading": "Method 3 — linear equations dy/dx + Py = Q",
+      "html": "<p>Here P and Q are functions of x only (or constants).</p><ol><li>Find the <b>integrating factor</b> IF = e<sup>∫P dx</sup>.</li><li>The solution is <b>y × IF = ∫ (Q × IF) dx + C</b>.</li></ol><p><b>Worked Example 3.</b> Solve dy/dx + y/x = x<sup>2</sup>, given y(1) = 1.</p><p>P = 1/x, IF = e<sup>log x</sup> = x (x &gt; 0).</p><p>xy = ∫ x<sup>3</sup> dx = x<sup>4</sup>/4 + C. With x = 1, y = 1: 1 = 1/4 + C ⇒ C = 3/4.</p><p><b>y = x<sup>3</sup>/4 + 3/(4x)</b>. Check: y′ = 3x<sup>2</sup>/4 − 3/(4x<sup>2</sup>); y′ + y/x = 3x<sup>2</sup>/4 − 3/(4x<sup>2</sup>) + x<sup>2</sup>/4 + 3/(4x<sup>2</sup>) = x<sup>2</sup> ✓.</p>"
+    },
+    {
+      "heading": "Modelling: growth and decay",
+      "html": "<p>When a quantity changes at a rate proportional to its present size, <b>dN/dt = kN</b>. Separating, log N = kt + C, so <b>N(t) = N<sub>0</sub>e<sup>kt</sup></b>, with N<sub>0</sub> = N(0).</p><ul><li>k &gt; 0: <b>growth</b> (population, bacteria, money under continuous compounding where k = r, the annual rate).</li><li>k &lt; 0: <b>decay</b> (radioactive decay, depreciation at a rate proportional to value, cooling-type models).</li><li>Doubling time = (log 2)/k; half-life = (log 2)/|k| (natural logarithms, log 2 ≈ 0.6931).</li><li>If the quantity is multiplied by a factor m in time T, then e<sup>kT</sup> = m and N(t) = N<sub>0</sub>m<sup>t/T</sup> — often easier than finding k.</li></ul><p><b>Worked Example 4.</b> (a) A bacteria culture doubles in 3 hours. In how many hours will it triple? e<sup>3k</sup> = 2 ⇒ k = (log 2)/3. Tripling: e<sup>kt</sup> = 3 ⇒ t = 3 log 3/log 2 = 3 × 1.0986/0.6931 ≈ <b>4.75 hours</b>.</p><p>(b) ₹10,000 is invested at 5% p.a. compounded continuously: dA/dt = 0.05A, so A = 10000e<sup>0.05t</sup>. After 4 years A = 10000e<sup>0.2</sup> ≈ 10000 × 1.2214 = <b>₹12,214</b>.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Stating the degree before removing radicals in derivatives, or stating a degree when the DE is not a polynomial in derivatives.</li><li>Forgetting the constant of integration while separating variables — add it once, on one side.</li><li>In homogeneous equations, forgetting to replace v by y/x at the end.</li><li>Using IF = e<sup>P</sup> instead of e<sup>∫P dx</sup>, or forgetting to write the DE in the standard form dy/dx + Py = Q first (divide by the coefficient of dy/dx).</li><li>Using common logarithms (base 10) in growth problems that need natural logs.</li><li>Giving the general solution when an initial condition asks for the particular solution.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Differential equation",
+      "definition": "An equation involving derivatives of an unknown function."
+    },
+    {
+      "term": "Order",
+      "definition": "The order of the highest derivative occurring in the DE."
+    },
+    {
+      "term": "Degree",
+      "definition": "The highest power of the highest-order derivative when the DE is a polynomial in its derivatives."
+    },
+    {
+      "term": "General solution",
+      "definition": "A solution containing as many independent arbitrary constants as the order."
+    },
+    {
+      "term": "Particular solution",
+      "definition": "A solution with specific values of the constants, fixed by given conditions."
+    },
+    {
+      "term": "Variables separable",
+      "definition": "A DE that can be written as dy/g(y) = f(x) dx."
+    },
+    {
+      "term": "Homogeneous DE",
+      "definition": "dy/dx = F(x, y) where F(λx, λy) = F(x, y); solved by y = vx."
+    },
+    {
+      "term": "Integrating factor",
+      "definition": "e<sup>∫P dx</sup>, the multiplier that makes dy/dx + Py = Q exactly integrable."
+    },
+    {
+      "term": "Exponential growth/decay",
+      "definition": "The model dN/dt = kN with solution N = N<sub>0</sub>e<sup>kt</sup>."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "Separation of variables",
+      "html": "dy/dx = f(x)g(y) ⇒ ∫ dy/g(y) = ∫ f(x) dx + C"
+    },
+    {
+      "name": "Homogeneous substitution",
+      "html": "y = vx, dy/dx = v + x dv/dx"
+    },
+    {
+      "name": "Linear DE",
+      "html": "dy/dx + Py = Q: IF = e<sup>∫P dx</sup>, y·IF = ∫ Q·IF dx + C"
+    },
+    {
+      "name": "Growth/decay law",
+      "html": "dN/dt = kN ⇒ N = N<sub>0</sub>e<sup>kt</sup>"
+    },
+    {
+      "name": "Multiplying factor form",
+      "html": "N(t) = N<sub>0</sub>m<sup>t/T</sup> if N grows by factor m in time T"
+    },
+    {
+      "name": "Doubling time / half-life",
+      "html": "T<sub>d</sub> = (log 2)/k; T<sub>1/2</sub> = (log 2)/|k|"
+    },
+    {
+      "name": "Continuous compounding",
+      "html": "dA/dt = rA ⇒ A = Pe<sup>rt</sup>"
+    },
+    {
+      "name": "Number of constants",
+      "html": "General solution of an n-th order DE has n arbitrary constants"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "The order and degree of (d<sup>2</sup>y/dx<sup>2</sup>)<sup>3</sup> + (dy/dx)<sup>4</sup> + y = 0 are",
+      "options": [
+        "2 and 3",
+        "2 and 4",
+        "3 and 2",
+        "1 and 4"
+      ],
+      "answer": 0,
+      "explanation": "The highest derivative is d<sup>2</sup>y/dx<sup>2</sup> (order 2) and its power is 3 (degree 3). The power 4 belongs to a lower derivative."
+    },
+    {
+      "q": "The order and degree of (d<sup>3</sup>y/dx<sup>3</sup>)<sup>2</sup> + (d<sup>2</sup>y/dx<sup>2</sup>)<sup>5</sup> + y = 0 are",
+      "options": [
+        "2 and 5",
+        "3 and 2",
+        "3 and 5",
+        "5 and 3"
+      ],
+      "answer": 1,
+      "explanation": "Highest derivative: third (order 3); its power is 2 (degree 2)."
+    },
+    {
+      "q": "The number of arbitrary constants in the general solution of a differential equation of order 3 is",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 3,
+      "explanation": "The general solution of an n-th order DE contains n arbitrary constants."
+    },
+    {
+      "q": "The general solution of dy/dx = 2xy is",
+      "options": [
+        "y = Ce<sup>2x</sup>",
+        "y = x<sup>2</sup> + C",
+        "y = Ce<sup>x<sup>2</sup></sup>",
+        "y = Ce<sup>−x<sup>2</sup></sup>"
+      ],
+      "answer": 2,
+      "explanation": "dy/y = 2x dx ⇒ log |y| = x<sup>2</sup> + c ⇒ y = Ce<sup>x<sup>2</sup></sup>."
+    },
+    {
+      "q": "The integrating factor of dy/dx + 2y = e<sup>x</sup> is",
+      "options": [
+        "e<sup>x</sup>",
+        "e<sup>2x</sup>",
+        "2x",
+        "e<sup>−2x</sup>"
+      ],
+      "answer": 1,
+      "explanation": "P = 2, so IF = e<sup>∫2 dx</sup> = e<sup>2x</sup>."
+    },
+    {
+      "q": "The integrating factor of dy/dx − (1/x) y = x<sup>2</sup> (x &gt; 0) is",
+      "options": [
+        "x",
+        "log x",
+        "−x",
+        "1/x"
+      ],
+      "answer": 3,
+      "explanation": "IF = e<sup>∫(−1/x) dx</sup> = e<sup>−log x</sup> = 1/x."
+    },
+    {
+      "q": "The differential equation of the family y = Ae<sup>3x</sup> (A arbitrary) is",
+      "options": [
+        "dy/dx = 3y",
+        "dy/dx = y/3",
+        "d<sup>2</sup>y/dx<sup>2</sup> = 3y",
+        "dy/dx = 3x"
+      ],
+      "answer": 0,
+      "explanation": "y′ = 3Ae<sup>3x</sup> = 3y. One constant ⇒ first-order DE."
+    },
+    {
+      "q": "The general solution of dy/dx = e<sup>x − y</sup> is",
+      "options": [
+        "e<sup>x</sup> + e<sup>y</sup> = C",
+        "e<sup>y</sup> = e<sup>x</sup> + C",
+        "e<sup>x − y</sup> = C",
+        "y = e<sup>x</sup> + C"
+      ],
+      "answer": 1,
+      "explanation": "dy/dx = e<sup>x</sup>/e<sup>y</sup> ⇒ e<sup>y</sup> dy = e<sup>x</sup> dx ⇒ e<sup>y</sup> = e<sup>x</sup> + C."
+    },
+    {
+      "q": "Which of the following differential equations is homogeneous?",
+      "options": [
+        "dy/dx = x + y<sup>2</sup>",
+        "dy/dx = (x + 1)/y",
+        "dy/dx = (x<sup>2</sup> + y<sup>2</sup>)/(xy)",
+        "dy/dx = e<sup>x</sup> y"
+      ],
+      "answer": 2,
+      "explanation": "Replacing x, y by λx, λy: (λ<sup>2</sup>x<sup>2</sup> + λ<sup>2</sup>y<sup>2</sup>)/(λ<sup>2</sup>xy) = (x<sup>2</sup> + y<sup>2</sup>)/(xy) — unchanged. The others have terms of different degrees."
+    },
+    {
+      "q": "A radioactive substance decays according to dN/dt = −kN and has a half-life of 10 years. The value of k (per year) is about",
+      "options": [
+        "0.0693",
+        "0.5",
+        "0.0301",
+        "6.93"
+      ],
+      "answer": 0,
+      "explanation": "e<sup>−10k</sup> = 1/2 ⇒ k = (log 2)/10 = 0.6931/10 ≈ 0.0693. (0.0301 uses log base 10.)"
+    },
+    {
+      "q": "A sum of ₹10,000 grows under continuous compounding at 5% per annum. Its value after 4 years is about (e<sup>0.2</sup> ≈ 1.2214)",
+      "options": [
+        "₹12,000",
+        "₹12,155",
+        "₹12,214",
+        "₹14,000"
+      ],
+      "answer": 2,
+      "explanation": "A = 10000e<sup>0.05 × 4</sup> = 10000e<sup>0.2</sup> ≈ ₹12,214. (₹12,155 is annual compounding: 10000 × 1.05<sup>4</sup>.)"
+    },
+    {
+      "q": "<b>Assertion (A):</b> The degree of the differential equation d<sup>2</sup>y/dx<sup>2</sup> + e<sup>dy/dx</sup> = 0 is 1.<br><b>Reason (R):</b> The degree of a differential equation is defined only when it is a polynomial equation in its derivatives.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "e<sup>dy/dx</sup> is not a polynomial in dy/dx, so the degree is not defined; A is false while R is the correct rule."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Write the order and degree of (d<sup>3</sup>y/dx<sup>3</sup>)<sup>2</sup> + 3 dy/dx − y = 0.",
+      "marks": 1,
+      "answerHtml": "<p><b>Order 3, degree 2.</b></p>"
+    },
+    {
+      "q": "Find the integrating factor of dy/dx − 3y = x.",
+      "marks": 1,
+      "answerHtml": "<p>P = −3, so IF = e<sup>∫−3 dx</sup> = <b>e<sup>−3x</sup></b>.</p>"
+    },
+    {
+      "q": "Form the differential equation of the family y = Ae<sup>2x</sup> + Be<sup>−2x</sup>, where A and B are arbitrary constants.",
+      "marks": 2,
+      "answerHtml": "<p>y′ = 2Ae<sup>2x</sup> − 2Be<sup>−2x</sup>; y″ = 4Ae<sup>2x</sup> + 4Be<sup>−2x</sup> = 4y.</p><p>Required DE: <b>d<sup>2</sup>y/dx<sup>2</sup> − 4y = 0</b>.</p>"
+    },
+    {
+      "q": "Solve dy/dx = x e<sup>−y</sup>, given y = 0 when x = 0.",
+      "marks": 2,
+      "answerHtml": "<p>Separate: e<sup>y</sup> dy = x dx. Integrate: e<sup>y</sup> = x<sup>2</sup>/2 + C.</p><p>At x = 0, y = 0: 1 = C.</p><p><b>e<sup>y</sup> = x<sup>2</sup>/2 + 1, i.e. y = log (1 + x<sup>2</sup>/2).</b></p>"
+    },
+    {
+      "q": "Solve the homogeneous equation 2xy dy/dx = x<sup>2</sup> + y<sup>2</sup>.",
+      "marks": 3,
+      "answerHtml": "<p>dy/dx = (x<sup>2</sup> + y<sup>2</sup>)/(2xy). Put y = vx: v + x dv/dx = (1 + v<sup>2</sup>)/(2v).</p><p>x dv/dx = (1 − v<sup>2</sup>)/(2v) ⇒ 2v dv/(1 − v<sup>2</sup>) = dx/x.</p><p>Integrate: −log |1 − v<sup>2</sup>| = log |x| + c ⇒ log |x(1 − v<sup>2</sup>)| = −c ⇒ x(1 − v<sup>2</sup>) = K.</p><p>Put v = y/x: x − y<sup>2</sup>/x = K ⇒ <b>x<sup>2</sup> − y<sup>2</sup> = Kx</b>.</p>"
+    },
+    {
+      "q": "Solve dy/dx + y/x = x<sup>2</sup>, given y(1) = 1.",
+      "marks": 3,
+      "answerHtml": "<p>Linear with P = 1/x, Q = x<sup>2</sup>. IF = e<sup>∫dx/x</sup> = x.</p><p>xy = ∫ x<sup>2</sup> · x dx = x<sup>4</sup>/4 + C.</p><p>At x = 1, y = 1: 1 = 1/4 + C ⇒ C = 3/4.</p><p><b>xy = x<sup>4</sup>/4 + 3/4, i.e. y = x<sup>3</sup>/4 + 3/(4x).</b></p>"
+    },
+    {
+      "q": "The population of a town grows at a rate proportional to the population present. It was 50,000 in 2015 and 60,000 in 2020. (a) Form and solve the differential equation. (b) Estimate the population in 2030. (c) In which year will the population be double its 2015 value? (log 2 ≈ 0.6931, log 1.2 ≈ 0.1823)",
+      "marks": 5,
+      "answerHtml": "<p><b>(a)</b> dP/dt = kP ⇒ P = P<sub>0</sub>e<sup>kt</sup>, t in years from 2015, P<sub>0</sub> = 50000. At t = 5: 60000 = 50000e<sup>5k</sup> ⇒ e<sup>5k</sup> = 1.2 ⇒ k = (log 1.2)/5 ≈ 0.0365. So <b>P = 50000(1.2)<sup>t/5</sup></b>.</p><p><b>(b)</b> 2030 ⇒ t = 15: P = 50000 × (1.2)<sup>3</sup> = 50000 × 1.728 = <b>86,400</b>.</p><p><b>(c)</b> (1.2)<sup>t/5</sup> = 2 ⇒ t = 5 log 2/log 1.2 = 5 × 0.6931/0.1823 ≈ 19.0 years. The population doubles around <b>2034</b>.</p>"
+    },
+    {
+      "q": "<b>Case study.</b> A transport company buys a bus for ₹5,00,000. Its value V (₹) falls at a rate proportional to its current value: dV/dt = −kV, t in years. After 2 years the bus is worth ₹4,05,000.<br>(i) Solve the differential equation and find the value of e<sup>−k</sup>.<br>(ii) Find the value of the bus after 5 years.<br>(iii) After how many years will its value fall below ₹2,50,000? (log 2 ≈ 0.6931, log 0.9 ≈ −0.1054)",
+      "marks": 5,
+      "answerHtml": "<p><b>(i)</b> dV/V = −k dt ⇒ V = 500000e<sup>−kt</sup>. At t = 2: 405000/500000 = 0.81 = e<sup>−2k</sup> ⇒ <b>e<sup>−k</sup> = 0.9</b> (k ≈ 0.1054). So V = 500000(0.9)<sup>t</sup>.</p><p><b>(ii)</b> V(5) = 500000 × 0.9<sup>5</sup> = 500000 × 0.59049 = <b>₹2,95,245</b>.</p><p><b>(iii)</b> 0.9<sup>t</sup> = 0.5 ⇒ t = log 0.5/log 0.9 = −0.6931/−0.1054 ≈ 6.58 years. The value falls below ₹2,50,000 <b>during the 7th year</b> (after about 6.6 years).</p>"
+    }
+  ]
+}

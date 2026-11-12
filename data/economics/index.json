@@ -1,0 +1,81 @@
+{
+  "id": "economics",
+  "name": "Economics",
+  "shortName": "Eco",
+  "code": "030",
+  "color": "#1D4ED8",
+  "icon": "📈",
+  "theoryMarks": 80,
+  "description": "Introductory Macroeconomics and Indian Economic Development for CBSE Class 12, with exam-ready notes, solved numericals, MCQs and model answers.",
+  "units": [
+    {
+      "id": "u1",
+      "title": "Part A · National Income and Related Aggregates",
+      "marks": 10,
+      "chapters": [
+        { "id": "national-income-and-related-aggregates", "title": "National Income and Related Aggregates", "file": "national-income-and-related-aggregates.json" }
+      ]
+    },
+    {
+      "id": "u2",
+      "title": "Part A · Money and Banking",
+      "marks": 6,
+      "chapters": [
+        { "id": "money-and-banking", "title": "Money and Banking", "file": "money-and-banking.json" }
+      ]
+    },
+    {
+      "id": "u3",
+      "title": "Part A · Determination of Income and Employment",
+      "marks": 12,
+      "chapters": [
+        { "id": "determination-of-income-and-employment", "title": "Determination of Income and Employment", "file": "determination-of-income-and-employment.json" }
+      ]
+    },
+    {
+      "id": "u4",
+      "title": "Part A · Government Budget and the Economy",
+      "marks": 6,
+      "chapters": [
+        { "id": "government-budget-and-the-economy", "title": "Government Budget and the Economy", "file": "government-budget-and-the-economy.json" }
+      ]
+    },
+    {
+      "id": "u5",
+      "title": "Part A · Balance of Payments",
+      "marks": 6,
+      "chapters": [
+        { "id": "balance-of-payments", "title": "Balance of Payments and Foreign Exchange Rate", "file": "balance-of-payments.json" }
+      ]
+    },
+    {
+      "id": "u6",
+      "title": "Part B · Development Experience (1947–90) and Economic Reforms since 1991",
+      "marks": 12,
+      "chapters": [
+        { "id": "indian-economy-on-the-eve-of-independence", "title": "Indian Economy on the Eve of Independence", "file": "indian-economy-on-the-eve-of-independence.json" },
+        { "id": "indian-economy-1950-1990", "title": "Indian Economy 1950–1990", "file": "indian-economy-1950-1990.json" },
+        { "id": "liberalisation-privatisation-globalisation", "title": "Liberalisation, Privatisation and Globalisation: An Appraisal", "file": "liberalisation-privatisation-globalisation.json" }
+      ]
+    },
+    {
+      "id": "u7",
+      "title": "Part B · Current Challenges facing the Indian Economy",
+      "marks": 20,
+      "chapters": [
+        { "id": "human-capital-formation", "title": "Human Capital Formation in India", "file": "human-capital-formation.json" },
+        { "id": "rural-development", "title": "Rural Development", "file": "rural-development.json" },
+        { "id": "employment", "title": "Employment: Growth, Informalisation and Other Issues", "file": "employment.json" },
+        { "id": "environment-and-sustainable-development", "title": "Environment and Sustainable Development", "file": "environment-and-sustainable-development.json" }
+      ]
+    },
+    {
+      "id": "u8",
+      "title": "Part B · Development Experience of India: A Comparison with Neighbours",
+      "marks": 8,
+      "chapters": [
+        { "id": "comparative-development-experiences", "title": "Comparative Development Experiences of India and its Neighbours", "file": "comparative-development-experiences.json" }
+      ]
+    }
+  ]
+}

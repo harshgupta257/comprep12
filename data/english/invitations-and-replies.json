@@ -1,0 +1,121 @@
+{
+  "id": "invitations-and-replies",
+  "title": "Formal and Informal Invitations and Replies",
+  "summary": "Invitations request someone’s presence at an occasion, and replies accept or decline them. The exam asks for a formal card invitation, an informal letter of invitation, or a reply (acceptance or refusal) in about 50 words for 4 marks, and each kind follows its own fixed conventions.",
+  "notes": [
+    {
+      "heading": "Kinds of invitations",
+      "html": "<ul><li><b>Formal invitation (card):</b> printed card for weddings, inaugurations, annual days, seminars. Written in the <b>third person</b>, with no salutation, no signature and usually no punctuation at line ends.</li><li><b>Informal invitation (letter):</b> a personal note to a friend or relative, in the <b>first person</b>, with address, date, salutation and signature.</li><li><b>Reply:</b> an acceptance or a refusal. A reply to a formal card is written in the third person; a reply to an informal invitation is a friendly letter. Many students write a formal reply as a short letter in the third person.</li></ul>"
+    },
+    {
+      "heading": "Format of a formal card invitation",
+      "html": "<blockquote><p>Host’s name(s) / institution<br>request(s) the pleasure of your company<br>at / on the occasion of … (event)<br>on … (day, date)<br>at … (time)<br>at … (venue)<br>Chief guest (if any)<br>RSVP: name, phone number</p></blockquote><p>Order of details: <b>who invites – whom – occasion – date – time – venue – RSVP</b>.</p>"
+    },
+    {
+      "heading": "Format of a formal reply",
+      "html": "<blockquote><p>Sender’s address<br>Date<br><br>Mr and Mrs X thank Principal Y for the kind invitation to … on … at … and are pleased to accept it / regret their inability to attend owing to …<br><br>(No signature in strict third-person replies; some schools allow name at the end.)</p></blockquote><p>Informal reply: sender’s address, date, salutation (Dear Rhea), body in first person, complimentary close (Yours lovingly), name.</p>"
+    },
+    {
+      "heading": "Marking scheme (4 marks)",
+      "html": "<table><thead><tr><th>Component</th><th>Marks</th></tr></thead><tbody><tr><td>Format</td><td>1</td></tr><tr><td>Content (all details of event / reply)</td><td>2</td></tr><tr><td>Expression (accuracy, correct person and tone)</td><td>1</td></tr></tbody></table><p>Word limit: about 50 words.</p>"
+    },
+    {
+      "heading": "Do’s and don’ts",
+      "html": "<h4>Do</h4><ul><li>Keep the third person throughout a formal card: ‘request the pleasure of <i>your</i> company’ is the only ‘your’ allowed.</li><li>In a refusal, give a polite reason and express regret.</li><li>In an acceptance, confirm the details (date, time, venue) to show you have noted them.</li></ul><h4>Don’t</h4><ul><li>Don’t mix first and third person in one reply.</li><li>Don’t add a salutation or ‘Yours sincerely’ to a formal card.</li><li>Don’t forget RSVP on a formal invitation.</li></ul>"
+    },
+    {
+      "heading": "Useful phrases",
+      "html": "<ul><li>…cordially invite you to grace the occasion of…</li><li>…request the pleasure of your company on the auspicious occasion of…</li><li>…solicit your gracious presence at…</li><li>…thank … for the kind invitation and are delighted to accept it.</li><li>…regret their inability to attend owing to a prior commitment.</li><li>Informal: I would love to have you with us… / Do come, it won’t be the same without you.</li></ul>"
+    },
+    {
+      "heading": "Complete samples",
+      "html": "<h4>Formal card</h4><blockquote><p>The Principal, Staff and Students<br>of Modern Vidya Niketan, Faridabad<br>request the pleasure of your company<br>at the inauguration of the new Science Block<br>on Saturday, 16 November 20XX<br>at 10:00 a.m.<br>in the school premises<br>Chief Guest: Dr. A. K. Rao, Director, Regional Science Centre<br>RSVP: Office Secretary, 98XXXXXX10</p></blockquote><h4>Formal reply (refusal)</h4><blockquote><p>14, Sector 21, Faridabad<br>10 November 20XX</p><p>Dr. A. K. Rao thanks the Principal, Staff and Students of Modern Vidya Niketan for their kind invitation to inaugurate the new Science Block on Saturday, 16 November 20XX at 10:00 a.m., but regrets his inability to attend owing to a national conference in Chennai on that date. He sends his best wishes.</p></blockquote>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "RSVP", "definition": "From French <i>répondez s’il vous plaît</i>, ‘please reply’; tells guests whom to inform about attendance." },
+    { "term": "Third person", "definition": "Writing about people by name or as he/she/they, never ‘I’ or ‘we’; required in formal cards and their replies." },
+    { "term": "Formal invitation", "definition": "A printed card invitation for official or ceremonial occasions, written in the third person without salutation or signature." },
+    { "term": "Informal invitation", "definition": "A personal letter of invitation to friends or family in the first person and friendly tone." },
+    { "term": "Acceptance", "definition": "A reply confirming attendance and restating the event details." },
+    { "term": "Regret / refusal", "definition": "A reply declining an invitation, giving a polite reason and good wishes." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "A formal invitation card is written in which person?",
+      "options": ["First person", "Second person", "Third person", "Any person"],
+      "answer": 2,
+      "explanation": "Formal cards use the <b>third person</b> (‘The Principal requests…’). First person is for informal invitations."
+    },
+    {
+      "q": "Which element is NOT found on a formal invitation card?",
+      "options": ["Venue", "RSVP", "Date and time", "Complimentary close such as ‘Yours sincerely’"],
+      "answer": 3,
+      "explanation": "Cards have no salutation, complimentary close or signature. Venue, date, time and RSVP are essential."
+    },
+    {
+      "q": "What does RSVP ask the guest to do?",
+      "options": ["Reply about attending", "Dress formally", "Bring a gift", "Arrive early"],
+      "answer": 0,
+      "explanation": "RSVP stands for the French phrase meaning ‘<b>please reply</b>’."
+    },
+    {
+      "q": "Which is the best opening for a formal reply of acceptance?",
+      "options": ["Thanks a lot, I’ll surely come!", "Mr Rohit Jain thanks the Secretary for the kind invitation to… and is pleased to accept it.", "Dear Secretary, I accept.", "I am writing to say that I might come."],
+      "answer": 1,
+      "explanation": "A formal reply mirrors the card: <b>third person, thanks, the event, and clear acceptance</b>. The others are informal or vague."
+    },
+    {
+      "q": "A refusal must always contain:",
+      "options": ["a reason for not attending and regret", "a request to postpone the event", "a list of other guests", "a gift promise"],
+      "answer": 0,
+      "explanation": "Courtesy demands that a refusal <b>expresses regret and gives a reason</b>. Asking to postpone is inappropriate."
+    },
+    {
+      "q": "The word limit for an invitation or reply in the exam is about:",
+      "options": ["30 words", "120 words", "200 words", "50 words"],
+      "answer": 3,
+      "explanation": "Invitations and replies, like notices, are short compositions of about <b>50 words</b> for 4 marks."
+    },
+    {
+      "q": "Which tone suits an informal invitation to a cousin for your birthday?",
+      "options": ["Legal and stiff", "Warm and personal", "Commanding", "Neutral and official"],
+      "answer": 1,
+      "explanation": "Informal invitations are <b>warm and personal</b>, using the first person and friendly expressions."
+    },
+    {
+      "q": "In a formal card, the correct order of details is usually:",
+      "options": ["Venue – host – date – occasion", "RSVP – occasion – host – time", "Host – request – occasion – date and time – venue – RSVP", "Date – venue – RSVP – host"],
+      "answer": 2,
+      "explanation": "Cards flow naturally: <b>who invites, the request, the occasion, when, where, then RSVP</b>."
+    }
+  ],
+  "questions": [
+    {
+      "q": "You are the Principal of Lotus Valley School, Noida. Draft a formal invitation in about 50 words inviting parents to the school’s Annual Day.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>The Principal, Staff and Students<br>of Lotus Valley School, Noida<br>cordially invite you<br>to the Annual Day Celebrations, ‘Rang Tarang’<br>on Friday, 20 December 20XX<br>at 5:00 p.m.<br>in the School Auditorium<br>Chief Guest: Smt. Leela Dutt, Padma Shri awardee and Kathak exponent<br>RSVP: Ms. Neha Arora, Coordinator, 98XXXXXX45</p></blockquote>"
+    },
+    {
+      "q": "You are Tanvi / Tarun, 22 Gandhi Road, Indore. Write an informal letter in about 50 words inviting your friend Nikita to spend a week of the winter break with you.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>22 Gandhi Road<br>Indore<br>2 December 20XX</p><p>Dear Nikita,</p><p>Our winter break begins on 24 December and I can’t wait to see you! Come and stay with us for a week. We can visit Mandu, try the night food market at Sarafa and finally finish that jigsaw we started last year. Mom has already planned your favourite dishes. Do confirm soon.</p><p>Lots of love,<br>Tarun</p></blockquote>"
+    },
+    {
+      "q": "Mr and Mrs Verma have received an invitation to the wedding of Dr. Gupta’s daughter on 5 February. Write their formal reply accepting it.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>B-17, Civil Lines, Kanpur<br>20 January 20XX</p><p>Mr and Mrs S. K. Verma thank Dr. and Mrs R. Gupta for their kind invitation to the wedding of their daughter Priya with Ankit on Wednesday, 5 February 20XX at 7:00 p.m. at Hotel Royal Orchid, Kanpur, and have great pleasure in accepting it. They look forward to blessing the couple.</p></blockquote>"
+    },
+    {
+      "q": "You are Ms. Farah Naqvi, a well-known environmentalist. Write a formal reply declining an invitation from St. Mary’s School, Shimla, to be the chief guest at their Earth Day function.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>3, Mall View Cottages, Shimla<br>12 April 20XX</p><p>Ms. Farah Naqvi thanks the Principal of St. Mary’s School, Shimla, for the kind invitation to be the Chief Guest at the Earth Day function on 22 April 20XX at 10:00 a.m., but regrets her inability to attend as she will be leading a river-cleaning expedition in Uttarakhand that week. She wishes the event great success.</p></blockquote>"
+    },
+    {
+      "q": "Your friend Aditi has invited you to her sister’s engagement, but you have your board practical that day. Write an informal reply regretting your inability to attend.",
+      "marks": 4,
+      "answerHtml": "<blockquote><p>45 Lake Road<br>Bhopal<br>8 February 20XX</p><p>Dear Aditi,</p><p>Thank you so much for inviting me to Sneha didi’s engagement on 15 February. I am truly sorry that I can’t come, as my Accountancy practical is scheduled that very morning. Please give her my warmest wishes and save me some sweets! Send lots of photographs.</p><p>With love,<br>Riya</p></blockquote>"
+    }
+  ]
+}

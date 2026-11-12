@@ -1,0 +1,121 @@
+{
+  "id": "article-writing",
+  "title": "Article Writing",
+  "summary": "An article is a piece of writing for a newspaper, magazine or school journal that informs, discusses or persuades on a topic of public interest. In the exam you write either an article or a report (internal choice) in 120–150 words for 5 marks, with a catchy title, the writer’s name and a well-organised body.",
+  "notes": [
+    {
+      "heading": "What examiners expect",
+      "html": "<p>The article question gives a topic, often with a few cues (a situation, a concern, some facts). You must present ideas logically: introduce the issue, develop it with causes, effects or arguments, and end with solutions or a strong conclusion. Word limit: <b>120–150 words</b>. Article and report are given as an internal choice for one 5-mark question.</p>"
+    },
+    {
+      "heading": "Format",
+      "html": "<blockquote><p>TITLE (catchy, in capitals or bold)<br>By: Name of the writer<br><br>Introduction: hook (question, fact, quotation of your own, anecdote) and the issue<br>Body: 1–2 paragraphs with causes, effects, examples, arguments<br>Conclusion: solutions, appeal or forward-looking thought</p></blockquote><p>No date, address or salutation is needed.</p>"
+    },
+    {
+      "heading": "Marking scheme (5 marks)",
+      "html": "<table><thead><tr><th>Component</th><th>Marks</th></tr></thead><tbody><tr><td>Format (title and writer’s name)</td><td>1</td></tr><tr><td>Organisation of ideas</td><td>1</td></tr><tr><td>Content (relevance, depth, use of cues)</td><td>1.5</td></tr><tr><td>Accuracy and fluency of expression</td><td>1.5</td></tr></tbody></table>"
+    },
+    {
+      "heading": "Steps to write a strong article",
+      "html": "<ol><li>Underline the cues and the intended readership (school magazine, national daily).</li><li>Brainstorm 4–5 points: what, why, effects, solutions.</li><li>Create a title that is short and striking (‘Screens On, Minds Off?’).</li><li>Open with a hook in one or two lines.</li><li>Write two body paragraphs with an example or statistic each.</li><li>Conclude with practical suggestions and an appeal.</li><li>Count roughly: about 10 words per line, 13–15 lines.</li></ol>"
+    },
+    {
+      "heading": "Do’s and don’ts",
+      "html": "<h4>Do</h4><ul><li>Use a semi-formal, engaging tone; rhetorical questions are welcome.</li><li>Use linking words: moreover, however, as a result, therefore.</li><li>Mention the writer’s name exactly as given in the question.</li></ul><h4>Don’t</h4><ul><li>Don’t write it like a letter or speech (‘Respected Sir’, ‘Good morning everyone’).</li><li>Don’t list points in bullets; write in paragraphs.</li><li>Don’t ignore the cues given in the question.</li><li>Don’t write an over-long introduction that leaves no space for solutions.</li></ul>"
+    },
+    {
+      "heading": "Useful phrases",
+      "html": "<ul><li>It is a matter of grave concern that…</li><li>Have we ever paused to ask why…?</li><li>The roots of this problem lie in…</li><li>The consequences are far-reaching…</li><li>On the other hand, it would be unfair to ignore…</li><li>The need of the hour is…</li><li>If each of us does our bit, …</li></ul>"
+    },
+    {
+      "heading": "Complete sample",
+      "html": "<p><b>Question:</b> Write an article for your school magazine on ‘The Value of Learning a Skill Alongside Studies’. You are Diya / Dev.</p><blockquote><p><b>LEARN TO DO, NOT JUST TO KNOW</b><br>By Dev Kapoor</p><p>Ask a topper to change a fuse, cook a simple meal or fill a bank form, and you may get a blank stare. Our system rewards memory, but life rewards ability.</p><p>Learning a practical skill alongside studies brings many gains. It builds confidence, because a student who can repair a bicycle or design a poster knows that problems can be solved. It improves employability, since employers today value coding, communication and financial literacy as much as marks. It also offers relief from exam stress, giving the mind a creative outlet.</p><p>Schools can help by offering skill electives, weekend workshops and internships with local businesses. Parents should encourage, not dismiss, such interests as a waste of time.</p><p>Knowledge tells us what the world is; skills let us shape it. Let us learn both.</p></blockquote><p>(About 150 words)</p>"
+    }
+  ],
+  "keyTerms": [
+    { "term": "Hook", "definition": "An attention-grabbing opening line: a question, startling fact, short anecdote or bold statement." },
+    { "term": "Byline", "definition": "The line giving the writer’s name below the title, e.g. <i>By Dev Kapoor</i>." },
+    { "term": "Cues", "definition": "Points or hints given in the question that the answer is expected to include." },
+    { "term": "Rhetorical question", "definition": "A question asked for effect, not for an answer, used to engage the reader." },
+    { "term": "Cohesive devices", "definition": "Linking words and phrases (however, moreover, consequently) that connect ideas smoothly." },
+    { "term": "Semi-formal tone", "definition": "A style that is polished and correct but lively enough to interest a general reader." }
+  ],
+  "formulas": [],
+  "mcqs": [
+    {
+      "q": "Which two elements make up the format of an article?",
+      "options": ["Date and address", "Title and writer’s name", "Salutation and signature", "Subject and enclosure"],
+      "answer": 1,
+      "explanation": "An article’s format mark is for the <b>title and the byline</b>. Dates, salutations and enclosures belong to letters."
+    },
+    {
+      "q": "The word limit for an article in the exam is:",
+      "options": ["50 words", "200 words", "300 words", "120–150 words"],
+      "answer": 3,
+      "explanation": "The article / report question is answered in <b>120–150 words</b>."
+    },
+    {
+      "q": "Which is the most effective title for an article on water conservation?",
+      "options": ["Every Drop Counts", "An Article on Water", "Water Conservation Article by Me", "Some Things About Water That Are Important"],
+      "answer": 0,
+      "explanation": "<b>Every Drop Counts</b> is short, striking and conveys the message; the others are flat or wordy."
+    },
+    {
+      "q": "Which opening is NOT suitable for an article?",
+      "options": ["A startling statistic", "A rhetorical question", "Respected Principal and dear friends", "A brief anecdote"],
+      "answer": 2,
+      "explanation": "‘Respected Principal and dear friends’ is the opening of a <b>speech</b>, not an article."
+    },
+    {
+      "q": "The conclusion of an article should ideally:",
+      "options": ["introduce a completely new topic", "repeat the title three times", "give the writer’s address", "offer solutions or a strong closing thought"],
+      "answer": 3,
+      "explanation": "A good conclusion <b>offers solutions or a memorable final thought</b>, rounding off the discussion."
+    },
+    {
+      "q": "In the board paper, the article and report question is usually:",
+      "options": ["both compulsory", "an internal choice: write either one", "for 10 marks", "replaced by a poem"],
+      "answer": 1,
+      "explanation": "Students attempt <b>either</b> the article or the report; it is one 5-mark question with internal choice."
+    },
+    {
+      "q": "Which linker best shows contrast?",
+      "options": ["However", "Moreover", "Therefore", "Similarly"],
+      "answer": 0,
+      "explanation": "<b>However</b> introduces a contrasting idea; moreover adds, therefore concludes, similarly compares."
+    },
+    {
+      "q": "Content in bullets in an article will most likely:",
+      "options": ["earn extra marks", "be ignored", "lose marks for organisation and expression", "be required"],
+      "answer": 2,
+      "explanation": "Articles must be written in <b>connected paragraphs</b>; bullet points weaken organisation and fluency."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Write an article in 120–150 words on ‘Social Media: A Boon or a Bane for Teenagers’. You are Aisha / Aryan.",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>SCROLLING TOWARDS WHAT?</b><br>By Aryan Sethi</p><p>An average teenager now spends nearly three hours a day on social media. Is this time well spent?</p><p>Social media has clear benefits. It connects friends across cities, gives young creators a stage for art and music, and spreads information about causes such as climate action within minutes. Many students learn new skills from tutorials and find supportive communities.</p><p>Yet the darker side is hard to ignore. Endless scrolling eats into sleep and study time. Filtered images create unrealistic standards of beauty, and comparison breeds anxiety. Cyberbullying and the spread of fake news add to the danger.</p><p>The answer is not a ban but balance. Teenagers can set screen-time limits, follow accounts that inform rather than inflate, and talk openly with parents about online troubles. Used wisely, social media can be a tool; used blindly, it becomes a trap.</p></blockquote>"
+    },
+    {
+      "q": "Write an article for a national daily on ‘The Rising Problem of Food Waste at Indian Weddings’. You are Ritu / Rahul. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>FEASTS THAT FEED THE BIN</b><br>By Rahul Joshi</p><p>At a single grand wedding, food enough for hundreds of hungry people can end up in the garbage. In a country where millions still sleep hungry, this is a shameful irony.</p><p>The causes are many. Families equate status with the number of dishes, often serving more than fifty items. Guests pile their plates and leave half uneaten. Caterers cook for far more people than attend, fearing a shortage.</p><p>The waste costs money, burdens landfills and releases methane as it rots. It also insults the farmers whose labour produced it.</p><p>Change is possible. Hosts can limit the menu, confirm guest numbers, and tie up with food banks and NGOs that collect surplus food. Guests should take small portions. A wedding is a celebration of new beginnings; let it not begin with waste.</p></blockquote>"
+    },
+    {
+      "q": "Write an article for your school magazine on ‘Why Every School Needs a Counsellor’. You are Kriti / Kabir. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>A LISTENING EAR IN EVERY SCHOOL</b><br>By Kabir Nair</p><p>Board exams, career choices, friendships and family expectations: teenagers carry a heavy load. Yet many have no one trained to help them carry it.</p><p>A school counsellor fills this gap. Students can share worries in confidence, without the fear of being judged. Counsellors spot early signs of anxiety, depression or bullying and guide students and parents before problems grow. They also help in choosing subjects and careers based on aptitude rather than pressure.</p><p>Teachers, already stretched by large classes, cannot do this alone. A counsellor works with them to create a calmer, kinder classroom.</p><p>Schools should therefore appoint a qualified counsellor, hold regular well-being sessions and make mental health a part of daily conversation. When students feel heard, they learn better and live happier lives.</p></blockquote>"
+    },
+    {
+      "q": "Write an article on ‘Cycling to School: Small Pedals, Big Change’ for a city newspaper. You are Mehak / Mohit. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>SMALL PEDALS, BIG CHANGE</b><br>By Mohit Sharma</p><p>Every morning, long lines of cars crawl outside our schools, engines idling and horns blaring. What if many of those children cycled instead?</p><p>Cycling to school offers a triple benefit. It keeps children fit at a time when screen-heavy lifestyles are making obesity common. It cuts air pollution and traffic jams near campuses. It also builds independence and road sense, and children arrive alert and cheerful.</p><p>Parents, however, worry about safety, and with reason. Our roads lack cycle lanes, and speeding vehicles pose a threat.</p><p>The city can act by building protected lanes on school routes and placing traffic wardens at gates. Schools can provide secure cycle stands and organise group rides. When a whole city pedals together, the road to a cleaner future becomes shorter.</p></blockquote>"
+    },
+    {
+      "q": "Write an article on ‘Online Shopping: Convenience at What Cost?’ You are Pooja / Prateek. (120–150 words)",
+      "marks": 5,
+      "answerHtml": "<blockquote><p><b>ONE CLICK AWAY, BUT AT WHAT PRICE?</b><br>By Prateek Rao</p><p>Groceries in ten minutes, a phone the next morning, a dress at midnight: online shopping has redefined convenience for Indian consumers.</p><p>Its advantages are obvious. Buyers save time, compare prices instantly and enjoy home delivery and easy returns. Small sellers in distant towns reach national markets.</p><p>But convenience has hidden costs. Impulse buying, encouraged by flash sales, strains family budgets. Fake reviews and counterfeit goods cheat buyers. Mountains of plastic packaging and returned items add to waste, and delivery workers often labour long hours for low pay. Local shopkeepers lose business too.</p><p>Shoppers must therefore buy thoughtfully: check sellers, avoid needless orders and choose eco-friendly packaging. Platforms, in turn, should ensure fair treatment of workers. Smart shopping is not just about the best price, but the fairest one.</p></blockquote>"
+    }
+  ]
+}

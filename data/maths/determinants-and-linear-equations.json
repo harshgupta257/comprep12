@@ -1,0 +1,311 @@
+{
+  "id": "determinants-and-linear-equations",
+  "title": "Determinants, Inverse and Linear Equations",
+  "summary": "Every square matrix has a number attached to it, its determinant, which decides whether the matrix has an inverse. This chapter covers evaluating determinants, their properties, minors, cofactors, adjoint and inverse, solving systems of linear equations by the matrix method and Cramer's rule, and the Leontief input–output model for two industries.",
+  "notes": [
+    {
+      "heading": "Determinant of a square matrix",
+      "html": "<p>The <b>determinant</b> of a square matrix A, written |A| or det A, is a single number computed from its elements.</p><p><b>Order 2:</b></p><table><tbody><tr><td>|</td><td>a</td><td>b</td><td>|</td></tr><tr><td>|</td><td>c</td><td>d</td><td>|</td></tr></tbody></table><p>= ad − bc. Example: |3 −2; 4 5| = 15 − (−8) = 23.</p><p><b>Order 3 (expansion along the first row):</b> |A| = a<sub>11</sub>(a<sub>22</sub>a<sub>33</sub> − a<sub>23</sub>a<sub>32</sub>) − a<sub>12</sub>(a<sub>21</sub>a<sub>33</sub> − a<sub>23</sub>a<sub>31</sub>) + a<sub>13</sub>(a<sub>21</sub>a<sub>32</sub> − a<sub>22</sub>a<sub>31</sub>). The signs follow the chessboard pattern + − + / − + − / + − +. We may expand along any row or column — choose one with zeros.</p><p>A square matrix is <b>singular</b> if |A| = 0 and <b>non-singular</b> if |A| ≠ 0.</p>"
+    },
+    {
+      "heading": "Properties of determinants",
+      "html": "<ol><li>|A′| = |A| (rows and columns can be interchanged).</li><li>Interchanging two rows (or columns) changes the sign of the determinant.</li><li>If two rows (or columns) are identical or proportional, the determinant is 0.</li><li>Multiplying one row (or column) by k multiplies the determinant by k. Hence for an n × n matrix, <b>|kA| = k<sup>n</sup>|A|</b>.</li><li>If each element of a row is a sum of two terms, the determinant splits into a sum of two determinants.</li><li>Adding a multiple of one row (column) to another row (column) does not change the determinant: R<sub>i</sub> → R<sub>i</sub> + kR<sub>j</sub>.</li><li>|AB| = |A| |B|; |A<sup>−1</sup>| = 1/|A|; for an n × n matrix, |adj A| = |A|<sup>n − 1</sup>.</li></ol>"
+    },
+    {
+      "heading": "Minors, cofactors, adjoint and inverse",
+      "html": "<ul><li><b>Minor</b> M<sub>ij</sub>: the determinant left after deleting the i-th row and j-th column.</li><li><b>Cofactor</b> A<sub>ij</sub> = (−1)<sup>i + j</sup> M<sub>ij</sub>.</li><li>Sum of products of the elements of a row with <i>their own</i> cofactors = |A|; with the cofactors of another row = 0.</li><li><b>Adjoint</b> adj A = transpose of the matrix of cofactors.</li><li>A (adj A) = (adj A) A = |A| I.</li><li><b>Inverse:</b> if |A| ≠ 0, A<sup>−1</sup> = (1/|A|) adj A, and AA<sup>−1</sup> = A<sup>−1</sup>A = I. A singular matrix has no inverse.</li><li>For a 2 × 2 matrix with rows (a, b), (c, d): A<sup>−1</sup> = 1/(ad − bc) × [rows (d, −b), (−c, a)] — swap the diagonal, change the sign of the other two.</li><li>(AB)<sup>−1</sup> = B<sup>−1</sup>A<sup>−1</sup>; (A′)<sup>−1</sup> = (A<sup>−1</sup>)′.</li></ul>"
+    },
+    {
+      "heading": "Solving linear equations: matrix method and Cramer's rule",
+      "html": "<p>A system such as a<sub>1</sub>x + b<sub>1</sub>y + c<sub>1</sub>z = d<sub>1</sub>, … is written <b>AX = B</b>, with A the coefficient matrix, X the column of unknowns and B the column of constants.</p><ul><li><b>Matrix method:</b> if |A| ≠ 0, the system has the unique solution <b>X = A<sup>−1</sup>B</b> (consistent).</li><li>If |A| = 0, find (adj A)B: if (adj A)B ≠ O the system is <b>inconsistent</b> (no solution); if (adj A)B = O it has infinitely many solutions or none (check further).</li><li><b>Cramer's rule:</b> let D = |A| and let D<sub>x</sub>, D<sub>y</sub>, D<sub>z</sub> be the determinants obtained by replacing the x-, y-, z-column of A by the column B. If D ≠ 0, <b>x = D<sub>x</sub>/D, y = D<sub>y</sub>/D, z = D<sub>z</sub>/D</b>.</li><li>If D = 0 and at least one of D<sub>x</sub>, D<sub>y</sub>, D<sub>z</sub> ≠ 0, the system is inconsistent.</li></ul>"
+    },
+    {
+      "heading": "Worked Example 1 — a 3 × 3 determinant and a 2 × 2 system by Cramer's rule",
+      "html": "<p><b>(a) Evaluate</b></p><table><tbody><tr><td>|</td><td>2</td><td>−1</td><td>3</td><td>|</td></tr><tr><td>|</td><td>1</td><td>0</td><td>4</td><td>|</td></tr><tr><td>|</td><td>−2</td><td>5</td><td>1</td><td>|</td></tr></tbody></table><p>Expanding along R<sub>1</sub>: 2(0·1 − 4·5) − (−1)(1·1 − 4·(−2)) + 3(1·5 − 0·(−2)) = 2(−20) + 1(9) + 3(5) = −40 + 9 + 15 = <b>−16</b>.</p><p><b>(b) Solve 3x + 2y = 12, 5x − 3y = 1 by Cramer's rule.</b></p><p>D = |3 2; 5 −3| = −9 − 10 = −19 (≠ 0, unique solution).</p><p>D<sub>x</sub> = |12 2; 1 −3| = −36 − 2 = −38; D<sub>y</sub> = |3 12; 5 1| = 3 − 60 = −57.</p><p>x = −38/−19 = <b>2</b>, y = −57/−19 = <b>3</b>. Check: 6 + 6 = 12 ✓, 10 − 9 = 1 ✓.</p>"
+    },
+    {
+      "heading": "Worked Example 2 — matrix method for three equations",
+      "html": "<p><b>Solve x + y + z = 6, 2x − y + z = 3, x + 2y − z = 2.</b></p><p>A, X, B are:</p><table><tbody><tr><td>1</td><td>1</td><td>1</td></tr><tr><td>2</td><td>−1</td><td>1</td></tr><tr><td>1</td><td>2</td><td>−1</td></tr></tbody></table><table><tbody><tr><td>x</td></tr><tr><td>y</td></tr><tr><td>z</td></tr></tbody></table><table><tbody><tr><td>6</td></tr><tr><td>3</td></tr><tr><td>2</td></tr></tbody></table><p>|A| = 1(1 − 2) − 1(−2 − 1) + 1(4 + 1) = −1 + 3 + 5 = 7 ≠ 0, so A<sup>−1</sup> exists.</p><p>Cofactors: A<sub>11</sub> = −1, A<sub>12</sub> = 3, A<sub>13</sub> = 5; A<sub>21</sub> = 3, A<sub>22</sub> = −2, A<sub>23</sub> = −1; A<sub>31</sub> = 2, A<sub>32</sub> = 1, A<sub>33</sub> = −3.</p><p>adj A (transpose of the cofactor matrix):</p><table><tbody><tr><td>−1</td><td>3</td><td>2</td></tr><tr><td>3</td><td>−2</td><td>1</td></tr><tr><td>5</td><td>−1</td><td>−3</td></tr></tbody></table><p>X = A<sup>−1</sup>B = (1/7)(adj A)B: x = (−6 + 9 + 4)/7 = 7/7 = 1; y = (18 − 6 + 2)/7 = 14/7 = 2; z = (30 − 3 − 6)/7 = 21/7 = 3.</p><p><b>x = 1, y = 2, z = 3.</b> Check in equation 2: 2 − 2 + 3 = 3 ✓.</p>"
+    },
+    {
+      "heading": "Leontief input–output model (two industries)",
+      "html": "<p>In an economy with two industries, each industry uses part of its own output and part of the other's output as inputs; the rest meets <b>final (external) demand</b>. If a<sub>ij</sub> = value of input from industry i needed to produce ₹1 of output of industry j, the <b>technology (input–output coefficient) matrix</b> is A = [a<sub>ij</sub>], with a<sub>ij</sub> = (amount supplied by i to j)/(total output of j).</p><p>Balance equation: total output = inter-industry use + final demand, i.e. X = AX + D, so <b>(I − A)X = D and X = (I − A)<sup>−1</sup>D</b>.</p><p><b>Hawkins–Simon conditions</b> (system is viable, i.e. can meet any positive final demand): the diagonal elements of I − A are positive and |I − A| &gt; 0.</p><p><b>Worked Example 3.</b> A = rows (0.2, 0.3), (0.4, 0.1); final demand D = (60, 90) (₹ crore). Find the total outputs.</p><p>I − A = rows (0.8, −0.3), (−0.4, 0.9). Diagonal elements 0.8, 0.9 &gt; 0 and |I − A| = 0.72 − 0.12 = 0.60 &gt; 0, so the system is viable.</p><p>(I − A)<sup>−1</sup> = (1/0.6) × rows (0.9, 0.3), (0.4, 0.8).</p><p>X<sub>1</sub> = (0.9 × 60 + 0.3 × 90)/0.6 = (54 + 27)/0.6 = <b>135</b>; X<sub>2</sub> = (0.4 × 60 + 0.8 × 90)/0.6 = (24 + 72)/0.6 = <b>160</b>.</p><p>Check: industry 1: 0.2(135) + 0.3(160) + 60 = 27 + 48 + 60 = 135 ✓.</p>"
+    },
+    {
+      "heading": "Common mistakes to avoid",
+      "html": "<ul><li>Forgetting the alternating signs (−1)<sup>i + j</sup> when finding cofactors, or forgetting to <b>transpose</b> the cofactor matrix to get adj A.</li><li>Writing |kA| = k|A|; for an n × n matrix it is k<sup>n</sup>|A|.</li><li>Using X = BA<sup>−1</sup> instead of X = A<sup>−1</sup>B.</li><li>In Cramer's rule replacing a row instead of a column by the constants.</li><li>In Leontief problems dividing by the output of the <i>supplying</i> industry; a<sub>ij</sub> is divided by the total output of the <i>using</i> industry j (the column industry).</li><li>Concluding \"infinitely many solutions\" just because |A| = 0 — first check (adj A)B.</li></ul>"
+    }
+  ],
+  "keyTerms": [
+    {
+      "term": "Determinant",
+      "definition": "A number associated with a square matrix; for order 2 it is ad − bc."
+    },
+    {
+      "term": "Singular matrix",
+      "definition": "A square matrix with determinant 0; it has no inverse."
+    },
+    {
+      "term": "Minor M<sub>ij</sub>",
+      "definition": "Determinant obtained by deleting the i-th row and j-th column."
+    },
+    {
+      "term": "Cofactor A<sub>ij</sub>",
+      "definition": "(−1)<sup>i + j</sup> M<sub>ij</sub>."
+    },
+    {
+      "term": "Adjoint",
+      "definition": "The transpose of the matrix of cofactors."
+    },
+    {
+      "term": "Inverse matrix",
+      "definition": "A<sup>−1</sup> with AA<sup>−1</sup> = A<sup>−1</sup>A = I; equals adj A/|A| when |A| ≠ 0."
+    },
+    {
+      "term": "Consistent system",
+      "definition": "A system of equations having at least one solution."
+    },
+    {
+      "term": "Technology matrix",
+      "definition": "In the Leontief model, A = [a<sub>ij</sub>], the input from industry i per rupee of output of industry j."
+    },
+    {
+      "term": "Hawkins–Simon conditions",
+      "definition": "Diagonal entries of I − A positive and |I − A| &gt; 0; they guarantee a viable input–output system."
+    }
+  ],
+  "formulas": [
+    {
+      "name": "2 × 2 determinant",
+      "html": "|a b; c d| = ad − bc"
+    },
+    {
+      "name": "3 × 3 determinant (R<sub>1</sub> expansion)",
+      "html": "|A| = a<sub>11</sub>A<sub>11</sub> + a<sub>12</sub>A<sub>12</sub> + a<sub>13</sub>A<sub>13</sub>"
+    },
+    {
+      "name": "Cofactor",
+      "html": "A<sub>ij</sub> = (−1)<sup>i + j</sup> M<sub>ij</sub>"
+    },
+    {
+      "name": "Scalar multiple",
+      "html": "|kA| = k<sup>n</sup>|A| (A of order n)"
+    },
+    {
+      "name": "Product and transpose",
+      "html": "|AB| = |A||B|; |A′| = |A|"
+    },
+    {
+      "name": "Adjoint results",
+      "html": "A(adj A) = (adj A)A = |A|I; |adj A| = |A|<sup>n − 1</sup>"
+    },
+    {
+      "name": "Inverse",
+      "html": "A<sup>−1</sup> = (1/|A|) adj A, |A| ≠ 0; |A<sup>−1</sup>| = 1/|A|"
+    },
+    {
+      "name": "2 × 2 inverse",
+      "html": "[a b; c d]<sup>−1</sup> = 1/(ad − bc) × [d −b; −c a]"
+    },
+    {
+      "name": "Inverse laws",
+      "html": "(AB)<sup>−1</sup> = B<sup>−1</sup>A<sup>−1</sup>; (A′)<sup>−1</sup> = (A<sup>−1</sup>)′"
+    },
+    {
+      "name": "Matrix method",
+      "html": "AX = B ⇒ X = A<sup>−1</sup>B (|A| ≠ 0)"
+    },
+    {
+      "name": "Cramer's rule",
+      "html": "x = D<sub>x</sub>/D, y = D<sub>y</sub>/D, z = D<sub>z</sub>/D (D ≠ 0)"
+    },
+    {
+      "name": "Technology coefficient",
+      "html": "a<sub>ij</sub> = x<sub>ij</sub>/X<sub>j</sub> (input from i to j ÷ total output of j)"
+    },
+    {
+      "name": "Leontief solution",
+      "html": "X = (I − A)<sup>−1</sup>D"
+    },
+    {
+      "name": "Hawkins–Simon",
+      "html": "1 − a<sub>11</sub> &gt; 0, 1 − a<sub>22</sub> &gt; 0, |I − A| &gt; 0"
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "The value of the determinant |3 −2; 4 5| is",
+      "options": [
+        "7",
+        "23",
+        "−23",
+        "15"
+      ],
+      "answer": 1,
+      "explanation": "3 × 5 − (−2)(4) = 15 + 8 = 23. (7 comes from 15 − 8, a sign error.)"
+    },
+    {
+      "q": "If A is a 3 × 3 matrix with |A| = 4, then |2A| equals",
+      "options": [
+        "8",
+        "16",
+        "32",
+        "64"
+      ],
+      "answer": 2,
+      "explanation": "|kA| = k<sup>n</sup>|A| = 2<sup>3</sup> × 4 = 32."
+    },
+    {
+      "q": "If A is a 3 × 3 matrix with |A| = 5, then |adj A| is",
+      "options": [
+        "5",
+        "125",
+        "15",
+        "25"
+      ],
+      "answer": 3,
+      "explanation": "|adj A| = |A|<sup>n − 1</sup> = 5<sup>2</sup> = 25."
+    },
+    {
+      "q": "If |x 2; 8 x| = 0, then x is",
+      "options": [
+        "±4",
+        "4 only",
+        "±16",
+        "±2"
+      ],
+      "answer": 0,
+      "explanation": "x<sup>2</sup> − 16 = 0 ⇒ x = ±4."
+    },
+    {
+      "q": "The cofactor A<sub>12</sub> of the matrix with rows (2, −3), (5, 1) is",
+      "options": [
+        "5",
+        "−3",
+        "−5",
+        "3"
+      ],
+      "answer": 2,
+      "explanation": "M<sub>12</sub> = 5 (delete row 1, column 2). A<sub>12</sub> = (−1)<sup>1 + 2</sup> × 5 = −5."
+    },
+    {
+      "q": "The inverse of the matrix with rows (2, 5), (1, 3) has rows",
+      "options": [
+        "(3, −5), (−1, 2)",
+        "(3, 5), (1, 2)",
+        "(−3, 5), (1, −2)",
+        "(2, −1), (−5, 3)"
+      ],
+      "answer": 0,
+      "explanation": "|A| = 6 − 5 = 1. Swap the diagonal and negate the off-diagonal: rows (3, −5), (−1, 2), divided by 1."
+    },
+    {
+      "q": "Using Cramer's rule for 2x + y = 5, x − y = 1, the value of x is",
+      "options": [
+        "1",
+        "−2",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "explanation": "D = (2)(−1) − (1)(1) = −3, D<sub>x</sub> = (5)(−1) − (1)(1) = −6, so x = −6/−3 = 2 (and y = 1)."
+    },
+    {
+      "q": "If A and B are 3 × 3 matrices with |A| = 3 and |B| = −2, then |A′B<sup>−1</sup>| equals",
+      "options": [
+        "−6",
+        "−3/2",
+        "3/2",
+        "−2/3"
+      ],
+      "answer": 1,
+      "explanation": "|A′| = |A| = 3 and |B<sup>−1</sup>| = 1/|B| = −1/2. Product = −3/2."
+    },
+    {
+      "q": "A system AX = B of three equations in three unknowns has a unique solution if",
+      "options": [
+        "|A| = 0",
+        "B = O",
+        "|A| ≠ 0",
+        "(adj A)B = O"
+      ],
+      "answer": 2,
+      "explanation": "When |A| ≠ 0, A<sup>−1</sup> exists and X = A<sup>−1</sup>B is the unique solution."
+    },
+    {
+      "q": "Which technology matrix (rows given) does NOT satisfy the Hawkins–Simon conditions?",
+      "options": [
+        "(0.2, 0.3), (0.4, 0.1)",
+        "(0.4, 0.3), (0.5, 0.6)",
+        "(0.1, 0.5), (0.3, 0.2)",
+        "(0.5, 0.6), (0.7, 0.4)"
+      ],
+      "answer": 3,
+      "explanation": "For (0.5, 0.6), (0.7, 0.4): I − A has rows (0.5, −0.6), (−0.7, 0.6) and |I − A| = 0.30 − 0.42 = −0.12 &lt; 0. The others give 0.60, 0.09 and 0.57, all positive."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The matrix with rows (2, 4), (3, 6) has no inverse.<br><b>Reason (R):</b> A<sup>−1</sup> = (adj A)/|A| exists only when |A| ≠ 0.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 0,
+      "explanation": "|A| = 12 − 12 = 0, so A is singular. A is true precisely because of R."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Interchanging two rows of a determinant leaves its value unchanged.<br><b>Reason (R):</b> The value of a determinant is unchanged when it is transposed.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": 3,
+      "explanation": "Interchanging two rows changes the sign, so A is false. R (|A′| = |A|) is true."
+    }
+  ],
+  "questions": [
+    {
+      "q": "Evaluate |cos θ −sin θ; sin θ cos θ|.",
+      "marks": 1,
+      "answerHtml": "<p>cos θ · cos θ − (−sin θ)(sin θ) = cos<sup>2</sup>θ + sin<sup>2</sup>θ = <b>1</b>.</p>"
+    },
+    {
+      "q": "If A is a 3 × 3 matrix with |A| = −2, find |3A|.",
+      "marks": 1,
+      "answerHtml": "<p>|3A| = 3<sup>3</sup>|A| = 27 × (−2) = <b>−54</b>.</p>"
+    },
+    {
+      "q": "Find the inverse of the matrix A with rows (4, 3), (2, 2).",
+      "marks": 2,
+      "answerHtml": "<p>|A| = 8 − 6 = 2 ≠ 0. adj A has rows (2, −3), (−2, 4).</p><p>A<sup>−1</sup> = (1/2) adj A:</p><table><tbody><tr><td>1</td><td>−3/2</td></tr><tr><td>−1</td><td>2</td></tr></tbody></table><p>Check: row 1 of A × columns of A<sup>−1</sup>: 4(1) + 3(−1) = 1, 4(−3/2) + 3(2) = 0 ✓.</p>"
+    },
+    {
+      "q": "Solve by Cramer's rule: 4x + y = 9, 3x − 2y = 4.",
+      "marks": 2,
+      "answerHtml": "<p>D = |4 1; 3 −2| = −8 − 3 = −11.</p><p>D<sub>x</sub> = |9 1; 4 −2| = −18 − 4 = −22; D<sub>y</sub> = |4 9; 3 4| = 16 − 27 = −11.</p><p><b>x = −22/−11 = 2, y = −11/−11 = 1.</b></p>"
+    },
+    {
+      "q": "Without expanding, show that the determinant with rows (1, a, b + c), (1, b, c + a), (1, c, a + b) is zero.",
+      "marks": 3,
+      "answerHtml": "<p>Apply C<sub>3</sub> → C<sub>3</sub> + C<sub>2</sub>. The third column becomes (a + b + c, a + b + c, a + b + c).</p><p>Take (a + b + c) common from C<sub>3</sub>: the determinant = (a + b + c) × |1 a 1; 1 b 1; 1 c 1|.</p><p>Now C<sub>1</sub> and C<sub>3</sub> are identical, so the determinant is 0. Hence the given determinant = <b>0</b>.</p>"
+    },
+    {
+      "q": "In a two-industry economy the technology matrix A has rows (0.2, 0.3), (0.4, 0.1). Check the Hawkins–Simon conditions and find the gross outputs needed to meet final demands of 60 and 90 (₹ crore).",
+      "marks": 3,
+      "answerHtml": "<p>I − A has rows (0.8, −0.3), (−0.4, 0.9). Diagonal entries 0.8 and 0.9 are positive; |I − A| = 0.72 − 0.12 = 0.60 &gt; 0. Both conditions hold — the system is viable.</p><p>(I − A)<sup>−1</sup> = (1/0.6) × rows (0.9, 0.3), (0.4, 0.8).</p><p>X<sub>1</sub> = (0.9 × 60 + 0.3 × 90)/0.6 = 81/0.6 = 135; X<sub>2</sub> = (0.4 × 60 + 0.8 × 90)/0.6 = 96/0.6 = 160.</p><p><b>Gross outputs: ₹135 crore and ₹160 crore.</b></p>"
+    },
+    {
+      "q": "Using the matrix method, solve: x + y + z = 6, 2x − y + z = 3, x + 2y − z = 2.",
+      "marks": 5,
+      "answerHtml": "<p>Write AX = B with A rows (1, 1, 1), (2, −1, 1), (1, 2, −1) and B = (6, 3, 2).</p><p>|A| = 1(1 − 2) − 1(−2 − 1) + 1(4 + 1) = −1 + 3 + 5 = 7 ≠ 0, so A<sup>−1</sup> exists.</p><p>Cofactors: A<sub>11</sub> = (−1)(−1) − (1)(2) = −1; A<sub>12</sub> = −[(2)(−1) − (1)(1)] = 3; A<sub>13</sub> = (2)(2) − (−1)(1) = 5; A<sub>21</sub> = −[(1)(−1) − (1)(2)] = 3; A<sub>22</sub> = (1)(−1) − (1)(1) = −2; A<sub>23</sub> = −[(1)(2) − (1)(1)] = −1; A<sub>31</sub> = (1)(1) − (1)(−1) = 2; A<sub>32</sub> = −[(1)(1) − (1)(2)] = 1; A<sub>33</sub> = (1)(−1) − (1)(2) = −3.</p><p>adj A = transpose of cofactor matrix, and A<sup>−1</sup> = (1/7) adj A:</p><table><tbody><tr><td>−1/7</td><td>3/7</td><td>2/7</td></tr><tr><td>3/7</td><td>−2/7</td><td>1/7</td></tr><tr><td>5/7</td><td>−1/7</td><td>−3/7</td></tr></tbody></table><p>X = A<sup>−1</sup>B: x = (−6 + 9 + 4)/7 = 1; y = (18 − 6 + 2)/7 = 2; z = (30 − 3 − 6)/7 = 3.</p><p><b>x = 1, y = 2, z = 3.</b> Check: 1 + 4 − 3 = 2 ✓.</p>"
+    },
+    {
+      "q": "<b>Case study.</b> An economy has two sectors, Agriculture (A) and Industry (I). The inter-sector flows (₹ crore) are:<br>Agriculture: supplies 40 to A, 90 to I; final demand 70; total output 200.<br>Industry: supplies 60 to A, 60 to I; final demand 180; total output 300.<br>(i) Find the technology matrix.<br>(ii) Verify the Hawkins–Simon conditions.<br>(iii) Find the total outputs needed if final demands change to 110 (A) and 220 (I).",
+      "marks": 5,
+      "answerHtml": "<table><thead><tr><th>Supplier \\ User</th><th>Agriculture</th><th>Industry</th><th>Final demand</th><th>Total output</th></tr></thead><tbody><tr><td>Agriculture</td><td>40</td><td>90</td><td>70</td><td>200</td></tr><tr><td>Industry</td><td>60</td><td>60</td><td>180</td><td>300</td></tr></tbody></table><p><b>(i)</b> Divide each column by the total output of the <i>using</i> sector: a<sub>11</sub> = 40/200 = 0.2, a<sub>21</sub> = 60/200 = 0.3, a<sub>12</sub> = 90/300 = 0.3, a<sub>22</sub> = 60/300 = 0.2. A has rows (0.2, 0.3), (0.3, 0.2).</p><p><b>(ii)</b> I − A has rows (0.8, −0.3), (−0.3, 0.8): diagonal entries positive, |I − A| = 0.64 − 0.09 = 0.55 &gt; 0. Conditions satisfied.</p><p><b>(iii)</b> (I − A)<sup>−1</sup> = (1/0.55) × rows (0.8, 0.3), (0.3, 0.8).</p><p>X<sub>1</sub> = (0.8 × 110 + 0.3 × 220)/0.55 = (88 + 66)/0.55 = 154/0.55 = <b>280</b>; X<sub>2</sub> = (0.3 × 110 + 0.8 × 220)/0.55 = (33 + 176)/0.55 = 209/0.55 = <b>380</b>.</p><p>Check: 0.2(280) + 0.3(380) + 110 = 56 + 114 + 110 = 280 ✓. Agriculture must produce ₹280 crore and Industry ₹380 crore.</p>"
+    }
+  ]
+}
